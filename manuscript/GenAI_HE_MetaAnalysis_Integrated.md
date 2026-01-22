@@ -219,7 +219,7 @@ When outcomes could potentially fit multiple categories, the following hierarchi
 
 Inter-rater reliability for outcome dimension coding was assessed on 30% of randomly selected studies (*k* = 20), yielding Cohen's κ = 0.84 for the four-category classification scheme, indicating substantial agreement (Landis & Koch, 1977).
 
-**Table 2. Distribution of Effect Sizes by Outcome Dimension and Measure Type**
+**Table 1. Distribution of Effect Sizes by Outcome Dimension and Measure Type**
 
 | Dimension | Measure Type | *n* (ES) | *k* (Studies) | Representative Instruments |
 |-----------|--------------|----------|---------------|---------------------------|
@@ -255,7 +255,7 @@ Inter-rater reliability for outcome dimension coding was assessed on 30% of rand
 
 Notably, the majority (7 of 11 studies; 64%) relied on self-report measures, which may be subject to social desirability bias and retrospective recall limitations (Winne & Jamieson-Noel, 2002). This measurement approach raises an important interpretive consideration: if GenAI reduces metacognitive engagement during learning, students may lack awareness of this reduction and thus not report it accurately on self-report instruments—potentially underestimating the cognitive dependency effect. Conversely, students who struggle without AI support may over-report self-regulatory difficulties. The limited number of studies using behavioral or trace-based metacognitive measures (*k* = 4) precludes a meaningful comparison between measurement approaches, but future research should prioritize objective metacognitive indicators that are less susceptible to self-report biases.
 
-Additional moderators coded included: study design (RCT vs. quasi-experimental), GenAI tool type, intervention duration, academic discipline, and control condition type. A detailed coding manual with decision rules is available in Supplementary Materials.
+Additional moderators coded included: study design (RCT vs. quasi-experimental), GenAI tool type, intervention duration, academic discipline, and control condition type. A detailed coding manual with decision rules is available in Appendix A, and complete individual study coding data (all 65 studies with 381 effect sizes) is provided in Appendix B.
 
 ### Statistical Analysis
 
@@ -283,11 +283,11 @@ The PRISMA 2020 flow diagram (Figure 1) summarizes the study selection process. 
 
 [Insert Figure 1 about here]
 
-Table 1 presents characteristics of the 65 studies included in quantitative synthesis. The total sample comprised 8,247 participants. Studies were published between 2023 and early 2026, with the majority (n = 41, 63.1%) published in 2025, reflecting the rapid growth of this literature following ChatGPT's release in November 2022. Study designs included randomized controlled trials (n = 34, 52.3%), quasi-experimental studies (n = 18, 27.7%), and other controlled designs (n = 13, 20.0%). Studies originated from databases including institutional sources via Penn State Libraries (PsycINFO, ERIC, Education Source; n = 24), Semantic Scholar (n = 18), OpenAlex (n = 14), arXiv (n = 5), and other sources including grey literature (n = 4).
+Table 2 presents characteristics of the 65 studies included in quantitative synthesis. The total sample comprised 8,247 participants. Studies were published between 2023 and early 2026, with the majority (n = 41, 63.1%) published in 2025, reflecting the rapid growth of this literature following ChatGPT's release in November 2022. Study designs included randomized controlled trials (n = 34, 52.3%), quasi-experimental studies (n = 18, 27.7%), and other controlled designs (n = 13, 20.0%). Studies originated from databases including institutional sources via Penn State Libraries (PsycINFO, ERIC, Education Source; n = 24), Semantic Scholar (n = 18), OpenAlex (n = 14), arXiv (n = 5), and other sources including grey literature (n = 4).
 
 ---
 
-**Table 1**
+**Table 2**
 
 *Characteristics of Included Studies (k = 65)*
 
@@ -375,7 +375,7 @@ Substantial heterogeneity was observed, *Q*(380) = 7,284.56, *p* < .001, I² = 9
 
 ---
 
-**Table 2**
+**Table 3**
 
 *Heterogeneity and Variance Components in Three-Level Model*
 
@@ -393,7 +393,7 @@ Substantial heterogeneity was observed, *Q*(380) = 7,284.56, *p* < .001, I² = 9
 
 #### Outcome Dimension
 
-Outcome dimension significantly moderated effects (see Table 3 and Figure 3). Cognitive outcomes showed a significant positive effect (*g* = 0.64, *SE* = 0.11, 95% CI [0.42, 0.86], *p* < .001), representing the largest category with 218 effect sizes from 58 studies. Affective outcomes also demonstrated a significant effect (*g* = 0.61, *SE* = 0.16, 95% CI [0.29, 0.93], *p* = .001). Behavioral outcomes showed a positive but marginally non-significant effect (*g* = 0.63, *SE* = 0.36, 95% CI [−0.12, 1.38], *p* = .094), while metacognitive outcomes had the smallest, non-significant effect (*g* = 0.28, *SE* = 0.23, 95% CI [−0.24, 0.80], *p* = .287).
+Outcome dimension significantly moderated effects (see Table 4 and Figure 3). Cognitive outcomes showed a significant positive effect (*g* = 0.64, *SE* = 0.11, 95% CI [0.42, 0.86], *p* < .001), representing the largest category with 218 effect sizes from 58 studies. Affective outcomes also demonstrated a significant effect (*g* = 0.61, *SE* = 0.16, 95% CI [0.29, 0.93], *p* = .001). Behavioral outcomes showed a positive but marginally non-significant effect (*g* = 0.63, *SE* = 0.36, 95% CI [−0.12, 1.38], *p* = .094), while metacognitive outcomes had the smallest, non-significant effect (*g* = 0.28, *SE* = 0.23, 95% CI [−0.24, 0.80], *p* = .287).
 
 **The attenuated metacognitive effect provides empirical support for the cognitive dependency hypothesis (H3).** While GenAI enhances performance on cognitive, affective, and behavioral outcomes—effects *with* the technology—it does not significantly improve metacognitive capabilities that would represent internalized self-regulatory skills—effects *of* the technology. This pattern suggests students may become competent at using AI for monitoring and feedback while failing to develop independent metacognitive strategies.
 
@@ -405,7 +405,7 @@ Among cognitive outcomes classified according to Bloom's taxonomy, both higher-o
 
 ---
 
-**Table 3**
+**Table 4**
 
 *Moderator Analysis Results: Effects of GenAI by Outcome Characteristics*
 
@@ -428,15 +428,15 @@ Among cognitive outcomes classified according to Bloom's taxonomy, both higher-o
 
 #### Discipline
 
-Effects varied across academic disciplines (see Table 4). Medicine/Health studies showed a statistically significant positive effect (*g* = 0.72, *SE* = 0.21, 95% CI [0.24, 1.20], *p* = .008), as did STEM Other fields (*g* = 0.58, *SE* = 0.14, 95% CI [0.26, 0.90], *p* = .003) and CS/Programming (*g* = 0.47, *SE* = 0.13, 95% CI [0.16, 0.78], *p* = .012). Language/Writing (*g* = 0.42, *SE* = 0.19, 95% CI [0.01, 0.83], *p* = .046) also reached statistical significance in the expanded sample. Education (*g* = 1.72, *SE* = 0.68, 95% CI [−0.52, 3.96], *p* = .108) showed a notably large effect estimate based on a small number of studies with correspondingly wide confidence intervals.
+Effects varied across academic disciplines (see Table 5). Medicine/Health studies showed a statistically significant positive effect (*g* = 0.72, *SE* = 0.21, 95% CI [0.24, 1.20], *p* = .008), as did STEM Other fields (*g* = 0.58, *SE* = 0.14, 95% CI [0.26, 0.90], *p* = .003) and CS/Programming (*g* = 0.47, *SE* = 0.13, 95% CI [0.16, 0.78], *p* = .012). Language/Writing (*g* = 0.42, *SE* = 0.19, 95% CI [0.01, 0.83], *p* = .046) also reached statistical significance in the expanded sample. Education (*g* = 1.72, *SE* = 0.68, 95% CI [−0.52, 3.96], *p* = .108) showed a notably large effect estimate based on a small number of studies with correspondingly wide confidence intervals.
 
 #### GenAI Tool Category
 
-Analysis of GenAI tool categories revealed differential effectiveness (see Table 4). ChatGPT (version unspecified) was the most commonly studied tool (*k* = 26 studies, *n* = 124 effect sizes) and showed a significant effect (*g* = 0.71, *SE* = 0.14, 95% CI [0.41, 1.01], *p* < .001). Studies using unspecified GenAI tools also showed significant effects (*g* = 0.46, *SE* = 0.15, 95% CI [0.14, 0.78], *p* = .014). Other LLMs including custom-built chatbots, Qwen, and Google Gemini demonstrated a significant effect (*g* = 0.68, *SE* = 0.20, 95% CI [0.18, 1.18], *p* = .028). Effects for specific GPT versions—GPT-3.5 (*g* = 0.44, *SE* = 0.34, *p* = .322) and GPT-4 (*g* = 0.65, *SE* = 0.39, *p* = .254)—did not reach statistical significance, likely due to limited sample sizes resulting in insufficient statistical power.
+Analysis of GenAI tool categories revealed differential effectiveness (see Table 5). ChatGPT (version unspecified) was the most commonly studied tool (*k* = 26 studies, *n* = 124 effect sizes) and showed a significant effect (*g* = 0.71, *SE* = 0.14, 95% CI [0.41, 1.01], *p* < .001). Studies using unspecified GenAI tools also showed significant effects (*g* = 0.46, *SE* = 0.15, 95% CI [0.14, 0.78], *p* = .014). Other LLMs including custom-built chatbots, Qwen, and Google Gemini demonstrated a significant effect (*g* = 0.68, *SE* = 0.20, 95% CI [0.18, 1.18], *p* = .028). Effects for specific GPT versions—GPT-3.5 (*g* = 0.44, *SE* = 0.34, *p* = .322) and GPT-4 (*g* = 0.65, *SE* = 0.39, *p* = .254)—did not reach statistical significance, likely due to limited sample sizes resulting in insufficient statistical power.
 
 ---
 
-**Table 4**
+**Table 5**
 
 *Moderator Analysis Results: Effects of GenAI by Discipline and Tool Category*
 
@@ -461,7 +461,7 @@ Analysis of GenAI tool categories revealed differential effectiveness (see Table
 
 #### Academic Level
 
-Due to limited representation of graduate (*k* = 3), K-12 (*k* = 1), and vocational (*k* = 2) students in the sample, the academic level moderator analysis was constrained (see Table 5). Among categories with adequate representation, undergraduate students showed a significant positive effect (*g* = 0.54, *SE* = 0.14, 95% CI [0.25, 0.83], *p* = .002), while studies that did not report academic level showed a larger effect (*g* = 0.72, *SE* = 0.10, 95% CI [0.51, 0.93], *p* < .001).
+Due to limited representation of graduate (*k* = 3), K-12 (*k* = 1), and vocational (*k* = 2) students in the sample, the academic level moderator analysis was constrained (see Table 6). Among categories with adequate representation, undergraduate students showed a significant positive effect (*g* = 0.54, *SE* = 0.14, 95% CI [0.25, 0.83], *p* = .002), while studies that did not report academic level showed a larger effect (*g* = 0.72, *SE* = 0.10, 95% CI [0.51, 0.93], *p* < .001).
 
 #### Prior Knowledge Status
 
@@ -469,7 +469,7 @@ Studies that controlled for prior knowledge through baseline measures, randomiza
 
 ---
 
-**Table 5**
+**Table 6**
 
 *Moderator Analysis Results: Effects of GenAI by Participant Characteristics*
 
@@ -835,4 +835,29 @@ Zhang, L., Wang, K., & Liu, M. (2025). Network analysis of university students' 
 
 ## Supplementary Materials
 
-Supplementary Materials, including the complete coding manual, effect size calculation formulas, full PRISMA checklist, sensitivity analysis details, and additional moderator analyses, are available at [OSF Repository Link].
+Supplementary Materials are available at [OSF Repository Link] and include:
+
+**Appendix A: Codebook and Coding Manual**
+- Complete variable definitions and operational criteria
+- Coding decision rules for outcome dimension classification
+- Inter-rater reliability assessment procedures
+
+**Appendix B: Individual Study Coding Data**
+- Full extraction data for all 65 included studies
+- 381 effect sizes with study-level and outcome-level moderators
+- Measure type classification details
+
+**Appendix C: Statistical Analysis Materials**
+- Effect size calculation formulas and worked examples
+- R code for three-level meta-analysis with robust variance estimation
+- Sensitivity analysis results (influence diagnostics, leave-one-out)
+
+**Appendix D: PRISMA 2020 Compliance**
+- Full PRISMA 2020 checklist with page references
+- Search strings for all databases
+- Screening decision log
+
+**Appendix E: Additional Moderator Analyses**
+- Interaction analyses (Outcome × Discipline, Outcome × Tool)
+- Exploratory subgroup analyses
+- Meta-regression diagnostics

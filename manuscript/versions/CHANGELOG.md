@@ -17,7 +17,7 @@
 
 ---
 
-## v2.2 - Effect Size Classification Table
+## v2.2 - Effect Size Classification Table and Table Renumbering
 **Date:** 2026-01-22
 **Reviewer:** User Feedback (Hosung You)
 **Status:** Methodological transparency enhancement
@@ -28,7 +28,7 @@
 
 **Solution Added:**
 
-**Table 2: Distribution of Effect Sizes by Outcome Dimension and Measure Type**
+**Table 1: Distribution of Effect Sizes by Outcome Dimension and Measure Type**
 
 This table provides complete transparency on the classification process:
 
@@ -46,6 +46,37 @@ This table provides complete transparency on the classification process:
 - Comprehensive note explaining abbreviations and classification criteria
 
 **Location:** Method > Data Extraction and Coding, after inter-rater reliability paragraph
+
+### Critical Issue 8: Table Numbering Correction
+
+**Problem:** The Distribution of Effect Sizes table (Method section) was numbered as Table 2, but methodological tables should appear before results tables. The existing "Characteristics of Included Studies" was Table 1 but appears in Results section.
+
+**Solution:** Renumbered all tables to follow logical manuscript order:
+- **Table 1:** Distribution of Effect Sizes by Outcome Dimension and Measure Type (Method)
+- **Table 2:** Characteristics of Included Studies (Results)
+- **Table 3:** Heterogeneity Analysis Results (Results)
+- **Table 4:** Moderator Analysis - Outcome Characteristics (Results)
+- **Table 5:** Moderator Analysis - Discipline and Tool Category (Results)
+- **Table 6:** Moderator Analysis - Participant Characteristics (Results)
+
+**Body text references updated:**
+- Line 396: "see Table 3" → "see Table 4"
+- Line 431: "see Table 4" → "see Table 5"
+- Line 435: "see Table 4" → "see Table 5"
+- Line 464: "see Table 5" → "see Table 6"
+
+### Critical Issue 9: Appendix Structure for Coding Data
+
+**Problem:** Meta-analysis best practices require providing complete coding data for transparency and reproducibility. Appendix structure was not specified.
+
+**Solution:** Expanded Supplementary Materials section with structured appendices:
+- **Appendix A:** Codebook and Coding Manual
+- **Appendix B:** Individual Study Coding Data (65 studies, 381 effect sizes)
+- **Appendix C:** Statistical Analysis Materials
+- **Appendix D:** PRISMA 2020 Compliance
+- **Appendix E:** Additional Moderator Analyses
+
+Added explicit Appendix references in Method section (Data Extraction and Coding)
 
 ---
 
