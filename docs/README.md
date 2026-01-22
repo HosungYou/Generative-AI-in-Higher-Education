@@ -16,6 +16,8 @@ This folder contains documentation for the systematic literature review update c
 | [03_overlap_analysis.md](./03_overlap_analysis.md) | Analysis of overlap with existing meta-analyses |
 | [04_additional_studies.md](./04_additional_studies.md) | Additional study candidates for inclusion |
 | [05_differentiation_strategy.md](./05_differentiation_strategy.md) | Strategy for differentiating from Deng et al. (2024) |
+| [06_data_extraction_template.md](./06_data_extraction_template.md) | Data extraction template for new studies |
+| [07_inclusion_decisions.md](./07_inclusion_decisions.md) | Final inclusion/exclusion decisions for 23 candidates |
 
 ## Key Findings Summary
 
@@ -44,6 +46,26 @@ This folder contains documentation for the systematic literature review update c
 - **New 2025 publications**: 14 studies
 - **Total candidates**: 23 studies
 
+### 5. Inclusion Decisions (Updated)
+- **Included**: 16 studies ✅
+- **Conditional**: 2 studies ⏸️
+- **Full-text review needed**: 1 study 📝
+- **Excluded**: 4 studies ❌
+
+### 6. Key Finding: Cognitive Dependency Evidence
+The Knowledge Retention Study (2025) provides **direct empirical support** for our Cognitive Dependency Hypothesis:
+- ChatGPT group: 57.5% retention
+- Control group: 68.5% retention
+- Cohen's d = 0.68 (negative direction)
+
+## Updated Study Count Projection
+
+| Metric | Before | After |
+|--------|--------|-------|
+| Studies | 46 | 62 |
+| Effect sizes | 251 | ~300 |
+| Participants | 5,778 | ~7,000 |
+
 ## Computers & Education Requirements
 
 - PRISMA 2020 guidelines recommended
@@ -53,8 +75,12 @@ This folder contains documentation for the systematic literature review update c
 
 ## Next Steps
 
-1. [ ] Apply search strategy revision to manuscript
-2. [ ] Evaluate 23 additional study candidates
-3. [ ] Update PRISMA flow diagram
-4. [ ] Generate Supplementary Materials (Appendix A)
-5. [ ] Submit to Computers & Education
+1. [x] Apply search strategy revision to manuscript
+2. [x] Evaluate 23 additional study candidates
+3. [ ] Retrieve full-texts for 16 confirmed studies
+4. [ ] Extract effect size data using template
+5. [ ] Resolve 2 conditional studies
+6. [ ] Update PRISMA flow diagram (46 → 62 studies)
+7. [ ] Generate Supplementary Materials (Appendix A)
+8. [ ] Re-run three-level meta-analysis
+9. [ ] Submit to Computers & Education
