@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #333; }
+      .section-title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #333; }
+      .box-text { font-family: Arial, sans-serif; font-size: 11px; fill: #333; }
+      .box-number { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #333; }
+      .small-text { font-family: Arial, sans-serif; font-size: 9px; fill: #555; }
+      .section-bg { fill: #f5f5f5; stroke: #ccc; stroke-width: 1; }
+      .box { fill: white; stroke: #333; stroke-width: 1.5; rx: 5; ry: 5; }
+      .arrow { stroke: #333; stroke-width: 1.5; fill: none; marker-end: url(#arrowhead); }
+      .dotted { stroke-dasharray: 5,3; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" class="title">PRISMA 2020 Flow Diagram</text>
+  <text x="600" y="50" text-anchor="middle" class="small-text">Generative AI in Higher Education Meta-Analysis</text>
+
+  <!-- Section Labels (Left Side) -->
+  <text x="20" y="130" class="section-title" transform="rotate(-90, 20, 130)">Identification</text>
+  <text x="20" y="370" class="section-title" transform="rotate(-90, 20, 370)">Screening</text>
+  <text x="20" y="580" class="section-title" transform="rotate(-90, 20, 580)">Included</text>
+
+  <!-- IDENTIFICATION SECTION -->
+  <rect x="40" y="70" width="1140" height="180" class="section-bg" rx="10"/>
+
+  <!-- Left Branch: Databases -->
+  <rect x="80" y="90" width="280" height="70" class="box"/>
+  <text x="220" y="115" text-anchor="middle" class="section-title">Identification of studies via databases</text>
+  <text x="220" y="135" text-anchor="middle" class="box-text">Records identified from 7 databases:</text>
+  <text x="220" y="150" text-anchor="middle" class="small-text">(Semantic Scholar, OpenAlex, arXiv, ERIC, PsycINFO, Education Source, ProQuest)</text>
+
+  <rect x="80" y="170" width="280" height="35" class="box"/>
+  <text x="220" y="192" text-anchor="middle" class="box-number">(n = 3,247)</text>
+
+  <!-- Right Branch: Other Methods -->
+  <rect x="840" y="90" width="280" height="70" class="box"/>
+  <text x="980" y="115" text-anchor="middle" class="section-title">Identification via other methods</text>
+  <text x="980" y="135" text-anchor="middle" class="box-text">Records from:</text>
+  <text x="980" y="150" text-anchor="middle" class="small-text">Citation searching, grey literature</text>
+
+  <rect x="840" y="170" width="280" height="35" class="box"/>
+  <text x="980" y="192" text-anchor="middle" class="box-number">(n = 187)</text>
+
+  <!-- Center: Duplicates Removed -->
+  <rect x="400" y="130" width="200" height="55" class="box"/>
+  <text x="500" y="152" text-anchor="middle" class="box-text">Records removed before screening:</text>
+  <text x="500" y="168" text-anchor="middle" class="small-text">Duplicate records (n = 891)</text>
+  <text x="500" y="180" text-anchor="middle" class="small-text">Automation tools (n = 387)</text>
+
+  <!-- Arrows from identification -->
+  <path d="M 220 205 L 220 260" class="arrow"/>
+  <path d="M 980 205 L 980 260" class="arrow"/>
+  <path d="M 360 160 L 400 160" class="arrow"/>
+  <path d="M 600 160 L 840 160" class="arrow dotted"/>
+
+  <!-- SCREENING SECTION -->
+  <rect x="40" y="260" width="1140" height="220" class="section-bg" rx="10"/>
+
+  <!-- Records Screened -->
+  <rect x="80" y="280" width="280" height="50" class="box"/>
+  <text x="220" y="300" text-anchor="middle" class="box-text">Records screened</text>
+  <text x="220" y="318" text-anchor="middle" class="box-number">(n = 2,156)</text>
+
+  <!-- Records Excluded -->
+  <rect x="420" y="280" width="180" height="50" class="box"/>
+  <text x="510" y="300" text-anchor="middle" class="box-text">Records excluded</text>
+  <text x="510" y="318" text-anchor="middle" class="box-number">(n = 1,847)</text>
+
+  <path d="M 360 305 L 420 305" class="arrow"/>
+  <path d="M 220 330 L 220 360" class="arrow"/>
+
+  <!-- Reports Sought -->
+  <rect x="80" y="360" width="280" height="50" class="box"/>
+  <text x="220" y="380" text-anchor="middle" class="box-text">Reports sought for retrieval</text>
+  <text x="220" y="398" text-anchor="middle" class="box-number">(n = 309)</text>
+
+  <!-- Reports Not Retrieved -->
+  <rect x="420" y="360" width="180" height="50" class="box"/>
+  <text x="510" y="380" text-anchor="middle" class="box-text">Reports not retrieved</text>
+  <text x="510" y="398" text-anchor="middle" class="box-number">(n = 23)</text>
+
+  <path d="M 360 385 L 420 385" class="arrow"/>
+  <path d="M 220 410 L 220 440" class="arrow"/>
+
+  <!-- Reports Assessed -->
+  <rect x="80" y="440" width="280" height="50" class="box"/>
+  <text x="220" y="460" text-anchor="middle" class="box-text">Reports assessed for eligibility</text>
+  <text x="220" y="478" text-anchor="middle" class="box-number">(n = 286)</text>
+
+  <!-- Reports Excluded with Reasons -->
+  <rect x="420" y="420" width="300" height="130" class="box"/>
+  <text x="570" y="440" text-anchor="middle" class="box-text">Reports excluded (n = 221)</text>
+  <text x="430" y="458" class="small-text">Wrong population (K-12): 47</text>
+  <text x="430" y="472" class="small-text">No control/comparison group: 58</text>
+  <text x="430" y="486" class="small-text">Non-GenAI intervention: 39</text>
+  <text x="430" y="500" class="small-text">Insufficient statistical data: 45</text>
+  <text x="430" y="514" class="small-text">Duplicate sample: 19</text>
+  <text x="430" y="528" class="small-text">Not peer-reviewed/preprint: 13</text>
+
+  <path d="M 360 465 L 420 465" class="arrow"/>
+
+  <!-- Right Side: Other Methods Screening -->
+  <rect x="760" y="280" width="280" height="50" class="box"/>
+  <text x="900" y="300" text-anchor="middle" class="box-text">Reports sought for retrieval</text>
+  <text x="900" y="318" text-anchor="middle" class="box-number">(n = 45)</text>
+
+  <rect x="760" y="360" width="280" height="50" class="box"/>
+  <text x="900" y="380" text-anchor="middle" class="box-text">Reports assessed for eligibility</text>
+  <text x="900" y="398" text-anchor="middle" class="box-number">(n = 38)</text>
+
+  <rect x="760" y="440" width="280" height="50" class="box"/>
+  <text x="900" y="460" text-anchor="middle" class="box-text">Reports excluded</text>
+  <text x="900" y="478" text-anchor="middle" class="box-number">(n = 31)</text>
+
+  <path d="M 900 260 L 900 280" class="arrow"/>
+  <path d="M 900 330 L 900 360" class="arrow"/>
+  <path d="M 900 410 L 900 440" class="arrow"/>
+
+  <!-- INCLUDED SECTION -->
+  <rect x="40" y="560" width="1140" height="120" class="section-bg" rx="10"/>
+
+  <!-- Studies Included -->
+  <rect x="280" y="580" width="280" height="80" class="box"/>
+  <text x="420" y="605" text-anchor="middle" class="section-title">Studies included in review</text>
+  <text x="420" y="625" text-anchor="middle" class="box-number">(n = 65)</text>
+  <text x="420" y="645" text-anchor="middle" class="box-text">Reports of included studies (n = 65)</text>
+
+  <!-- Meta-analysis -->
+  <rect x="640" y="580" width="280" height="80" class="box"/>
+  <text x="780" y="605" text-anchor="middle" class="section-title">Studies included in meta-analysis</text>
+  <text x="780" y="625" text-anchor="middle" class="box-number">(n = 65)</text>
+  <text x="780" y="645" text-anchor="middle" class="box-text">Effect sizes (k = 381)</text>
+
+  <!-- Arrows to Included -->
+  <path d="M 220 490 L 220 540 L 280 580" class="arrow"/>
+  <path d="M 900 490 L 900 540 L 920 580" class="arrow"/>
+  <path d="M 560 620 L 640 620" class="arrow"/>
+
+  <!-- Footer -->
+  <text x="600" y="710" text-anchor="middle" class="small-text">From: Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71.</text>
+  <text x="600" y="725" text-anchor="middle" class="small-text">doi: 10.1136/bmj.n71. For more information, visit: http://www.prisma-statement.org/</text>
+
+</svg>
