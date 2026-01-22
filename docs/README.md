@@ -18,6 +18,7 @@ This folder contains documentation for the systematic literature review update c
 | [05_differentiation_strategy.md](./05_differentiation_strategy.md) | Strategy for differentiating from Deng et al. (2024) |
 | [06_data_extraction_template.md](./06_data_extraction_template.md) | Data extraction template for new studies |
 | [07_inclusion_decisions.md](./07_inclusion_decisions.md) | Final inclusion/exclusion decisions for 23 candidates |
+| [08_exclusion_rationale.md](./08_exclusion_rationale.md) | Detailed rationale for conditional/review/exclusion decisions |
 
 ## Key Findings Summary
 
