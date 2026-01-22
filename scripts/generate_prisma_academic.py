@@ -53,7 +53,7 @@ def generate_academic_prisma_svg():
     <style>
       .phase-label {{
         font-family: 'Times New Roman', Times, serif;
-        font-size: 28px;
+        font-size: 22px;
         font-weight: bold;
         fill: #000;
       }}
