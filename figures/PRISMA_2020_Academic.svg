@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" width="900" height="1100">
+  <defs>
+    <style>
+      .phase-label {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-weight: bold;
+        fill: #000;
+      }
+      .box-title {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 13px;
+        font-weight: bold;
+        fill: #000;
+      }
+      .box-text {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        fill: #000;
+      }
+      .box-number {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        fill: #000;
+      }
+      .bullet {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 11px;
+        fill: #000;
+      }
+      .footer {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10px;
+        fill: #333;
+        font-style: italic;
+      }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1100" fill="white"/>
+
+  <!-- ==================== IDENTIFICATION ==================== -->
+
+  <!-- Phase Label -->
+  <rect x="30" y="50" width="40" height="170" fill="#d5e8d4" stroke="#000000" stroke-width="1"/>
+  <text x="50" y="150" text-anchor="middle" class="phase-label" transform="rotate(-90, 50, 150)">Identification</text>
+
+  <!-- Database Records Box -->
+  <rect x="120" y="60" width="200" height="90" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="220" y="90" text-anchor="middle" class="box-title">Records identified</text>
+  <text x="220" y="108" text-anchor="middle" class="box-title">through database</text>
+  <text x="220" y="126" text-anchor="middle" class="box-title">searching</text>
+  <text x="220" y="144" text-anchor="middle" class="box-number">(n=14,847)</text>
+
+  <!-- Other Sources Box -->
+  <rect x="550" y="60" width="200" height="90" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="650" y="85" text-anchor="middle" class="box-title">Additional records</text>
+  <text x="650" y="103" text-anchor="middle" class="box-title">identified through other</text>
+  <text x="650" y="121" text-anchor="middle" class="box-title">sources</text>
+  <text x="650" y="139" text-anchor="middle" class="box-text">(Reference mining: n=127)</text>
+  <text x="650" y="153" text-anchor="middle" class="box-text">(Citation searching: n=26)</text>
+
+  <!-- Arrows from Identification -->
+  <line x1="220" y1="150" x2="220" y2="260" stroke="#000" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="650" y1="150" x2="650" y2="180" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="180" x2="320" y2="180" stroke="#000" stroke-width="1"/>
+  <line x1="320" y1="180" x2="320" y2="220" stroke="#000" stroke-width="1"/>
+  <line x1="320" y1="220" x2="220" y2="220" stroke="#000" stroke-width="1"/>
+  <line x1="220" y1="220" x2="220" y2="260" stroke="#000" stroke-width="1"/>
+
+  <!-- ==================== SCREENING ==================== -->
+
+  <!-- Phase Label -->
+  <rect x="30" y="240" width="40" height="320" fill="#d5e8d4" stroke="#000000" stroke-width="1"/>
+  <text x="50" y="410" text-anchor="middle" class="phase-label" transform="rotate(-90, 50, 410)">Screening</text>
+
+  <!-- Title Screening Box -->
+  <rect x="120" y="260" width="200" height="70" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="220" y="290" text-anchor="middle" class="box-title">Title Screening</text>
+  <text x="220" y="318" text-anchor="middle" class="box-number">(n=12,156)</text>
+
+  <!-- Title Excluded Box -->
+  <rect x="550" y="265" width="180" height="55" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="640" y="290" text-anchor="middle" class="box-title">Records excluded</text>
+  <text x="640" y="310" text-anchor="middle" class="box-number">(n=11,482)</text>
+
+  <!-- Arrow to Title Excluded -->
+  <line x1="320" y1="295" x2="550" y2="295" stroke="#000" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- Arrow down from Title Screening -->
+  <line x1="220" y1="330" x2="220" y2="400" stroke="#000" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- Abstract Screening Box -->
+  <rect x="120" y="400" width="200" height="70" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="220" y="430" text-anchor="middle" class="box-title">Abstract Screening</text>
+  <text x="220" y="458" text-anchor="middle" class="box-number">(n=674)</text>
+
+  <!-- Abstract Excluded Box -->
+  <rect x="550" y="405" width="180" height="55" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="640" y="430" text-anchor="middle" class="box-title">Records excluded</text>
+  <text x="640" y="450" text-anchor="middle" class="box-number">(n=476)</text>
+
+  <!-- Arrow to Abstract Excluded -->
+  <line x1="320" y1="435" x2="550" y2="435" stroke="#000" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- Arrow down from Abstract Screening -->
+  <line x1="220" y1="470" x2="220" y2="590" stroke="#000" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- ==================== ELIGIBILITY ==================== -->
+
+  <!-- Phase Label -->
+  <rect x="30" y="580" width="40" height="200" fill="#d5e8d4" stroke="#000000" stroke-width="1"/>
+  <text x="50" y="690" text-anchor="middle" class="phase-label" transform="rotate(-90, 50, 690)">Eligibility</text>
+
+  <!-- Full-text Assessment Box -->
+  <rect x="120" y="590" width="200" height="80" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="220" y="615" text-anchor="middle" class="box-title">Full-text publications</text>
+  <text x="220" y="633" text-anchor="middle" class="box-title">assessed for eligibility</text>
+  <text x="220" y="658" text-anchor="middle" class="box-number">(n=198)</text>
+
+  <!-- Full-text Excluded Box with Reasons -->
+  <rect x="450" y="570" width="230" height="175" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="565" y="595" text-anchor="middle" class="box-title">Publications excluded</text>
+  <text x="565" y="613" text-anchor="middle" class="box-number">(n=133)</text>
+  <text x="465" y="638" class="bullet">• wrong population/K-12</text>
+  <text x="660" y="638" text-anchor="end" class="bullet">(n=42)</text>
+  <text x="465" y="656" class="bullet">• no control group</text>
+  <text x="660" y="656" text-anchor="end" class="bullet">(n=35)</text>
+  <text x="465" y="674" class="bullet">• non-GenAI intervention</text>
+  <text x="660" y="674" text-anchor="end" class="bullet">(n=24)</text>
+  <text x="465" y="692" class="bullet">• insufficient data</text>
+  <text x="660" y="692" text-anchor="end" class="bullet">(n=18)</text>
+  <text x="465" y="710" class="bullet">• duplicate sample</text>
+  <text x="660" y="710" text-anchor="end" class="bullet">(n=9)</text>
+  <text x="465" y="728" class="bullet">• not peer-reviewed</text>
+  <text x="660" y="728" text-anchor="end" class="bullet">(n=5)</text>
+
+  <!-- Arrow to Full-text Excluded -->
+  <line x1="320" y1="630" x2="450" y2="630" stroke="#000" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- Arrow down to Included -->
+  <line x1="220" y1="670" x2="220" y2="820" stroke="#000" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- ==================== INCLUDED ==================== -->
+
+  <!-- Phase Label -->
+  <rect x="30" y="800" width="40" height="180" fill="#d5e8d4" stroke="#000000" stroke-width="1"/>
+  <text x="50" y="900" text-anchor="middle" class="phase-label" transform="rotate(-90, 50, 900)">Included</text>
+
+  <!-- Studies Included Box -->
+  <rect x="120" y="820" width="200" height="90" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="220" y="850" text-anchor="middle" class="box-title">Studies included in</text>
+  <text x="220" y="868" text-anchor="middle" class="box-title">quantitative synthesis</text>
+  <text x="220" y="886" text-anchor="middle" class="box-title">(meta-analysis)</text>
+  <text x="220" y="904" text-anchor="middle" class="box-number">(n=65)</text>
+
+  <!-- Effect Sizes Box -->
+  <rect x="450" y="830" width="200" height="70" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <text x="550" y="860" text-anchor="middle" class="box-title">Total effect sizes</text>
+  <text x="550" y="878" text-anchor="middle" class="box-title">included in analysis</text>
+  <text x="550" y="896" text-anchor="middle" class="box-number">(k=381)</text>
+
+  <!-- Arrow to Effect Sizes -->
+  <line x1="320" y1="865" x2="450" y2="865" stroke="#000" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- Footer -->
+  <text x="450" y="1020" text-anchor="middle" class="footer">PRISMA flow diagram, in accordance with the PRISMA 2020 statement which provides reporting guidance</text>
+  <text x="450" y="1038" text-anchor="middle" class="footer">for systematic reviews. Page MJ et al. BMJ 2021;372:n71. doi: 10.1136/bmj.n71</text>
+  <text x="450" y="1056" text-anchor="middle" class="footer">PRISMA, Preferred Reporting Items for Systematic Reviews and Meta-Analyses.</text>
+
+</svg>
