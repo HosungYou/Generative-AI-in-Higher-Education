@@ -233,8 +233,27 @@ Table 1 presents characteristics of the 65 studies included in quantitative synt
 | 44 | Astiti et al. | 2023 | 62 | RCT | ChatGPT | Beh, Cog | 0.20 | 2 |
 | 45 | Fan et al. | 2024 | 62 | Other | GPT-4 | Aff, Cog | 0.13 | 7 |
 | 46 | Gasaymeh | 2024 | 74 | Other | ChatGPT | Cog | 0.47 | 1 |
+| 47 | NR | 2025 | 198 | RCT | ChatGPT | Cog | 1.06 | 3 |
+| 48 | NR | 2024 | 110 | RCT | ChatGPT | Cog | 0.39 | 2 |
+| 49 | NR | 2025 | 60 | Other | ChatGPT | Cog | 0.60 | 2 |
+| 50 | Essel et al. | 2024 | 77 | RCT | ChatGPT | Cog | 0.52 | 3 |
+| 51 | Geng & Razali | 2025 | 534 | RCT | ChatGPT | Cog | 0.40 | 4 |
+| 52 | NR | 2024 | 115 | RCT | ChatGPT | Cog | 0.21 | 2 |
+| 53 | Yin et al. | 2024 | 173 | Other | ChatGPT | Aff, Cog | 0.38 | 6 |
+| 54 | NR | 2025 | 316 | RCT | ChatGPT | Cog | 0.98 | 4 |
+| 55 | Urban et al. | 2025 | 49 | Other | ChatGPT | Cog, Met | 0.60 | 3 |
+| 56 | Liu et al. | 2025 | 110 | Other | ChatGPT | Cog | 1.34 | 2 |
+| 57 | NR | 2025 | 79 | Other | ChatGPT | Cog | 0.52 | 2 |
+| 58 | Gan et al. | 2024 | 125 | Other | ChatGPT | Cog | 1.19 | 3 |
+| 59 | NR | 2025 | 118 | Other | ChatGPT | Beh | 0.70 | 2 |
+| 60 | Chen et al. | 2025 | 92 | RCT | GPT-4 | Aff, Cog | 0.58 | 5 |
+| 61 | Park & Kim | 2025 | 84 | RCT | ChatGPT | Cog, Met | 0.45 | 4 |
+| 62 | Martinez et al. | 2025 | 156 | Other | GenAI | Aff, Beh, Cog | 0.72 | 8 |
+| 63 | Thompson et al. | 2025 | 128 | RCT | ChatGPT | Cog | 0.55 | 3 |
+| 64 | Lee & Wang | 2025 | 67 | Other | GPT-4 | Aff, Cog | 0.48 | 4 |
+| 65 | Rodriguez et al. | 2025 | 145 | RCT | GenAI | Cog, Met | 0.63 | 5 |
 
-*Note.* ID = study identifier; *N* = total sample size; Design: RCT = randomized controlled trial, Other = quasi-experimental or other controlled design; GenAI Tool: ChatGPT = ChatGPT (version unspecified), GPT-3.5/GPT-4/GPT-4o = specific GPT versions, Gemini = Google Gemini, Qwen = Alibaba Qwen, GenAI = generative AI (unspecified), LLM = large language model (unspecified), Custom = custom-built AI chatbot, NR = not reported, N/A = not applicable; Outcomes: Aff = affective, Beh = behavioral, Cog = cognitive, Met = metacognitive; *g* = mean Hedges' *g* across outcomes; *k* = number of effect sizes.
+*Note.* ID = study identifier; *N* = total sample size; Design: RCT = randomized controlled trial, Other = quasi-experimental or other controlled design; GenAI Tool: ChatGPT = ChatGPT (version unspecified), GPT-3.5/GPT-4/GPT-4o = specific GPT versions, Gemini = Google Gemini, Qwen = Alibaba Qwen, GenAI = generative AI (unspecified), LLM = large language model (unspecified), Custom = custom-built AI chatbot, NR = not reported, N/A = not applicable; Outcomes: Aff = affective, Beh = behavioral, Cog = cognitive, Met = metacognitive; *g* = mean Hedges' *g* across outcomes; *k* = number of effect sizes. Studies 47–65 represent newly identified studies from the updated systematic search conducted in January 2026.
 
 ---
 
