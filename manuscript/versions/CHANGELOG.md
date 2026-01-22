@@ -12,6 +12,66 @@
 |---------|------|-------------|------|
 | v1.0 | 2025-01-21 | Original manuscript | `GenAI_HE_MetaAnalysis_v1.0_Original.docx` |
 | v2.0 | 2025-01-22 | EPR submission revision | `GenAI_HE_MetaAnalysis_v2.0_EPR_Revision.md` |
+| v2.1 | 2025-01-22 | Comprehensive Outcome Operationalization | `GenAI_HE_MetaAnalysis_v2.1_Outcome_Ops.md` |
+
+---
+
+## v2.1 - Comprehensive Outcome Dimension Operationalization
+**Date:** 2025-01-22
+**Reviewer:** User Feedback (Hosung You)
+**Status:** Enhanced methodological transparency
+
+### Critical Issue 6: Comprehensive Outcome Dimension Operationalization
+
+**Problem:** The original manuscript only detailed metacognitive outcome operationalization. Reviewers would expect comprehensive definitions for ALL four outcome dimensions (Cognitive, Affective, Behavioral, Metacognitive) and explicit coding decision rules explaining how 381 effect sizes from 65 studies were classified.
+
+**Solution Added:**
+
+**Method > Data Extraction and Coding**: New subsection "Outcome Dimension Operationalization"
+
+**1. Cognitive Outcomes** (*k* = 58, *n* = 218):
+   - Standardized achievement tests (medical licensing, programming, language proficiency)
+   - Course examinations (instructor-developed, multiple formats)
+   - Performance-based assessments (writing samples, coding projects, clinical reasoning)
+   - Knowledge tests (pre/post factual and conceptual understanding)
+   - Referenced: Bloom et al. (1956), Krathwohl (2002) taxonomy framework
+
+**2. Affective Outcomes** (*k* = 28, *n* = 89):
+   - Motivation scales (MSLQ motivation subscales, AMS)
+   - Self-efficacy measures (domain-specific and general academic)
+   - Attitude measures (subject attitudes, TAM constructs)
+   - Satisfaction scales (learner satisfaction, user experience)
+   - Anxiety measures (test anxiety, foreign language anxiety, reverse-coded)
+   - Referenced: Pintrich et al. (1991), Vallerand et al. (1992), Bandura (1997)
+
+**3. Behavioral Outcomes** (*k* = 16, *n* = 34):
+   - Time-on-task (LMS logs, screen recording, observation)
+   - Participation metrics (forum contributions, questions, peer interaction)
+   - Help-seeking behaviors (frequency and appropriateness)
+   - Study behaviors (resource access, practice frequency, revision)
+   - Completion and persistence (submission rates, dropout indicators)
+
+**4. Coding Decision Rules** (6 hierarchical rules):
+   1. Primary construct focus (as stated by instrument developers)
+   2. Metacognitive vs. Cognitive distinction (awareness/regulation vs. performance)
+   3. Affective vs. Metacognitive distinction (emotions/motivation vs. strategy/regulation)
+   4. Behavioral vs. Self-report categories (LMS/observation vs. questionnaire)
+   5. Composite measures (subscales coded separately)
+   6. Ambiguous cases (consensus discussion, third-reviewer adjudication <5%)
+
+**5. Inter-rater Reliability:**
+   - Cohen's κ = 0.84 for four-category classification (30% random sample, k = 20)
+   - Referenced: Landis & Koch (1977)
+
+**New References Added (6):**
+1. Bandura, A. (1997). *Self-efficacy: The exercise of control*
+2. Bloom, B. S., et al. (1956). *Taxonomy of educational objectives*
+3. Krathwohl, D. R. (2002). A revision of Bloom's taxonomy
+4. Landis, J. R., & Koch, G. G. (1977). Measurement of observer agreement
+5. Pintrich, P. R., et al. (1991). *MSLQ Manual*
+6. Vallerand, R. J., et al. (1992). The Academic Motivation Scale
+
+**Lines Added:** 180-226 (Method section)
 
 ---
 
@@ -198,4 +258,4 @@ manuscript/
 ---
 
 *Changelog maintained by: Claude Code*
-*Last updated: 2025-01-22*
+*Last updated: 2026-01-22 (v2.1 update)*

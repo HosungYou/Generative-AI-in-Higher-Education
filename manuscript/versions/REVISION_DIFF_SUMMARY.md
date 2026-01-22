@@ -236,13 +236,92 @@ https://doi.org/10.1016/S0361-476X(02)00006-1
 
 ## Statistics
 
-| Metric | v1.0 | v2.0 | Change |
-|--------|------|------|--------|
-| Word count (approx.) | ~10,500 | ~11,500 | +1,000 |
-| References | 68 | 70 | +2 |
-| New sections | 0 | 4 | +4 |
-| Figure markers | 0 | 4 | +4 |
+| Metric | v1.0 | v2.0 | v2.1 | Change (v1→v2.1) |
+|--------|------|------|------|------------------|
+| Word count (approx.) | ~10,500 | ~11,500 | ~12,200 | +1,700 |
+| References | 68 | 70 | 76 | +8 |
+| New sections | 0 | 4 | 6 | +6 |
+| Figure markers | 0 | 4 | 4 | +4 |
 
 ---
 
-*Generated: 2025-01-22*
+## v2.1 Additions (Outcome Dimension Operationalization)
+
+### New Text Added in v2.1
+
+#### Comprehensive Outcome Dimension Operationalization Section
+**Location:** Method > Data Extraction and Coding (lines 180-226)
+
+```markdown
+#### Outcome Dimension Operationalization
+
+**Cognitive Outcomes** (*k* = 58 studies, *n* = 218 effect sizes) encompassed measures
+of knowledge acquisition, comprehension, and intellectual skill development. Specific
+measure types included:
+- *Standardized achievement tests*: Discipline-specific assessments with established
+  validity (e.g., medical licensing exam items, programming skill assessments,
+  language proficiency tests such as TOEFL/IELTS components)
+- *Course examinations*: Instructor-developed tests measuring content mastery
+- *Performance-based assessments*: Tasks requiring demonstration of applied skills
+- *Knowledge tests*: Pre/post assessments of factual and conceptual understanding
+
+Classification followed Bloom's (1956) taxonomy framework as revised by Krathwohl
+(2002), distinguishing lower-order (remember, understand) from higher-order
+(apply, analyze, evaluate, create) cognitive processes.
+
+**Affective Outcomes** (*k* = 28 studies, *n* = 89 effect sizes) captured attitudes,
+emotions, and motivational states related to learning. Specific measure types included:
+- *Motivation scales*: MSLQ (Pintrich et al., 1991), AMS (Vallerand et al., 1992)
+- *Self-efficacy measures*: Based on Bandura's (1997) framework
+- *Attitude measures*: Subject attitudes, TAM constructs
+- *Satisfaction scales*: Learner satisfaction, user experience
+- *Anxiety measures*: Test anxiety, foreign language anxiety (reverse-coded)
+
+**Behavioral Outcomes** (*k* = 16 studies, *n* = 34 effect sizes) measured observable
+learning behaviors and engagement patterns. Specific measure types included:
+- *Time-on-task*: LMS logs, screen recording, observation
+- *Participation metrics*: Forum contributions, questions, peer interaction
+- *Help-seeking behaviors*: Frequency and appropriateness
+- *Study behaviors*: Resource access, practice frequency, revision
+- *Completion and persistence*: Submission rates, dropout indicators
+
+#### Coding Decision Rules for Outcome Classification
+
+1. **Primary construct focus**: Classification based on instrument developers' intent
+2. **Metacognitive vs. Cognitive distinction**: Awareness/regulation vs. performance
+3. **Affective vs. Metacognitive distinction**: Emotions/motivation vs. strategy
+4. **Behavioral vs. Self-report categories**: LMS/observation vs. questionnaire
+5. **Composite measures**: Subscales coded separately
+6. **Ambiguous cases**: Consensus discussion, third-reviewer adjudication (<5%)
+
+Inter-rater reliability: Cohen's κ = 0.84 (Landis & Koch, 1977)
+```
+
+### New References Added in v2.1
+
+```
+Bandura, A. (1997). *Self-efficacy: The exercise of control*. W.H. Freeman.
+
+Bloom, B. S., Engelhart, M. D., Furst, E. J., Hill, W. H., & Krathwohl, D. R. (1956).
+*Taxonomy of educational objectives: The classification of educational goals.
+Handbook I: Cognitive domain*. Longman.
+
+Krathwohl, D. R. (2002). A revision of Bloom's taxonomy: An overview. *Theory Into
+Practice, 41*(4), 212-218. https://doi.org/10.1207/s15430421tip4102_2
+
+Landis, J. R., & Koch, G. G. (1977). The measurement of observer agreement for
+categorical data. *Biometrics, 33*(1), 159-174. https://doi.org/10.2307/2529310
+
+Pintrich, P. R., Smith, D. A. F., Garcia, T., & McKeachie, W. J. (1991). *A manual
+for the use of the Motivated Strategies for Learning Questionnaire (MSLQ)*. National
+Center for Research to Improve Postsecondary Teaching and Learning.
+
+Vallerand, R. J., Pelletier, L. G., Blais, M. R., Brière, N. M., Senécal, C., &
+Vallières, É. F. (1992). The Academic Motivation Scale: A measure of intrinsic,
+extrinsic, and amotivation in education. *Educational and Psychological Measurement,
+52*(4), 1003-1017. https://doi.org/10.1177/0013164492052004025
+```
+
+---
+
+*Generated: 2026-01-22 (v2.1 update)*

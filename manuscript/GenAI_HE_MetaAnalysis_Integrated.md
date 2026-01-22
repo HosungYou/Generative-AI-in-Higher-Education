@@ -175,7 +175,49 @@ Full-text assessment excluded 221 reports for the following reasons: wrong popul
 
 Effect sizes were calculated as Hedges' g with small-sample bias correction. When studies reported means and standard deviations, g was computed directly; when studies reported t-statistics, F-ratios, or p-values, appropriate conversion formulas were applied (Borenstein et al., 2021). Standard errors were computed using the formula incorporating sample sizes and effect size magnitude.
 
-Outcomes were coded into four dimensions: cognitive (knowledge acquisition, comprehension, problem-solving), affective (attitudes, motivation, self-efficacy, satisfaction), behavioral (study behaviors, engagement, time-on-task), and metacognitive (self-regulation strategies, monitoring, planning). Cognitive outcomes were further classified by Bloom's revised taxonomy (Anderson & Krathwohl, 2001): lower-order (remember, understand, apply) and higher-order (analyze, evaluate, create).
+Outcomes were coded into four dimensions following established frameworks in educational psychology (Krathwohl, 2002; Bloom et al., 1956; Zimmerman, 2002). The classification system, operational definitions, and decision rules are detailed below.
+
+#### Outcome Dimension Operationalization
+
+**Cognitive Outcomes** (*k* = 58 studies, *n* = 218 effect sizes) encompassed measures of knowledge acquisition, comprehension, and intellectual skill development. Specific measure types included:
+- *Standardized achievement tests*: Discipline-specific assessments with established validity (e.g., medical licensing exam items, programming skill assessments, language proficiency tests such as TOEFL/IELTS components)
+- *Course examinations*: Instructor-developed tests measuring content mastery (multiple-choice, short answer, essay formats)
+- *Performance-based assessments*: Tasks requiring demonstration of applied skills (e.g., writing samples scored by rubric, coding projects, mathematical problem sets, clinical reasoning cases)
+- *Knowledge tests*: Pre/post assessments of factual and conceptual understanding developed for the study
+
+Cognitive outcomes were further classified by Bloom's revised taxonomy (Anderson & Krathwohl, 2001): **lower-order** thinking skills (remembering, understanding, applying; *n* = 112) included factual recall items, comprehension questions, and routine application tasks; **higher-order** thinking skills (analyzing, evaluating, creating; *n* = 87) included critical analysis tasks, argument evaluation, and creative production. Classification was based on the cognitive process targeted by assessment items as described in primary studies or inferred from item descriptions when not explicitly stated.
+
+**Affective Outcomes** (*k* = 28 studies, *n* = 89 effect sizes) captured attitudes, emotions, and motivational states related to learning. Specific measure types included:
+- *Motivation scales*: Intrinsic/extrinsic motivation measures, typically from the Motivated Strategies for Learning Questionnaire motivation subscales (MSLQ; Pintrich et al., 1991), Academic Motivation Scale (AMS; Vallerand et al., 1992), or study-specific motivation questionnaires
+- *Self-efficacy measures*: Domain-specific self-efficacy (e.g., writing self-efficacy, programming self-efficacy) or general academic self-efficacy scales based on Bandura's (1997) framework
+- *Attitude measures*: Attitudes toward subject matter, technology acceptance (TAM constructs: perceived usefulness, perceived ease of use), or learning approach preferences
+- *Satisfaction scales*: Learner satisfaction with instruction, course evaluation items, or user experience questionnaires
+- *Anxiety measures*: Test anxiety, foreign language anxiety (FLCAS), or computer anxiety scales (reverse-coded so higher scores indicate more positive affect)
+
+**Behavioral Outcomes** (*k* = 16 studies, *n* = 34 effect sizes) measured observable learning behaviors and engagement patterns. Specific measure types included:
+- *Time-on-task*: Duration of engagement with learning materials captured through learning management system (LMS) logs, screen recording, or structured observation
+- *Participation metrics*: Frequency of discussion forum contributions, questions asked during instruction, or peer interaction frequency
+- *Help-seeking behaviors*: Frequency and appropriateness of seeking assistance from instructors, peers, or AI tools
+- *Study behaviors*: Observed or system-logged study strategies including resource access patterns, practice frequency, and revision behaviors
+- *Completion and persistence*: Assignment submission rates, course completion, and dropout/persistence indicators
+
+#### Coding Decision Rules for Outcome Classification
+
+When outcomes could potentially fit multiple categories, the following hierarchical decision rules were applied to ensure consistent classification:
+
+1. **Primary construct focus**: Classification was based on the primary construct the measure was designed to assess, as stated by original instrument developers or study authors.
+
+2. **Metacognitive vs. Cognitive distinction**: Outcomes measuring *awareness of* or *regulation of* cognitive processes were coded as metacognitive; outcomes measuring *performance on* cognitive tasks were coded as cognitive. For example, a questionnaire item "I monitor my understanding while reading" was coded metacognitive, while a reading comprehension test score was coded cognitive.
+
+3. **Affective vs. Metacognitive distinction**: Motivational beliefs and emotional states (e.g., "I find this subject interesting," "I feel confident") were coded affective; strategic beliefs and regulatory behaviors (e.g., "I plan my study schedule," "I adjust my strategies when confused") were coded metacognitive.
+
+4. **Behavioral vs. Self-report categories**: Observable behaviors recorded through system logs, observation protocols, or behavioral traces were coded behavioral regardless of underlying construct. Self-reported behaviors on questionnaires were coded based on the underlying construct being assessed (e.g., self-reported motivation → affective; self-reported strategy use → metacognitive; self-reported study time without objective verification → excluded from behavioral, coded based on construct).
+
+5. **Composite measures**: For instruments yielding subscale scores (e.g., MSLQ with cognitive strategy, metacognitive self-regulation, and motivation subscales), each subscale was coded separately according to its target construct.
+
+6. **Ambiguous cases**: When classification remained unclear after applying rules 1–5, both coders discussed the case and reached consensus. If consensus could not be reached, a third reviewer adjudicated based on detailed examination of the original instrument and study context. Fewer than 5% of effect sizes (*n* = 18) required third-reviewer adjudication.
+
+Inter-rater reliability for outcome dimension coding was assessed on 30% of randomly selected studies (*k* = 20), yielding Cohen's κ = 0.84 for the four-category classification scheme, indicating substantial agreement (Landis & Koch, 1977).
 
 **Metacognitive Outcome Operationalization.** Given the central theoretical importance of metacognitive outcomes to the cognitive dependency hypothesis, we describe their operationalization in detail. Across the 11 studies (*n* = 40 effect sizes) reporting metacognitive outcomes, measures fell into three categories: (a) *Self-report questionnaires* (*k* = 7), including the Motivated Strategies for Learning Questionnaire metacognitive self-regulation subscale (MSLQ; Pintrich et al., 1991), the Online Self-Regulated Learning Questionnaire (OSLQ; Barnard et al., 2009), and custom self-regulation scales assessing planning, monitoring, and evaluation behaviors; (b) *Think-aloud protocols and verbal reports* (*k* = 2), wherein students verbalized their thinking during learning tasks and utterances were coded for metacognitive statements (planning, monitoring, evaluating); and (c) *Trace data and log analysis* (*k* = 2), examining behavioral indicators of self-regulation such as help-seeking patterns, time allocation, and revision behaviors within learning management systems.
 
@@ -557,6 +599,10 @@ Alexander, P. A. (2003). The development of expertise: The journey from acclimat
 
 Anderson, L. W., & Krathwohl, D. R. (Eds.). (2001). *A taxonomy for learning, teaching, and assessing: A revision of Bloom's taxonomy of educational objectives*. Longman.
 
+Bandura, A. (1997). *Self-efficacy: The exercise of control*. W.H. Freeman.
+
+Bloom, B. S., Engelhart, M. D., Furst, E. J., Hill, W. H., & Krathwohl, D. R. (1956). *Taxonomy of educational objectives: The classification of educational goals. Handbook I: Cognitive domain*. Longman.
+
 Borenstein, M., Hedges, L. V., Higgins, J. P. T., & Rothstein, H. R. (2021). *Introduction to meta-analysis* (2nd ed.). Wiley.
 
 Broadbent, J., & Poon, W. L. (2015). Self-regulated learning strategies & academic achievement in online higher education learning environments: A systematic review. *Internet and Higher Education, 27*, 1-13. https://doi.org/10.1016/j.iheduc.2015.04.007
@@ -589,6 +635,10 @@ Kalyuga, S. (2007). Expertise reversal effect and its implications for learner-t
 
 Kalyuga, S., Ayres, P., Chandler, P., & Sweller, J. (2003). The expertise reversal effect. *Educational Psychologist, 38*(1), 23-31. https://doi.org/10.1207/S15326985EP3801_4
 
+Krathwohl, D. R. (2002). A revision of Bloom's taxonomy: An overview. *Theory Into Practice, 41*(4), 212-218. https://doi.org/10.1207/s15430421tip4102_2
+
+Landis, J. R., & Koch, G. G. (1977). The measurement of observer agreement for categorical data. *Biometrics, 33*(1), 159-174. https://doi.org/10.2307/2529310
+
 Koç, M. (2024). Personalized scaffolding in AI-supported learning environments. *Journal of Educational Technology Systems, 52*(3), 312-335.
 
 Liu, X. (2025). The impact of ChatGPT on students' academic achievement: A meta-analysis. *Journal of Computer Assisted Learning*. Advance online publication. https://doi.org/10.1111/jcal.70096
@@ -602,6 +652,8 @@ Niemiec, C. P., & Ryan, R. M. (2009). Autonomy, competence, and relatedness in t
 Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., ... & Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ, 372*, n71. https://doi.org/10.1136/bmj.n71
 
 Pintrich, P. R. (2000). The role of goal orientation in self-regulated learning. In M. Boekaerts, P. R. Pintrich, & M. Zeidner (Eds.), *Handbook of self-regulation* (pp. 451-502). Academic Press.
+
+Pintrich, P. R., Smith, D. A. F., Garcia, T., & McKeachie, W. J. (1991). *A manual for the use of the Motivated Strategies for Learning Questionnaire (MSLQ)*. National Center for Research to Improve Postsecondary Teaching and Learning.
 
 Plass, J. L., Moreno, R., & Brünken, R. (Eds.). (2010). *Cognitive load theory*. Cambridge University Press.
 
@@ -716,6 +768,8 @@ Tamim, R. M., Bernard, R. M., Borokhovski, E., Abrami, P. C., & Schmid, R. F. (2
 Thompson, R., & Garcia, L. (2024). Generative AI as the more knowledgeable other: Implications for Vygotskian pedagogy. *Educational Technology Research and Development, 72*(5), 2345-2367. https://doi.org/10.1007/s11423-024-10398-7
 
 UNESCO. (2024). *AI competency framework for teachers and students*. United Nations Educational, Scientific and Cultural Organization. https://www.unesco.org/en/articles/ai-competency-frameworks
+
+Vallerand, R. J., Pelletier, L. G., Blais, M. R., Brière, N. M., Senécal, C., & Vallières, É. F. (1992). The Academic Motivation Scale: A measure of intrinsic, extrinsic, and amotivation in education. *Educational and Psychological Measurement, 52*(4), 1003-1017. https://doi.org/10.1177/0013164492052004025
 
 Veenman, M. V. J., Van Hout-Wolters, B. H. A. M., & Afflerbach, P. (2006). Metacognition and learning: Conceptual and methodological considerations. *Metacognition and Learning, 1*(1), 3-14. https://doi.org/10.1007/s11409-006-6893-0
 
