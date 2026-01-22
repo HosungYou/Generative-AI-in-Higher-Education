@@ -19,6 +19,8 @@ This folder contains documentation for the systematic literature review update c
 | [06_data_extraction_template.md](./06_data_extraction_template.md) | Data extraction template for new studies |
 | [07_inclusion_decisions.md](./07_inclusion_decisions.md) | Final inclusion/exclusion decisions for 23 candidates |
 | [08_exclusion_rationale.md](./08_exclusion_rationale.md) | Detailed rationale for conditional/review/exclusion decisions |
+| [09_manuscript_updates.md](./09_manuscript_updates.md) | All recommended updates for C&E submission |
+| [10_pdf_retrieval_list.md](./10_pdf_retrieval_list.md) | DOI links and retrieval instructions for 16 studies |
 
 ## Key Findings Summary
 
