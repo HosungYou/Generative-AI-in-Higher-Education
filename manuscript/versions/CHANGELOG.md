@@ -12,7 +12,7 @@
 |---------|------|-------------|------|
 | v1.0 | 2025-01-21 | Original manuscript | `GenAI_HE_MetaAnalysis_v1.0_Original.docx` |
 | v2.0 | 2025-01-22 | EPR submission revision | `GenAI_HE_MetaAnalysis_v2.0_EPR_Revision.md` |
-| v2.1 | 2025-01-22 | Comprehensive Outcome Operationalization | `GenAI_HE_MetaAnalysis_v2.1_Outcome_Ops.md` |
+| v2.1 | 2026-01-22 | Comprehensive Outcome Operationalization | `GenAI_HE_MetaAnalysis_v2.1_Outcome_Operationalization.md` |
 | v2.2 | 2026-01-22 | Effect Size Classification Table | `GenAI_HE_MetaAnalysis_v2.2_Classification_Table.md` |
 
 ---
@@ -250,15 +250,18 @@ This table provides complete transparency on the classification process:
 
 ```
 manuscript/
-├── GenAI_HE_MetaAnalysis_Integrated.md      # Current working version
+├── GenAI_HE_MetaAnalysis_Integrated.md      # Current working version (= v2.2)
 ├── GenAI_HE_MetaAnalysis_Integrated.docx    # Original Word document
 ├── SUBMISSION_PACKAGE_README.md             # Submission instructions
 ├── versions/
 │   ├── CHANGELOG.md                         # This file
+│   ├── REVISION_DIFF_SUMMARY.md             # Technical change details
 │   ├── GenAI_HE_MetaAnalysis_v1.0_Original.docx
-│   └── GenAI_HE_MetaAnalysis_v2.0_EPR_Revision.md
+│   ├── GenAI_HE_MetaAnalysis_v2.0_EPR_Revision.md
+│   ├── GenAI_HE_MetaAnalysis_v2.1_Outcome_Operationalization.md
+│   └── GenAI_HE_MetaAnalysis_v2.2_Classification_Table.md
 ├── figures/
-│   └── PRISMA_2020_FlowDiagram.png
+│   └── PRISMA_2020_Academic.svg
 └── tables/
     └── (generated tables)
 ```
