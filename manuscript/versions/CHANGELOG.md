@@ -1,0 +1,201 @@
+# Manuscript Version History
+
+## Generative AI in Higher Education: A Three-Level Meta-Analysis Revealing Cognitive Dependency in Metacognitive Outcomes
+
+**Author:** Hosung You, Pennsylvania State University
+
+---
+
+## Version Summary
+
+| Version | Date | Description | File |
+|---------|------|-------------|------|
+| v1.0 | 2025-01-21 | Original manuscript | `GenAI_HE_MetaAnalysis_v1.0_Original.docx` |
+| v2.0 | 2025-01-22 | EPR submission revision | `GenAI_HE_MetaAnalysis_v2.0_EPR_Revision.md` |
+
+---
+
+## v2.0 - Educational Psychology Review Submission Revision
+**Date:** 2025-01-22
+**Reviewer:** Journal Editor Agent (Claude)
+**Recommendation:** Minor Revision → Ready for Submission
+
+### Changes Made
+
+#### Critical Issue 1: Power Analysis for Metacognitive Finding
+**Problem:** The central finding (non-significant metacognitive effect, g = 0.28, p = .287) was based on only k = 11 studies with n = 40 effect sizes. Reviewers would question whether this reflects a true null or insufficient power.
+
+**Solution Added:**
+1. **Results Section** (after line 292): Added "Statistical Power Considerations for Metacognitive Findings" paragraph
+   - Post-hoc power analysis: ~47% power to detect g = 0.40
+   - Minimum detectable effect size (MDES) with 80% power: g ≈ 0.65
+   - Wide confidence interval (−0.24 to 0.80) interpretation
+
+2. **Limitations Section**: Added seventh limitation explicitly addressing power concerns
+   - Cannot determine whether null finding reflects true absence of effect or underpowerment
+   - Recommendation for future research with larger metacognitive samples
+
+**Lines Modified:** 292-296, 512-514
+
+---
+
+#### Critical Issue 2: PRISMA Figure Inclusion
+**Problem:** Figures 1-4 were referenced but not formally included with captions.
+
+**Solution Added:**
+1. **Figure Captions Section** added at end of manuscript (after References)
+   - Figure 1: PRISMA 2020 flow diagram description
+   - Figure 2: Forest plot by outcome dimension
+   - Figure 3: Forest plot by academic discipline
+   - Figure 4: Funnel plot for publication bias
+
+2. **Figure Placement Markers** added throughout text:
+   - `[Insert Figure 1 about here]` after PRISMA description
+   - `[Insert Figure 2 about here]` after overall effect
+   - `[Insert Figure 3 about here]` after Table 3
+   - `[Insert Figure 4 about here]` after publication bias section
+
+**Lines Added:** 186, 272, 327, 399, 710-724
+
+---
+
+#### Critical Issue 3: Metacognitive Outcome Operationalization
+**Problem:** The manuscript did not clarify how "metacognitive outcome" was operationalized in primary studies (self-report vs. behavioral measures).
+
+**Solution Added:**
+**Method > Data Extraction and Coding** (after line 152): New subsection "Metacognitive Outcome Operationalization"
+- Categorization of measures:
+  - Self-report questionnaires (k = 7, 64%): MSLQ, OSLQ, custom scales
+  - Think-aloud protocols (k = 2)
+  - Trace data/log analysis (k = 2)
+- Acknowledgment of self-report limitations (social desirability, retrospective recall)
+- Note on potential underestimation of cognitive dependency due to measurement artifacts
+
+**Lines Added:** 154-166
+
+---
+
+#### Critical Issue 4: Measurement Quality Alternative Explanation
+**Problem:** The differential metacognitive effect could reflect measurement artifacts rather than true cognitive dependency.
+
+**Solution Added:**
+**Discussion > Theoretical Implications**: New subsection "Alternative Interpretation: Measurement Quality and Sensitivity"
+- Cognitive measures: standardized achievement tests with established psychometrics
+- Metacognitive measures: primarily self-report (64%) with documented limitations
+- Differential sensitivity may contribute to observed pattern
+- Recommendation for behavioral/trace-based metacognitive measures in future research
+
+**New Reference Added:**
+- Veenman, M. V. J., Van Hout-Wolters, B. H. A. M., & Afflerbach, P. (2006). Metacognition and learning. *Metacognition and Learning, 1*(1), 3-14.
+
+**Lines Added:** 431-438, 695-696
+
+---
+
+#### Critical Issue 5: 2025 Citation Verification
+**Problem:** Extensive citation of 2025 publications (future year) required verification of peer-review status.
+
+**Solution Added:**
+**Method > Search Strategy**: New subsection "Citation Verification and Publication Status"
+- Three categories of citations:
+  - Fully published (volume/issue assigned)
+  - Advance online publications (peer-reviewed, DOI assigned)
+  - Preprints (excluded from synthesis)
+- Confirmation that primary studies required peer-reviewed status
+- Reference to PRISMA exclusions (n = 13 for non-peer-reviewed)
+
+**Lines Added:** 139-145
+
+---
+
+### Minor Issues Addressed
+
+#### Abstract Length
+- **Status:** 237 words (within EPR 250-word limit)
+- **No changes needed**
+
+#### Placeholders
+- **Submission Checklist** added at document beginning (HTML comment block)
+- Clearly identifies items requiring completion:
+  - `[ORCID-ID]`
+  - `[CRD-XXXXX]` (PROSPERO registration)
+  - `[OSF Repository Link]`
+
+#### Additional References Added
+1. Veenman, M. V. J., et al. (2006) - metacognition measurement
+2. Winne, P. H., & Jamieson-Noel, D. (2002) - self-report calibration
+
+#### New Sections Added
+1. Submission Checklist (HTML comment at top)
+2. Figure Captions section
+3. Supplementary Materials reference
+
+---
+
+## v1.0 - Original Manuscript
+**Date:** 2025-01-21
+**Status:** Initial draft completed
+
+### Contents
+- Full three-level meta-analysis manuscript
+- 65 studies, 381 effect sizes, N = 8,247 participants
+- Theoretical framework: Cognitive dependency hypothesis
+- Results: Overall g = 0.622; Metacognitive g = 0.28 (non-significant)
+- Tables 1-5 included
+- References complete
+
+### Known Issues (Addressed in v2.0)
+1. No power analysis for metacognitive subsample
+2. Figures referenced but not formally included
+3. Metacognitive operationalization not detailed
+4. No measurement quality alternative explanation
+5. 2025 citations not verified for publication status
+
+---
+
+## File Structure
+
+```
+manuscript/
+├── GenAI_HE_MetaAnalysis_Integrated.md      # Current working version
+├── GenAI_HE_MetaAnalysis_Integrated.docx    # Original Word document
+├── SUBMISSION_PACKAGE_README.md             # Submission instructions
+├── versions/
+│   ├── CHANGELOG.md                         # This file
+│   ├── GenAI_HE_MetaAnalysis_v1.0_Original.docx
+│   └── GenAI_HE_MetaAnalysis_v2.0_EPR_Revision.md
+├── figures/
+│   └── PRISMA_2020_FlowDiagram.png
+└── tables/
+    └── (generated tables)
+```
+
+---
+
+## Target Journal
+
+**Educational Psychology Review** (Springer)
+- Impact Factor: 10.1 (2023)
+- Scope: Integrative reviews in educational psychology
+- Selected because no competing GenAI meta-analysis published here
+
+### Alternative Journals (Ranked)
+1. Review of Educational Research (IF: 11.2)
+2. Internet and Higher Education (IF: 8.6)
+3. Metacognition and Learning (IF: 4.8)
+4. British Journal of Educational Technology (IF: 6.7)
+
+---
+
+## Next Steps
+
+1. [ ] Complete placeholder information (ORCID, PROSPERO, OSF)
+2. [ ] Generate Figures 2-4 from R analysis
+3. [ ] Convert markdown to Word with APA 7th formatting
+4. [ ] Write cover letter
+5. [ ] Submit to Educational Psychology Review
+
+---
+
+*Changelog maintained by: Claude Code*
+*Last updated: 2025-01-22*
