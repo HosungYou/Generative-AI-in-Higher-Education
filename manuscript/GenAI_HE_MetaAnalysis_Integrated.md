@@ -219,6 +219,38 @@ When outcomes could potentially fit multiple categories, the following hierarchi
 
 Inter-rater reliability for outcome dimension coding was assessed on 30% of randomly selected studies (*k* = 20), yielding Cohen's κ = 0.84 for the four-category classification scheme, indicating substantial agreement (Landis & Koch, 1977).
 
+**Table 2. Distribution of Effect Sizes by Outcome Dimension and Measure Type**
+
+| Dimension | Measure Type | *n* (ES) | *k* (Studies) | Representative Instruments |
+|-----------|--------------|----------|---------------|---------------------------|
+| **Cognitive** | | **218** | **58** | |
+| | Standardized achievement tests | 67 | 22 | USMLE items, TOEFL/IELTS, AP exams |
+| | Course examinations | 89 | 38 | Instructor-developed tests (MC, essay) |
+| | Performance-based assessments | 41 | 19 | Coding projects, writing rubrics, clinical cases |
+| | Knowledge tests | 21 | 12 | Study-developed pre/post tests |
+| | *Lower-order (remember, understand, apply)* | *112* | *42* | |
+| | *Higher-order (analyze, evaluate, create)* | *87* | *31* | |
+| | *Mixed/unclassified* | *19* | *8* | |
+| **Affective** | | **89** | **28** | |
+| | Motivation scales | 28 | 14 | MSLQ motivation subscales, AMS, IMI |
+| | Self-efficacy measures | 24 | 13 | Domain-specific SE scales, GSES |
+| | Attitude measures | 19 | 11 | Subject attitudes, TAM (PU, PEOU) |
+| | Satisfaction scales | 12 | 8 | Course evaluation, UX questionnaires |
+| | Anxiety measures (reverse-coded) | 6 | 4 | FLCAS, test anxiety scales |
+| **Behavioral** | | **34** | **16** | |
+| | Time-on-task | 11 | 7 | LMS duration logs, screen recording |
+| | Participation metrics | 9 | 6 | Forum posts, question frequency |
+| | Help-seeking behaviors | 5 | 4 | AI/peer help request logs |
+| | Study behaviors | 6 | 4 | Resource access patterns, revisions |
+| | Completion/persistence | 3 | 2 | Submission rates, dropout indicators |
+| **Metacognitive** | | **40** | **11** | |
+| | Self-report questionnaires | 26 | 7 | MSLQ metacognitive SR, OSLQ, MAI |
+| | Think-aloud protocols | 8 | 2 | Coded verbal reports (plan/monitor/evaluate) |
+| | Trace data/log analysis | 6 | 2 | Help-seeking patterns, time allocation |
+| **Total** | | **381** | **65** | |
+
+*Note.* ES = effect sizes; MC = multiple-choice; MSLQ = Motivated Strategies for Learning Questionnaire; AMS = Academic Motivation Scale; IMI = Intrinsic Motivation Inventory; SE = self-efficacy; GSES = General Self-Efficacy Scale; TAM = Technology Acceptance Model; PU = perceived usefulness; PEOU = perceived ease of use; UX = user experience; FLCAS = Foreign Language Classroom Anxiety Scale; LMS = learning management system; SR = self-regulation; OSLQ = Online Self-Regulated Learning Questionnaire; MAI = Metacognitive Awareness Inventory. Study counts (*k*) do not sum to total because studies could contribute effect sizes to multiple measure types within dimensions. Lower-order and higher-order cognitive classifications based on Anderson and Krathwohl's (2001) revised taxonomy.
+
 **Metacognitive Outcome Operationalization.** Given the central theoretical importance of metacognitive outcomes to the cognitive dependency hypothesis, we describe their operationalization in detail. Across the 11 studies (*n* = 40 effect sizes) reporting metacognitive outcomes, measures fell into three categories: (a) *Self-report questionnaires* (*k* = 7), including the Motivated Strategies for Learning Questionnaire metacognitive self-regulation subscale (MSLQ; Pintrich et al., 1991), the Online Self-Regulated Learning Questionnaire (OSLQ; Barnard et al., 2009), and custom self-regulation scales assessing planning, monitoring, and evaluation behaviors; (b) *Think-aloud protocols and verbal reports* (*k* = 2), wherein students verbalized their thinking during learning tasks and utterances were coded for metacognitive statements (planning, monitoring, evaluating); and (c) *Trace data and log analysis* (*k* = 2), examining behavioral indicators of self-regulation such as help-seeking patterns, time allocation, and revision behaviors within learning management systems.
 
 Notably, the majority (7 of 11 studies; 64%) relied on self-report measures, which may be subject to social desirability bias and retrospective recall limitations (Winne & Jamieson-Noel, 2002). This measurement approach raises an important interpretive consideration: if GenAI reduces metacognitive engagement during learning, students may lack awareness of this reduction and thus not report it accurately on self-report instruments—potentially underestimating the cognitive dependency effect. Conversely, students who struggle without AI support may over-report self-regulatory difficulties. The limited number of studies using behavioral or trace-based metacognitive measures (*k* = 4) precludes a meaningful comparison between measurement approaches, but future research should prioritize objective metacognitive indicators that are less susceptible to self-report biases.

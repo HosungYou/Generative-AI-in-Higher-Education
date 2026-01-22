@@ -236,12 +236,57 @@ https://doi.org/10.1016/S0361-476X(02)00006-1
 
 ## Statistics
 
-| Metric | v1.0 | v2.0 | v2.1 | Change (v1→v2.1) |
-|--------|------|------|------|------------------|
-| Word count (approx.) | ~10,500 | ~11,500 | ~12,200 | +1,700 |
-| References | 68 | 70 | 76 | +8 |
-| New sections | 0 | 4 | 6 | +6 |
-| Figure markers | 0 | 4 | 4 | +4 |
+| Metric | v1.0 | v2.0 | v2.1 | v2.2 | Change (v1→v2.2) |
+|--------|------|------|------|------|------------------|
+| Word count (approx.) | ~10,500 | ~11,500 | ~12,200 | ~12,800 | +2,300 |
+| References | 68 | 70 | 76 | 76 | +8 |
+| New sections | 0 | 4 | 6 | 6 | +6 |
+| Tables | 5 | 5 | 5 | 6 | +1 |
+| Figure markers | 0 | 4 | 4 | 4 | +4 |
+
+---
+
+## v2.2 Additions (Effect Size Classification Table)
+
+### Table 2: Distribution of Effect Sizes by Outcome Dimension and Measure Type
+
+**Location:** Method > Data Extraction and Coding (after inter-rater reliability)
+
+```markdown
+| Dimension | Measure Type | *n* (ES) | *k* (Studies) | Representative Instruments |
+|-----------|--------------|----------|---------------|---------------------------|
+| **Cognitive** | | **218** | **58** | |
+| | Standardized achievement tests | 67 | 22 | USMLE items, TOEFL/IELTS, AP exams |
+| | Course examinations | 89 | 38 | Instructor-developed tests (MC, essay) |
+| | Performance-based assessments | 41 | 19 | Coding projects, writing rubrics |
+| | Knowledge tests | 21 | 12 | Study-developed pre/post tests |
+| | *Lower-order (remember, understand, apply)* | *112* | *42* | |
+| | *Higher-order (analyze, evaluate, create)* | *87* | *31* | |
+| **Affective** | | **89** | **28** | |
+| | Motivation scales | 28 | 14 | MSLQ motivation, AMS, IMI |
+| | Self-efficacy measures | 24 | 13 | Domain-specific SE, GSES |
+| | Attitude measures | 19 | 11 | TAM (PU, PEOU) |
+| | Satisfaction scales | 12 | 8 | Course evaluation, UX |
+| | Anxiety measures (reverse-coded) | 6 | 4 | FLCAS, test anxiety |
+| **Behavioral** | | **34** | **16** | |
+| | Time-on-task | 11 | 7 | LMS duration logs |
+| | Participation metrics | 9 | 6 | Forum posts, questions |
+| | Help-seeking behaviors | 5 | 4 | AI/peer help logs |
+| | Study behaviors | 6 | 4 | Resource access patterns |
+| | Completion/persistence | 3 | 2 | Submission rates |
+| **Metacognitive** | | **40** | **11** | |
+| | Self-report questionnaires | 26 | 7 | MSLQ metacognitive, OSLQ, MAI |
+| | Think-aloud protocols | 8 | 2 | Coded verbal reports |
+| | Trace data/log analysis | 6 | 2 | Help-seeking patterns |
+| **Total** | | **381** | **65** | |
+```
+
+**Significance of This Addition:**
+- Provides empirical evidence of how classification rules were applied
+- Shows distribution transparency (e.g., cognitive outcomes dominated by course exams)
+- Reveals measurement method diversity within each dimension
+- Highlights that metacognitive measures were primarily self-report (26/40 = 65%)
+- Supports replication by future researchers
 
 ---
 
@@ -324,4 +369,4 @@ extrinsic, and amotivation in education. *Educational and Psychological Measurem
 
 ---
 
-*Generated: 2026-01-22 (v2.1 update)*
+*Generated: 2026-01-22 (v2.2 update)*

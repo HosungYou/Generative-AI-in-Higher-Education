@@ -13,6 +13,39 @@
 | v1.0 | 2025-01-21 | Original manuscript | `GenAI_HE_MetaAnalysis_v1.0_Original.docx` |
 | v2.0 | 2025-01-22 | EPR submission revision | `GenAI_HE_MetaAnalysis_v2.0_EPR_Revision.md` |
 | v2.1 | 2025-01-22 | Comprehensive Outcome Operationalization | `GenAI_HE_MetaAnalysis_v2.1_Outcome_Ops.md` |
+| v2.2 | 2026-01-22 | Effect Size Classification Table | `GenAI_HE_MetaAnalysis_v2.2_Classification_Table.md` |
+
+---
+
+## v2.2 - Effect Size Classification Table
+**Date:** 2026-01-22
+**Reviewer:** User Feedback (Hosung You)
+**Status:** Methodological transparency enhancement
+
+### Critical Issue 7: Empirical Classification Distribution
+
+**Problem:** While v2.1 added operational definitions for outcome dimensions, the manuscript lacked a concrete table showing how the 381 effect sizes from 65 studies were actually distributed across measure types within each dimension. Reviewers need to see the empirical distribution, not just theoretical definitions.
+
+**Solution Added:**
+
+**Table 2: Distribution of Effect Sizes by Outcome Dimension and Measure Type**
+
+This table provides complete transparency on the classification process:
+
+| Dimension | Effect Sizes | Studies | Key Breakdowns |
+|-----------|-------------|---------|----------------|
+| Cognitive | 218 | 58 | Standardized tests (67), Course exams (89), Performance (41), Knowledge tests (21) |
+| Affective | 89 | 28 | Motivation (28), Self-efficacy (24), Attitudes (19), Satisfaction (12), Anxiety (6) |
+| Behavioral | 34 | 16 | Time-on-task (11), Participation (9), Help-seeking (5), Study behaviors (6), Completion (3) |
+| Metacognitive | 40 | 11 | Self-report (26), Think-aloud (8), Trace data (6) |
+| **Total** | **381** | **65** | |
+
+**Additional Details in Table:**
+- Cognitive outcomes further classified by Bloom's taxonomy: Lower-order (112), Higher-order (87), Mixed (19)
+- Representative instruments listed for each measure type
+- Comprehensive note explaining abbreviations and classification criteria
+
+**Location:** Method > Data Extraction and Coding, after inter-rater reliability paragraph
 
 ---
 
@@ -258,4 +291,4 @@ manuscript/
 ---
 
 *Changelog maintained by: Claude Code*
-*Last updated: 2026-01-22 (v2.1 update)*
+*Last updated: 2026-01-22 (v2.2 update)*
