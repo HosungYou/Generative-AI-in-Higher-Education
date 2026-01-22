@@ -95,9 +95,9 @@ def generate_academic_prisma_svg():
 
   <!-- ==================== IDENTIFICATION ==================== -->
 
-  <!-- Phase Label -->
+  <!-- Phase Label: box center = (50, 122.5) -->
   <rect x="25" y="35" width="50" height="175" fill="{phase_bg}" stroke="{box_border}" stroke-width="2"/>
-  <text x="50" y="140" text-anchor="middle" class="phase-label" transform="rotate(-90, 50, 140)">Identification</text>
+  <text x="50" y="122" text-anchor="middle" dominant-baseline="middle" class="phase-label" transform="rotate(-90, 50, 122)">Identification</text>
 
   <!-- Database Records Box -->
   <rect x="100" y="40" width="240" height="130" fill="{box_fill}" stroke="{box_border}" stroke-width="2"/>
@@ -122,9 +122,9 @@ def generate_academic_prisma_svg():
 
   <!-- ==================== SCREENING ==================== -->
 
-  <!-- Phase Label -->
+  <!-- Phase Label: box center = (50, 395) -->
   <rect x="25" y="225" width="50" height="340" fill="{phase_bg}" stroke="{box_border}" stroke-width="2"/>
-  <text x="50" y="410" text-anchor="middle" class="phase-label" transform="rotate(-90, 50, 410)">Screening</text>
+  <text x="50" y="395" text-anchor="middle" dominant-baseline="middle" class="phase-label" transform="rotate(-90, 50, 395)">Screening</text>
 
   <!-- Title Screening Box -->
   <rect x="100" y="250" width="240" height="95" fill="{box_fill}" stroke="{box_border}" stroke-width="2"/>
@@ -160,9 +160,9 @@ def generate_academic_prisma_svg():
 
   <!-- ==================== ELIGIBILITY ==================== -->
 
-  <!-- Phase Label -->
+  <!-- Phase Label: box center = (50, 700) -->
   <rect x="25" y="580" width="50" height="240" fill="{phase_bg}" stroke="{box_border}" stroke-width="2"/>
-  <text x="50" y="715" text-anchor="middle" class="phase-label" transform="rotate(-90, 50, 715)">Eligibility</text>
+  <text x="50" y="700" text-anchor="middle" dominant-baseline="middle" class="phase-label" transform="rotate(-90, 50, 700)">Eligibility</text>
 
   <!-- Full-text Assessment Box -->
   <rect x="100" y="600" width="240" height="110" fill="{box_fill}" stroke="{box_border}" stroke-width="2"/>
@@ -193,9 +193,9 @@ def generate_academic_prisma_svg():
 
   <!-- ==================== INCLUDED ==================== -->
 
-  <!-- Phase Label -->
+  <!-- Phase Label: box center = (50, 937.5) -->
   <rect x="25" y="840" width="50" height="195" fill="{phase_bg}" stroke="{box_border}" stroke-width="2"/>
-  <text x="50" y="950" text-anchor="middle" class="phase-label" transform="rotate(-90, 50, 950)">Included</text>
+  <text x="50" y="937" text-anchor="middle" dominant-baseline="middle" class="phase-label" transform="rotate(-90, 50, 937)">Included</text>
 
   <!-- Studies Included Box -->
   <rect x="100" y="870" width="240" height="130" fill="{box_fill}" stroke="{box_border}" stroke-width="2"/>
