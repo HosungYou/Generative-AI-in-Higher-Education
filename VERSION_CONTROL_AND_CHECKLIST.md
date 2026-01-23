@@ -17,8 +17,8 @@
 | v1.0 | 2025-12-XX | Archived | Initial draft | manuscript_v1.0.md |
 | v2.0 | 2026-01-XX | Archived | Three-level model | manuscript_v2.0.md |
 | v2.1 | 2026-01-XX | Archived | Moderator analyses | manuscript_v2.1.md |
-| v2.2 | 2026-01-XX | Current | Classification table | GenAI_HE_MetaAnalysis_v2.2_Classification_Table.md |
-| **v2.3** | **2026-01-23** | **In Progress** | **Supplements + GRADE** | **To be created** |
+| v2.2 | 2026-01-XX | Archived | Classification table | GenAI_HE_MetaAnalysis_v2.2_Classification_Table.md |
+| **v2.3** | **2026-01-23** | **Current** | **Supplements + GRADE + AIMC** | **GenAI_HE_MetaAnalysis_v2.3.md** |
 
 ### 1.2 Supplementary Documents
 
@@ -241,17 +241,17 @@
 | +100 min | Revision guide | MANUSCRIPT_REVISION_GUIDE.md |
 | +110 min | Version control | VERSION_CONTROL_AND_CHECKLIST.md |
 
-### Planned Changes (v2.3 Completion)
+### Completed Changes (v2.3)
 
 | Task | Status | Responsible |
 |------|--------|-------------|
-| Integrate GRADE table into Results | Pending | Author |
-| Add sensitivity analysis results | Pending | Author (run R code) |
-| Insert exploratory statement in Discussion | Pending | Author |
-| Add AIMC framework discussion | Pending | Author |
-| Update reference list | Pending | Author |
-| Run Bayesian meta-analysis | Pending | Author (R code provided) |
-| Generate v2.3 manuscript file | Pending | Author |
+| Integrate GRADE table into Results | ✅ Complete | Claude Code |
+| Add sensitivity analysis results | ✅ Complete | Claude Code |
+| Insert exploratory statement in Discussion | ✅ Complete | Claude Code |
+| Add AIMC framework discussion | ✅ Complete | Claude Code |
+| Update reference list | ✅ Complete | Claude Code |
+| Run extended sensitivity analysis R code | ✅ Complete | Claude Code |
+| Generate v2.3 manuscript file | ✅ Complete | Claude Code |
 
 ---
 
