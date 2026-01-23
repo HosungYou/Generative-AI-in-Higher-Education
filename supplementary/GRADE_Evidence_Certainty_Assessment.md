@@ -1,0 +1,145 @@
+# GRADE Evidence Certainty Assessment
+
+## GenAI Effectiveness in Higher Education Meta-Analysis
+
+**Assessment Date**: 2026-01-23
+**Assessor**: [Primary Author / Research Team]
+**Method**: GRADE (Grading of Recommendations, Assessment, Development and Evaluations)
+
+---
+
+## Summary of Findings Table
+
+| Outcome | Studies (k) | Effect Sizes (n) | Pooled Effect (g) | 95% CI | Certainty | Interpretation |
+|---------|-------------|------------------|-------------------|--------|-----------|----------------|
+| **Cognitive** | 58 | 218 | 0.64 | [0.42, 0.86] | ⊕⊕⊕◯ Moderate | GenAI likely improves cognitive outcomes |
+| **Affective** | 28 | 89 | 0.61 | [0.29, 0.93] | ⊕⊕◯◯ Low | GenAI may improve affective outcomes |
+| **Behavioral** | 16 | 34 | 0.63 | [−0.12, 1.38] | ⊕◯◯◯ Very Low | Uncertain effect on behavioral outcomes |
+| **Metacognitive** | 11 | 40 | 0.28 | [−0.24, 0.80] | ⊕◯◯◯ Very Low | Uncertain effect on metacognitive outcomes |
+| **Overall** | 65 | 381 | 0.62 | [0.39, 0.86] | ⊕⊕⊕◯ Moderate | GenAI likely improves learning outcomes |
+
+---
+
+## Detailed Assessment by Outcome Dimension
+
+### 1. Cognitive Outcomes
+
+**Initial Rating**: High (experimental studies)
+
+| Domain | Rating | Rationale |
+|--------|--------|-----------|
+| **Risk of Bias** | Not downgraded | 52% RCTs; randomization generally adequate |
+| **Inconsistency** | Downgraded (-1) | I² = 95.8%; substantial between-study heterogeneity |
+| **Indirectness** | Not downgraded | Studies directly address PICOS; diverse but representative |
+| **Imprecision** | Not downgraded | Narrow CI; adequate sample size (n = 218 ES) |
+| **Publication Bias** | Not downgraded | PET intercept non-significant; funnel plot symmetric |
+
+**Final Certainty**: ⊕⊕⊕◯ **MODERATE**
+
+**Plain Language Summary**: We are moderately confident that GenAI interventions improve cognitive learning outcomes. The true effect is likely close to the estimated effect (g = 0.64), though heterogeneity suggests effects may vary across contexts.
+
+---
+
+### 2. Affective Outcomes
+
+**Initial Rating**: High (experimental studies)
+
+| Domain | Rating | Rationale |
+|--------|--------|-----------|
+| **Risk of Bias** | Not downgraded | Mix of RCT and quasi-experimental; adequate quality |
+| **Inconsistency** | Downgraded (-1) | Substantial heterogeneity in motivation, self-efficacy, attitudes |
+| **Indirectness** | Not downgraded | Direct assessment of affective constructs |
+| **Imprecision** | Downgraded (-1) | Wider CI than cognitive; moderate sample (n = 89 ES) |
+| **Publication Bias** | Not downgraded | No significant asymmetry detected |
+
+**Final Certainty**: ⊕⊕◯◯ **LOW**
+
+**Plain Language Summary**: GenAI may improve affective outcomes such as motivation and self-efficacy, but our confidence is limited due to variability across studies and imprecision in the effect estimate.
+
+---
+
+### 3. Behavioral Outcomes
+
+**Initial Rating**: High (experimental studies)
+
+| Domain | Rating | Rationale |
+|--------|--------|-----------|
+| **Risk of Bias** | Downgraded (-1) | Fewer RCTs; some reliance on self-reported behaviors |
+| **Inconsistency** | Downgraded (-1) | High variability across behavioral measures |
+| **Indirectness** | Not downgraded | Direct behavioral observations in most studies |
+| **Imprecision** | Downgraded (-1) | CI crosses zero; small sample (k = 16, n = 34 ES) |
+| **Publication Bias** | Not downgraded | Insufficient studies for reliable assessment |
+
+**Final Certainty**: ⊕◯◯◯ **VERY LOW**
+
+**Plain Language Summary**: We are very uncertain about whether GenAI affects behavioral outcomes. The limited evidence and wide confidence interval prevent confident conclusions.
+
+---
+
+### 4. Metacognitive Outcomes
+
+**Initial Rating**: High (experimental studies)
+
+| Domain | Rating | Rationale |
+|--------|--------|-----------|
+| **Risk of Bias** | Downgraded (-1) | Predominantly self-report measures (64%); retrospective bias concerns |
+| **Inconsistency** | Downgraded (-1) | Heterogeneity in metacognitive operationalizations |
+| **Indirectness** | Not downgraded | Direct assessment of metacognitive constructs |
+| **Imprecision** | Downgraded (-1) | CI crosses zero; small sample (k = 11, n = 40 ES); power = 47% |
+| **Publication Bias** | Not assessed | Insufficient studies for reliable assessment |
+
+**Final Certainty**: ⊕◯◯◯ **VERY LOW**
+
+**Plain Language Summary**: We are very uncertain about GenAI's effect on metacognitive outcomes. The small effect size (g = 0.28), non-significant result, and measurement concerns limit confidence. This finding is consistent with the cognitive dependency hypothesis but requires confirmation with larger samples and objective metacognitive measures.
+
+---
+
+## Upgrading Considerations
+
+No factors warranted upgrading the certainty of evidence:
+- **Large magnitude of effect**: The overall effect (g = 0.62) is medium-to-large but not large enough (>1.0) to warrant upgrading
+- **Dose-response gradient**: Not systematically examined
+- **Confounding**: No evidence that confounding would bias toward null
+
+---
+
+## Interpretation Guidelines
+
+| Certainty Level | Symbol | Interpretation |
+|-----------------|--------|----------------|
+| High | ⊕⊕⊕⊕ | Very confident; further research unlikely to change estimate |
+| Moderate | ⊕⊕⊕◯ | Moderately confident; further research may change estimate |
+| Low | ⊕⊕◯◯ | Limited confidence; further research likely to change estimate |
+| Very Low | ⊕◯◯◯ | Very little confidence; estimate is uncertain |
+
+---
+
+## Implications for Practice and Research
+
+### Practice Implications
+
+| Certainty | Recommendation Strength |
+|-----------|------------------------|
+| **Cognitive** (Moderate) | GenAI can be recommended for supporting cognitive learning outcomes with reasonable confidence |
+| **Affective** (Low) | GenAI may be considered for motivational support; monitor individual responses |
+| **Behavioral** (Very Low) | Insufficient evidence to recommend GenAI specifically for behavioral outcomes |
+| **Metacognitive** (Very Low) | Caution warranted; educators should actively scaffold self-regulation rather than relying on GenAI alone |
+
+### Research Priorities
+
+1. **High Priority**: Large-scale RCTs examining metacognitive outcomes with objective measures (think-aloud, trace data)
+2. **High Priority**: Longitudinal studies examining durability of GenAI effects after tool removal
+3. **Medium Priority**: Studies examining intervention features that promote metacognitive internalization
+4. **Medium Priority**: Studies with behavioral outcomes using objective measurement (LMS logs, observation)
+
+---
+
+## Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0 | 2026-01-23 | Initial GRADE assessment |
+
+---
+
+*This assessment follows GRADE methodology (Schunemann et al., 2013) and GRADE-CERQual for certainty evaluation.*
