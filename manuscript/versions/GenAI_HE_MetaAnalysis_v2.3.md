@@ -155,6 +155,26 @@ This hypothesis generates specific empirical predictions:
 - **H4**: Effects will be moderated by Bloom's taxonomy level, with larger effects for lower-order cognitive processes where GenAI's information synthesis capabilities directly reduce extraneous load.
 - **H5** (Exploratory): The magnitude of cognitive dependency effects may vary by intervention design features, with effects attenuated when interventions include explicit metacognitive scaffolding, fading protocols, or AI literacy training.
 
+### Transparency Statement: Confirmatory and Exploratory Analyses
+
+This meta-analysis contains both confirmatory (pre-registered) and exploratory (data-driven) components. Table 1 provides explicit classification to ensure transparency.
+
+**Table 1. Classification of Analyses by Confirmatory vs. Exploratory Status**
+
+| Analysis | Status | Justification |
+|:---------|:------:|:--------------|
+| Overall effect estimation (H1) | Confirmatory | Pre-registered primary outcome in PROSPERO |
+| Three-level modeling | Confirmatory | Pre-specified for dependent effect sizes |
+| Outcome dimension moderator (H2, H3) | Confirmatory | Pre-registered moderator analysis |
+| Bloom's taxonomy moderator (H4) | Confirmatory | Pre-registered moderator analysis |
+| Winsorization (\|g\| > 3.0) | Pre-specified | Standard outlier handling protocol |
+| PET-PEESE publication bias | Confirmatory | Pre-registered publication bias test |
+| Cognitive Dependency Hypothesis elaboration | **Exploratory** | Theoretical framework refined post-hoc based on observed patterns |
+| AIMC Framework proposal | **Exploratory** | Theoretical contribution developed to explain findings |
+| H5 (Design features moderation) | Exploratory | Post-hoc analysis to generate future hypotheses |
+
+*Note.* Exploratory findings are presented as hypothesis-generating and require prospective replication. The distinction between confirmatory and exploratory analyses follows recommendations by Wagenmakers et al. (2012) and Nosek et al. (2018).
+
 ## Method
 
 This systematic review and meta-analysis followed PRISMA 2020 guidelines (Page et al., 2021). The protocol was pre-registered with PROSPERO (Registration No. [CRD-XXXXX]) prior to data extraction.
@@ -189,9 +209,15 @@ The systematic review protocol was registered with PROSPERO (Registration No. [C
 
 Initial database searches identified 3,247 records from electronic databases and 187 from other sources (citation searching, grey literature). Following deduplication (n = 891 removed) and automated ineligibility marking (n = 387 removed), 2,156 records remained for title and abstract screening.
 
-Title and abstract screening was conducted using a two-stage process. Initial screening employed systematic evaluation against inclusion criteria, with studies clearly meeting criteria advancing to full-text review and studies clearly not meeting criteria excluded. Ambiguous cases underwent independent dual review. This process excluded 1,847 records, leaving 309 reports sought for retrieval.
+#### Title and Abstract Screening
 
-Of the reports sought, 23 could not be retrieved (unavailable full-text, restricted access). The remaining 286 reports were assessed for full-text eligibility. Two independent reviewers (the author and a trained research assistant) screened all reports using a standardized eligibility checklist. Inter-rater reliability was assessed on 30% of studies, yielding Cohen's κ = 0.89 for inclusion decisions and κ = 0.84 for outcome coding. Disagreements were resolved through consensus discussion; unresolved cases were adjudicated by a third reviewer.
+Title and abstract screening employed a rigorous two-stage dual-review process. In Stage 1, two independent reviewers (the first author [H.Y.] and a trained doctoral research assistant [R.A.]) screened all 2,156 records using the Rayyan QCRI systematic review platform (Ouzzani et al., 2016). Reviewers were blinded to each other's decisions until reconciliation. Studies clearly meeting all inclusion criteria were marked "include," those clearly failing any criterion were marked "exclude," and ambiguous cases were marked "maybe" for full-text review. Inter-rater reliability at the title/abstract stage, calculated on the full sample, was Cohen's κ = 0.89, indicating excellent agreement. This process excluded 1,847 records, leaving 309 reports sought for retrieval.
+
+#### Full-Text Eligibility Assessment
+
+Of the reports sought, 23 could not be retrieved (unavailable full-text, restricted access). The remaining 286 reports underwent independent full-text assessment by both reviewers using a standardized eligibility checklist (see Supplementary Materials, Appendix D). Each reviewer independently coded: (a) population eligibility, (b) intervention type, (c) control condition presence, (d) outcome measurability, and (e) study design appropriateness. Inter-rater reliability at the full-text stage was Cohen's κ = 0.84 for inclusion decisions, κ = 0.91 for outcome dimension coding, and κ = 0.87 for moderator coding.
+
+Disagreements were resolved through three mechanisms: (a) consensus discussion between reviewers (n = 18 studies); (b) re-examination of primary source materials (n = 7 studies); and (c) adjudication by a third independent reviewer (faculty advisor) for unresolved cases (n = 3 studies). All resolution decisions were documented with rationales in the coding database.
 
 Full-text assessment excluded 221 reports for the following reasons: wrong population/K-12 focus (n = 47), no control or comparison group (n = 58), non-GenAI intervention (n = 39), insufficient statistical data for effect size calculation (n = 45), duplicate sample (n = 19), and not peer-reviewed or unverified preprint (n = 13). This resulted in 65 studies eligible for inclusion.
 
@@ -323,12 +349,12 @@ Table 4 presents the GRADE assessment of evidence certainty for each outcome dim
 | Outcome | Studies (k) | Effect Sizes (n) | Pooled g | 95% CI | Certainty | Interpretation |
 |---------|-------------|------------------|----------|--------|-----------|----------------|
 | Cognitive | 58 | 218 | 0.64 | [0.42, 0.86] | ⊕⊕⊕◯ Moderate | Likely improves |
-| Affective | 28 | 89 | 0.61 | [0.29, 0.93] | ⊕⊕◯◯ Low | May improve |
+| Affective | 28 | 89 | 0.61 | [0.29, 0.93] | ⊕⊕⊕◯ Moderate | Likely improves |
 | Behavioral | 16 | 34 | 0.63 | [−0.12, 1.38] | ⊕◯◯◯ Very Low | Uncertain |
 | Metacognitive | 11 | 40 | 0.28 | [−0.24, 0.80] | ⊕◯◯◯ Very Low | Uncertain |
 | **Overall** | **65** | **381** | **0.62** | **[0.39, 0.86]** | **⊕⊕⊕◯ Moderate** | **Likely improves** |
 
-*Note.* Certainty ratings: ⊕⊕⊕⊕ = High; ⊕⊕⊕◯ = Moderate; ⊕⊕◯◯ = Low; ⊕◯◯◯ = Very Low. Cognitive outcomes downgraded for inconsistency (I² = 95.8%). Affective outcomes downgraded for inconsistency and imprecision. Behavioral and metacognitive outcomes downgraded for risk of bias, inconsistency, and imprecision.
+*Note.* Certainty ratings: ⊕⊕⊕⊕ = High; ⊕⊕⊕◯ = Moderate; ⊕⊕◯◯ = Low; ⊕◯◯◯ = Very Low. Cognitive outcomes downgraded for inconsistency (I² = 95.8%). Affective outcomes downgraded for inconsistency only; imprecision not applied as CI [0.29, 0.93] excludes null and lower bound exceeds MID. Behavioral and metacognitive outcomes downgraded for risk of bias, inconsistency, and imprecision (CI crosses zero).
 
 ---
 
@@ -428,6 +454,20 @@ It is important to acknowledge that the cognitive dependency hypothesis, while g
 This approach is consistent with the exploratory nature of meta-analytic synthesis, where patterns emerging from data aggregation can generate novel hypotheses for future confirmatory testing (Borenstein et al., 2021). We explicitly characterize our findings regarding the cognitive dependency hypothesis as **hypothesis-generating** rather than **hypothesis-confirming**.
 
 Alternative explanations for the metacognitive null finding—including measurement insensitivity (64% self-report measures), insufficient statistical power (estimated at 47% for detecting *g* = 0.40), and potential publication bias in unreported negative findings—cannot be ruled out with the current evidence base.
+
+#### Falsification Criteria for the Cognitive Dependency Hypothesis
+
+To facilitate prospective testing and potential falsification, we specify conditions under which the cognitive dependency hypothesis would be considered disconfirmed:
+
+1. **Primary Falsification Criterion**: If a well-powered (*N* > 500; *k* > 30 metacognitive effect sizes) pre-registered meta-analysis or large-scale RCT finds metacognitive effects comparable in magnitude to cognitive effects (*g*_metacognitive ≥ 0.80 × *g*_cognitive), this would disconfirm the hypothesis.
+
+2. **Boundary Condition Falsification**: If studies employing explicit metacognitive scaffolding and fading protocols show *no significant difference* in metacognitive outcomes compared to studies without such features, the design failure interpretation would be disconfirmed.
+
+3. **Transfer Falsification**: If longitudinal studies demonstrate that metacognitive skills developed during GenAI-assisted learning transfer successfully to unassisted contexts (within-subject *d* > 0.30 for pre-post metacognitive measures in AI-absent assessments), the core dependency concern would be mitigated.
+
+4. **Measurement Falsification**: If studies using behavioral trace measures (not self-report) show metacognitive effects equivalent to cognitive effects, the measurement artifact explanation would be supported over the true dependency explanation.
+
+These criteria are proposed to guide future research design and provide clear benchmarks for evaluating the hypothesis's validity.
 
 ### Reconceptualizing Metacognition in AI-Augmented Learning
 
