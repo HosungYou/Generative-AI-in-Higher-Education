@@ -423,13 +423,15 @@ This pre-registered three-level meta-analysis provides the most comprehensive sy
 
 ### Summary of Findings
 
-Three of four hypotheses received support. Hypothesis 1 was strongly supported: GenAI produced significant positive effects on learning outcomes. Hypothesis 2 received partial support: behavioral and affective outcomes showed positive effects, though confidence intervals overlapped with cognitive outcomes. **Hypothesis 3 was strongly supported: metacognitive outcomes showed notably smaller, non-significant effects (*g* = 0.28)**, consistent with the cognitive dependency hypothesis derived from theoretical integration. Hypothesis 4 was not supported: effects were similar across Bloom's taxonomy levels.
+Three of four hypotheses received varying degrees of support. Hypothesis 1 was strongly supported: GenAI produced significant positive effects on learning outcomes. Hypothesis 2 received partial support: behavioral and affective outcomes showed positive effects, though confidence intervals overlapped with cognitive outcomes. **Hypothesis 3 yielded ambiguous results: metacognitive outcomes showed a small positive but non-significant effect (*g* = 0.28, *p* = .287)**, which is *consistent with* but does not *confirm* the cognitive dependency hypothesis. The wide confidence interval (−0.24 to 0.80) encompasses both null and meaningful positive effects, precluding definitive conclusions. Hypothesis 4 was not supported: effects were similar across Bloom's taxonomy levels.
 
 ### Theoretical Implications
 
-#### The Cognitive Dependency Concern
+#### The Cognitive Dependency Concern: A Tentative Interpretation
 
-The most theoretically significant finding is the **attenuated metacognitive effect** (*g* = 0.28, *p* = .287), which provides empirical support for the cognitive dependency hypothesis derived from our theoretical framework. This pattern has important implications across multiple theoretical perspectives:
+The most theoretically intriguing finding is the **attenuated metacognitive effect** (*g* = 0.28, *p* = .287). While this pattern is *consistent with* the cognitive dependency hypothesis derived from our theoretical framework, important caveats apply. First, the effect is positive in direction, not negative—GenAI does not appear to *harm* metacognition but rather produces uncertain benefits. Second, with statistical power of only 47%, we cannot distinguish between a true null effect and an undetected small-to-medium effect. Third, the wide confidence interval (−0.24 to 0.80) precludes definitive conclusions.
+
+With these caveats acknowledged, we explore what the attenuated effect *might* suggest if the pattern proves replicable in adequately powered studies:
 
 From a **Cognitive Load Theory** perspective, GenAI may be reducing cognitive load so effectively that students do not engage in the effortful processing necessary for schema construction. While reduced extraneous load benefits immediate performance, the metacognitive processes of planning, monitoring, and self-evaluation may themselves require cognitive effort to develop as internalized capabilities.
 
@@ -453,7 +455,19 @@ It is important to acknowledge that the cognitive dependency hypothesis, while g
 
 This approach is consistent with the exploratory nature of meta-analytic synthesis, where patterns emerging from data aggregation can generate novel hypotheses for future confirmatory testing (Borenstein et al., 2021). We explicitly characterize our findings regarding the cognitive dependency hypothesis as **hypothesis-generating** rather than **hypothesis-confirming**.
 
-Alternative explanations for the metacognitive null finding—including measurement insensitivity (64% self-report measures), insufficient statistical power (estimated at 47% for detecting *g* = 0.40), and potential publication bias in unreported negative findings—cannot be ruled out with the current evidence base.
+#### Distinguishing "Absence of Evidence" from "Evidence of Absence"
+
+A critical interpretive distinction must be emphasized. The non-significant metacognitive effect does *not* demonstrate that GenAI hinders or prevents metacognitive development—it demonstrates *uncertainty*. The point estimate (*g* = 0.28) is positive, suggesting a possible small benefit. To claim "no effect" would require equivalence testing (TOST procedure) with a pre-specified smallest effect size of interest (SESOI), which was not part of our pre-registered protocol.
+
+Alternative explanations for the metacognitive null finding cannot be ruled out with the current evidence base:
+
+1. **Measurement Insensitivity**: 64% of metacognitive assessments relied on self-report questionnaires developed for non-AI contexts
+2. **Insufficient Statistical Power**: Estimated at 47% for detecting *g* = 0.40, yielding a 53% probability of Type II error
+3. **Publication Bias**: Studies finding positive metacognitive effects may be underrepresented if reviewers perceive such findings as "too optimistic"
+4. **Intervention Duration**: Metacognitive skill development may require longer timeframes than typical study durations
+5. **True Small Effect**: A genuine small positive effect (*g* ≈ 0.20-0.30) may exist but require larger samples to detect reliably
+
+Given these alternatives, readers should interpret the cognitive dependency hypothesis as a *plausible theoretical concern warranting investigation* rather than an established empirical finding.
 
 #### Falsification Criteria for the Cognitive Dependency Hypothesis
 
@@ -469,19 +483,88 @@ To facilitate prospective testing and potential falsification, we specify condit
 
 These criteria are proposed to guide future research design and provide clear benchmarks for evaluating the hypothesis's validity.
 
-### Reconceptualizing Metacognition in AI-Augmented Learning
+### Reconceptualizing Metacognition in AI-Augmented Learning: The AIMC Framework
 
-The attenuated metacognitive effect may reflect a fundamental measurement limitation: existing instruments assess metacognition as a unitary construct, whereas GenAI contexts may require distinguishing between multiple levels of metacognitive functioning.
+The attenuated metacognitive effect (*g* = 0.28) demands theoretical explanation beyond methodological limitations. We propose that this finding reflects a fundamental challenge in how metacognition operates within AI-augmented learning environments.
 
-We propose the **AI-Integrated Metacognition (AIMC)** framework, which differentiates three levels:
+#### Theoretical Foundation
 
-1. **Level 1: AI-Assisted Metacognition** — Metacognitive processes occurring during AI-supported learning (e.g., prompt engineering as planning, output evaluation as monitoring)
+Drawing on **Nelson and Narens' (1990) dual-level model**, metacognition functions through bidirectional information flow: the meta-level monitors the object-level and exerts control over it. The accuracy of this monitoring-control loop depends on the learner's ability to observe their own cognitive processes directly. When AI enters the learning environment, it becomes an additional agent at the object-level, fundamentally altering what the meta-level must monitor.
 
-2. **Level 2: Meta-AI Awareness** — Knowledge about AI capabilities, limitations, and appropriate use contexts
+This expanded object-level creates a tripartite monitoring challenge. The learner's meta-level must now simultaneously monitor: (1) their own cognitive processes (the traditional target), (2) AI outputs and suggestions (a novel target), and (3) the quality of their interaction with AI (an emergent target). This expansion of monitoring demands may explain why traditional metacognition measures—designed for individual cognition—fail to capture the full picture.
 
-3. **Level 3: Independent Metacognition** — Self-regulatory skills transferable to unassisted learning contexts
+**Efklides' (2008) framework** provides additional theoretical depth. Efklides distinguished three metacognitive dimensions: metacognitive knowledge (person, task, strategy), metacognitive experiences (feelings, judgments), and metacognitive skills (procedural). AI may distort each dimension:
 
-The current evidence base primarily assessed Level 1, whereas the Cognitive Dependency Hypothesis predicts divergent effects at Level 3. Future research should explicitly measure metacognitive transfer to AI-absent contexts using longitudinal designs with multiple measurement methods.
+- **Metacognitive Knowledge**: Learners require new knowledge about AI capabilities and limitations—a form of knowledge not captured by traditional instruments.
+- **Metacognitive Experiences**: AI may inflate Feeling of Knowing (FOK) without corresponding actual knowledge, as learners confuse AI-assisted performance with genuine understanding. Similarly, Judgment of Learning (JOL) may be inflated when AI reduces task difficulty, and Feeling of Difficulty—an important signal for effort allocation—may be inappropriately suppressed.
+- **Metacognitive Skills**: Continuous AI availability may reduce opportunities to practice independent planning, monitoring, and evaluation, leading to skill atrophy.
+
+This theoretical integration suggests that the non-significant metacognitive effect in our meta-analysis may reflect not an absence of metacognition, but rather a *redistribution* of metacognitive functions across the human-AI system, combined with *distortion* of the metacognitive experiences that typically guide self-regulated learning.
+
+#### The AI-Integrated Metacognition (AIMC) Framework
+
+We propose the **AI-Integrated Metacognition (AIMC)** framework, which reconceptualizes metacognition in AI-augmented environments through three theoretically grounded levels:
+
+**Level 1: Supported Metacognition** — Metacognitive monitoring and control operating with AI scaffolding. This corresponds to Nelson and Narens' monitoring-control loop functioning within an expanded object-level that includes AI. At this level, AI feedback can enhance metacognitive accuracy by providing external reference points for self-assessment. However, this support is inherently context-dependent.
+
+**Level 2: Calibrated AI Awareness** — The metacognitive capacity to accurately assess AI outputs and recognize how AI interactions influence one's own cognitive and metacognitive states. This level extends Efklides' metacognitive knowledge to include knowledge *about AI* and extends metacognitive experiences to include *calibration* of AI-influenced judgments. Calibration research (Dunlosky & Metcalfe, 2009) demonstrates that learners must recognize discrepancies between their judgments and actual performance; in AI environments, learners must additionally recognize discrepancies between AI-assisted performance and independent capability. **This level represents the critical bridge between AI-supported and independent functioning.**
+
+**Level 3: Autonomous Self-Regulation** — Metacognitive skills that persist and transfer to AI-absent contexts. This level captures what Salomon (1993) termed "effects OF technology"—cognitive changes that remain after tool removal—as opposed to "effects WITH technology." Level 3 represents the ultimate educational goal but requires deliberate cultivation, as the conveniences of Level 1 may inadvertently inhibit skill development.
+
+#### Level Structure Justification
+
+The three-level structure emerges necessarily from the theoretical integration:
+
+```
+Traditional Metacognition:
+  Meta-level ←→ Object-level (human cognition only)
+
+AI-Augmented Metacognition:
+  Meta-level ←→ Object-level [Human Cognition ↔ AI System]
+                     ↑
+              Expanded monitoring target
+              requires new metacognitive capacities (Level 2)
+```
+
+When AI expands the object-level, a new metacognitive capacity is required to monitor this expanded system—hence Level 2. Without explicit development of Level 2, learners cannot accurately assess their AI-assisted performance relative to their independent capability, trapping them in Level 1 dependency. Level 3 represents the transfer goal: metacognitive skills that function independently of AI support.
+
+The current evidence base primarily assessed constructs corresponding to Level 1 (metacognition during AI use), whereas the Cognitive Dependency Hypothesis predicts divergent effects at Level 3 (transfer to AI-absent contexts). The non-significant overall effect (*g* = 0.28) likely reflects this measurement mismatch rather than a true absence of metacognitive activity.
+
+#### Implications for Measurement
+
+Existing metacognition instruments (e.g., MAI, MSLQ) were developed for individual cognition and may be insensitive to the distributed and AI-mediated forms of metacognition prevalent in current educational contexts. Future research should develop and validate Level-specific measures:
+
+- **Level 1 Measures**: Metacognitive quality during AI collaboration (e.g., prompt refinement strategies, output evaluation accuracy)
+- **Level 2 Measures**: AI calibration accuracy (discrepancy between AI-assisted and independent performance estimates)
+- **Level 3 Measures**: Metacognitive transfer assessments in AI-absent contexts, ideally using behavioral trace methods rather than self-report alone
+
+#### Falsifiable Predictions for the AIMC Framework
+
+To ensure scientific rigor, we specify conditions under which the AIMC framework would be challenged or disconfirmed:
+
+1. **Level Independence Prediction**: If Level 1, 2, and 3 measures show high intercorrelations (*r* > .70) across diverse samples, the three-level distinction may be empirically unwarranted, suggesting a more parsimonious unidimensional model.
+
+2. **Level 2 Necessity Prediction**: If interventions targeting Level 3 directly (without Level 2 calibration training) produce equivalent transfer effects to interventions including Level 2, the proposed mediating role of Calibrated AI Awareness would be disconfirmed.
+
+3. **Progression Prediction**: If longitudinal studies show that learners can achieve Level 3 (autonomous self-regulation) without passing through Level 2 (calibrated awareness), the sequential nature of the framework would require revision.
+
+4. **Measurement Validity Prediction**: If Level-specific measures fail to demonstrate discriminant validity in confirmatory factor analyses, the construct validity of the three-level distinction would be challenged.
+
+These predictions provide clear benchmarks for empirical evaluation and potential falsification of the framework.
+
+#### Limitation: The Distributed Metacognition Perspective
+
+The AIMC framework implicitly assumes that metacognition resides within the individual learner. However, this assumption may be questioned from the perspective of distributed cognition theory (Hutchins, 1995) and the extended mind thesis (Clark & Chalmers, 1998).
+
+An alternative conceptualization posits that in AI-augmented learning, metacognition itself may become *distributed* across the human-AI system. Under this view:
+
+- **Monitoring functions** may be shared: the AI monitors certain aspects (e.g., factual accuracy) while the human monitors others (e.g., relevance to goals)
+- **Control functions** may be collaborative: decisions about learning strategies emerge from human-AI interaction rather than individual deliberation
+- **Metacognitive experiences** may be co-constructed: feelings of knowing and judgments of learning may incorporate AI feedback in ways not captured by individual-level measures
+
+If metacognition is genuinely distributed, then assessing it at the individual level—as our included studies predominantly did—would systematically underestimate total metacognitive activity in the human-AI system. The non-significant effect (*g* = 0.28) might then reflect not a deficit but a *redistribution* of metacognitive functions.
+
+This perspective does not invalidate the AIMC framework but suggests an important boundary condition: AIMC may be most applicable when the educational goal is *independent* human metacognition (Level 3), whereas distributed metacognition may be more relevant when the goal is effective *human-AI collaboration*. Future iterations of the framework should consider incorporating a "Distributed Metacognition" construct to capture collaborative monitoring and regulation that transcends individual boundaries.
 
 ### Practical Implications
 
