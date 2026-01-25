@@ -195,10 +195,11 @@ def main():
     print("🔌 Connecting to Gemini API...")
     client = genai.Client(api_key=API_KEY)
 
-    # Models to try
+    # Models to try (best quality first)
     models_to_try = [
-        "gemini-2.0-flash-exp",
-        "gemini-2.0-flash-preview-image-generation",
+        "gemini-3-pro-image-preview",    # Nano Banana Pro - best text rendering
+        "gemini-2.5-flash-image",         # Nano Banana - fast
+        "gemini-2.0-flash-exp",           # Experimental fallback
     ]
 
     # Try generation with available model
