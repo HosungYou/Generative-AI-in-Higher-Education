@@ -1,150 +1,114 @@
-# PDF Index: Primary Studies in Meta-Analysis
+# PDF Index for GenAI Meta-Analysis
 
-## Overview
+Last Updated: 2026-01-26
 
-This directory contains PDF copies of all primary studies included in the meta-analysis "Generative AI in Higher Education: A Three-Level Meta-Analysis Revealing Cognitive Dependency in Metacognitive Outcomes."
+## Summary
+- **Total PDFs**: 70
+- **Included in V5**: 66 studies (375 effect sizes)
+- **Excluded**: 4 studies
 
-**Total PDFs:** 69 files (65 primary studies + 4 supplementary/theoretical references)
-**Coverage:** 100% of included studies
+---
+
+## Included Studies (66)
+
+| Study_ID | Author | Year | Title | ES_Count |
+|----------|--------|------|-------|----------|
+| 1 | Jiyong Chun; Jeongsoo Kim; Hyejin Kim; Geumgu Lee; Sanggoo Cho; Changshik Kim; Yeesook Chung; Seoyoon Heo | 2025 | A Comparative Analysis of On-Device AI-Driven, Self-Regulated Learning and Tradi... | 4 |
+| 2 | Hui He; Xing Li | 2025 | A Comparative Study on the Effectiveness of Generative AI Tools and Pair Program... | 3 |
+| 3 | Unknown | 2025 | A Mixed-Method Study on the Effectiveness of Using ChatGPT in Academic Writing a... | 2 |
+| 4 | Isaac Sung Him Ng; Anthony Siu; Chul Hwan Han; Oscar Sing Him Ho; Jonathan Sun; Anatoliy Markiv; Stuart Knight; Mandeep Gill Sagoo | 2025 | AI Chatbots in Medical Education: Exploring Performance, Utility, and Learner Pe... | 12 |
+| 5 | Mohammed Ahmed Kofahi; A. Husain | 2025 | ChatGPT for Operating Systems: Higher-Order Thinking in Focus | 1 |
+| 6 | Hui Hong; Poonsri Vate-U-Lan; Chantana Viriyavejakul | 2025 | Cognitive Offload Instruction with Generative AI: A Quasi‑Experimental Study on ... | 8 |
+| 7 | Wesley Wu-Yi Koo | 2025 | Cross-lingual effects of AI-generated content on human work | 1 |
+| 8 | Litian Hong | 2025 | Development and validation of a competency-based ladder pathway for AI literacy ... | 6 |
+| 10 | Hudson K. Etkin; Kai J. Etkin; Ryan J. Carter; Camarin E. Rolle | 2025 | Differential Effects of GPT-Based Tools on Comprehension of Standardized Passage... | 5 |
+| 11 | Unknown | 2025 | Effects of artificial intelligence based physiotherapy educational approach in d... | 5 |
+| 12 | Kai Zhang | 2025 | Enhancing Critical Writing Through AI Feedback: A Randomized Control Study | 10 |
+| 13 | Jiamu Zeng; Kexin Sun; Peng Qin; Shulin Liu | 2025 | Enhancing Ophthalmology Students' Awareness of Retinitis Pigmentosa: Assessing t... | 3 |
+| 14 | Xiaoqing Xu; Lifang Qiao; Nuo Cheng; Hongxia Liu; Wei Zhao | 2025 | Enhancing self‐regulated learning and learning experience in generative AI envir... | 10 |
+| 15 | Rufeng Chen; Shuaishuai Jiang; Jiyun Shen; AJung Moon; Lili Wei | 2025 | Examining the Usage of Generative AI Models in Student Learning Activities for S... | 2 |
+| 16 | Yabing Jiang; Kazuo Nakatani | 2025 | Exploring Implementations of GenAI in Teaching IS Subjects and Student Perceptio... | 7 |
+| 17 | Wang Jian; Xiaohong Zhang | 2025 | Exploring the Role of AI Technology in Shaping College Students’ English Writing... | 5 |
+| 19 | Guoqing Zhao; Haixi Sheng; Yaxuan Wang; Xiaohui Cai; Taotao Long | 2025 | Generative Artificial Intelligence Amplifies the Role of Critical Thinking Skill... | 2 |
+| 20 | Xusheng Dai; Zhaochun Wen; Jianxiao Jiang; Huiqin Liu; Yu Zhang | 2025 | How Students Use AI Feedback Matters: Experimental Evidence on Physics Achieveme... | 8 |
+| 21 | Yu Ji; Zehui Zhan; Tingting Li; Xuanxuan Zou; Siyuan Lyu | 2025 | Human–Machine Cocreation: The Effects of ChatGPT on Students’ Learning Performan... | 14 |
+| 22 | Larissa I. Velez; Christian Alis; Christopher Monterola; Erika Fille Legara; David Stanley | 2025 | Impact of Artificial Intelligence Generated Feedback on Math Quiz Scores | 11 |
+| 23 | Viktor Taneski; Sašo Karakatič; Patrik Rek; Gregor Jošt | 2025 | Impact of Developer Queries on the Effectiveness of Conversational Large Languag... | 7 |
+| 24 | Ruiwei Xiao; Xinying Hou; Runlong Ye; Majeed Kazemitabaar; Nicholas Diana; Michael Liut; John Stamper | 2025 | Improving Student-AI Interaction Through Pedagogical Prompting: An Example in Co... | 12 |
+| 25 | Ting-Ting Wu; Hsin-Yu Lee; Pei-Hua Chen; Chia-Ju Lin; Yueh-Min Huang | 2025 | Integrating Peer Assessment Cycle into ChatGPT for STEM Education: A Randomised ... | 8 |
+| 26 | Unknown | 2025 | Integrating generative AI into STEM education: enhancing conceptual understandin... | 3 |
+| 27 | Rafal Wlodarski; Leonardo da Silva Sousa; Allison Connell Pensky | 2025 | Level Up Peer Review in Education: Investigating genAI-driven Gamification syste... | 19 |
+| 28 | Tuan Cong Le; Nguyen Dat Minh; Minh Dũng Tăng; Van Trinh; Nhut Minh Nguyen | 2025 | PROMOTING TEACHERS' USE OF CHATGPT: A CASE STUDY ON GENERATING REAL-WORLD PROBLE... | 4 |
+| 29 | Ben Degen | 2025 | Resurrecting Socrates in the Age of AI: A Study Protocol for Evaluating a Socrat... | 1 |
+| 30 | Mahir Akgün; Şacip Toker | 2025 | Struggle First, Prompt Later: How Task Complexity Shapes Learning with GenAI-Ass... | 6 |
+| 31 | Mai Al-Otaibi; Khalid Mohamed Al-Homidhi | 2025 | Teaching Program Based on (ChatGPT) and Its Effectiveness in Developing Reading ... | 6 |
+| 32 | Ching-Yi Chang; Wen-Song Su | 2025 | The Effect of a Generative AI-Based Teaching Strategy on Building Students' Comp... | 4 |
+| 33 | Haneen Saad Salman; Farid Saleh Fayyad | 2025 | The Impact of Media Literacy on Developing Media Students' Skills in Verifying A... | 4 |
+| 34 | Nataliya Kasimovskaya | 2025 | The Influence of Education Using Artificial Intelligence Technologies on the For... | 17 |
+| 35 | Renfeng Jiang; Yang Gang; Shen Qi | 2025 | The Motivational Impact of GenAI Tools in Language Learning: a Quasi‐Experiment ... | 4 |
+| 36 | Wafa Muhammad; Dr. Farooq Nawaz Khan; Akhtar Hussain; Farkhanda Nazli | 2025 | The Use of Artificial Intelligence and Its Impact on Secondary School Students i... | 8 |
+| 37 | Dariya Ovsyannikova; Victoria Oldemburgo de Mello; Michael Inzlicht | 2025 | Third-party evaluators perceive AI as more compassionate than expert humans | 11 |
+| 38 | Hartwig H. Hochmair | 2025 | Use and Effectiveness of Chatbots as Support Tools in GIS Programming Course Ass... | 1 |
+| 40 | Yvonne Tiandem-Adamou | 2025 | Using Generative Artificial Intelligence to Support EFL Students’ Writing Profic... | 17 |
+| 41 | Jin‐Hee Han; Ruqin Ren | 2025 | Why unequal AI access enhances team productivity: the mediating role of interact... | 6 |
+| 42 | Atakan Coban; David Dzsotjan; Stefan Küchemann; Jürgen Durst; Jochen Kuhn; Christoph Hoyer | 2024 | AI Support Meets AR Visualization for Alice and Bob: Personalized Learning Based... | 5 |
+| 43 | Haixin Liu | 2024 | Applicability of ChatGPT in Online Collaborative Learning: Evidence Based on Lea... | 3 |
+| 44 | Dadan Dasari; Agus Hendriyanto; Sani Sahara; Didi Suryadi; Lukman Hakim Muhaimin; Theodore Chao; Laila Fitriana | 2024 | ChatGPT in didactical tetrahedron, does it make an exception? A case study in ma... | 3 |
+| 45 | Nely Rahmawati Zaimah; Fatchiatuzahro Fatchiatuzahro; Eko Hartanto | 2024 | ENHANCING WRITING COMPREHENSION IN L2 ARABIC LEARNERS THROUGH AI-BASED TRANSLANG... | 1 |
+| 46 | Hsin-Yu Lee; Pei-Hua Chen; Wei-Sheng Wang; Yueh-Min Huang; Ting-Ting Wu | 2024 | Empowering ChatGPT with Guidance Mechanism in Blended Learning: Effect of Self-R... | 13 |
+| 47 | Sireesha Prathigadapa; Salwani Binti Mohd Daud; Bryan Thien Chek Hui; Morampudi Rama Tulasi Raju | 2024 | Enhancing Math Learning with AI: ChatGPT's Impact on Number Base Conversion Comp... | 2 |
+| 48 | Sumie Chan; N. Lo; Alan Wong | 2024 | Enhancing University Level English Proficiency with Generative AI: Empirical Ins... | 4 |
+| 49 | Kartika S | 2024 | Enhancing Writing Proficiency through AI-Powered Feedback: A Quasi-Experimental ... | 2 |
+| 50 | Shalong Wang; Zuo Yi; Zou Bin; Ganglei Liu; Zhou Jinyu; Yanwen Zheng; Zhang Zequn; Lianwen Yuan; Ren Feng | 2024 | Enhancing self-directed learning with custom GPT AI facilitation among medical s... | 11 |
+| 51 | Seyyed Kazem Banihashem; Nafiseh Taghizadeh Kerman; Omid Noroozi; Jewoong Moon; Hendrik Drachsler | 2024 | Feedback sources in essay writing: peer-generated or AI-generated feedback? | 5 |
+| 52 | Sumie Chan; Noble Lo; Alan S.L. Wong | 2024 | Generative AI and Essay Writing: Impacts of Automated Feedback on Revision Perfo... | 6 |
+| 53 | Unknown | 2024 | How Self-Regulated Learning Is Affected by Feedback Based on Large Language Mode... | 4 |
+| 54 | Santosh Mahapatra | 2024 | Impact of ChatGPT on ESL students’ academic writing skills: a mixed methods inte... | 2 |
+| 55 | Yousef Wardat | 2024 | Integrating ChatGPT in Grade 12 Quantum Theory Education: An Exploratory Study a... | 8 |
+| 56 | Joanne Leong; Pat Pataranutaporn; Valdemar Danry; Florian Perteneder; Yaoli Mao; Pattie Maes | 2024 | Putting Things into Context: Generative AI-Enabled Context Personalization for V... | 6 |
+| 57 | Harsh Kumar; Ruiwei Xiao; Benjamin Lawson; Ilya Musabirov; Jiakai Shi; Xinyuan Wang; Huayin Luo; J. Williams; Anna N. Rafferty; John Stamper; Michael Liut | 2024 | Supporting Self-Reflection at Scale with Large Language Models: Insights from Ra... | 1 |
+| 58 | Lixiang Yan; Roberto Martinez-Maldonado; Yueqiao Jin; Vanessa Echeverria; Mikaela Milesi; Jie Fan; Linxuan Zhao; Riordan Alfredo; Xinyu Li; Dragan Gašević | 2024 | The Effects of Generative AI Agents and Scaffolding on Enhancing Students' Compr... | 1 |
+| 59 | Hyewon Shin; J. C. De Gagne; Sang Suk Kim; Minjoo Hong | 2024 | The Impact of Artificial Intelligence-Assisted Learning on Nursing Students' Eth... | 12 |
+| 60 | Unknown | 2024 | The Role of AI-Assisted Learning in Academic Writing: A Mixed-Methods Study on C... | 2 |
+| 62 | Alexandre Hudon; Barnabé Kiepura; Myriam Pelletier; Véronique Phan | 2024 | Using ChatGPT in Psychiatry to Design Script Concordance Tests in Undergraduate ... | 1 |
+| 63 | Unknown | 2023 | Evaluation of ChatGPT’s Real-Life Implementation in Undergraduate Dental Educati... | 1 |
+| 64 | Muhammad Hakiki; Radinal Fadli; A. Samala; Ade Fricticarani; Popi Dayurni; Kurniati Rahmadani; Ayu Dewi Astiti | 2023 | Exploring the impact of using Chat-GPT on student learning outcomes in technolog... | 2 |
+| 65 | Julia M. Markel; Steven G. Opferman; J. Landay; C. Piech | 2023 | GPTeach: Interactive TA Training with GPT-based Students | 1 |
+| 66 | Ying Guo; Daniel Lee | 2023 | Leveraging ChatGPT for Enhancing Critical Thinking Skills | 5 |
+| 67 | María-Isabel de Vicente-Yagüe-Jara; Olivia López-Martínez; Verónica Navarro-Navarro; Francisco Cuéllar-Santiago | 2023 | Writing, Creativity, and Artificial Intelligence: ChatGPT in the University Cont... | 12 |
+| 68 | Unknown | 2018 | Beware of Metacognitive Laziness: Effects of Generative Artificial Intelligence ... | 1 |
+| 69 | Unknown | N/A | The Effect of Flipped Interactive Learning (FIL) Based on ChatGPT on Students’ S... | 1 |
+| 70 | Ramazan Yilmaz; Fatma Gizem Karaoglan Yilmaz | 2023 | The effect of generative artificial intelligence (AI)-based tool use on students... | 3 |
+
+---
+
+## Excluded Studies (4)
+
+| Study_ID | Author | Year | Title | Exclusion_Reason |
+|----------|--------|------|-------|------------------|
+| 9 | Rommel et al. | 2025 | Development of adaptive and emotionally responsive tutoring | No quantitative learning outcome data |
+| 18 | Satoru et al. | 2025 | Generative AI and CEFR Levels Evaluating | Assessment tool validation, not intervention study |
+| 39 | Jenny et al. | 2025 | Using Generative AI to Promote Psychological topic | Qualitative/descriptive study, no effect sizes |
+| 61 | Pablo et al. | 2024 | Thinking Critically about Scientific Information | No control group comparison |
 
 ---
 
 ## File Naming Convention
 
-```
-###_FirstAuthor_Year_ShortTitle.pdf
-```
-
-- `###`: Three-digit sequential number (001-069)
-- `FirstAuthor`: Last name of first author (or "Unknown" if not identified)
-- `Year`: Publication year (2018-2025)
-- `ShortTitle`: Abbreviated descriptive title
-
----
-
-## Study Distribution by Year
-
-| Year | Count | Study Numbers |
-|------|-------|---------------|
-| 2025 | 42 | 001-041, 069 |
-| 2024 | 21 | 042-062 |
-| 2023 | 5 | 063-067 |
-| 2018 | 1 | 068 (theoretical reference) |
-| **Total** | **69** | |
-
----
-
-## Complete PDF List
-
-### 2025 Studies (n = 42)
-
-| # | Filename | First Author | Topic |
-|---|----------|--------------|-------|
-| 001 | `001_Jiyong_2025_A_Comparative_Analysis_of_On-Device_AI-D.pdf` | Jiyong | On-Device AI-Driven Learning |
-| 002 | `002_Hui_2025_A_Comparative_Study_on_the_Effectiveness.pdf` | Hui | Comparative Effectiveness Study |
-| 003 | `003_Unknown_2025_A_Mixed-Method_Study_on_the_Effectivenes.pdf` | — | Mixed-Method Effectiveness |
-| 004 | `004_Isaac_2025_AI_Chatbots_in_Medical_Education_Explori.pdf` | Isaac | AI Chatbots in Medical Education |
-| 005 | `005_Mohammed_2025_ChatGPT_for_Operating_Systems_Higher-Ord.pdf` | Mohammed | ChatGPT for Operating Systems (Higher-Order Thinking) |
-| 006 | `006_Hui_2025_Cognitive_Offload_Instruction_with_Gener.pdf` | Hui | Cognitive Offload Instruction |
-| 007 | `007_Wesley_2025_Cross-lingual_effects_of_AI-generated_co.pdf` | Wesley | Cross-lingual AI-Generated Content |
-| 008 | `008_Litian_2025_Development_and_validation_of_a_competen.pdf` | Litian | Competency Development and Validation |
-| 009 | `009_Rommel_2025_Development_of_adaptive_and_emotionally_.pdf` | Rommel | Adaptive and Emotionally Responsive AI |
-| 010 | `010_Hudson_2025_Differential_Effects_of_GPT-Based_Tools_.pdf` | Hudson | Differential Effects of GPT-Based Tools |
-| 011 | `011_Unknown_2025_Effects_of_artificial_intelligence_based.pdf` | — | Effects of AI-Based Instruction |
-| 012 | `012_Kai_2025_Enhancing_Critical_Writing_Through_AI_Fe.pdf` | Kai | Enhancing Critical Writing Through AI Feedback |
-| 013 | `013_Jiamu_2025_Enhancing_Ophthalmology_Students_Awarene.pdf` | Jiamu | Ophthalmology Students Awareness |
-| 014 | `014_Xiaoqing_2025_Enhancing_selfregulated_learning_and_lea.pdf` | Xiaoqing | Self-Regulated Learning Enhancement |
-| 015 | `015_Rufeng_2025_Examining_the_Usage_of_Generative_AI_Mod.pdf` | Rufeng | GenAI Usage Examination |
-| 016 | `016_Yabing_2025_Exploring_Implementations_of_GenAI_in_Te.pdf` | Yabing | GenAI Implementations in Teaching |
-| 017 | `017_Wang_2025_Exploring_the_Role_of_AI_Technology_in_S.pdf` | Wang | Role of AI Technology in Learning |
-| 018 | `018_Satoru_2025_Generative_AI_and_CEFR_Levels_Evaluating.pdf` | Satoru | GenAI and CEFR Levels Evaluation |
-| 019 | `019_Guoqing_2025_Generative_Artificial_Intelligence_Ampli.pdf` | Guoqing | GenAI Amplification Effects |
-| 020 | `020_Xusheng_2025_How_Students_Use_AI_Feedback_Matters_Exp.pdf` | Xusheng | How Students Use AI Feedback |
-| 021 | `021_Yu_2025_HumanMachine_Cocreation_The_Effects_of_C.pdf` | Yu | Human-Machine Co-creation Effects |
-| 022 | `022_Larissa_2025_Impact_of_Artificial_Intelligence_Genera.pdf` | Larissa | AI Impact on Learning |
-| 023 | `023_Viktor_2025_Impact_of_Developer_Queries_on_the_Effec.pdf` | Viktor | Developer Queries Impact |
-| 024 | `024_Ruiwei_2025_Improving_Student-AI_Interaction_Through.pdf` | Ruiwei | Student-AI Interaction Improvement |
-| 025 | `025_Ting-Ting_2025_Integrating_Peer_Assessment_Cycle_into_C.pdf` | Ting-Ting | Peer Assessment with ChatGPT |
-| 026 | `026_Unknown_2025_Integrating_generative_AI_into_STEM_educ.pdf` | — | GenAI in STEM Education |
-| 027 | `027_Rafal_2025_Level_Up_Peer_Review_in_Education_Invest.pdf` | Rafal | Peer Review Enhancement |
-| 028 | `028_Tuan_2025_PROMOTING_TEACHERS_USE_OF_CHATGPT_A_CASE.pdf` | Tuan | Teachers' ChatGPT Use |
-| 029 | `029_Ben_2025_Resurrecting_Socrates_in_the_Age_of_AI_A.pdf` | Ben | Socratic Method with AI |
-| 030 | `030_Mahir_2025_Struggle_First_Prompt_Later_How_Task_Com.pdf` | Mahir | Task Complexity and AI Prompting |
-| 031 | `031_Mai_2025_Teaching_Program_Based_on_ChatGPT_and_It.pdf` | Mai | ChatGPT-Based Teaching Program |
-| 032 | `032_Ching-Yi_2025_The_Effect_of_a_Generative_AI-Based_Teac.pdf` | Ching-Yi | GenAI-Based Teaching Effects |
-| 033 | `033_Haneen_2025_The_Impact_of_Media_Literacy_on_Developi.pdf` | Haneen | Media Literacy and AI |
-| 034 | `034_Nataliya_2025_The_Influence_of_Education_Using_Artific.pdf` | Nataliya | AI Education Influence |
-| 035 | `035_Renfeng_2025_The_Motivational_Impact_of_GenAI_Tools_i.pdf` | Renfeng | Motivational Impact of GenAI |
-| 036 | `036_Wafa_2025_The_Use_of_Artificial_Intelligence_and_I.pdf` | Wafa | AI Use in Education |
-| 037 | `037_Dariya_2025_Third-party_evaluators_perceive_AI_as_mo.pdf` | Dariya | Third-Party AI Evaluation Perception |
-| 038 | `038_Hartwig_2025_Use_and_Effectiveness_of_Chatbots_as_Sup.pdf` | Hartwig | Chatbot Support Effectiveness |
-| 039 | `039_Jenny_2025_Using_Generative_AI_to_Promote_Psycholog.pdf` | Jenny | GenAI for Psychological Promotion |
-| 040 | `040_Yvonne_2025_Using_Generative_Artificial_Intelligence.pdf` | Yvonne | Using GenAI in Education |
-| 041 | `041_Jin‐Hee_2025_Why_unequal_AI_access_enhances_team_prod.pdf` | Jin-Hee | Unequal AI Access and Team Productivity |
-| 069 | `069_Unknown_2025_The_Effect_of_Flipped_Interactive_Learni.pdf` | — | Flipped Interactive Learning |
-
-### 2024 Studies (n = 21)
-
-| # | Filename | First Author | Topic |
-|---|----------|--------------|-------|
-| 042 | `042_Atakan_2024_AI_Support_Meets_AR_Visualization_for_Al.pdf` | Atakan | AI Support with AR Visualization |
-| 043 | `043_Haixin_2024_Applicability_of_ChatGPT_in_Online_Colla.pdf` | Haixin | ChatGPT in Online Collaboration |
-| 044 | `044_Dadan_2024_ChatGPT_in_didactical_tetrahedron_does_i.pdf` | Dadan | ChatGPT in Didactical Tetrahedron |
-| 045 | `045_Nely_2024_ENHANCING_WRITING_COMPREHENSION_IN_L2_AR.pdf` | Nely | L2 Writing Comprehension Enhancement |
-| 046 | `046_Hsin-Yu_2024_Empowering_ChatGPT_with_Guidance_Mechani.pdf` | Hsin-Yu | ChatGPT Guidance Mechanisms |
-| 047 | `047_Sireesha_2024_Enhancing_Math_Learning_with_AI_ChatGPTs.pdf` | Sireesha | Math Learning with ChatGPT |
-| 048 | `048_Sumie_2024_Enhancing_University_Level_English_Profi.pdf` | Sumie | University English Proficiency |
-| 049 | `049_Kartika_2024_Enhancing_Writing_Proficiency_through_AI.pdf` | Kartika | Writing Proficiency Enhancement |
-| 050 | `050_Shalong_2024_Enhancing_self-directed_learning_with_cu.pdf` | Shalong | Self-Directed Learning Enhancement |
-| 051 | `051_Seyyed_2024_Feedback_sources_in_essay_writing_peer-g.pdf` | Seyyed | Essay Writing Feedback Sources |
-| 052 | `052_Sumie_2024_Generative_AI_and_Essay_Writing_Impacts_.pdf` | Sumie | GenAI Essay Writing Impacts |
-| 053 | `053_Unknown_2024_How_Self-Regulated_Learning_Is_Affected_.pdf` | — | Self-Regulated Learning Effects |
-| 054 | `054_Santosh_2024_Impact_of_ChatGPT_on_ESL_students_academ.pdf` | Santosh | ChatGPT Impact on ESL Students |
-| 055 | `055_Yousef_2024_Integrating_ChatGPT_in_Grade_12_Quantum_.pdf` | Yousef | ChatGPT in Quantum Physics |
-| 056 | `056_Joanne_2024_Putting_Things_into_Context_Generative_A.pdf` | Joanne | Contextual GenAI Applications |
-| 057 | `057_Harsh_2024_Supporting_Self-Reflection_at_Scale_with.pdf` | Harsh | Self-Reflection at Scale with LLMs |
-| 058 | `058_Lixiang_2024_The_Effects_of_Generative_AI_Agents_and_.pdf` | Lixiang | GenAI Agents Effects |
-| 059 | `059_Hyewon_2024_The_Impact_of_Artificial_Intelligence-As.pdf` | Hyewon | AI-Assisted Learning Impact |
-| 060 | `060_Unknown_2024_The_Role_of_AI-Assisted_Learning_in_Acad.pdf` | — | AI-Assisted Learning in Academia |
-| 061 | `061_Pablo_2024_Thinking_Critically_about_Scientific_Inf.pdf` | Pablo | Critical Thinking about Scientific Information |
-| 062 | `062_Alexandre_2024_Using_ChatGPT_in_Psychiatry_to_Design_Sc.pdf` | Alexandre | ChatGPT in Psychiatry Education |
-
-### 2023 Studies (n = 5)
-
-| # | Filename | First Author | Topic |
-|---|----------|--------------|-------|
-| 063 | `063_Unknown_2023_Evaluation_of_ChatGPTs_Real-Life_Impleme.pdf` | — | ChatGPT Real-Life Implementation |
-| 064 | `064_Muhammad_2023_Exploring_the_impact_of_using_Chat-GPT_o.pdf` | Muhammad | ChatGPT Impact Exploration |
-| 065 | `065_Julia_2023_GPTeach_Interactive_TA_Training_with_GPT.pdf` | Julia | GPTeach: Interactive TA Training |
-| 066 | `066_Ying_2023_Leveraging_ChatGPT_for_Enhancing_Critica.pdf` | Ying | ChatGPT for Critical Thinking |
-| 067 | `067_María-Isabel_2023_Writing_Creativity_and_Artificial_Intell.pdf` | María-Isabel | Writing Creativity and AI |
-
-### Theoretical/Background Reference (n = 1)
-
-| # | Filename | First Author | Topic |
-|---|----------|--------------|-------|
-| 068 | `068_Unknown_2018_Beware_of_Metacognitive_Laziness_Effects.pdf` | — | Metacognitive Laziness Effects (Theoretical Foundation) |
+PDFs are named as: `###_FirstAuthor_Year_ShortTitle.pdf`
+- Study IDs 9, 18, 39, 61 excluded after manual review
+- All included studies have corresponding PDFs in `/pdfs` directory
 
 ---
 
 ## Notes
 
-1. **Primary Studies (001-067, 069):** 68 empirical studies meeting inclusion criteria
-2. **Theoretical Reference (068):** Background paper on metacognitive laziness supporting the cognitive dependency hypothesis
-3. **Actual Meta-Analysis Sample:** 65 studies with 381 effect sizes (some PDFs may represent multiple-study papers or later exclusions based on full-text review)
-4. **Study 068** is from 2018, predating the GenAI era, and serves as theoretical grounding for the metacognitive findings
+1. **V5 Dataset**: Final verified meta-analysis dataset
+2. **Exclusions**: Studies excluded due to lack of quantitative outcomes, no control group, or qualitative design
+3. **Effect Sizes**: Total 375 effect sizes from 66 studies
+4. **Verification**: All studies manually reviewed for inclusion criteria compliance
 
 ---
 
-## Relationship to Manuscript
-
-These PDFs correspond to:
-- **Table 2:** Characteristics of Included Studies (k = 65)
-- **Appendix B:** Individual Study Coding Data
-- **References:** Full bibliographic details in manuscript
-
----
-
-*Index generated: 2026-01-22*
-*Total PDFs: 69*
-*Meta-analysis sample: 65 studies, 381 effect sizes, N = 8,247 participants*
+*Generated: 2026-01-26 17:16:59*
+*Total: 70 PDFs | 66 included | 4 excluded | 375 effect sizes*
