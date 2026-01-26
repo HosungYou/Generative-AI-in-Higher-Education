@@ -7,6 +7,61 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [6.0.0] - 2025-01-26
+
+### V6 Meta-Analysis Update
+
+Re-ran complete three-level meta-analysis with confirmed dataset.
+
+### Dataset Statistics (V6)
+
+| Metric | V5 | V6 | Change |
+|--------|----|----|--------|
+| Total Study IDs | 61 | 66 | +5 |
+| Total effect sizes | 346 | 375 | +29 |
+| Valid ES (with g & SE) | 155 | 168 | +13 |
+| Studies with valid ES | 38 | 41 | +3 |
+| Participants | 18,691 | 21,580 | +2,889 |
+
+### Analysis Results (V6)
+
+| Metric | V5 | V6 |
+|--------|----|----|
+| Overall g | 0.770 | 0.719 |
+| 95% CI | [0.439, 1.101] | [0.389, 1.050] |
+| I^2 Total | 99.1% | 99.2% |
+| tau^2 Level 2 | 0.697 | 0.749 |
+| tau^2 Level 3 | 0.814 | 0.980 |
+
+### Key Findings Confirmed
+
+- **Cognitive dependency hypothesis still supported**
+  - Metacognitive outcomes: g = 0.51, non-significant (p = .167)
+  - Cognitive outcomes: g = 0.70, significant (p < .001)
+  - Affective outcomes: g = 0.91, significant (p < .001)
+- Publication bias indicators persist (PET intercept significant)
+- RCT-only analysis: g = 0.11, non-significant (k = 5 studies)
+
+### Files Added
+
+- `data/03_final/GenAI_MetaAnalysis_v6.csv`
+- `analysis/R/three_level_meta_analysis_v6.R`
+- `analysis/output/v6_results/forest_plot_v6.png`
+- `analysis/output/v6_results/funnel_plot_v6.png`
+- `analysis/output/v6_results/meta_analysis_v6_results.rds`
+- `analysis/output/v6_results/meta_analysis_v6_results.md`
+- `manuscript/current/v6_CHANGES.md`
+
+### Confirmed Exclusions
+
+Study IDs not in dataset: 9, 18, 39, 61
+
+### Recovered Studies
+
+Study IDs 10, 17, 20, 51, 56 included in V6
+
+---
+
 ## [5.0.0] - 2025-01-26
 
 ### Data Update and Project Reorganization
