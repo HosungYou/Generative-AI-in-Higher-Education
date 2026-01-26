@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "verification_date": "2026-01-26T11:32:33.693031",
+  "total_studies": 65,
+  "total_effect_sizes": 372,
+  "tier_1_studies": 42,
+  "tier_2_studies": 2,
+  "tier_3_studies": 21,
+  "ocr_verified": 35,
+  "pdf_verified": 7,
+  "partially_verified": 2,
+  "unverified": 15,
+  "data_quality_note": "Tier 1 = OCR/PDF verified (high confidence), Tier 2 = Partial match (medium), Tier 3 = Unverified (use with caution)"
+}

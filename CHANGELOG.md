@@ -7,6 +7,62 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [5.0.0] - 2025-01-26
+
+### Data Update and Project Reorganization
+
+Major reorganization of folder structure and final dataset verification.
+
+### Added
+
+#### Study 70: Yilmaz & Yilmaz (2023)
+- **Title**: "The effect of generative artificial intelligence (AI)-based tool use on students' computational thinking skills, programming self-efficacy and motivation"
+- **Effect sizes**: 3 (Computational Thinking, Programming Self-Efficacy, Learning Motivation)
+- **Sample**: n=21 treatment, n=24 control
+- **Verification**: MANUAL_VERIFIED, 100% confidence, Tier 1
+
+#### New Folder Structure
+```
+data/
+  00_raw/          - Original unmodified data
+  01_extracted/    - Intermediate extraction files
+  02_processed/    - Cleaned/validated data
+  03_final/        - SINGLE SOURCE OF TRUTH (GenAI_MetaAnalysis_v5.csv)
+analysis/
+  R/               - R analysis scripts
+  output/          - Analysis results
+scripts/
+  data_processing/ - Python data scripts
+  figure_generation/ - Python figure scripts
+manuscript/
+  current/         - Active manuscript
+  versions/        - Historical versions
+  figures/         - Publication figures
+  tables/          - Publication tables
+figures/
+  source/          - Source files (SVG, scripts)
+  output/          - Generated figures
+supplementary/     - GRADE, search strategy, codebook
+```
+
+### Changed
+
+- Reorganized all data files into semantic subdirectories
+- Moved Python scripts from data/ and figures/ to scripts/
+- Moved R scripts to analysis/R/
+- Created v5 final dataset as single source of truth
+
+### Dataset Statistics (v5)
+
+| Metric | Value |
+|--------|-------|
+| Total Studies | 61 (unique IDs) |
+| Total Effect Sizes | 346 |
+| Study ID Range | 1-70 (with gaps) |
+| Verification Tiers | 1 (highest) to 3 |
+
+---
+
 ## [1.1.0] - 2025-01-06
 
 ### Theoretical Framework Enhancement: Empirical Support for Cognitive Dependency Hypothesis
@@ -130,5 +186,6 @@ First comprehensive release of the meta-analysis dataset, analysis code, and man
 
 | Version | Date | Focus |
 |---------|------|-------|
+| 5.0.0 | 2025-01-26 | Data update (Study 70) + folder reorganization |
 | 1.1.0 | 2025-01-06 | Theoretical framework enhancement with 5 new empirical citations |
 | 1.0.0 | 2025-01-06 | Initial comprehensive release |

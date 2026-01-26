@@ -18,43 +18,78 @@ This pre-registered three-level meta-analysis synthesized evidence on Generative
 
 ---
 
-## Repository Structure
+## Repository Structure (v5.0)
 
 ```
-Generative-AI-in-Higher-Education/
+GenAI-HE-Review-AIMC/
 │
-├── 📄 README.md                          # This file
-├── 📄 MASTER_INTEGRATION_DOCUMENT.md     # Central coordination document
-├── 📄 MANUSCRIPT_REVISION_GUIDE.md       # Section-by-section revision guide
-├── 📄 VERSION_CONTROL_AND_CHECKLIST.md   # Quality assurance and tracking
+├── README.md                              # This file
+├── CHANGELOG.md                           # Version history
+├── LICENSE                                # CC BY 4.0
+├── MASTER_INTEGRATION_DOCUMENT.md         # Central coordination document
+├── MANUSCRIPT_REVISION_GUIDE.md           # Section-by-section revision guide
+├── VERSION_CONTROL_AND_CHECKLIST.md       # Quality assurance and tracking
 │
-├── 📁 data/
-│   ├── raw/                              # Original unprocessed data
-│   │   └── meta_analysis_effects_unified_with_moderators_refilled_tt.csv
-│   └── processed/                        # Cleaned/corrected data for analysis
-│       └── meta_analysis_HE_corrected.csv
+├── data/
+│   ├── 00_raw/                            # Original unmodified data
+│   │   ├── GenAI_MetaAnalysis_Effects_Raw.csv
+│   │   ├── GenAI_MetaAnalysis_Codebook.xlsx
+│   │   ├── GenAI_MetaAnalysis_Coding_Data.xlsx
+│   │   └── new_studies_to_add.csv
+│   ├── 01_extracted/                      # Intermediate extraction files
+│   │   ├── extracted_effect_sizes.csv
+│   │   ├── extracted_effect_sizes.json
+│   │   ├── corrected_effect_sizes.csv
+│   │   └── extraction_summary.md
+│   ├── 02_processed/                      # Cleaned/validated data
+│   │   ├── meta_analysis_FINAL.csv
+│   │   ├── GenAI_MetaAnalysis_Effects_Verified.csv
+│   │   ├── GenAI_MetaAnalysis_FINAL_v4.xlsx
+│   │   └── DATA_PROVENANCE.md
+│   └── 03_final/                          # SINGLE SOURCE OF TRUTH
+│       └── GenAI_MetaAnalysis_v5.csv      # 61 studies, 346 effect sizes
 │
-├── 📁 analysis/
-│   └── three_level_meta_analysis.R       # Main R analysis script
+├── analysis/
+│   ├── R/                                 # R analysis scripts
+│   │   ├── three_level_meta_analysis.R
+│   │   └── extended_sensitivity_analysis.R
+│   └── output/                            # Analysis output (results, logs)
 │
-├── 📁 manuscript/
-│   └── versions/
-│       ├── GenAI_HE_MetaAnalysis_v2.2_Classification_Table.md
-│       └── GenAI_HE_MetaAnalysis_v2.3.md  # (To be created)
+├── manuscript/
+│   ├── current/                           # Active manuscript
+│   ├── versions/                          # Historical versions
+│   │   ├── GenAI_HE_MetaAnalysis_v2.2_Classification_Table.md
+│   │   └── GenAI_HE_MetaAnalysis_v2.3.md
+│   ├── figures/                           # Publication-ready figures
+│   │   └── PRISMA_2020_FlowDiagram.png
+│   └── tables/                            # Publication-ready tables
+│       └── Table3_Included_Studies.docx
 │
-└── 📁 supplementary/
-    ├── GRADE_Evidence_Certainty_Assessment.md      # NEW: GRADE evaluation
-    ├── Winsorization_Protocol.md                   # NEW: Outlier treatment
-    ├── Search_Strategy_Appendix.md                 # NEW: Complete search strings
-    ├── Exploratory_Study_Statement.md              # NEW: HARKing defense
-    ├── Metacognition_Construct_Validity_Solutions.md # NEW: Validity framework
-    ├── prisma/
-    │   ├── PRISMA_2020_FlowDiagram.pdf
-    │   └── PRISMA_2020_FlowDiagram.png
-    ├── codebook/
-    │   └── meta_analysis_codingbook.md
-    └── protocol/
-        └── META_ANALYSIS_EXTRACTION_PROTOCOL.md
+├── figures/
+│   ├── source/                            # Source files (SVG, scripts)
+│   │   └── AIMC_Framework_Organic.svg
+│   ├── output/                            # Generated figures
+│   ├── AIMC_Framework.png                 # Main framework figure
+│   └── PRISMA_2020_Flow_Diagram.svg
+│
+├── scripts/
+│   ├── data_processing/                   # Python data scripts
+│   │   ├── convert_real_data_to_excel.py
+│   │   ├── create_final_dataset.py
+│   │   └── generate_coding_data.py
+│   └── figure_generation/                 # Python figure scripts
+│       ├── generate_aimc_framework.py
+│       └── generate_aimc_organic.py
+│
+├── supplementary/                         # Supplementary materials
+│   ├── GRADE_assessment.md
+│   ├── search_strategy.md
+│   └── codebook.md
+│
+├── docs/                                  # Documentation (01-10)
+│   └── README.md
+│
+└── pdfs/                                  # Source PDFs (not in git)
 ```
 
 ---
@@ -198,7 +233,8 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 | Version | Date | Description |
 |---------|------|-------------|
 | v2.2 | 2026-01-XX | Classification table integration |
-| **v2.3** | **2026-01-23** | **Supplements, GRADE, validity solutions, integration docs** |
+| v2.3 | 2026-01-23 | Supplements, GRADE, validity solutions, integration docs |
+| **v5.0** | **2026-01-26** | **Data update (Study 70: Yilmaz & Yilmaz 2023), folder reorganization** |
 
 ---
 
@@ -217,4 +253,4 @@ This research was conducted at the College of Education, Pennsylvania State Univ
 
 ---
 
-*Last updated: 2026-01-23*
+*Last updated: 2026-01-26*
