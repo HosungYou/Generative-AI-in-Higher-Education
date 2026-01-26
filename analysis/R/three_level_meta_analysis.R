@@ -16,16 +16,22 @@ library(dplyr)
 # 1. DATA PREPARATION
 # ============================================================================
 
-# Load the corrected dataset
-data <- read.csv("../data/processed/meta_analysis_HE_corrected.csv")
+# Load the corrected dataset (v5)
+data <- read.csv("../../data/03_final/GenAI_MetaAnalysis_v5.csv")
+
+# Normalize column names to lowercase for consistency
+names(data) <- tolower(names(data))
+
+# Create outcome_id from es_id for three-level nesting
+data$outcome_id <- data$es_id
 
 # Filter to valid effect sizes (with both g and SE)
 data_valid <- data %>%
   filter(!is.na(hedges_g) & !is.na(se_g))
 
-cat("="*60, "\n")
+cat(rep("=", 60), "\n", sep="")
 cat("DATA SUMMARY\n")
-cat("="*60, "\n")
+cat(rep("=", 60), "\n", sep="")
 cat("Total effect sizes:", nrow(data_valid), "\n")
 cat("Unique studies:", length(unique(data_valid$study_id)), "\n")
 cat("Total participants:", sum(data_valid$n_treatment, na.rm=TRUE) +
@@ -35,9 +41,9 @@ cat("Total participants:", sum(data_valid$n_treatment, na.rm=TRUE) +
 # 2. THREE-LEVEL RANDOM-EFFECTS MODEL
 # ============================================================================
 
-cat("\n", "="*60, "\n")
+cat("\n", rep("=", 60), "\n", sep="")
 cat("THREE-LEVEL RANDOM-EFFECTS META-ANALYSIS\n")
-cat("="*60, "\n")
+cat(rep("=", 60), "\n", sep="")
 
 # Fit three-level model
 # Level 1: Sampling variance (known)
@@ -79,9 +85,9 @@ cat("τ² Level 3:", round(sigma2_2, 4), "\n")
 # 3. ROBUST VARIANCE ESTIMATION
 # ============================================================================
 
-cat("\n", "="*60, "\n")
+cat("\n", rep("=", 60), "\n", sep="")
 cat("ROBUST VARIANCE ESTIMATION (RVE)\n")
-cat("="*60, "\n")
+cat(rep("=", 60), "\n", sep="")
 
 # Apply cluster-robust standard errors
 rve_results <- coef_test(model_3level, vcov = "CR2", cluster = data_valid$study_id)
@@ -91,9 +97,9 @@ print(rve_results)
 # 4. MODERATOR ANALYSES
 # ============================================================================
 
-cat("\n", "="*60, "\n")
+cat("\n", rep("=", 60), "\n", sep="")
 cat("MODERATOR ANALYSIS: OUTCOME DIMENSION\n")
-cat("="*60, "\n")
+cat(rep("=", 60), "\n", sep="")
 
 # Fit model with outcome dimension as moderator
 model_dimension <- rma.mv(
@@ -123,13 +129,26 @@ print(anova_result)
 # 5. BLOOM'S TAXONOMY ANALYSIS
 # ============================================================================
 
-cat("\n", "="*60, "\n")
+cat("\n", rep("=", 60), "\n", sep="")
 cat("MODERATOR ANALYSIS: BLOOM'S TAXONOMY\n")
-cat("="*60, "\n")
+cat(rep("=", 60), "\n", sep="")
+
+# Create Bloom's category from blooms_level
+# Lower order: remember, understand, apply
+# Higher order: analyze, evaluate, create
+data_valid <- data_valid %>%
+  mutate(blooms_category = case_when(
+    blooms_level %in% c("remember", "understand", "apply") ~ "lower_order",
+    blooms_level %in% c("analyze", "evaluate", "create") ~ "higher_order",
+    TRUE ~ NA_character_
+  ))
 
 # Filter to classified cognitive outcomes
 data_blooms <- data_valid %>%
-  filter(blooms_category %in% c("lower_order", "higher_order"))
+  filter(!is.na(blooms_category))
+
+cat("\nBlooms classification counts:\n")
+print(table(data_blooms$blooms_category))
 
 if(nrow(data_blooms) > 10) {
   model_blooms <- rma.mv(
@@ -147,9 +166,9 @@ if(nrow(data_blooms) > 10) {
 # 6. PUBLICATION BIAS ASSESSMENT
 # ============================================================================
 
-cat("\n", "="*60, "\n")
+cat("\n", rep("=", 60), "\n", sep="")
 cat("PUBLICATION BIAS ASSESSMENT\n")
-cat("="*60, "\n")
+cat(rep("=", 60), "\n", sep="")
 
 # Egger's regression test (using precision as predictor)
 # PET: Regress effect size on SE
@@ -192,9 +211,9 @@ if(summary(pet_model)$pval[2] < 0.10) {
 # 7. SENSITIVITY ANALYSES
 # ============================================================================
 
-cat("\n", "="*60, "\n")
+cat("\n", rep("=", 60), "\n", sep="")
 cat("SENSITIVITY ANALYSES\n")
-cat("="*60, "\n")
+cat(rep("=", 60), "\n", sep="")
 
 # Leave-one-out analysis at study level
 studies <- unique(data_valid$study_id)
@@ -332,7 +351,7 @@ results_summary <- list(
 
 saveRDS(results_summary, "../output/meta_analysis_results.rds")
 
-cat("\n", "="*60, "\n")
+cat("\n", rep("=", 60), "\n", sep="")
 cat("ANALYSIS COMPLETE\n")
-cat("="*60, "\n")
+cat(rep("=", 60), "\n", sep="")
 cat("Results saved to: ../output/meta_analysis_results.rds\n")
