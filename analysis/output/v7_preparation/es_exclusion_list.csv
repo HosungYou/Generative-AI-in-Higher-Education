@@ -1,0 +1,215 @@
+Study_ID,ES_ID,Outcome_Name,Hedges_g,SE_g,ES_Type,Exclusion_Reason
+1,001_01,Pre-test,-0.1055,0.2158,Pre_Test_Remove,Pre-test
+2,002_02,self-efficacy,,,Post_Only_Assumed,Missing_g
+2,002_03,programming interest,,,Post_Only_Assumed,Missing_g
+3,003_01,Academic Writing Achievement Pre-Test,0.0364,0.2829,Pre_Test_Remove,Pre-test
+6,006_02,logical coherence,1.3059,,Post_Only_Assumed,Missing_SE
+6,006_03,evidence use,1.1962,,Post_Only_Assumed,Missing_SE
+6,006_04,originality,1.1165,,Post_Only_Assumed,Missing_SE
+6,006_05,lexical sophistication,0.9669,,Post_Only_Assumed,Missing_SE
+6,006_06,syntactic complexity,0.8772,,Post_Only_Assumed,Missing_SE
+6,006_07,text cohesion,1.266,,Post_Only_Assumed,Missing_SE
+6,006_08,cognitive offloading behavior,,,Post_Only_Assumed,Missing_g
+7,007_01,,,,Unknown,Missing_g
+10,010_03,Quiz Accuracy - Socratic Tool,,,Post_Only_Assumed,Missing_g
+10,010_04,Quiz Accuracy - Socratic Tool (No SAT/ACT),,,Post_Only_Assumed,Missing_g
+10,010_05,Quiz Accuracy - Summary Tool,,,Post_Only_Assumed,Missing_g
+11,011_01,theoretical knowledge test,3.0776,,Post_Only_Assumed,Missing_SE
+11,011_02,Mini Clinical Evaluation Exercise,,,Post_Only_Assumed,Missing_g
+11,011_03,AI self-efficacy,1.6662,,Post_Only_Assumed,Missing_SE
+11,011_04,internet addiction,,,Post_Only_Assumed,Missing_g
+11,011_05,reading motivation,1.284,,Post_Only_Assumed,Missing_SE
+12,012_01,overall writing score,,,Post_Only_Assumed,Missing_g
+12,012_02,content score,,,Post_Only_Assumed,Missing_g
+12,012_03,organization score,,,Post_Only_Assumed,Missing_g
+12,012_04,language usage score,,,Post_Only_Assumed,Missing_g
+12,012_05,writing motivation score,,,Post_Only_Assumed,Missing_g
+12,012_06,perceived usefulness,,,Post_Only_Assumed,Missing_g
+12,012_07,perceived ease of use,,,Post_Only_Assumed,Missing_g
+12,012_08,attitude toward use,,,Post_Only_Assumed,Missing_g
+12,012_10,AI engagement,,,Post_Only_Assumed,Missing_g
+13,013_03,complex questions performance,,,Post_Only_Assumed,Missing_g
+14,014_01,academic achievement,,,Post_Only_Assumed,Missing_g
+14,014_08,cognitive load,,,Post_Only_Assumed,Missing_g
+14,014_09,technology acceptance - perceived usefulness,,,Post_Only_Assumed,Missing_g
+14,014_10,technology acceptance - perceived ease of use,,,Post_Only_Assumed,Missing_g
+15,015_01,Task Performance - Passed Tests,,,Post_Only_Assumed,Missing_g
+15,015_02,Task Performance - Passed Tests,,,Post_Only_Assumed,Missing_g
+16,016_01,Database Report,0.0297,,Post_Only_Assumed,Missing_SE
+16,016_02,Database Exam,0.2273,,Post_Only_Assumed,Missing_SE
+16,016_03,Python Report,0.0689,,Post_Only_Assumed,Missing_SE
+16,016_04,Python Assignment1,0.71,,Post_Only_Assumed,Missing_SE
+16,016_05,Python Assignment2,0.6691,,Post_Only_Assumed,Missing_SE
+16,016_06,Python Quiz,0.2169,,Post_Only_Assumed,Missing_SE
+16,016_07,Python Exam,0.3355,,Post_Only_Assumed,Missing_SE
+17,017_01,Writing Score,,,Post_Only_Assumed,Missing_g
+17,017_02,Syntactic Complexity,,,Post_Only_Assumed,Missing_g
+17,017_03,Lexical Complexity,,,Post_Only_Assumed,Missing_g
+17,017_04,Accuracy,,,Post_Only_Assumed,Missing_g
+17,017_05,Fluency,,,Post_Only_Assumed,Missing_g
+20,020_01,Physics Achievement - Bottom Third Subgroup,0.6665,,Post_Only_Assumed,Missing_SE
+20,020_02,Physics Achievement - Medium Third Subgroup,-0.5338,,Post_Only_Assumed,Missing_SE
+20,020_03,Self-Regulated Learning - Top Third Subgroup,-0.4724,,Post_Only_Assumed,Missing_SE
+20,020_04,Physics Achievement - Top Third Subgroup,0.3764,,Post_Only_Assumed,Missing_SE
+20,020_05,Learner Autonomy - Whole Sample,-0.2728,,Post_Only_Assumed,Missing_SE
+20,020_06,Learner Autonomy - Bottom Third Subgroup,-0.3913,,Post_Only_Assumed,Missing_SE
+20,020_07,Autonomy Technical-Psychological Dimension - Whole Sample,-0.2977,,Post_Only_Assumed,Missing_SE
+20,020_08,Autonomy Technical-Psychological Dimension - Bottom Third Subgroup,-0.5466,,Post_Only_Assumed,Missing_SE
+21,021_14,cognitive load,,,Post_Only_Assumed,Missing_g
+22,022_01,Math Quiz Score Improvement - Schoolwide,,,Change_Score,Missing_g
+22,022_02,Math Quiz Score Improvement - Elementary,,,Change_Score,Missing_g
+22,022_03,Math Quiz Score Improvement - High School,,,Change_Score,Missing_g
+22,022_04,Math Quiz Score Improvement - Grade 1,,,Change_Score,Missing_g
+22,022_05,Math Quiz Score Improvement - Grade 4,,,Change_Score,Missing_g
+22,022_06,Math Quiz Score Improvement - Grade 5,,,Change_Score,Missing_g
+22,022_07,Math Quiz Score Improvement - Grade 6,,,Change_Score,Missing_g
+22,022_08,Math Quiz Score Improvement - Grade 7,,,Change_Score,Missing_g
+22,022_09,Math Quiz Score Improvement - Grade 8,,,Change_Score,Missing_g
+22,022_10,Math Quiz Score Improvement - Grade 9,,,Change_Score,Missing_g
+22,022_11,Math Quiz Score Improvement - Grade 10,,,Change_Score,Missing_g
+24,024_01,Tutoring Protocols,,,Post_Only_Assumed,Missing_g
+24,024_02,Difficulty Identification,,,Post_Only_Assumed,Missing_g
+24,024_03,AI's Role,,,Post_Only_Assumed,Missing_g
+24,024_04,Problem Context,,,Post_Only_Assumed,Missing_g
+24,024_05,Learner's Level,,,Post_Only_Assumed,Missing_g
+24,024_06,Guardrails,,,Post_Only_Assumed,Missing_g
+24,024_07,Tutoring Protocols,,,Post_Only_Assumed,Missing_g
+24,024_08,Difficulty Identification,,,Post_Only_Assumed,Missing_g
+24,024_09,AI's Role,,,Post_Only_Assumed,Missing_g
+24,024_10,Problem Context,,,Post_Only_Assumed,Missing_g
+24,024_11,Learner's Level,,,Post_Only_Assumed,Missing_g
+24,024_12,Guardrails,,,Post_Only_Assumed,Missing_g
+26,026_01,Thermodynamics Knowledge - Pretest,-0.0444,0.1826,Pre_Test_Remove,Pre-test
+26,026_02,Thermodynamics Knowledge - Posttest,0.6101,,Post_Only,Missing_SE
+26,026_03,Thermodynamics Learning Gains,,,Change_Score,Missing_g
+27,027_01,Amount of feedback given across both sessions (min 12 - number of required peer reviews),,,Post_Only_Assumed,Missing_g
+27,027_02,Amount of feedback given (Session 1),,,Post_Only_Assumed,Missing_g
+27,027_03,Amount of feedback given (Session 2),,,Post_Only_Assumed,Missing_g
+27,027_04,Overall quality of feedback given across both sessions (max 9),,,Post_Only_Assumed,Missing_g
+27,027_05,Session 1: Total quality of feedback,,,Post_Only_Assumed,Missing_g
+27,027_06,Session 1: Average Clarity,,,Post_Only_Assumed,Missing_g
+27,027_07,Session 1: Average Relevance,,,Post_Only_Assumed,Missing_g
+27,027_08,Session 1: Average Specificity,,,Post_Only_Assumed,Missing_g
+27,027_09,Session 2: Total quality of feedback,,,Post_Only_Assumed,Missing_g
+27,027_10,Session 2: Average Clarity,,,Post_Only_Assumed,Missing_g
+27,027_11,Session 2: Average Relevance,,,Post_Only_Assumed,Missing_g
+27,027_12,Session 2: Average Specificity,,,Post_Only_Assumed,Missing_g
+27,027_13,I provided honest and unbiased ratings to my peers regardless of how that impacted their grades,,,Post_Only_Assumed,Missing_g
+27,027_14,I felt motivated to give peer feedback on the platform,,,Post_Only_Assumed,Missing_g
+27,027_15,How would you rate the quality of open-ended feedback you received from your peers overall?,,,Post_Only_Assumed,Missing_g
+27,027_16,How often did you consult the AI feedback assistant for insight into the feedback you provided?,,,Post_Only_Assumed,Missing_g
+27,027_17,Do you feel that the AI feedback assistant helped you improve the quality of your open-ended feedback?,,,Post_Only_Assumed,Missing_g
+27,027_18,"Overall, I found my experience on the platform enjoyable",,,Post_Only_Assumed,Missing_g
+27,027_19,Using the platform helped me improve my skills in giving feedback,,,Post_Only_Assumed,Missing_g
+28,028_01,Perceived Enjoyment (PE),,,Post_Only_Assumed,Missing_g
+28,028_02,Perceived Usefulness (PU),,,Post_Only_Assumed,Missing_g
+28,028_03,Perceived Ease of Use (PEU),,,Post_Only_Assumed,Missing_g
+28,028_04,Behavioral Intention (BI),,,Post_Only_Assumed,Missing_g
+29,029_01,,,,Unknown,Missing_g
+30,030_01,learning outcomes,,,Post_Only_Assumed,Missing_g
+30,030_02,motivation,,,Post_Only_Assumed,Missing_g
+30,030_03,perceived choice,,,Post_Only_Assumed,Missing_g
+30,030_04,perceived value,,,Post_Only_Assumed,Missing_g
+30,030_06,final test,1.523,,Post_Only,Missing_SE
+31,031_04,aesthetic comprehension skills,,,Post_Only_Assumed,Missing_g
+31,031_05,creative comprehension skills,,,Post_Only_Assumed,Missing_g
+31,031_06,inferential comprehension skills,,,Post_Only_Assumed,Missing_g
+33,033_01,Access Skill,,,Post_Only_Assumed,Missing_g
+33,033_02,Analysis Skill,,,Post_Only_Assumed,Missing_g
+33,033_03,Collective Inference Skill,,,Post_Only_Assumed,Missing_g
+33,033_04,Evaluation Skill,,,Post_Only_Assumed,Missing_g
+34,034_01,Academic Performance - Pre-Training,0.5405,0.1663,Pre_Test_Remove,Pre-test
+34,034_03,Moral Behavior Level - Pre-Training,2.9848,0.2374,Pre_Test_Remove,Pre-test
+34,034_05,Self-Efficacy - Pre-Training,3.9797,0.2819,Pre_Test_Remove,Pre-test
+35,035_01,autonomous motivation,,,Post_Only_Assumed,Missing_g
+37,037_01,compassion ratings,0.7248,,Post_Only_Assumed,Missing_SE
+37,037_02,response preference,0.6752,,Post_Only_Assumed,Missing_SE
+37,037_05,response preference,1.0169,,Post_Only_Assumed,Missing_SE
+37,037_06,response preference,0.4685,,Post_Only_Assumed,Missing_SE
+37,037_08,response preference,0.7053,,Post_Only_Assumed,Missing_SE
+37,037_09,understanding,,,Post_Only_Assumed,Missing_g
+37,037_10,validation,,,Post_Only_Assumed,Missing_g
+37,037_11,caring,,,Post_Only_Assumed,Missing_g
+38,038_01,,,,Unknown,Missing_g
+40,040_01,Overall Writing Quality,,,Post_Only_Assumed,Missing_g
+40,040_02,Overall Writing Quality,,,Post_Only_Assumed,Missing_g
+40,040_03,Overall Engagement Level 5/30,,,Post_Only_Assumed,Missing_g
+40,040_04,Overall Engagement Level 5/23,,,Post_Only_Assumed,Missing_g
+40,040_05,Grammar & Syntax,0.3815,,Post_Only_Assumed,Missing_SE
+40,040_06,Organization & Coherence,0.4074,,Post_Only_Assumed,Missing_SE
+40,040_07,Vocabulary Usage,0.3208,,Post_Only_Assumed,Missing_SE
+40,040_08,Argumentation,0.0767,,Post_Only_Assumed,Missing_SE
+40,040_09,Mechanics,0.4812,,Post_Only_Assumed,Missing_SE
+40,040_10,Overall Writing Performance Score,0.7561,,Post_Only_Assumed,Missing_SE
+40,040_11,Grammar & Syntax,0.2451,,Post_Only_Assumed,Missing_SE
+40,040_12,Organization & Coherence,0.2849,,Post_Only_Assumed,Missing_SE
+40,040_13,Vocabulary Usage,0.1664,,Post_Only_Assumed,Missing_SE
+40,040_14,Argumentation,0.1594,,Post_Only_Assumed,Missing_SE
+40,040_15,Mechanics,0.3118,,Post_Only_Assumed,Missing_SE
+40,040_16,Overall Writing Performance Score,0.4612,,Post_Only_Assumed,Missing_SE
+42,042_01,D-scores (difference between response scores with and without feedback),1.1414,,Change_Score,Missing_SE
+42,042_03,Q2 - With vs Without ChatGPT feedback,0.8744,,Post_Only_Assumed,Missing_SE
+42,042_04,Q3 - With vs Without ChatGPT feedback,1.8202,,Post_Only_Assumed,Missing_SE
+42,042_05,Q4 - With vs Without ChatGPT feedback,0.4741,,Post_Only_Assumed,Missing_SE
+44,044_03,attitudes toward using ChatGPT for learning mathematics,,,Post_Only_Assumed,Missing_g
+45,045_01,Arabic Writing Comprehension,,,Post_Only_Assumed,Missing_g
+49,049_01,writing proficiency,0.7923,,Post_Only_Assumed,Missing_SE
+49,049_02,student satisfaction with feedback,,,Post_Only_Assumed,Missing_g
+50,050_01,Baseline SDLS Score,,,Pre_Test_Remove,Pre-test
+50,050_02,Baseline CCTS Score,,,Pre_Test_Remove,Pre-test
+50,050_03,Baseline GFS Score,,,Pre_Test_Remove,Pre-test
+50,050_04,SDLS Score 6 weeks,,,Post_Only_Assumed,Missing_g
+50,050_05,SDLS Score 12 weeks,,,Post_Only_Assumed,Missing_g
+50,050_06,SDLS Score 14 weeks,,,Post_Only_Assumed,Missing_g
+50,050_07,CCTS Score 6 weeks,,,Post_Only_Assumed,Missing_g
+50,050_08,CCTS Score 12 weeks,,,Post_Only_Assumed,Missing_g
+50,050_09,CCTS Score 14 weeks,,,Post_Only_Assumed,Missing_g
+50,050_10,GFS Score 6 weeks,,,Post_Only_Assumed,Missing_g
+50,050_11,GFS Score 12 weeks,,,Post_Only_Assumed,Missing_g
+52,052_01,Task Score,,,Post_Only_Assumed,Missing_g
+52,052_02,Revision Score,,,Post_Only_Assumed,Missing_g
+52,052_03,Difference Score,,,Change_Score,Missing_g
+52,052_04,Emotion,,,Post_Only_Assumed,Missing_g
+52,052_05,Motivation,,,Post_Only_Assumed,Missing_g
+52,052_06,Engagement,,,Post_Only_Assumed,Missing_g
+53,053_01,Average assignment score,1.444,,Post_Only_Assumed,Missing_SE
+55,055_05,engagement,,,Post_Only_Assumed,Missing_g
+55,055_06,comprehension,,,Post_Only_Assumed,Missing_g
+55,055_07,problem-solving skills,,,Post_Only_Assumed,Missing_g
+55,055_08,perceived relevance,,,Post_Only_Assumed,Missing_g
+57,057_01,,,,Unknown,Missing_g
+58,058_01,,,,Unknown,Missing_g
+59,059_01,Ethical standards,,,Post_Only_Assumed,Missing_g
+59,059_02,Nursing processes,,,Post_Only_Assumed,Missing_g
+59,059_03,Knowledge of professional standards,,,Post_Only_Assumed,Missing_g
+59,059_04,Understanding of ethical concepts,,,Post_Only_Assumed,Missing_g
+59,059_05,Communication of professional and ethical standards,,,Post_Only_Assumed,Missing_g
+59,059_06,Analysis of challenges and barriers,,,Post_Only_Assumed,Missing_g
+59,059_07,Application of ethical principles,,,Post_Only_Assumed,Missing_g
+59,059_08,Application of nursing processes,,,Post_Only_Assumed,Missing_g
+59,059_09,Critical thinking skills,,,Post_Only_Assumed,Missing_g
+59,059_10,Integration of evidence-based knowledge and clinical reasoning,,,Post_Only_Assumed,Missing_g
+59,059_11,Collaboration and teamwork,,,Post_Only_Assumed,Missing_g
+59,059_12,Reflection and improvement,,,Change_Score,Missing_g
+60,060_01,Academic Writing Pre-test,-0.2624,0.2841,Pre_Test_Remove,Pre-test
+62,062_01,,,,Unknown,Missing_g
+64,064_02,student engagement in technology learning,,,Post_Only_Assumed,Missing_g
+65,065_01,recommender score,,,Post_Only_Assumed,Missing_g
+66,066_01,Ask Probing Questions,,,Post_Only_Assumed,Missing_g
+66,066_02,Analyze/Make Logical Conclusions,,,Post_Only_Assumed,Missing_g
+66,066_03,Understand Complex Concepts,,,Post_Only_Assumed,Missing_g
+66,066_04,Provide Diverse Perspectives,,,Post_Only_Assumed,Missing_g
+66,066_05,Recommend ChatGPT for Future Use,,,Post_Only_Assumed,Missing_g
+67,067_01,G2 Fluency,,,Post_Only_Assumed,Missing_g
+67,067_02,G2 Flexibility,,,Post_Only_Assumed,Missing_g
+67,067_03,G2 Narrative Originality,,,Post_Only_Assumed,Missing_g
+67,067_04,G3 Fluency,,,Post_Only_Assumed,Missing_g
+67,067_05,G3 Flexibility,,,Post_Only_Assumed,Missing_g
+67,067_06,G3 Narrative Originality,,,Post_Only_Assumed,Missing_g
+67,067_07,G2 Fluency,,,Post_Only_Assumed,Missing_g
+67,067_08,G2 Flexibility,,,Post_Only_Assumed,Missing_g
+67,067_09,G2 Narrative Originality,,,Post_Only_Assumed,Missing_g
+67,067_10,G3 Fluency,,,Post_Only_Assumed,Missing_g
+67,067_11,G3 Flexibility,,,Post_Only_Assumed,Missing_g
+67,067_12,G3 Narrative Originality,,,Post_Only_Assumed,Missing_g
+68,068_01,,,,Unknown,Missing_g

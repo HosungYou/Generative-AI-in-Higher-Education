@@ -1,0 +1,376 @@
+Study_ID,ES_ID,Outcome_Name,Hedges_g,SE_g,n_Treatment,n_Control,ES_Type,Conversion_Method,Hedges_g_Calc,g_Diff,g_Discrepancy
+1,001_01,Pre-test,-0.1055,0.2158,43.0,43.0,Pre_Test_Remove,Calculated_from_MSD,-0.10552522735382185,2.5227353821849485e-05,False
+1,001_02,Post-test,-0.0455,0.2157,43.0,43.0,Post_Only,Calculated_from_MSD,-0.045523416822368254,2.3416822368255152e-05,False
+1,001_03,Learning Duration,-0.1026,0.2158,43.0,43.0,Post_Only_Assumed,Calculated_from_MSD,-0.10259134716272048,-8.652837279521375e-06,False
+1,001_04,Course Satisfaction,0.0241,0.2157,43.0,43.0,Post_Only_Assumed,Calculated_from_MSD,0.024143116168435282,-4.3116168435282376e-05,False
+2,002_01,programming performance,1.2205,0.2438,38.0,42.0,Post_Only_Assumed,Calculated_from_MSD,1.2204513500417051,4.8649958294788576e-05,False
+2,002_02,self-efficacy,,,38.0,42.0,Post_Only_Assumed,Missing_ES,,,False
+2,002_03,programming interest,,,38.0,42.0,Post_Only_Assumed,Missing_ES,,,False
+3,003_01,Academic Writing Achievement Pre-Test,0.0364,0.2829,25.0,25.0,Pre_Test_Remove,Calculated_from_MSD,0.036401462613096125,-1.4626130961231665e-06,False
+3,003_02,Academic Writing Achievement Post-Test,0.9469,0.2983,25.0,25.0,Post_Only,Calculated_from_MSD,0.9468930462231665,6.953776833462655e-06,False
+4,004_01,Ease of Use - Arm 1,1.3497,0.3504,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,1.3496797057964898,2.029420351012945e-05,False
+4,004_02,Ease of Use - Arm 2,1.0285,0.3365,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,1.0285377950530428,-3.779505304279951e-05,False
+4,004_03,Satisfaction - Arm 1,1.4294,0.3543,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,1.4294002049956427,-2.0499564268305903e-07,False
+4,004_04,Satisfaction - Arm 2,0.0,0.3162,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,0.0,0.0,False
+4,004_05,Quality of Information - Arm 1,1.6494,0.3661,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,1.6494396022883884,-3.960228838839619e-05,False
+4,004_06,Quality of Information - Arm 2,1.1431,0.3411,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,1.1430553258656952,4.467413430475631e-05,False
+4,004_07,Ease of Understanding - Arm 1,1.1789,0.3426,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,1.1788517224627562,4.827753724390149e-05,False
+4,004_08,Ease of Understanding - Arm 2,2.8339,0.4476,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,2.833912252269869,-1.2252269869339472e-05,False
+4,004_09,Engagement - Arm 1,0.9822,0.3348,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,0.9821655760680649,3.44239319350903e-05,False
+4,004_10,Engagement - Arm 2,1.3404,0.3499,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,1.3404480353786719,-4.803537867181795e-05,False
+4,004_11,Task 1 Performance - Arm 1 vs Arm 2,0.8608,0.3305,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,0.8607756179969258,2.4382003074197023e-05,False
+4,004_12,Task 2 Performance - Arm 2 vs Arm 1,-0.2124,0.3171,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,-0.2123714282537316,-2.857174626841319e-05,False
+5,005_01,HOT tasks performance,0.6092,0.2834,23.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.6092145267539545,-1.452675395452463e-05,False
+6,006_01,critical thinking gains,1.4002,0.1441,120.0,120.0,Change_Score,Calculated_from_MSD,1.4001601753437947,3.982465620522291e-05,False
+6,006_02,logical coherence,1.3059,,120.0,120.0,Post_Only_Assumed,Direct_Reported,1.2635020204798173,0.04239797952018276,False
+6,006_03,evidence use,1.1962,,120.0,120.0,Post_Only_Assumed,Direct_Reported,1.2232728654928404,-0.027072865492840492,False
+6,006_04,originality,1.1165,,120.0,120.0,Post_Only_Assumed,Direct_Reported,1.1278018566811305,-0.011301856681130484,False
+6,006_05,lexical sophistication,0.9669,,120.0,120.0,Post_Only_Assumed,Direct_Reported,1.1420913570409308,-0.1751913570409308,True
+6,006_06,syntactic complexity,0.8772,,120.0,120.0,Post_Only_Assumed,Direct_Reported,1.0757328176421836,-0.19853281764218367,True
+6,006_07,text cohesion,1.266,,120.0,120.0,Post_Only_Assumed,Direct_Reported,1.147162649588171,0.11883735041182897,True
+6,006_08,cognitive offloading behavior,,,120.0,120.0,Post_Only_Assumed,Missing_ES,,,False
+7,007_01,,,,,,Unknown,Missing_ES,,,False
+8,008_01,Cognitive competency,3.2534,0.1487,210.0,210.0,Post_Only_Assumed,Calculated_from_MSD,3.2534353550934485,-3.535509344843035e-05,False
+8,008_02,Technical proficiency,2.4499,0.1291,210.0,210.0,Post_Only_Assumed,Calculated_from_MSD,2.449881702257166,1.8297742833794928e-05,False
+8,008_03,Application capability,3.0865,0.1444,210.0,210.0,Post_Only_Assumed,Calculated_from_MSD,3.086531414601815,-3.1414601814994114e-05,False
+8,008_04,Innovation competency,2.3497,0.1269,210.0,210.0,Post_Only_Assumed,Calculated_from_MSD,2.3497033120119357,-3.3120119358187594e-06,False
+8,008_05,Collaborative skills,2.4251,0.1286,210.0,210.0,Post_Only_Assumed,Calculated_from_MSD,2.4251318257585686,-3.182575856852665e-05,False
+8,008_06,Overall AI literacy,3.9527,0.1677,210.0,210.0,Post_Only_Assumed,Calculated_from_MSD,3.952688822086955,1.1177913044946308e-05,False
+10,010_01,SAT Score,-0.6809,0.1528,71.0,124.0,Post_Only_Assumed,Calculated_from_MSD,-0.6809440745682103,4.407456821031719e-05,False
+10,010_02,SAT Score,-2.7877,0.2357,71.0,71.0,Post_Only_Assumed,Calculated_from_MSD,-2.787746707584098,4.670758409774933e-05,False
+10,010_03,Quiz Accuracy - Socratic Tool,,,70.0,,Post_Only_Assumed,Missing_ES,,,False
+10,010_04,Quiz Accuracy - Socratic Tool (No SAT/ACT),,,52.0,,Post_Only_Assumed,Missing_ES,,,False
+10,010_05,Quiz Accuracy - Summary Tool,,,70.0,,Post_Only_Assumed,Missing_ES,,,False
+11,011_01,theoretical knowledge test,3.0776,,20.0,20.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+11,011_02,Mini Clinical Evaluation Exercise,,,20.0,20.0,Post_Only_Assumed,Missing_ES,,,False
+11,011_03,AI self-efficacy,1.6662,,20.0,20.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+11,011_04,internet addiction,,,20.0,20.0,Post_Only_Assumed,Missing_ES,,,False
+11,011_05,reading motivation,1.284,,20.0,20.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+12,012_01,overall writing score,,,125.0,134.0,Post_Only_Assumed,Missing_ES,,,False
+12,012_02,content score,,,125.0,134.0,Post_Only_Assumed,Missing_ES,,,False
+12,012_03,organization score,,,125.0,134.0,Post_Only_Assumed,Missing_ES,,,False
+12,012_04,language usage score,,,125.0,134.0,Post_Only_Assumed,Missing_ES,,,False
+12,012_05,writing motivation score,,,125.0,134.0,Post_Only_Assumed,Missing_ES,,,False
+12,012_06,perceived usefulness,,,125.0,134.0,Post_Only_Assumed,Missing_ES,,,False
+12,012_07,perceived ease of use,,,125.0,134.0,Post_Only_Assumed,Missing_ES,,,False
+12,012_08,attitude toward use,,,125.0,134.0,Post_Only_Assumed,Missing_ES,,,False
+12,012_09,perceived stress,0.0665,0.1244,125.0,134.0,Post_Only_Assumed,Calculated_from_MSD,0.06646762296385862,3.2377036141381654e-05,False
+12,012_10,AI engagement,,,125.0,,Post_Only_Assumed,Missing_ES,,,False
+13,013_01,post-test scores,0.1718,0.1682,72.0,70.0,Post_Only,Calculated_from_MSD,0.1717522525127496,4.774748725042133e-05,False
+13,013_02,review time,-1.0725,0.1795,72.0,70.0,Post_Only_Assumed,Calculated_from_MSD,-1.0724523172505165,-4.7682749483524134e-05,False
+13,013_03,complex questions performance,,,72.0,70.0,Post_Only_Assumed,Missing_ES,,,False
+14,014_01,academic achievement,,,35.0,33.0,Post_Only_Assumed,Missing_ES,,,False
+14,014_02,goal setting,0.1494,0.243,35.0,33.0,Post_Only_Assumed,Calculated_from_MSD,0.14944803376882365,-4.8033768823646517e-05,False
+14,014_03,environmental structure,-0.0425,0.2427,35.0,33.0,Post_Only_Assumed,Calculated_from_MSD,-0.04250383230344962,3.832303449614882e-06,False
+14,014_04,task strategy,-0.0691,0.2427,35.0,33.0,Post_Only_Assumed,Calculated_from_MSD,-0.06914277451083227,4.277451083227468e-05,False
+14,014_05,time management,-0.0944,0.2428,35.0,33.0,Post_Only_Assumed,Calculated_from_MSD,-0.09436736139123789,-3.2638608762111665e-05,False
+14,014_06,help seeking,0.2179,0.2434,35.0,33.0,Post_Only_Assumed,Calculated_from_MSD,0.21786805707635618,3.194292364383511e-05,False
+14,014_07,self-evaluation,0.1141,0.2428,35.0,33.0,Post_Only_Assumed,Calculated_from_MSD,0.1140552509295709,4.474907042908982e-05,False
+14,014_08,cognitive load,,,35.0,33.0,Post_Only_Assumed,Missing_ES,,,False
+14,014_09,technology acceptance - perceived usefulness,,,35.0,33.0,Post_Only_Assumed,Missing_ES,,,False
+14,014_10,technology acceptance - perceived ease of use,,,35.0,33.0,Post_Only_Assumed,Missing_ES,,,False
+15,015_01,Task Performance - Passed Tests,,,6.0,6.0,Post_Only_Assumed,Missing_ES,,,False
+15,015_02,Task Performance - Passed Tests,,,6.0,6.0,Post_Only_Assumed,Missing_ES,,,False
+16,016_01,Database Report,0.0297,,30.0,38.0,Post_Only_Assumed,Calculated_from_MSD,0.029380915451505923,0.0003190845484940773,False
+16,016_02,Database Exam,0.2273,,30.0,37.0,Post_Only_Assumed,Calculated_from_MSD,0.22545015092940335,0.0018498490705966542,False
+16,016_03,Python Report,0.0689,,30.0,20.0,Post_Only_Assumed,Calculated_from_MSD,0.06304791517806796,0.005852084821932044,True
+16,016_04,Python Assignment1,0.71,,35.0,21.0,Post_Only_Assumed,Calculated_from_MSD,0.710838638670191,-0.000838638670191072,False
+16,016_05,Python Assignment2,0.6691,,29.0,20.0,Post_Only_Assumed,Direct_Reported,0.6922637194249756,-0.023163719424975526,False
+16,016_06,Python Quiz,0.2169,,35.0,21.0,Post_Only_Assumed,Calculated_from_MSD,0.2074980704998949,0.0094019295001051,False
+16,016_07,Python Exam,0.3355,,37.0,22.0,Post_Only_Assumed,Calculated_from_MSD,0.3335905826751264,0.0019094173248735968,False
+17,017_01,Writing Score,,,12.0,,Post_Only_Assumed,Missing_ES,,,False
+17,017_02,Syntactic Complexity,,,12.0,,Post_Only_Assumed,Missing_ES,,,False
+17,017_03,Lexical Complexity,,,12.0,,Post_Only_Assumed,Missing_ES,,,False
+17,017_04,Accuracy,,,12.0,,Post_Only_Assumed,Missing_ES,,,False
+17,017_05,Fluency,,,12.0,,Post_Only_Assumed,Missing_ES,,,False
+19,019_01,Knowledge Retention,0.1405,0.1958,89.0,37.0,Post_Only_Assumed,Calculated_from_MSD,0.1405020504333471,-2.05043334708388e-06,False
+19,019_02,Knowledge Transfer,0.9328,0.2042,89.0,37.0,Post_Only_Assumed,Calculated_from_MSD,0.9327615979765441,3.8402023455841316e-05,False
+20,020_01,Physics Achievement - Bottom Third Subgroup,0.6665,,42.0,38.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+20,020_02,Physics Achievement - Medium Third Subgroup,-0.5338,,42.0,38.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+20,020_03,Self-Regulated Learning - Top Third Subgroup,-0.4724,,42.0,38.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+20,020_04,Physics Achievement - Top Third Subgroup,0.3764,,87.0,88.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+20,020_05,Learner Autonomy - Whole Sample,-0.2728,,87.0,88.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+20,020_06,Learner Autonomy - Bottom Third Subgroup,-0.3913,,87.0,88.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+20,020_07,Autonomy Technical-Psychological Dimension - Whole Sample,-0.2977,,87.0,88.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+20,020_08,Autonomy Technical-Psychological Dimension - Bottom Third Subgroup,-0.5466,,87.0,88.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+21,021_01,learning performance,4.2029,0.5997,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,4.202884479065951,1.552093404821875e-05,False
+21,021_02,learning performance - novelty,4.131510989305382,0.5927566776806783,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,4.131510989305382,0.0,False
+21,021_03,learning performance - fluency,4.3867,0.6177,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,4.386739911538108,-3.991153810734005e-05,False
+21,021_04,learning performance - originality,1.4038,0.3764,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,1.4037760928843859,2.3907115614063557e-05,False
+21,021_05,AI awareness,0.7987,0.3509,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,0.7986908821656055,9.117834394500868e-06,False
+21,021_06,AI awareness - perceived comfort,2.2767,0.4316,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,2.2767296232824226,-2.9623282422619468e-05,False
+21,021_07,AI awareness - attitude,1.5109,0.3821,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,1.5109215534698368,-2.1553469836899097e-05,False
+21,021_08,critical thinking,-1.1217,0.363,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,-1.1216578658796108,-4.213412038911457e-05,False
+21,021_09,critical thinking - truth seeking,-1.6168,0.3881,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,-1.6168278984620865,2.789846208650637e-05,False
+21,021_10,critical thinking - analyticity,-1.4035,0.3764,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,-1.4034572870816786,-4.27129183213637e-05,False
+21,021_11,critical thinking - systematicity,-0.4542,0.3423,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,-0.4542418591798551,4.185917985510823e-05,False
+21,021_12,critical thinking - inquisitiveness,-1.0353,0.3594,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,-1.035318983758553,1.898375855291512e-05,False
+21,021_13,critical thinking - open-mindedness,-0.8349,0.3521,21.0,15.0,Post_Only_Assumed,Calculated_from_MSD,-0.834898034193504,-1.9658064960292876e-06,False
+21,021_14,cognitive load,,,21.0,15.0,Post_Only_Assumed,Missing_ES,,,False
+22,022_01,Math Quiz Score Improvement - Schoolwide,,,,,Change_Score,Missing_ES,,,False
+22,022_02,Math Quiz Score Improvement - Elementary,,,,,Change_Score,Missing_ES,,,False
+22,022_03,Math Quiz Score Improvement - High School,,,,,Change_Score,Missing_ES,,,False
+22,022_04,Math Quiz Score Improvement - Grade 1,,,,,Change_Score,Missing_ES,,,False
+22,022_05,Math Quiz Score Improvement - Grade 4,,,,,Change_Score,Missing_ES,,,False
+22,022_06,Math Quiz Score Improvement - Grade 5,,,,,Change_Score,Missing_ES,,,False
+22,022_07,Math Quiz Score Improvement - Grade 6,,,,,Change_Score,Missing_ES,,,False
+22,022_08,Math Quiz Score Improvement - Grade 7,,,,,Change_Score,Missing_ES,,,False
+22,022_09,Math Quiz Score Improvement - Grade 8,,,,,Change_Score,Missing_ES,,,False
+22,022_10,Math Quiz Score Improvement - Grade 9,,,,,Change_Score,Missing_ES,,,False
+22,022_11,Math Quiz Score Improvement - Grade 10,,,,,Change_Score,Missing_ES,,,False
+23,023_01,Feature Implementation (FI) Query Performance,-0.3273,0.4824,32.0,5.0,Post_Only_Assumed,Calculated_from_MSD,-0.3273315060177967,3.150601779672302e-05,False
+23,023_02,Best Practices (BP) Query Performance,0.1684,0.5298,4.0,33.0,Post_Only_Assumed,Calculated_from_MSD,0.16844857099817587,-4.857099817587307e-05,False
+23,023_03,Documentation (DOC) Query Performance,0.7455,1.0175,1.0,36.0,Post_Only_Assumed,Calculated_from_MSD,0.7455435296522995,-4.3529652299478805e-05,False
+23,023_04,Concept Clarification (CC) Query Performance,-0.0663,0.3703,27.0,10.0,Post_Only_Assumed,Calculated_from_MSD,-0.06627492737155906,-2.507262844093916e-05,False
+23,023_05,Error Fixing (EF) Query Performance,-0.8672,0.4573,31.0,6.0,Post_Only_Assumed,Calculated_from_MSD,-0.867225922045981,2.5922045981063846e-05,False
+23,023_06,Code Understanding (CU) Query Performance,-1.1365,0.5457,33.0,4.0,Post_Only_Assumed,Calculated_from_MSD,-1.1364871260701765,-1.2873929823520314e-05,False
+23,023_07,Code Optimization (CO) Query Performance,-0.2671,0.3333,16.0,21.0,Post_Only_Assumed,Calculated_from_MSD,-0.2670525401926591,-4.745980734088828e-05,False
+24,024_01,Tutoring Protocols,,,,,Post_Only_Assumed,Missing_ES,,,False
+24,024_02,Difficulty Identification,,,,,Post_Only_Assumed,Missing_ES,,,False
+24,024_03,AI's Role,,,,,Post_Only_Assumed,Missing_ES,,,False
+24,024_04,Problem Context,,,,,Post_Only_Assumed,Missing_ES,,,False
+24,024_05,Learner's Level,,,,,Post_Only_Assumed,Missing_ES,,,False
+24,024_06,Guardrails,,,,,Post_Only_Assumed,Missing_ES,,,False
+24,024_07,Tutoring Protocols,,,,,Post_Only_Assumed,Missing_ES,,,False
+24,024_08,Difficulty Identification,,,,,Post_Only_Assumed,Missing_ES,,,False
+24,024_09,AI's Role,,,,,Post_Only_Assumed,Missing_ES,,,False
+24,024_10,Problem Context,,,,,Post_Only_Assumed,Missing_ES,,,False
+24,024_11,Learner's Level,,,,,Post_Only_Assumed,Missing_ES,,,False
+24,024_12,Guardrails,,,,,Post_Only_Assumed,Missing_ES,,,False
+25,025_01,Knowledge Construction,0.9372,0.2698,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.9371604778476693,3.952215233071765e-05,False
+25,025_02,Critical Thinking,1.6065,0.2945,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,1.6064733613684035,2.663863159657609e-05,False
+25,025_03,Problem-solving,0.8188,0.2666,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.8187968170225385,3.182977461491099e-06,False
+25,025_04,Creativity,0.718,0.2642,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.7180467338508015,-4.673385080156134e-05,False
+25,025_05,Attitudes towards science,0.4876,0.2599,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.4875961885997982,3.8114002017808346e-06,False
+25,025_06,Attitudes towards mathematics,1.329,0.283,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,1.3290388827553623,-3.888275536234609e-05,False
+25,025_07,Attitudes towards engineering/technology,1.0415,0.2729,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,1.0415105763161052,-1.0576316105126438e-05,False
+25,025_08,Attitudes towards 21st century learning,1.3173,0.2825,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,1.317342083852135,-4.208385213511079e-05,False
+26,026_01,Thermodynamics Knowledge - Pretest,-0.0444,0.1826,60.0,60.0,Pre_Test_Remove,Calculated_from_MSD,-0.04444689981701636,4.689981701636037e-05,False
+26,026_02,Thermodynamics Knowledge - Posttest,0.6101,,60.0,60.0,Post_Only,Direct_Reported,1.54412317931201,-0.9340231793120101,True
+26,026_03,Thermodynamics Learning Gains,,,60.0,60.0,Change_Score,Missing_ES,,,False
+27,027_01,Amount of feedback given across both sessions (min 12 - number of required peer reviews),,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_02,Amount of feedback given (Session 1),,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_03,Amount of feedback given (Session 2),,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_04,Overall quality of feedback given across both sessions (max 9),,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_05,Session 1: Total quality of feedback,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_06,Session 1: Average Clarity,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_07,Session 1: Average Relevance,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_08,Session 1: Average Specificity,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_09,Session 2: Total quality of feedback,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_10,Session 2: Average Clarity,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_11,Session 2: Average Relevance,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_12,Session 2: Average Specificity,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_13,I provided honest and unbiased ratings to my peers regardless of how that impacted their grades,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_14,I felt motivated to give peer feedback on the platform,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_15,How would you rate the quality of open-ended feedback you received from your peers overall?,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_16,How often did you consult the AI feedback assistant for insight into the feedback you provided?,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_17,Do you feel that the AI feedback assistant helped you improve the quality of your open-ended feedback?,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_18,"Overall, I found my experience on the platform enjoyable",,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+27,027_19,Using the platform helped me improve my skills in giving feedback,,,17.0,17.0,Post_Only_Assumed,Missing_ES,,,False
+28,028_01,Perceived Enjoyment (PE),,,33.0,,Post_Only_Assumed,Missing_ES,,,False
+28,028_02,Perceived Usefulness (PU),,,33.0,,Post_Only_Assumed,Missing_ES,,,False
+28,028_03,Perceived Ease of Use (PEU),,,33.0,,Post_Only_Assumed,Missing_ES,,,False
+28,028_04,Behavioral Intention (BI),,,33.0,,Post_Only_Assumed,Missing_ES,,,False
+29,029_01,,,,,,Unknown,Missing_ES,,,False
+30,030_01,learning outcomes,,,,,Post_Only_Assumed,Missing_ES,,,False
+30,030_02,motivation,,,,,Post_Only_Assumed,Missing_ES,,,False
+30,030_03,perceived choice,,,,,Post_Only_Assumed,Missing_ES,,,False
+30,030_04,perceived value,,,,,Post_Only_Assumed,Missing_ES,,,False
+30,030_05,recall test,-0.1491,0.2587,29.0,31.0,Post_Only_Assumed,Calculated_from_MSD,-0.14906669537586717,-3.330462413284052e-05,False
+30,030_06,final test,1.523,,29.0,31.0,Post_Only,Calculated_from_MSD,1.5236304761338328,-0.0006304761338329357,False
+31,031_01,literal comprehension skills,0.0359,0.2582,30.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.03586270265069865,3.729734930135037e-05,False
+31,031_02,deductive comprehension skills,0.03,0.2582,30.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.029960683523595426,3.9316476404573086e-05,False
+31,031_03,critical comprehension skills,-0.0164,0.2582,30.0,30.0,Post_Only_Assumed,Calculated_from_MSD,-0.01644051484212828,4.0514842128278744e-05,False
+31,031_04,aesthetic comprehension skills,,,30.0,30.0,Post_Only_Assumed,Missing_ES,,,False
+31,031_05,creative comprehension skills,,,30.0,30.0,Post_Only_Assumed,Missing_ES,,,False
+31,031_06,inferential comprehension skills,,,30.0,30.0,Post_Only_Assumed,Missing_ES,,,False
+32,032_01,knowledge,-0.0314,0.2462,33.0,33.0,Post_Only_Assumed,Calculated_from_MSD,-0.03144225462724102,4.2254627241021525e-05,False
+32,032_02,self-efficacy,1.5092,0.279,33.0,33.0,Post_Only_Assumed,Calculated_from_MSD,1.5091574693231347,4.2530676865437655e-05,False
+32,032_03,problem solving abilities,0.9866,0.2607,33.0,33.0,Post_Only_Assumed,Calculated_from_MSD,0.9865945989240426,5.401075957478518e-06,False
+32,032_04,decision-making skills,1.0232,0.2618,33.0,33.0,Post_Only_Assumed,Calculated_from_MSD,1.0231794653051784,2.0534694821661148e-05,False
+33,033_01,Access Skill,,,30.0,,Post_Only_Assumed,Missing_ES,,,False
+33,033_02,Analysis Skill,,,30.0,,Post_Only_Assumed,Missing_ES,,,False
+33,033_03,Collective Inference Skill,,,30.0,,Post_Only_Assumed,Missing_ES,,,False
+33,033_04,Evaluation Skill,,,30.0,,Post_Only_Assumed,Missing_ES,,,False
+34,034_01,Academic Performance - Pre-Training,0.5405,0.1663,75.0,75.0,Pre_Test_Remove,Calculated_from_MSD,0.5404570423654913,4.2957634508677955e-05,False
+34,034_02,Academic Performance - Post-Training,1.2611,0.1788,75.0,75.0,Post_Only,Calculated_from_MSD,1.2610664321861462,3.35678138538853e-05,False
+34,034_03,Moral Behavior Level - Pre-Training,2.9848,0.2374,75.0,75.0,Pre_Test_Remove,Calculated_from_MSD,2.984771573604061,2.8426395938918603e-05,False
+34,034_04,Moral Behavior Level - Post-Training,2.1974,0.2068,75.0,75.0,Post_Only,Calculated_from_MSD,2.197419199052784,-1.9199052784024673e-05,False
+34,034_05,Self-Efficacy - Pre-Training,3.9797,0.2819,75.0,75.0,Pre_Test_Remove,Calculated_from_MSD,3.979695431472081,4.568527918635823e-06,False
+34,034_06,Self-Efficacy - Post-Training,2.8141,0.2304,75.0,75.0,Post_Only,Calculated_from_MSD,2.8140696266510314,3.0373348968382174e-05,False
+34,034_07,Academic Performance - Paired t-test,0.9065847519076502,0.1714827096472747,75.0,75.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+34,034_08,Academic Performance - Independent t-test,1.4817299170963745,0.184350423082585,75.0,75.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+34,034_09,Moral Behavior Level - Paired t-test,0.3980524448340041,0.1649085175568394,75.0,75.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+34,034_10,Moral Behavior Level - Independent t-test,0.8838388979171358,0.1710864420643492,75.0,75.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+34,034_11,Self-Efficacy - Paired t-test,1.6263285603217883,0.1883697125877577,75.0,75.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+34,034_12,Self-Efficacy - Control Group Paired t-test,0.4841617492266662,0.1656745061801827,75.0,75.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+34,034_13,Self-Efficacy - Experimental Group Independent t-test,0.9715729061662632,0.1726649347917941,75.0,75.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+34,034_14,Self-Efficacy - Control Group Independent t-test,2.022756301299327,0.2007614094262651,75.0,75.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+34,034_15,Academic Achievement - ANOVA,0.8800437563348654,0.1710212171346387,75.0,75.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+34,034_16,Moral Behavior Level - ANOVA,0.9300631381640688,0.1719013034754885,75.0,75.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+34,034_17,Self-Efficacy - ANOVA,1.0031148444752012,0.1732651089247006,75.0,75.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+35,035_01,autonomous motivation,,,168.0,118.0,Post_Only_Assumed,Missing_ES,,,False
+35,035_02,autonomy,0.0289,0.1201,168.0,118.0,Post_Only_Assumed,Calculated_from_MSD,0.02892667912578857,-2.6679125788572206e-05,False
+35,035_03,competence,-0.364,0.1211,168.0,118.0,Post_Only_Assumed,Calculated_from_MSD,-0.3639907020482908,-9.297951709175134e-06,False
+35,035_04,relatedness,-0.0922,0.1202,168.0,118.0,Post_Only_Assumed,Calculated_from_MSD,-0.0921641901091616,-3.5809890838400804e-05,False
+36,036_01,Exercise programme,0.86,0.2819,27.0,28.0,Post_Only_Assumed,Calculated_from_MSD,0.8600246142600187,-2.4614260018762657e-05,False
+36,036_02,Test programme,0.0456,0.2698,27.0,28.0,Post_Only_Assumed,Calculated_from_MSD,0.045573586378263094,2.6413621736907922e-05,False
+36,036_03,Independent and Persistent,0.0991,0.2723,27.0,27.0,Post_Only_Assumed,Calculated_from_MSD,0.09909266263768113,7.3373623188655035e-06,False
+36,036_04,Self-Regulation,0.4389,0.2754,27.0,27.0,Post_Only_Assumed,Calculated_from_MSD,0.4388787006827891,2.1299317210898838e-05,False
+36,036_05,Complex Programming Tasks,0.1952,0.2728,27.0,27.0,Post_Only_Assumed,Calculated_from_MSD,0.19520594876358724,-5.948763587226846e-06,False
+36,036_06,Independent and Persistent,0.301,0.2737,27.0,27.0,Post_Only_Assumed,Calculated_from_MSD,0.30103296631026333,-3.296631026333818e-05,False
+36,036_07,Self-Regulation,0.7495,0.2816,27.0,27.0,Post_Only_Assumed,Calculated_from_MSD,0.7494663892077996,3.3610792200433615e-05,False
+36,036_08,Complex Programming Tasks,0.6945,0.2803,27.0,27.0,Post_Only_Assumed,Calculated_from_MSD,0.6945400240114539,-4.002401145386525e-05,False
+37,037_01,compassion ratings,0.7248,,54.0,54.0,Post_Only_Assumed,Direct_Reported,1.0320977967990244,-0.30729779679902436,True
+37,037_02,response preference,0.6752,,54.0,54.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+37,037_03,compassion ratings,0.799354543453101,0.1047050952060379,197.0,197.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+37,037_04,compassion ratings,0.9901,0.0953,247.0,247.0,Post_Only_Assumed,Calculated_from_MSD,0.9900627107418746,3.7289258125405844e-05,False
+37,037_05,response preference,1.0169,,126.0,126.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+37,037_06,response preference,0.4685,,121.0,121.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+37,037_07,compassion ratings,1.0128,0.1972,58.0,58.0,Post_Only_Assumed,Calculated_from_MSD,1.0128368692564722,-3.6869256472282785e-05,False
+37,037_08,response preference,0.7053,,58.0,58.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+37,037_09,understanding,,,58.0,58.0,Post_Only_Assumed,Missing_ES,,,False
+37,037_10,validation,,,58.0,58.0,Post_Only_Assumed,Missing_ES,,,False
+37,037_11,caring,,,58.0,58.0,Post_Only_Assumed,Missing_ES,,,False
+38,038_01,,,,,,Unknown,Missing_ES,,,False
+40,040_01,Overall Writing Quality,,,100.0,100.0,Post_Only_Assumed,Missing_ES,,,False
+40,040_02,Overall Writing Quality,,,100.0,100.0,Post_Only_Assumed,Missing_ES,,,False
+40,040_03,Overall Engagement Level 5/30,,,100.0,100.0,Post_Only_Assumed,Missing_ES,,,False
+40,040_04,Overall Engagement Level 5/23,,,100.0,100.0,Post_Only_Assumed,Missing_ES,,,False
+40,040_05,Grammar & Syntax,0.3815,,100.0,100.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+40,040_06,Organization & Coherence,0.4074,,100.0,100.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+40,040_07,Vocabulary Usage,0.3208,,100.0,100.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+40,040_08,Argumentation,0.0767,,100.0,100.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+40,040_09,Mechanics,0.4812,,100.0,100.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+40,040_10,Overall Writing Performance Score,0.7561,,100.0,100.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+40,040_11,Grammar & Syntax,0.2451,,100.0,100.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+40,040_12,Organization & Coherence,0.2849,,100.0,100.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+40,040_13,Vocabulary Usage,0.1664,,100.0,100.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+40,040_14,Argumentation,0.1594,,100.0,100.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+40,040_15,Mechanics,0.3118,,100.0,100.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+40,040_16,Overall Writing Performance Score,0.4612,,100.0,100.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+40,040_17,Total Writing Performance Score,9.8698,1.1479,20.0,20.0,Post_Only_Assumed,Calculated_from_MSD,9.86981481386494,-1.4813864940066424e-05,False
+41,041_01,Task quality,1.186,0.2425,40.0,40.0,Post_Only_Assumed,Calculated_from_MSD,1.1860259005526004,-2.5900552600433002e-05,False
+41,041_02,Task quality,0.4275,0.2766,20.0,40.0,Post_Only_Assumed,Calculated_from_MSD,0.42750754429890775,-7.544298907757874e-06,False
+41,041_03,Task time,-3.0329,0.3279,40.0,40.0,Post_Only_Assumed,Calculated_from_MSD,-3.0328663469929453,-3.365300705482355e-05,False
+41,041_04,Task time,-1.9561,0.3269,20.0,40.0,Post_Only_Assumed,Calculated_from_MSD,-1.9560757132923736,-2.4286707626330895e-05,False
+41,041_05,Cognitive diversity,0.1775,0.224,40.0,40.0,Post_Only_Assumed,Calculated_from_MSD,0.17747518001604473,2.481998395525986e-05,False
+41,041_06,Cognitive diversity,-1.2649,0.2972,20.0,40.0,Post_Only_Assumed,Calculated_from_MSD,-1.2649064213019254,6.421301925518819e-06,False
+42,042_01,D-scores (difference between response scores with and without feedback),1.1414,,11.0,10.0,Change_Score,Calculated_from_MSD,1.1407827875936167,0.0006172124063832385,False
+42,042_02,Q1 - With vs Without ChatGPT feedback,0.1168,0.4268,11.0,11.0,Post_Only_Assumed,Calculated_from_MSD,0.11680627714014886,-6.2771401488637135e-06,False
+42,042_03,Q2 - With vs Without ChatGPT feedback,0.8744,,10.0,10.0,Post_Only_Assumed,Calculated_from_MSD,0.8744558857920008,-5.588579200088706e-05,False
+42,042_04,Q3 - With vs Without ChatGPT feedback,1.8202,,11.0,11.0,Post_Only_Assumed,Calculated_from_MSD,1.8202997032210881,-9.970322108809881e-05,False
+42,042_05,Q4 - With vs Without ChatGPT feedback,0.4741,,10.0,10.0,Post_Only_Assumed,Calculated_from_MSD,0.47444337770842515,-0.00034337770842512993,False
+43,043_01,knowledge activation,1.7867,0.4319,15.0,15.0,Post_Only_Assumed,Calculated_from_MSD,1.786728547529685,-2.8547529685063466e-05,False
+43,043_02,online collaborative learning performance,1.7385,0.4286,15.0,15.0,Post_Only_Assumed,Calculated_from_MSD,1.7384531244528694,4.6875547130564854e-05,False
+43,043_03,critical thinking,1.9805,0.4458,15.0,15.0,Post_Only_Assumed,Calculated_from_MSD,1.9805370997827934,-3.709978279342607e-05,False
+44,044_01,mathematical problem-solving abilities,-1.8557,0.5368,9.0,11.0,Post_Only_Assumed,Calculated_from_MSD,-1.8557030039295608,3.003929560874141e-06,False
+44,044_02,mathematical problem-solving abilities,0.7524,0.4649,9.0,11.0,Post_Only_Assumed,Calculated_from_MSD,0.7523663641930048,3.3635806995113704e-05,False
+44,044_03,attitudes toward using ChatGPT for learning mathematics,,,,,Post_Only_Assumed,Missing_ES,,,False
+45,045_01,Arabic Writing Comprehension,,,,,Post_Only_Assumed,Missing_ES,,,False
+46,046_01,Intrinsic motivation,1.0273,0.2725,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,1.0273460381231272,-4.60381231270901e-05,False
+46,046_02,Identified regulation,0.4192,0.2589,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.4191576577771438,4.234222285620648e-05,False
+46,046_03,External regulation,0.4105,0.2588,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.4105462626989867,-4.6262698986720974e-05,False
+46,046_04,Amotivation,-1.2548,0.2802,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,-1.2548359441976464,3.594419764652024e-05,False
+46,046_05,Cognitive engagement,2.6453,0.3506,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,2.645303612876983,-3.6128769829169016e-06,False
+46,046_06,Behavioral engagement,1.7365,0.3005,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,1.7364789870835957,2.1012916404217208e-05,False
+46,046_07,Emotional engagement,0.502,0.2601,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.5020021678655658,-2.1678655658385892e-06,False
+46,046_08,Self-efficacy,1.3229,0.2827,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,1.322879620671538,2.0379328461883617e-05,False
+46,046_09,Critical thinking,1.6464,0.2963,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,1.6463616343963128,3.8365603687307015e-05,False
+46,046_10,Problem-solving,1.3922,0.2854,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,1.3921644170853071,3.558291469296648e-05,False
+46,046_11,Creativity,0.7882,0.2659,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.7881937872410046,6.212758995371992e-06,False
+46,046_12,Chemistry knowledge,0.6413,0.2626,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.6413499408908907,-4.9940890890720624e-05,False
+46,046_13,Chemistry knowledge,0.9796,0.271,31.0,30.0,Post_Only_Assumed,Calculated_from_MSD,0.9796038333413462,-3.833341346126673e-06,False
+47,047_01,Number Base Conversion Performance,1.3212,0.1197,170.0,170.0,Post_Only_Assumed,Calculated_from_MSD,1.321241831448401,-4.183144840097519e-05,False
+47,047_02,Number Base Conversion Performance,0.0572,0.1085,170.0,170.0,Post_Only_Assumed,Calculated_from_MSD,0.057239281494431124,-3.9281494431123165e-05,False
+48,048_01,essay writing quality,0.2010117055207995,0.068425837110752,342.0,576.0,Post_Only_Assumed,Direct_Reported_NoMSD,,,False
+48,048_02,emotion,0.2754,0.0686,342.0,576.0,Post_Only_Assumed,Calculated_from_MSD,0.2754129093506589,-1.2909350658896201e-05,False
+48,048_03,motivation,0.6225,0.0698,342.0,576.0,Post_Only_Assumed,Calculated_from_MSD,0.6225452502897924,-4.525028979229795e-05,False
+48,048_04,engagement,0.3126,0.0687,342.0,576.0,Post_Only_Assumed,Calculated_from_MSD,0.31262971418418317,-2.9714184183182724e-05,False
+49,049_01,writing proficiency,0.7923,,40.0,40.0,Post_Only_Assumed,Direct_Reported,1.204135780501649,-0.41183578050164904,True
+49,049_02,student satisfaction with feedback,,,40.0,40.0,Post_Only_Assumed,Missing_ES,,,False
+50,050_01,Baseline SDLS Score,,,50.0,51.0,Pre_Test_Remove,Missing_ES,,,False
+50,050_02,Baseline CCTS Score,,,50.0,51.0,Pre_Test_Remove,Missing_ES,,,False
+50,050_03,Baseline GFS Score,,,50.0,51.0,Pre_Test_Remove,Missing_ES,,,False
+50,050_04,SDLS Score 6 weeks,,,50.0,51.0,Post_Only_Assumed,Missing_ES,,,False
+50,050_05,SDLS Score 12 weeks,,,50.0,51.0,Post_Only_Assumed,Missing_ES,,,False
+50,050_06,SDLS Score 14 weeks,,,50.0,51.0,Post_Only_Assumed,Missing_ES,,,False
+50,050_07,CCTS Score 6 weeks,,,50.0,51.0,Post_Only_Assumed,Missing_ES,,,False
+50,050_08,CCTS Score 12 weeks,,,50.0,51.0,Post_Only_Assumed,Missing_ES,,,False
+50,050_09,CCTS Score 14 weeks,,,50.0,51.0,Post_Only_Assumed,Missing_ES,,,False
+50,050_10,GFS Score 6 weeks,,,50.0,51.0,Post_Only_Assumed,Missing_ES,,,False
+50,050_11,GFS Score 12 weeks,,,50.0,51.0,Post_Only_Assumed,Missing_ES,,,False
+51,051_01,Affective feedback quality,-0.1048,0.1171,146.0,146.0,Post_Only_Assumed,Calculated_from_MSD,-0.1048455756512767,4.557565127669139e-05,False
+51,051_02,Cognitive-Descriptive feedback quality,-0.4377578144931627,0.1184346526957404,146.0,146.0,Post_Only_Assumed,Calculated_from_MSD,-0.43775781449316276,5.551115123125783e-17,False
+51,051_03,Cognitive-Identification feedback quality,0.3797,0.1181,146.0,146.0,Post_Only_Assumed,Calculated_from_MSD,0.3796872885470857,1.2711452914260235e-05,False
+51,051_04,Cognitive-Justification feedback quality,0.1153,0.1171,146.0,146.0,Post_Only_Assumed,Calculated_from_MSD,0.11533949298182833,-3.9492981828329055e-05,False
+51,051_05,Constructive feedback quality,-0.1213,0.1171,146.0,146.0,Post_Only_Assumed,Calculated_from_MSD,-0.12131124228959482,1.1242289594814991e-05,False
+52,052_01,Task Score,,,,,Post_Only_Assumed,Missing_ES,,,False
+52,052_02,Revision Score,,,,,Post_Only_Assumed,Missing_ES,,,False
+52,052_03,Difference Score,,,,,Change_Score,Missing_ES,,,False
+52,052_04,Emotion,,,,,Post_Only_Assumed,Missing_ES,,,False
+52,052_05,Motivation,,,,,Post_Only_Assumed,Missing_ES,,,False
+52,052_06,Engagement,,,,,Post_Only_Assumed,Missing_ES,,,False
+53,053_01,Average assignment score,1.444,,32.0,31.0,Post_Only_Assumed,Calculated_from_MSD,1.4438835103780476,0.00011648962195232038,False
+53,053_02,Motivation,0.5883,0.2574,32.0,31.0,Post_Only_Assumed,Calculated_from_MSD,0.5883215086854301,-2.1508685430049468e-05,False
+53,053_03,SRL strategy,0.6174,0.2579,32.0,31.0,Post_Only_Assumed,Calculated_from_MSD,0.6173885597960522,1.1440203947721272e-05,False
+53,053_04,Academic performance,0.7274,0.2602,32.0,31.0,Post_Only_Assumed,Calculated_from_MSD,0.7273891333089616,1.0866691038446952e-05,False
+54,054_01,Academic Writing Skills - Post-test,2.1862,0.298,37.0,35.0,Post_Only,Calculated_from_MSD,2.1861718043041143,2.819569588563553e-05,False
+54,054_02,Academic Writing Skills - Delayed Post-test,2.1862,0.298,37.0,35.0,Post_Only,Calculated_from_MSD,2.1861718043041143,2.819569588563553e-05,False
+55,055_01,knowing sub-skill,2.2249,0.2405,55.0,57.0,Post_Only_Assumed,Calculated_from_MSD,2.2249193825442872,-1.9382544287349646e-05,False
+55,055_02,applying sub-skill,2.5589,0.2549,55.0,57.0,Post_Only_Assumed,Calculated_from_MSD,2.5588834269846945,1.6573015305443306e-05,False
+55,055_03,reasoning sub-skill,1.7071,0.2208,55.0,57.0,Post_Only_Assumed,Calculated_from_MSD,1.7070733961100497,2.660388995034957e-05,False
+55,055_04,overall achievement,1.1301,0.2035,55.0,57.0,Post_Only_Assumed,Calculated_from_MSD,1.130072989628104,2.7010371896007968e-05,False
+55,055_05,engagement,,,55.0,,Post_Only_Assumed,Missing_ES,,,False
+55,055_06,comprehension,,,55.0,,Post_Only_Assumed,Missing_ES,,,False
+55,055_07,problem-solving skills,,,55.0,,Post_Only_Assumed,Missing_ES,,,False
+55,055_08,perceived relevance,,,55.0,,Post_Only_Assumed,Missing_ES,,,False
+56,056_01,Word Count per Example,2.5218,0.1992,89.0,92.0,Post_Only_Assumed,Calculated_from_MSD,2.521801320157992,-1.3201579922572648e-06,False
+56,056_02,Word Count per Example - Gen-Story,5.1694,0.308,91.0,92.0,Post_Only_Assumed,Calculated_from_MSD,5.16942075652028,-2.0756520279441304e-05,False
+56,056_03,Engagement Time (seconds/example),1.1421,0.1603,89.0,92.0,Post_Only_Assumed,Calculated_from_MSD,1.1421203638724913,-2.0363872491380164e-05,False
+56,056_04,Engagement Time (seconds/example) - Gen-Story,1.4729,0.1667,91.0,92.0,Post_Only_Assumed,Calculated_from_MSD,1.472862336159363,3.766384063719208e-05,False
+56,056_05,Flesch-Kincaid Reading Ease,-1.4464,0.167,89.0,92.0,Post_Only_Assumed,Calculated_from_MSD,-1.4463752315414449,-2.4768458555035622e-05,False
+56,056_06,Flesch-Kincaid Reading Ease - Gen-Story,0.8908,0.155,91.0,92.0,Post_Only_Assumed,Calculated_from_MSD,0.8908412096639285,-4.1209663928509777e-05,False
+57,057_01,,,,,,Unknown,Missing_ES,,,False
+58,058_01,,,,,,Unknown,Missing_ES,,,False
+59,059_01,Ethical standards,,,52.0,47.0,Post_Only_Assumed,Missing_ES,,,False
+59,059_02,Nursing processes,,,52.0,47.0,Post_Only_Assumed,Missing_ES,,,False
+59,059_03,Knowledge of professional standards,,,52.0,47.0,Post_Only_Assumed,Missing_ES,,,False
+59,059_04,Understanding of ethical concepts,,,52.0,47.0,Post_Only_Assumed,Missing_ES,,,False
+59,059_05,Communication of professional and ethical standards,,,52.0,47.0,Post_Only_Assumed,Missing_ES,,,False
+59,059_06,Analysis of challenges and barriers,,,52.0,47.0,Post_Only_Assumed,Missing_ES,,,False
+59,059_07,Application of ethical principles,,,52.0,47.0,Post_Only_Assumed,Missing_ES,,,False
+59,059_08,Application of nursing processes,,,52.0,47.0,Post_Only_Assumed,Missing_ES,,,False
+59,059_09,Critical thinking skills,,,52.0,47.0,Post_Only_Assumed,Missing_ES,,,False
+59,059_10,Integration of evidence-based knowledge and clinical reasoning,,,52.0,47.0,Post_Only_Assumed,Missing_ES,,,False
+59,059_11,Collaboration and teamwork,,,52.0,47.0,Post_Only_Assumed,Missing_ES,,,False
+59,059_12,Reflection and improvement,,,52.0,47.0,Change_Score,Missing_ES,,,False
+60,060_01,Academic Writing Pre-test,-0.2624,0.2841,25.0,25.0,Pre_Test_Remove,Calculated_from_MSD,-0.2623703364918928,-2.966350810723606e-05,False
+60,060_02,Academic Writing Post-test,0.7724,0.2932,25.0,25.0,Post_Only,Calculated_from_MSD,0.7724051742627425,-5.174262742491109e-06,False
+62,062_01,,,,,,Unknown,Missing_ES,,,False
+63,063_01,knowledge examination,0.5161,0.2317,39.0,38.0,Post_Only_Assumed,Calculated_from_MSD,0.5161492542466032,-4.9254246603180896e-05,False
+64,064_01,student learning outcomes in technology learning,1.6082,0.2922,31.0,31.0,Post_Only_Assumed,Calculated_from_MSD,1.608196447594127,3.5524058730196373e-06,False
+64,064_02,student engagement in technology learning,,,31.0,31.0,Post_Only_Assumed,Missing_ES,,,False
+65,065_01,recommender score,,,5.0,5.0,Post_Only_Assumed,Missing_ES,,,False
+66,066_01,Ask Probing Questions,,,,,Post_Only_Assumed,Missing_ES,,,False
+66,066_02,Analyze/Make Logical Conclusions,,,,,Post_Only_Assumed,Missing_ES,,,False
+66,066_03,Understand Complex Concepts,,,,,Post_Only_Assumed,Missing_ES,,,False
+66,066_04,Provide Diverse Perspectives,,,,,Post_Only_Assumed,Missing_ES,,,False
+66,066_05,Recommend ChatGPT for Future Use,,,,,Post_Only_Assumed,Missing_ES,,,False
+67,067_01,G2 Fluency,,,,,Post_Only_Assumed,Missing_ES,,,False
+67,067_02,G2 Flexibility,,,,,Post_Only_Assumed,Missing_ES,,,False
+67,067_03,G2 Narrative Originality,,,,,Post_Only_Assumed,Missing_ES,,,False
+67,067_04,G3 Fluency,,,,,Post_Only_Assumed,Missing_ES,,,False
+67,067_05,G3 Flexibility,,,,,Post_Only_Assumed,Missing_ES,,,False
+67,067_06,G3 Narrative Originality,,,,,Post_Only_Assumed,Missing_ES,,,False
+67,067_07,G2 Fluency,,,,,Post_Only_Assumed,Missing_ES,,,False
+67,067_08,G2 Flexibility,,,,,Post_Only_Assumed,Missing_ES,,,False
+67,067_09,G2 Narrative Originality,,,,,Post_Only_Assumed,Missing_ES,,,False
+67,067_10,G3 Fluency,,,,,Post_Only_Assumed,Missing_ES,,,False
+67,067_11,G3 Flexibility,,,,,Post_Only_Assumed,Missing_ES,,,False
+67,067_12,G3 Narrative Originality,,,,,Post_Only_Assumed,Missing_ES,,,False
+68,068_01,,,,,,Unknown,Missing_ES,,,False
+69,069_01,programming skills,0.4713,0.2358,38.0,36.0,Post_Only_Assumed,Calculated_from_MSD,0.47130604345710864,-6.043457108639849e-06,False
+70,070_01,Computational Thinking,1.09,0.32,21.0,24.0,Post_Only_Assumed,Direct_Reported,1.104003995716277,-0.014003995716276973,False
+70,070_02,Programming Self-Efficacy,1.11,0.32,21.0,24.0,Post_Only_Assumed,Calculated_from_MSD,1.1167887044363403,-0.006788704436340165,False
+70,070_03,Learning Motivation,0.97,0.31,21.0,24.0,Post_Only_Assumed,Calculated_from_MSD,0.9783022767357423,-0.008302276735742353,False

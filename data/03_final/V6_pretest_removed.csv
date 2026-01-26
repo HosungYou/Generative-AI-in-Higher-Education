@@ -1,0 +1,11 @@
+Study_ID,ES_ID,Outcome_Name,Hedges_g,SE_g
+1,001_01,Pre-test,-0.1055,0.2158
+3,003_01,Academic Writing Achievement Pre-Test,0.0364,0.2829
+26,026_01,Thermodynamics Knowledge - Pretest,-0.0444,0.1826
+34,034_01,Academic Performance - Pre-Training,0.5405,0.1663
+34,034_03,Moral Behavior Level - Pre-Training,2.9848,0.2374
+34,034_05,Self-Efficacy - Pre-Training,3.9797,0.2819
+50,050_01,Baseline SDLS Score,,
+50,050_02,Baseline CCTS Score,,
+50,050_03,Baseline GFS Score,,
+60,060_01,Academic Writing Pre-test,-0.2624,0.2841
