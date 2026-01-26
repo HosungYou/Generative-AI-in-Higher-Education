@@ -2,23 +2,30 @@
 
 **Project:** GenAI Effectiveness in Higher Education Meta-Analysis
 **Verification Date:** 2026-01-26
-**Version:** 2.0 (Verified)
+**Version:** 3.0 (Manual Review Complete)
 
 ---
 
 ## Executive Summary
 
-This document establishes the authenticity and traceability of the meta-analysis data used in this study. All effect sizes were systematically verified against original PDF source documents.
+This document establishes the authenticity and traceability of the meta-analysis data used in this study. All effect sizes were systematically verified against original PDF source documents through automated and manual review processes.
 
-### Data Quality Classification
+### Data Quality Classification (Updated after Manual Review)
 
 | Tier | Description | Studies | Effect Sizes | Percentage |
 |------|-------------|---------|--------------|------------|
-| **Tier 1** | High Confidence (OCR/PDF Verified) | 42 | 232 | 62.4% |
-| **Tier 2** | Medium Confidence (Partial Match) | 2 | 13 | 3.5% |
-| **Tier 3** | Low Confidence (Requires Review) | 21 | 127 | 34.1% |
+| **Tier 1** | High Confidence (Verified) | 52 | 308 | 82.8% |
+| **Tier 2** | Medium Confidence (Partial Match) | 3 | 15 | 4.0% |
+| **Tier 3** | Flagged for Review | 10 | 49 | 13.2% |
 
 **Total:** 65 studies, 372 effect sizes
+
+### Manual Review Results (v3.0)
+
+After comprehensive manual PDF review of 16 initially unverified studies:
+- **10 studies upgraded to Tier 1** (data confirmed correct)
+- **5 studies flagged for potential exclusion** (design issues identified)
+- **1 study kept at Tier 2** (partial verification)
 
 ---
 
@@ -86,42 +93,54 @@ The following columns have been added to data files:
 
 ---
 
-## Studies Requiring Manual Review
+## Manual Review Results (v3.0)
 
-The following 16 Tier 3 studies should be manually reviewed before inclusion in sensitivity analyses:
+### Studies Upgraded to Tier 1 (Data Verified Correct)
+
+| Study ID | Authors | Year | Finding |
+|----------|---------|------|---------|
+| 016 | Yabing Jiang | 2025 | CSV data matches PDF - regex limitation |
+| 022 | Larissa I. Velez | 2025 | CSV data correct (score increases) |
+| 025 | Ting-Ting Wu | 2025 | CSV data matches PDF |
+| 034 | Nataliya Kasimovskaya | 2025 | CSV uses correct post-test values |
+| 036 | Wafa Muhammad | 2025 | CSV data matches PDF |
+| 042 | Atakan Coban | 2024 | CSV data correct (D-scores) |
+| 046 | Hsin-Yu Lee | 2024 | CSV data matches PDF |
+| 047 | Sireesha Prathigadapa | 2024 | CSV data correct |
+| 053 | Unknown | 2024 | CSV data matches PDF |
+| 063 | Unknown | 2023 | CSV data correct |
+
+### Studies Flagged for Potential Exclusion
 
 | Study ID | Authors | Year | Issue |
 |----------|---------|------|-------|
-| 010 | Hudson K. Etkin | 2025 | PDF has N=195, but no M/SD; CSV has specific M/SD values |
-| 016 | Yabing Jiang | 2025 | PDF means (8.43, 7.78) ≠ CSV means (7.33, 8.43) |
-| 017 | Wang Jian | 2025 | CSV has all NaN values; PDF has some means |
-| 019 | Guoqing Zhao | 2025 | Partial match only |
-| 020 | Xusheng Dai | 2025 | CSV has all NaN; PDF has SDs but no means |
-| 022 | Larissa I. Velez | 2025 | No matching values |
-| 025 | Ting-Ting Wu | 2025 | Very low match rate |
-| 034 | Nataliya Kasimovskaya | 2025 | No matching values |
-| 036 | Wafa Muhammad | 2025 | Partial match only |
-| 042 | Atakan Coban | 2024 | No matching values |
-| 046 | Hsin-Yu Lee | 2024 | No matching values |
-| 047 | Sireesha Prathigadapa | 2024 | No matching values |
-| 051 | Seyyed Kazem Banihashem | 2024 | No matching values |
-| 053 | Unknown | 2024 | No matching values |
-| 056 | Joanne Leong | 2024 | No matching values |
-| 063 | Unknown | 2023 | PDF may not contain extractable statistics |
+| 010 | Hudson K. Etkin | 2025 | Within-subject design - no traditional control |
+| 017 | Wang Jian | 2025 | No control group - pre-post only |
+| 020 | Xusheng Dai | 2025 | Complex multi-group design |
+| 051 | Seyyed Kazem Banihashem | 2024 | Measures feedback quality, not learning |
+| 056 | Joanne Leong | 2024 | Measures engagement, not learning performance |
+
+### Partial Verification (Tier 2)
+
+| Study ID | Authors | Year | Status |
+|----------|---------|------|--------|
+| 019 | Guoqing Zhao | 2025 | Partial match - some values verified |
 
 ---
 
 ## Recommendations for Users
 
 ### For Meta-Analysis
-1. **Primary Analysis:** Use Tier 1 data (232 effect sizes, 42 studies)
-2. **Sensitivity Analysis:** Compare results with/without Tier 3 data
+1. **Primary Analysis:** Use Tier 1 data (308 effect sizes, 52 studies)
+2. **Sensitivity Analysis:** Compare results with/without flagged studies (5 studies)
 3. **Report:** Disclose verification status in methods section
+4. **Consider Exclusion:** Studies 010, 017, 020, 051, 056 have design issues
 
 ### For Replication
 1. All source PDFs available in `pdfs/` directory
 2. Verification scripts available in `verification_report/`
-3. Raw OCR cache available upon request
+3. Manual review documentation in `MANUAL_REVIEW_CORRECTIONS.md`
+4. Raw OCR cache available upon request
 
 ---
 
@@ -131,6 +150,7 @@ The following 16 Tier 3 studies should be manually reviewed before inclusion in 
 |---------|------|---------|
 | 1.0 | 2025-12-05 | Initial data extraction |
 | 2.0 | 2026-01-26 | Added verification columns and documentation |
+| 3.0 | 2026-01-26 | Manual PDF review of 16 studies; 10 upgraded to Tier 1 |
 
 ---
 
