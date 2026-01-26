@@ -14,6 +14,92 @@
 | v2.0 | 2025-01-22 | EPR submission revision | `GenAI_HE_MetaAnalysis_v2.0_EPR_Revision.md` |
 | v2.1 | 2026-01-22 | Comprehensive Outcome Operationalization | `GenAI_HE_MetaAnalysis_v2.1_Outcome_Operationalization.md` |
 | v2.2 | 2026-01-22 | Effect Size Classification Table | `GenAI_HE_MetaAnalysis_v2.2_Classification_Table.md` |
+| v2.3 | 2026-01-25 | Minor updates | `GenAI_HE_MetaAnalysis_v2.3.md` |
+| **v3.0** | **2026-01-26** | **AI-Integrated Metacognition (AIMC) Framework** | `GenAI_HE_MetaAnalysis_v3.0_AIMC_Framework.md` |
+
+---
+
+## v3.0 - AI-Integrated Metacognition (AIMC) Framework Integration
+**Date:** 2026-01-26
+**Status:** Major theoretical framework revision
+
+### Major Change: AIMC Framework Alignment
+
+**Problem:** The previous version incorrectly referenced "AI-Mediated Communication" (Hancock et al., 2020) as the AIMC framework. The actual AIMC framework in the figures directory (`AIMC_Framework_v2.3_Matrix.jpg`) is an **AI-Integrated Metacognition** framework based on Nelson & Narens (1990) and Efklides (2008).
+
+**Solution:** Complete revision of all AIMC-related content to align with the correct framework.
+
+### Theoretical Framework Changes
+
+**From (Incorrect):**
+- AI-Mediated Communication (Hancock et al., 2020)
+- Five dimensions: Magnitude, Autonomy, Media Type, Optimization Goal, Role Orientation
+- Machine Agency concept (Sundar, 2020)
+
+**To (Correct):**
+- AI-Integrated Metacognition Framework v2.3
+- Three integration levels: L1 Supported → L2 Meta-AI Awareness → L3 Autonomous
+- Three metacognitive dimensions (Efklides, 2008): Knowledge / Experiences / Skills
+- Distributed Metacognition foundation (Clark & Chalmers, 1998)
+
+### New Constructs Added
+
+| Construct | Definition |
+|-----------|------------|
+| **JOL (Judgment of Learning)** | Learners' predictions about future recall performance |
+| **FOK (Feeling of Knowing)** | Sense that information could be recognized even if not currently recalled |
+| **FOD (Feeling of Difficulty)** | Subjective experience of task difficulty that guides effort allocation |
+| **AI Calibration Accuracy** | Ability to judge when AI assistance supports vs. undermines learning (Novel construct) |
+
+### Sections Modified
+
+1. **Main AIMC Section** (Theoretical Framework)
+   - Completely rewritten with 3-level structure (L1, L2, L3)
+   - Added Efklides' metacognitive dimensions table
+   - Added JOL/FOK/FOD explanations
+
+2. **All AIMC Integration Paragraphs** (6 sections after each theory)
+   - Cognitive Load Theory → L1 to L3 transition
+   - Desirable Difficulties → Metacognitive Experiences (FOD, JOL, FOK)
+   - Self-Regulated Learning → Metacognitive Skills dimension
+   - Self-Determination Theory → L2 Meta-AI Awareness level
+   - Sociocultural Learning → Distributed Metacognition foundation
+   - Automation Bias → AI Calibration Accuracy construct
+
+3. **Cognitive Dependency Hypothesis Synthesis**
+   - Reframed around L1→L2→L3 progression
+   - Updated boundary conditions
+
+4. **Discussion Section** (AIMC Framework subsection)
+   - New table: AIMC Framework Components → Meta-Analytic Findings
+   - Updated research agenda with AIMC-specific questions
+
+5. **Conclusion**
+   - Updated theoretical contribution statement
+   - L1-L2-L3 framework language
+
+### Keywords Updated
+- From: "AI-mediated communication"
+- To: "AI-integrated metacognition, judgment of learning, distributed metacognition"
+
+### References Changes
+
+**Added:**
+- Clark, A., & Chalmers, D. (1998). The extended mind. *Analysis, 58*(1), 7-19.
+- Efklides, A. (2008). Metacognition: Defining its facets and levels. *European Psychologist, 13*(4), 277-287.
+- Nelson, T. O., & Narens, L. (1990). Metamemory: A theoretical framework. In *Psychology of learning and motivation* (Vol. 26, pp. 125-173).
+
+**Removed:**
+- Hancock, J. T., Naaman, M., & Levy, K. (2020). AI-mediated communication.
+- Sundar, S. S. (2020). Rise of machine agency.
+- Moore, M. G. (1989). Three types of interaction.
+
+### New Figures Added
+
+| File | Description |
+|------|-------------|
+| `AIMC_Framework_v2.3_Matrix.jpg` | Updated with JOL/FOK/FOD explanations |
+| `AIMC_Framework_v2.4_Matrix_Annotated.jpg` | Annotated version with construct definitions |
 
 ---
 
@@ -281,7 +367,7 @@ Added explicit Appendix references in Method section (Data Extraction and Coding
 
 ```
 manuscript/
-├── GenAI_HE_MetaAnalysis_Integrated.md      # Current working version (= v2.2)
+├── GenAI_HE_MetaAnalysis_Integrated.md      # Current working version (= v3.0)
 ├── GenAI_HE_MetaAnalysis_Integrated.docx    # Original Word document
 ├── SUBMISSION_PACKAGE_README.md             # Submission instructions
 ├── versions/
@@ -290,9 +376,13 @@ manuscript/
 │   ├── GenAI_HE_MetaAnalysis_v1.0_Original.docx
 │   ├── GenAI_HE_MetaAnalysis_v2.0_EPR_Revision.md
 │   ├── GenAI_HE_MetaAnalysis_v2.1_Outcome_Operationalization.md
-│   └── GenAI_HE_MetaAnalysis_v2.2_Classification_Table.md
+│   ├── GenAI_HE_MetaAnalysis_v2.2_Classification_Table.md
+│   ├── GenAI_HE_MetaAnalysis_v2.3.md
+│   └── GenAI_HE_MetaAnalysis_v3.0_AIMC_Framework.md
 ├── figures/
-│   └── PRISMA_2020_Academic.svg
+│   ├── PRISMA_2020_Academic.svg
+│   ├── AIMC_Framework_v2.3_Matrix.jpg
+│   └── AIMC_Framework_v2.4_Matrix_Annotated.jpg
 └── tables/
     └── (generated tables)
 ```
@@ -325,4 +415,4 @@ manuscript/
 ---
 
 *Changelog maintained by: Claude Code*
-*Last updated: 2026-01-22 (v2.2 update)*
+*Last updated: 2026-01-26 (v3.0 AIMC Framework update)*
