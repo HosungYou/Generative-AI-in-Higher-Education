@@ -30,12 +30,12 @@ College of Education, Pennsylvania State University
 
 ---
 title: "Generative AI in Higher Education: A Three-Level Meta-Analysis"
-version: 5.0
+version: 5.1
 date: 2025-01-26
-changes: Added Study 70 (Yilmaz & Yilmaz, 2023), folder reorganization
+changes: Updated with re-analyzed meta-analysis results (V5 analysis)
 ---
 
-**Version: 5.0 (New Study Added + Reorganization)**
+**Version: 5.1 (Meta-Analysis Results Update)**
 
 ---
 
@@ -55,7 +55,7 @@ Funding: This research received no external funding.
 
 ## Abstract
 
-Generative AI enhances learning outcomes in higher education, but does it foster independent thinking or create cognitive dependency? This pre-registered three-level meta-analysis—the first to explicitly test the **cognitive dependency hypothesis**—synthesized evidence from 66 studies (*k* = 384 effect sizes; *N* = 8,290+ participants) published between November 2022 and January 2026 across seven databases. We employed robust variance estimation with cluster-robust standard errors to account for dependency among multiple outcomes within studies. Results revealed a statistically significant large effect favoring GenAI interventions (*g* = 0.736, 95% CI [0.709, 0.764], *p* < .001). However, the central finding distinguishing this study from prior meta-analyses lies in the differential effects across outcome dimensions: while cognitive (*g* = 0.64, *p* < .001) and affective (*g* = 0.61, *p* < .001) outcomes showed significant effects, **metacognitive outcomes demonstrated a substantially smaller and non-significant effect (*g* = 0.28, *p* = .287)**. This pattern provides empirical support for the cognitive dependency hypothesis: GenAI effectively scaffolds immediate learning performance but may not promote internalization of self-regulatory capabilities. Additional moderator analyses revealed effects varied by discipline (Medicine/Health *g* = 0.72; STEM *g* = 0.58) and GenAI tool (ChatGPT *g* = 0.71). Both higher-order (*g* = 0.76) and lower-order (*g* = 0.68) thinking skills showed significant improvements. These findings reframe the discourse around GenAI in education: the question is not simply whether AI improves learning, but whether it develops autonomous learners—a concern our data suggest warrants serious attention.
+Generative AI enhances learning outcomes in higher education, but does it foster independent thinking or create cognitive dependency? This pre-registered three-level meta-analysis—the first to explicitly test the **cognitive dependency hypothesis**—synthesized evidence from 38 studies with valid effect sizes (*k* = 155 effect sizes; *N* = 18,691 participants) published between November 2022 and January 2026 across seven databases. We employed robust variance estimation with cluster-robust standard errors to account for dependency among multiple outcomes within studies. Results revealed a statistically significant large effect favoring GenAI interventions (*g* = 0.770, 95% CI [0.439, 1.101], *p* < .0001). However, substantial heterogeneity was observed (*I*² = 99.1%), with variance partitioned between within-study (τ² = 0.697) and between-study (τ² = 0.814) levels. The central finding distinguishing this study from prior meta-analyses lies in the differential effects across outcome dimensions: while cognitive (*g* = 0.64, *p* < .001) and affective (*g* = 0.61, *p* < .001) outcomes showed significant effects, **metacognitive outcomes demonstrated a substantially smaller and non-significant effect (*g* = 0.28, *p* = .287)**. This pattern provides empirical support for the cognitive dependency hypothesis: GenAI effectively scaffolds immediate learning performance but may not promote internalization of self-regulatory capabilities. Additional moderator analyses revealed effects varied by discipline (Medicine/Health *g* = 0.72; STEM *g* = 0.58) and GenAI tool (ChatGPT *g* = 0.71). Both higher-order (*g* = 0.76) and lower-order (*g* = 0.68) thinking skills showed significant improvements. These findings reframe the discourse around GenAI in education: the question is not simply whether AI improves learning, but whether it develops autonomous learners—a concern our data suggest warrants serious attention.
 
 *Keywords:* generative artificial intelligence, ChatGPT, higher education, three-level meta-analysis, learning outcomes, cognitive load theory, self-regulated learning, cognitive dependency, AI-integrated metacognition, judgment of learning, distributed metacognition
 
@@ -444,13 +444,13 @@ Table 2 presents characteristics of the 66 studies included in quantitative synt
 
 ### Overall Effect of GenAI on Learning Outcomes
 
-The three-level meta-analysis revealed a statistically significant large effect favoring GenAI interventions, *g* = 0.736, 95% CI [0.709, 0.764], *t*(59) = 5.47, *p* < .001 (see Figure 2). This effect indicates students receiving GenAI-supported instruction outperformed control group students by approximately two-thirds of a standard deviation—a practically meaningful difference.
+The three-level meta-analysis revealed a statistically significant large effect favoring GenAI interventions, *g* = 0.770, 95% CI [0.439, 1.101], *p* < .0001 (see Figure 2). This effect indicates students receiving GenAI-supported instruction outperformed control group students by approximately three-quarters of a standard deviation—a practically meaningful difference. The analysis included 155 valid effect sizes from 38 studies with a total of 18,691 participants.
 
-[Insert Figure 2 about here] The effect remained significant when using robust variance estimation with CR2 corrections, *g* = 0.736, 95% CI [0.701, 0.771]. These results provide strong support for Hypothesis 1.
+[Insert Figure 2 about here] These results provide strong support for Hypothesis 1.
 
 ### Heterogeneity Analysis
 
-Substantial heterogeneity was observed, *Q*(380) = 7,284.56, *p* < .001, I² = 95.8%. Variance was partitioned between within-study heterogeneity (I² Level 2 = 42.3%, τ²₂ = 0.218, *SE* = 0.038) and between-study heterogeneity (I² Level 3 = 53.5%, τ²₃ = 0.276, *SE* = 0.052). The predominance of between-study variance suggests study-level characteristics (intervention type, context, population) account for more heterogeneity than within-study factors. A likelihood ratio test confirmed the three-level model fit significantly better than a two-level model, χ²(1) = 112.47, *p* < .001.
+Substantial heterogeneity was observed, *I*² = 99.1%. Variance was partitioned between within-study heterogeneity (Level 2: τ²₂ = 0.697) and between-study heterogeneity (Level 3: τ²₃ = 0.814). The predominance of between-study variance suggests study-level characteristics (intervention type, context, population) account for more heterogeneity than within-study factors. The three-level model provided appropriate accounting for the hierarchical structure of effect sizes nested within studies.
 
 ---
 
@@ -458,13 +458,13 @@ Substantial heterogeneity was observed, *Q*(380) = 7,284.56, *p* < .001, I² = 9
 
 *Heterogeneity and Variance Components in Three-Level Model*
 
-| Component | τ² | *SE* | I² | LRT χ² |
-|:----------|:--:|:----:|:--:|:------:|
-| Total heterogeneity | 0.494 | — | **95.8%** | — |
-| Level 2 (within-study) | 0.218 | 0.038 | 42.3% | — |
-| Level 3 (between-study) | 0.276 | 0.052 | 53.5% | **112.47****** |
+| Component | τ² | I² |
+|:----------|:--:|:--:|
+| Total heterogeneity | 1.511 | **99.1%** |
+| Level 2 (within-study) | 0.697 | — |
+| Level 3 (between-study) | 0.814 | — |
 
-*Note.* τ² = variance component; *SE* = standard error; I² = proportion of heterogeneity; LRT = likelihood ratio test comparing three-level to two-level model. Cochran's *Q*(380) = 7284.56, *p* < .001. *** *p* < .001.
+*Note.* τ² = variance component; I² = proportion of total heterogeneity; Total τ² = Level 2 + Level 3.
 
 ---
 
@@ -581,7 +581,7 @@ Leave-one-out analysis showed the pooled effect remained stable when each study 
 
 ## Discussion
 
-This pre-registered three-level meta-analysis provides the most comprehensive synthesis to date of GenAI effectiveness specifically in higher education contexts. Synthesizing evidence from 66 studies with 384 effect sizes and 8,290+ participants, we found a medium-to-large overall effect (*g* = 0.736) supporting GenAI as an effective pedagogical tool. However, the substantial heterogeneity and differential effects across outcome dimensions reveal a nuanced picture requiring careful interpretation—particularly regarding the cognitive dependency concern.
+This pre-registered three-level meta-analysis provides the most comprehensive synthesis to date of GenAI effectiveness specifically in higher education contexts. Synthesizing evidence from 38 studies with valid effect sizes (155 effect sizes total) and 18,691 participants, we found a large overall effect (*g* = 0.770) supporting GenAI as an effective pedagogical tool. However, the substantial heterogeneity and differential effects across outcome dimensions reveal a nuanced picture requiring careful interpretation—particularly regarding the cognitive dependency concern.
 
 ### Summary of Findings
 
@@ -725,7 +725,7 @@ Findings suggest prioritizing GenAI integration in Medicine/Health and STEM fiel
 
 #### Institutional Policy Implications
 
-Findings support GenAI integration rather than prohibition, while cautioning against uncritical enthusiasm. The substantial heterogeneity (I² = 95.8%) indicates effects vary dramatically across contexts—implementation matters more than mere adoption. Specific recommendations for institutions include:
+Findings support GenAI integration rather than prohibition, while cautioning against uncritical enthusiasm. The substantial heterogeneity (*I*² = 99.1%) indicates effects vary dramatically across contexts—implementation matters more than mere adoption. Specific recommendations for institutions include:
 
 - **Faculty Development**: Invest in pedagogically-informed GenAI integration training that explicitly addresses the cognitive dependency concern
 - **Assessment Policy Revision**: Update academic integrity policies to permit AI use while requiring demonstration of independent capability
@@ -748,7 +748,7 @@ Future research should prioritize: (a) **longitudinal designs examining retentio
 
 ## Conclusion
 
-Generative AI demonstrates meaningful effectiveness for learning outcomes in higher education, with a large overall effect (*g* = 0.736) that supports continued, thoughtful integration. However, the pattern of effects—**particularly the attenuated metacognitive outcome (*g* = 0.28)**—highlights the importance of implementation that complements rather than replaces human cognitive engagement.
+Generative AI demonstrates meaningful effectiveness for learning outcomes in higher education, with a large overall effect (*g* = 0.770) that supports continued, thoughtful integration. However, the pattern of effects—**particularly the attenuated metacognitive outcome (*g* = 0.28)**—highlights the importance of implementation that complements rather than replaces human cognitive engagement.
 
 The cognitive dependency concern derived from our theoretical framework and supported by empirical evidence suggests a critical distinction: GenAI effectively enhances **effects with technology** (improved performance during AI-assisted learning) but may not promote **effects of technology** (internalized capabilities that persist without AI assistance). This distinction has profound implications for educational practice. If GenAI becomes a permanent feature of learning environments, cognitive dependency may be less concerning; however, if the goal of education is to develop capable, self-regulated learners who can adapt to diverse contexts—some without AI access—then the metacognitive finding is deeply consequential.
 
@@ -964,7 +964,7 @@ Zhang, L., Wang, K., & Liu, M. (2025). Network analysis of university students' 
 
 **Figure 1.** PRISMA 2020 flow diagram illustrating the systematic literature search and screening process. Initial searches identified 3,247 records from electronic databases (PsycINFO, ERIC, Education Source, Semantic Scholar, OpenAlex, arXiv) and 187 from other sources (citation searching, grey literature). After removing 891 duplicates and 387 records marked ineligible, 2,156 records were screened. Following title/abstract screening (1,847 excluded) and full-text assessment (221 excluded), 66 studies with 384 effect sizes were included in quantitative synthesis.
 
-**Figure 2.** Forest plot of effect sizes by outcome dimension. The plot displays Hedges' *g* estimates with 95% confidence intervals for cognitive (*k* = 58, *n* = 218), affective (*k* = 27, *n* = 83), behavioral (*k* = 12, *n* = 40), and metacognitive (*k* = 11, *n* = 40) outcomes. The overall pooled effect is shown at the bottom (*g* = 0.736, 95% CI [0.709, 0.764]). The attenuated metacognitive effect (*g* = 0.28, *p* = .287) supports the cognitive dependency hypothesis.
+**Figure 2.** Forest plot of effect sizes by outcome dimension. The plot displays Hedges' *g* estimates with 95% confidence intervals for cognitive (*k* = 58, *n* = 218), affective (*k* = 27, *n* = 83), behavioral (*k* = 12, *n* = 40), and metacognitive (*k* = 11, *n* = 40) outcomes. The overall pooled effect is shown at the bottom (*g* = 0.770, 95% CI [0.439, 1.101]). The attenuated metacognitive effect (*g* = 0.28, *p* = .287) supports the cognitive dependency hypothesis.
 
 **Figure 3.** Forest plot of effect sizes by academic discipline. Effect sizes varied significantly across disciplines, with Medicine/Health showing the largest effect (*g* = 0.72), followed by STEM (*g* = 0.58), Humanities/Social Sciences (*g* = 0.55), and Language/Writing (*g* = 0.42). All effects except Language/Writing exceeded the medium effect size threshold (*g* > 0.50).
 
