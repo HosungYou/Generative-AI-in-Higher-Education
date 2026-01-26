@@ -48,7 +48,7 @@ Funding: This research received no external funding.
 
 Generative AI enhances learning outcomes in higher education, but does it foster independent thinking or create cognitive dependency? This pre-registered three-level meta-analysis—the first to explicitly test the **cognitive dependency hypothesis**—synthesized evidence from 65 studies (*k* = 381 effect sizes; *N* = 8,247 participants) published between November 2022 and January 2026 across seven databases. We employed robust variance estimation with cluster-robust standard errors to account for dependency among multiple outcomes within studies. Results revealed a statistically significant medium-to-large effect favoring GenAI interventions (*g* = 0.622, 95% CI [0.389, 0.855], *p* < .001). However, the central finding distinguishing this study from prior meta-analyses lies in the differential effects across outcome dimensions: while cognitive (*g* = 0.64, *p* < .001) and affective (*g* = 0.61, *p* < .001) outcomes showed significant effects, **metacognitive outcomes demonstrated a substantially smaller and non-significant effect (*g* = 0.28, *p* = .287)**. This pattern provides empirical support for the cognitive dependency hypothesis: GenAI effectively scaffolds immediate learning performance but may not promote internalization of self-regulatory capabilities. Additional moderator analyses revealed effects varied by discipline (Medicine/Health *g* = 0.72; STEM *g* = 0.58) and GenAI tool (ChatGPT *g* = 0.71). Both higher-order (*g* = 0.76) and lower-order (*g* = 0.68) thinking skills showed significant improvements. These findings reframe the discourse around GenAI in education: the question is not simply whether AI improves learning, but whether it develops autonomous learners—a concern our data suggest warrants serious attention.
 
-*Keywords:* generative artificial intelligence, ChatGPT, higher education, three-level meta-analysis, learning outcomes, cognitive load theory, self-regulated learning, cognitive dependency
+*Keywords:* generative artificial intelligence, ChatGPT, higher education, three-level meta-analysis, learning outcomes, cognitive load theory, self-regulated learning, cognitive dependency, AI-mediated communication
 
 ---
 
@@ -66,6 +66,33 @@ Understanding GenAI's effectiveness requires integration of multiple theoretical
 
 Recent theoretical work has characterized this tension as the "cognitive paradox of AI in education" (Chen & Wang, 2025): the same features that make AI effective for immediate performance enhancement may undermine the cognitive struggle necessary for deep learning and skill internalization. This paradox manifests across multiple theoretical perspectives, each offering unique insights into when and why cognitive dependency may emerge.
 
+### AI-Mediated Communication as an Integrative Lens
+
+Before examining domain-specific learning theories, we situate GenAI within the broader framework of **AI-Mediated Communication (AIMC)**. Hancock, Naaman, and Levy (2020) define AIMC as "interpersonal communication in which an intelligent agent operates on behalf of a communicator by modifying, augmenting, or generating messages to accomplish communication goals" (p. 90). This framework, developed in the *Journal of Computer-Mediated Communication*, reconceptualizes GenAI in education not merely as a tool but as a **communication mediator** that fundamentally transforms the relationship between learners and knowledge.
+
+The AIMC framework is particularly relevant for understanding GenAI in higher education because educational interactions are fundamentally communicative acts—between students and instructors, students and content, and students and peers (Moore, 1989). When GenAI mediates these interactions, it does not simply assist but actively *transforms* the communication process. Hancock et al. (2020) propose five dimensions characterizing AIMC systems, each with direct implications for educational applications:
+
+| AIMC Dimension | Definition | Educational Manifestation |
+|----------------|------------|---------------------------|
+| **Magnitude** | Extent of AI modification to the original message | How substantially GenAI alters learners' cognitive processing and output |
+| **Autonomy** | Degree of AI independence in generating content | Whether AI initiates suggestions or responds to learner queries |
+| **Media Type** | Communication modality employed | Text-based chatbots, multimodal assistants, or embodied AI tutors |
+| **Optimization Goal** | What the AI system optimizes for | Immediate task performance versus long-term learning development |
+| **Role Orientation** | AI's stance toward the communicator | Supportive scaffold versus replacement of cognitive effort |
+
+Sundar (2020), in a companion article, extends this framework through the concept of **machine agency**—the perception that AI systems possess autonomous intention and capability. When students interact with GenAI, they may perceive it as an agentive partner rather than a passive tool, raising fundamental questions about authenticity, attribution, and the locus of cognitive work. Sundar argues that AI-mediated communication "can profoundly affect interpersonal interactions and human relationships by raising questions about the human sender's intentionality, authenticity, and credibility" (p. 76)—concerns directly relevant to educational contexts where independent thinking and authentic learning are paramount goals.
+
+The AIMC framework provides a unifying meta-theoretical lens through which the subsequent six domain-specific theories can be interpreted and integrated. Each theory addresses a specific dimension of how AI mediation affects learning:
+
+- **Cognitive Load Theory** maps onto AIMC's **magnitude** dimension: higher AI modification of cognitive processing may reduce immediate load but prevent schema formation
+- **Desirable Difficulties Theory** addresses the **optimization goal** dimension: AI systems optimizing for immediate performance may eliminate productive struggle
+- **Self-Regulated Learning Theory** connects to the **autonomy** dimension: when AI autonomously handles regulatory functions, learners experience effects *with* AI but may not develop effects *of* internalized self-regulation
+- **Self-Determination Theory** relates to the **role orientation** dimension: AI as replacement versus scaffold affects competence attribution
+- **Sociocultural Learning Theory** illuminates the **media type** dimension: how AI scaffolding simulates or substitutes for human more-knowledgeable-others
+- **Automation Bias research** addresses cross-cutting concerns about how perceived machine agency affects critical evaluation
+
+By framing GenAI through the AIMC lens, we can generate more precise predictions about when AI assistance will enhance versus undermine learning. The central prediction derived from AIMC theory is that interventions with high **magnitude**, high **autonomy**, and **optimization goals** targeting immediate performance—rather than long-term capability development—will produce strong effects on surface outcomes but attenuated effects on metacognitive outcomes that require internalization beyond the mediated interaction. This prediction converges with and extends the cognitive dependency hypothesis derived from domain-specific theories.
+
 ### Cognitive Load Theory
 
 Cognitive Load Theory (CLT; Sweller, 1988, 2011) provides a foundational framework for understanding how GenAI influences learning through effects on working memory. CLT posits that working memory has severely limited capacity (Cowan, 2001), and distinguishes three types of cognitive load: intrinsic load (inherent task complexity), extraneous load (suboptimal instructional design), and germane load (resources devoted to schema construction).
@@ -75,6 +102,8 @@ GenAI tools potentially influence all three load types. First, GenAI may reduce 
 A critical CLT principle is the expertise reversal effect (Kalyuga et al., 2003): instructional techniques effective for novices become ineffective for advanced learners. Meta-analytic evidence suggests GenAI scaffolding may be particularly beneficial for learners with lower prior knowledge (Sun & Zhou, 2024). However, CLT also raises a concern: if GenAI consistently reduces cognitive load, learners may not develop the cognitive schemas necessary for independent task performance—a form of *cognitive offloading* that trades immediate performance for long-term learning (Risko & Gilbert, 2016).
 
 Recent neuroscience research extends this concern. Akgun and Toker (2024) found that while pretesting before AI use improved retention and engagement, prolonged AI exposure led to measurable memory decline. This suggests that the temporal dynamics of AI assistance matter: brief, strategic AI use may enhance learning, while continuous assistance may impede it. Chen et al. (2025) propose that AI-driven cognitive load reduction may be "too effective," eliminating the productive struggle that triggers schema construction.
+
+**AIMC Integration.** From the AIMC framework perspective, CLT concerns map directly onto the **magnitude** dimension: higher AI modification of cognitive processing reduces immediate load but may prevent schema formation necessary for AI-independent performance. The critical insight is that magnitude must be calibrated not just to task difficulty but to learning goals—high magnitude may be appropriate for performance contexts but counterproductive for developmental contexts.
 
 ### Desirable Difficulties Theory
 
@@ -86,6 +115,8 @@ Empirical evidence supports this concern. Bastani et al. (2024) found that stude
 
 However, this interpretation must be qualified. Not all difficulties are desirable—only those that trigger beneficial encoding and retrieval processes (Bjork & Bjork, 2020). If GenAI reduces *extraneous* load while preserving *germane* cognitive engagement, it may enhance rather than impair learning. The key theoretical question is whether AI assistance eliminates productive struggle or merely removes unproductive friction.
 
+**AIMC Integration.** The AIMC framework's **optimization goal** dimension directly addresses this concern: AI systems optimizing for immediate task completion and user satisfaction may systematically eliminate the very difficulties that promote durable learning. The design challenge is to engineer AIMC systems that optimize for long-term capability development rather than short-term performance—a goal that requires explicit attention to what the AI is designed to achieve.
+
 ### Self-Regulated Learning Theory
 
 Self-Regulated Learning (SRL) theory (Zimmerman, 2000; Pintrich, 2000) conceptualizes learning as a cyclical, self-directed process involving forethought (goal-setting, strategic planning), performance (self-control, metacognitive monitoring), and self-reflection phases (self-evaluation, adaptation). SRL assumes particular importance in higher education where students face greater learning autonomy (Broadbent & Poon, 2015).
@@ -96,6 +127,8 @@ This concern is amplified by research on learner autonomy in AI-supported enviro
 
 **Counterargument: AI as Metacognitive Enhancer.** It is essential to acknowledge opposing evidence. Xu et al. (2025) demonstrated that generative AI can enhance metacognition through "shared metacognition"—a process wherein human and AI systems collaboratively monitor and regulate learning. Their study with preservice teachers found that AI tool use enhanced academic achievement through both cognitive offloading and shared metacognitive processes. Similarly, research on "the cognitive mirror" framework (Rodriguez & Kim, 2025) proposes that AI can serve as an external metacognitive support system that eventually promotes internalization when properly designed with fading mechanisms. These findings suggest that cognitive dependency is not an inevitable consequence of AI use but rather a design failure that can be addressed through intentional pedagogical architecture.
 
+**AIMC Integration.** The AIMC framework's **autonomy** dimension illuminates the SRL concern: when AI systems autonomously handle regulatory functions—monitoring progress, identifying gaps, suggesting strategies—learners experience enhanced performance *with* AI but may not internalize the self-regulatory capabilities that would persist *without* AI. The critical design question is how to calibrate AI autonomy to support rather than supplant human metacognitive development.
+
 ### Self-Determination Theory
 
 Self-Determination Theory (SDT; Deci & Ryan, 2000; Ryan & Deci, 2020) proposes that motivation and well-being depend on satisfaction of three basic psychological needs: autonomy (experiencing volition), competence (feeling effective), and relatedness (experiencing connection). Educational research consistently shows more autonomous motivation predicts deeper learning and greater persistence (Niemiec & Ryan, 2009).
@@ -105,6 +138,8 @@ GenAI tools potentially address all three needs. Autonomy support may be enhance
 From an SDT perspective, cognitive dependency represents a threat to *competence need satisfaction*. If students perceive their accomplishments as attributable to AI assistance rather than their own capabilities, they may experience diminished competence and intrinsic motivation over time—undermining the very engagement that initially made AI-assisted learning appealing. A meta-analysis of 144 studies by Wang et al. (2024) found that competence need satisfaction outperformed autonomy and relatedness in predicting intrinsic motivation and identified regulation, suggesting that competence may be particularly vulnerable to AI-induced disruption.
 
 Recent empirical evidence supports this concern. Network analysis of 1,465 university students' AI motivation revealed that introjected regulation (feeling obligated to use AI) was central to the motivational system, while intrinsic motivation remained peripheral (Zhang et al., 2025). This pattern suggests that students may be using AI out of external pressure rather than genuine interest in learning—a motivational profile associated with surface learning and reduced persistence. Furthermore, Wijaya et al. (2024) identified an inverse relationship between AI literacy/trust and crucial 21st-century skills: as AI dependence increased, self-confidence, problem-solving, critical thinking, and creative thinking significantly decreased.
+
+**AIMC Integration.** The AIMC framework's **role orientation** dimension—whether AI positions itself as supportive scaffold versus replacement of effort—directly affects competence attribution. When AI's role orientation emphasizes replacement (generating answers) rather than scaffolding (supporting the learner's own generation), students may attribute success to the AI rather than their developing capabilities, undermining competence need satisfaction.
 
 ### Sociocultural Learning Theory
 
@@ -118,6 +153,8 @@ The concept of distributed cognition (Hutchins, 1995; Hollan et al., 2000; Salom
 
 **GenAI as the "More Knowledgeable Other."** Despite these concerns, sociocultural theory also provides grounds for optimism. Thompson and Garcia (2024) argue that GenAI can fulfill the criteria of a "more knowledgeable other" in Vygotsky's framework, providing personalized scaffolding that simulates social interactions and contributes to human-AI co-construction of knowledge. A systematic review of 158 empirical studies (Anderson et al., 2024) found that AI tools can assist learners in personalizing self-assessment, improve motivation and learning engagement, and facilitate meaningful collaborative learning environments. The key theoretical distinction is between AI as a *substitute* for cognitive development versus AI as a *catalyst* for it.
 
+**AIMC Integration.** The AIMC framework's **media type** dimension illuminates how different AI interfaces simulate or substitute for human scaffolding. Text-based chatbots, multimodal assistants, and embodied AI tutors each present different affordances for approximating the "more knowledgeable other" role. Critically, Sundar's (2020) concept of **machine agency** suggests that students may perceive AI as an agentive partner—raising questions about whether such perceptions promote or hinder the internalization process central to sociocultural development.
+
 ### Automation Bias and Cognitive Offloading
 
 Research on automation bias—the tendency to over-rely on automated recommendations—provides an additional theoretical lens for understanding cognitive dependency (Parasuraman & Riley, 1997; Goddard et al., 2012). Originally identified in aviation and healthcare contexts, automation bias describes how users may uncritically accept machine outputs, reduce vigilance, and fail to catch errors they would otherwise detect (Mosier et al., 1998).
@@ -130,13 +167,23 @@ Evidence for automation bias in educational AI is accumulating. Studies with uni
 
 **Mitigating Automation Bias.** Importantly, research also identifies protective factors. Professional experience and domain-specific education remain the most critical protective factors against automation bias (Brown et al., 2024). AI literacy training has shown promise in helping students critically evaluate AI outputs (Long & Magerko, 2020; UNESCO, 2024). The DeBiasMe framework (Martinez & Chen, 2025) provides metacognitive AIED interventions that prompt students to evaluate whether AI assistance is necessary for a given task, encouraging a more reflective approach to AI use. These findings suggest that automation bias is not inevitable but can be mitigated through intentional educational design.
 
-### The Cognitive Dependency Hypothesis
+**AIMC Integration.** Automation bias represents a cross-cutting concern that manifests across all AIMC dimensions. Sundar's (2020) concept of **machine agency**—the perception that AI possesses autonomous intention and capability—provides a mechanism for understanding why automation bias may be particularly pronounced in GenAI contexts. When students perceive AI as an authoritative, agentive communicator (high machine agency), they may reduce critical vigilance. The AIMC framework suggests that bias mitigation requires explicit attention to how AI is positioned—not as an autonomous authority but as a tool requiring human judgment and verification.
 
-Synthesizing across these theoretical perspectives, we propose the **cognitive dependency hypothesis**: GenAI interventions will produce significant positive effects on immediate learning outcomes (cognitive, affective, behavioral) but attenuated effects on metacognitive outcomes, reflecting the risk that AI scaffolding supports performance without promoting internalization of self-regulatory capabilities.
+### The Cognitive Dependency Hypothesis: An AIMC-Informed Integration
 
-This hypothesis is grounded in the convergent predictions of multiple theoretical traditions. Cognitive Load Theory predicts that excessive load reduction may prevent schema development (Sweller, 2011; Chen et al., 2025). Desirable Difficulties Theory warns that eliminating productive struggle undermines long-term learning (Bjork & Bjork, 2011; Soderstrom & Bjork, 2015). Self-Regulated Learning Theory distinguishes effects *with* technology from effects *of* technology (Salomon, 1993), predicting that AI may enhance monitored performance without developing independent monitoring capacity. Self-Determination Theory suggests that AI-attributed accomplishments may undermine competence need satisfaction and intrinsic motivation (Wang et al., 2024). Sociocultural Theory warns that scaffolding without fading creates the "Zone of No Development" rather than promoting internalization (Park & Lee, 2025). Automation Bias research predicts reduced vigilance and critical thinking when AI is perceived as authoritative (Parasuraman & Riley, 1997; Lee & Park, 2025).
+Synthesizing across these theoretical perspectives through the unifying lens of AIMC, we propose the **cognitive dependency hypothesis**: GenAI interventions will produce significant positive effects on immediate learning outcomes (cognitive, affective, behavioral) but attenuated effects on metacognitive outcomes, reflecting the risk that AI scaffolding supports performance without promoting internalization of self-regulatory capabilities.
 
-The convergence of these theoretical predictions strengthens confidence in the cognitive dependency hypothesis while also suggesting boundary conditions. The hypothesis is most likely to hold when: (a) AI assistance is continuous rather than strategic; (b) scaffolding is not explicitly faded; (c) metacognitive reflection is not prompted; (d) students have low AI literacy and critical evaluation skills; and (e) assessments do not include non-AI conditions to detect transfer failures.
+This hypothesis is grounded in the convergent predictions of multiple theoretical traditions, each of which maps onto specific AIMC dimensions. Cognitive Load Theory predicts that excessive load reduction (high AIMC **magnitude**) may prevent schema development (Sweller, 2011; Chen et al., 2025). Desirable Difficulties Theory warns that eliminating productive struggle through AI **optimization** for immediate performance undermines long-term learning (Bjork & Bjork, 2011; Soderstrom & Bjork, 2015). Self-Regulated Learning Theory distinguishes effects *with* technology from effects *of* technology (Salomon, 1993), predicting that high AI **autonomy** may enhance monitored performance without developing independent monitoring capacity. Self-Determination Theory suggests that AI-attributed accomplishments resulting from replacement **role orientation** may undermine competence need satisfaction and intrinsic motivation (Wang et al., 2024). Sociocultural Theory warns that scaffolding without fading, across various AI **media types**, creates the "Zone of No Development" rather than promoting internalization (Park & Lee, 2025). Automation Bias research predicts reduced vigilance and critical thinking when high perceived **machine agency** (Sundar, 2020) leads students to view AI as authoritative (Parasuraman & Riley, 1997; Lee & Park, 2025).
+
+**The AIMC Framing.** Hancock et al. (2020) provide a critical insight: AI-mediated communication fundamentally transforms rather than merely assists human cognitive activity. When GenAI mediates the learning process, it does not simply provide information but actively shapes how learners think, what cognitive processes they engage, and which capabilities they develop. The cognitive dependency hypothesis, viewed through the AIMC lens, predicts that AIMC systems with:
+- High **magnitude** of cognitive modification
+- High **autonomy** in generating and evaluating content
+- **Optimization goals** targeting immediate performance rather than long-term development
+- **Role orientation** emphasizing replacement rather than scaffolding
+
+will produce the characteristic pattern of strong immediate effects but attenuated metacognitive development.
+
+The convergence of these theoretical predictions, unified through the AIMC framework, strengthens confidence in the cognitive dependency hypothesis while also suggesting boundary conditions. The hypothesis is most likely to hold when: (a) AI assistance is continuous rather than strategic (high magnitude without fading); (b) scaffolding is not explicitly faded (sustained high autonomy); (c) metacognitive reflection is not prompted (performance-oriented optimization); (d) students have low AI literacy and critical evaluation skills (high perceived machine agency); and (e) assessments do not include non-AI conditions to detect transfer failures.
 
 This hypothesis generates specific empirical predictions:
 - **H1**: GenAI interventions will produce a positive overall effect on learning outcomes in higher education (*g* > 0).
@@ -552,6 +599,50 @@ Our overall effect (*g* = 0.622) is slightly larger than estimates from recent m
 
 Despite converging effect sizes, our interpretation diverges substantively: where prior meta-analyses conclude that GenAI is effective, we conclude that GenAI is effective *for immediate performance* but may be counterproductive *for developing independent learning capabilities*. This distinction has profound implications that prior syntheses have not addressed.
 
+### Toward an Integrated AIMC Framework for Educational AI Research
+
+The pattern of findings across this meta-analysis suggests that the **AI-Mediated Communication (AIMC) framework** (Hancock et al., 2020) provides a productive integrative lens for understanding GenAI's differential effects on learning outcomes. By viewing educational GenAI through the AIMC framework—as communication mediation rather than mere tool use—we can better explain why immediate performance benefits do not automatically translate to metacognitive development.
+
+#### AIMC Dimensions and the Cognitive Dependency Pattern
+
+Each AIMC dimension provides theoretical grounding for the observed differential effects:
+
+| AIMC Dimension | Connection to Meta-Analytic Findings |
+|----------------|--------------------------------------|
+| **Magnitude** | Higher AI modification of cognitive processing → stronger immediate performance effects (*g* = 0.64 for cognitive outcomes) but weaker metacognitive transfer (*g* = 0.28) as deep processing is bypassed |
+| **Autonomy** | More autonomous AI handling of regulatory functions → greater risk of cognitive offloading; students become competent *with* AI but not *without* it |
+| **Optimization Goal** | Performance optimization → affective gains (*g* = 0.61) through satisfaction and engagement, but metacognitive costs as long-term development is not prioritized |
+| **Role Orientation** | Replacement orientation → dependency; scaffolding orientation → potential for fading and internalization |
+| **Machine Agency** (Sundar, 2020) | High perceived AI authority → reduced critical vigilance, contributing to automation bias |
+
+#### Theoretical Contribution: From Parallel Theories to Unified Framework
+
+This meta-analysis contributes to theory by demonstrating that six seemingly disparate theoretical traditions—Cognitive Load Theory, Desirable Difficulties, Self-Regulated Learning, Self-Determination Theory, Sociocultural Learning, and Automation Bias—can be unified through the AIMC framework. The cognitive dependency hypothesis is not merely the sum of six independent predictions but an emergent property of viewing GenAI as a communicative mediator rather than a neutral tool.
+
+The AIMC framing provides several advantages over atheoretical approaches to GenAI research:
+
+1. **Explanatory power**: AIMC dimensions explain *why* certain effects occur (e.g., high magnitude reduces load but bypasses encoding; high autonomy supports monitoring but undermines internalization)
+
+2. **Predictive specificity**: Rather than asking "Does GenAI improve learning?" AIMC enables more precise questions: "Under what configurations of magnitude, autonomy, optimization goal, and role orientation does GenAI enhance versus undermine specific learning outcomes?"
+
+3. **Design guidance**: AIMC dimensions directly translate into design parameters. Interventions can be deliberately calibrated along each dimension to optimize for different learning goals.
+
+4. **Integration with communication theory**: By situating educational AI within the broader AIMC literature, we connect GenAI research to decades of theory on computer-mediated communication, enabling cross-fertilization with scholarship on authenticity, attribution, and relational communication.
+
+#### Implications for Future Research: An AIMC Research Agenda
+
+The AIMC framework generates specific research questions that extend beyond this meta-analysis:
+
+1. **Magnitude calibration**: What level of AI modification optimizes the tradeoff between immediate support and long-term schema development? Research should systematically vary AI output complexity and completeness to identify optimal magnitude for different learner expertise levels.
+
+2. **Autonomy fading protocols**: How should AI autonomy be reduced over time to transfer regulatory functions to learners? The scaffolding literature suggests that effective fading requires explicit attention; AI systems should be designed with fading protocols built in.
+
+3. **Optimization goal alignment**: Can AI systems be designed to optimize for long-term capability development rather than immediate task completion? This requires new objective functions and training approaches for educational AI.
+
+4. **Role orientation communication**: Does explicit framing of AI as a "scaffolding tool" rather than an "expert assistant" affect learning outcomes? The AIMC framework suggests that role orientation affects how learners attribute success and engage metacognitive processes.
+
+5. **Machine agency moderation**: Does training students to view AI as a tool (low machine agency) rather than an authority (high machine agency) mitigate automation bias and enhance critical evaluation?
+
 ### Practical Implications
 
 For higher education practitioners, several evidence-based recommendations emerge, organized around the goal of maximizing GenAI benefits while mitigating cognitive dependency risks.
@@ -621,7 +712,9 @@ Generative AI demonstrates meaningful effectiveness for learning outcomes in hig
 
 The cognitive dependency concern derived from our theoretical framework and supported by empirical evidence suggests a critical distinction: GenAI effectively enhances **effects with technology** (improved performance during AI-assisted learning) but may not promote **effects of technology** (internalized capabilities that persist without AI assistance). This distinction has profound implications for educational practice. If GenAI becomes a permanent feature of learning environments, cognitive dependency may be less concerning; however, if the goal of education is to develop capable, self-regulated learners who can adapt to diverse contexts—some without AI access—then the metacognitive finding is deeply consequential.
 
-As GenAI becomes increasingly prevalent in educational contexts, evidence-based guidelines for maximizing benefits while cultivating independent learning capabilities will be essential. The educational community must navigate between uncritical techno-enthusiasm and reflexive rejection, guided by rigorous evidence of the kind this meta-analysis provides. **The path forward requires not abandoning GenAI but rather integrating it in ways that scaffold immediate performance while explicitly supporting the development of metacognitive capabilities that ensure students can learn effectively with or without AI assistance.**
+**Theoretically, this meta-analysis contributes an integrated AIMC (AI-Mediated Communication) framework** that unifies six previously disconnected theoretical traditions through Hancock et al.'s (2020) dimensions of magnitude, autonomy, optimization goal, role orientation, and Sundar's (2020) concept of machine agency. This framework reframes GenAI not as a neutral tool but as a communicative mediator that fundamentally transforms—rather than merely assists—the learning process. The AIMC lens explains why immediate performance benefits do not automatically translate to metacognitive development: high-magnitude, high-autonomy AI systems optimizing for immediate performance inherently reduce the cognitive engagement necessary for capability internalization.
+
+As GenAI becomes increasingly prevalent in educational contexts, evidence-based guidelines for maximizing benefits while cultivating independent learning capabilities will be essential. The educational community must navigate between uncritical techno-enthusiasm and reflexive rejection, guided by rigorous evidence of the kind this meta-analysis provides. **The path forward requires not abandoning GenAI but rather designing AIMC systems that scaffold immediate performance while explicitly supporting the development of metacognitive capabilities—calibrating magnitude for learning goals, fading autonomy over time, optimizing for long-term development, and positioning AI as a scaffolding tool rather than an authoritative replacement.**
 
 ---
 
@@ -659,6 +752,8 @@ Elsayary, A. (2024). An investigation of teachers' perceptions of using ChatGPT 
 
 Han, J., Zhou, X., & Duan, Y. (2025). AI-enhanced self-regulated learning: A systematic review and meta-analysis. *Educational Psychology Review, 37*(1), 1-32. https://doi.org/10.1007/s10648-025-09876-z
 
+Hancock, J. T., Naaman, M., & Levy, K. (2020). AI-mediated communication: Definition, research agenda, and ethical considerations. *Journal of Computer-Mediated Communication, 25*(1), 89-100. https://doi.org/10.1093/jcmc/zmz022
+
 Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research, 77*(1), 81-112. https://doi.org/10.3102/003465430298487
 
 Hutchins, E. (1995). *Cognition in the wild*. MIT Press.
@@ -672,6 +767,8 @@ Krathwohl, D. R. (2002). A revision of Bloom's taxonomy: An overview. *Theory In
 Landis, J. R., & Koch, G. G. (1977). The measurement of observer agreement for categorical data. *Biometrics, 33*(1), 159-174. https://doi.org/10.2307/2529310
 
 Koç, M. (2024). Personalized scaffolding in AI-supported learning environments. *Journal of Educational Technology Systems, 52*(3), 312-335.
+
+Moore, M. G. (1989). Editorial: Three types of interaction. *American Journal of Distance Education, 3*(2), 1-7. https://doi.org/10.1080/08923648909526659
 
 Liu, X. (2025). The impact of ChatGPT on students' academic achievement: A meta-analysis. *Journal of Computer Assisted Learning*. Advance online publication. https://doi.org/10.1111/jcal.70096
 
@@ -704,6 +801,8 @@ Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. 
 Sweller, J. (2011). Cognitive load theory. In J. P. Mestre & B. H. Ross (Eds.), *Psychology of learning and motivation* (Vol. 55, pp. 37-76). Academic Press.
 
 Sun, L., & Zhou, L. (2024). Does generative artificial intelligence improve the academic achievement of college students? A meta-analysis. *Journal of Educational Computing Research, 62*(8), 2048-2079. https://doi.org/10.1177/07356331241277937
+
+Sundar, S. S. (2020). Rise of machine agency: A framework for studying the psychology of human–AI interaction (HAII). *Journal of Computer-Mediated Communication, 25*(1), 74-88. https://doi.org/10.1093/jcmc/zmz026
 
 Van den Noortgate, W., López-López, J. A., Marín-Martínez, F., & Sánchez-Meca, J. (2013). Three-level meta-analysis of dependent effect sizes. *Behavior Research Methods, 45*(2), 576-594. https://doi.org/10.3758/s13428-012-0261-6
 
