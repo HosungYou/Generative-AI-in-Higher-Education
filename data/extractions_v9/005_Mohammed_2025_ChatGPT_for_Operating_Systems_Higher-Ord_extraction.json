@@ -1,0 +1,147 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Kofahi et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "ChatGPT for Operating Systems: Higher-Order Thinking in Focus",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Journal of Information Technology Education: Research",
+      "confidence": 100
+    },
+    "country": {
+      "value": "JO",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Higher-Order Thinking (HOT) ability",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 53,
+        "confidence": 100,
+        "source": "Methods Section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "analyze, evaluate, create",
+      "confidence": 100,
+      "rationale": "The study focuses on higher-order thinking tasks, which include analysis, evaluation, and creation."
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "problem_solving",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Methods Section"
+    },
+    "intervention_duration": {
+      "value": null,
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "direct_instruction",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 53,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide enough information to calculate the effect size or extract the means and standard deviations for the treatment and control groups.",
+    "The version of ChatGPT used is not specified in the study.",
+    "The access type of ChatGPT is not mentioned in the study."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Higher-Order Thinking (HOT) ability - n_control not found",
+    "INCOMPLETE_STATS: Higher-Order Thinking (HOT) ability - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "005_Mohammed_2025_ChatGPT_for_Operating_Systems_Higher-Ord",
+  "pdf_path": "pdfs/005_Mohammed_2025_ChatGPT_for_Operating_Systems_Higher-Ord.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:24.095790",
+  "pipeline_version": "9.0-groq"
+}

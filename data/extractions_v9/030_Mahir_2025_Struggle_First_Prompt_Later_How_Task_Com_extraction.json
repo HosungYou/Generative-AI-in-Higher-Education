@@ -1,0 +1,204 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Akgun et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "STRUGGLE FIRST, PROMPT LATER: HOW TASK COMPLEXITY SHAPES LEARNING WITH GENAI-ASSISTED PRETESTING",
+      "confidence": 100
+    },
+    "journal": {
+      "value": null,
+      "confidence": 0
+    },
+    "country": {
+      "value": "US",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "RCT",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Final Test Score",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 29,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 31,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": 91.85,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_treatment": {
+        "value": 9.52,
+        "confidence": 100,
+        "source": "Results section",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 78.59,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_control": {
+        "value": 7.62,
+        "confidence": 100,
+        "source": "Results section",
+        "derived_from": null
+      },
+      "hedges_g": {
+        "value": 1.5236,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      },
+      "se_g": {
+        "value": 0.2934,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Recall Test Score",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 29,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 31,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": 71.03,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_treatment": {
+        "value": 13.72,
+        "confidence": 100,
+        "source": "Results section",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 72.9,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_control": {
+        "value": 11.01,
+        "confidence": 100,
+        "source": "Results section",
+        "derived_from": null
+      },
+      "hedges_g": {
+        "value": -0.1489,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      },
+      "se_g": {
+        "value": 0.2587,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 100,
+      "rationale": "The task required participants to apply their knowledge of chi-square analysis to solve a problem."
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "RCT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "problem_solving",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 60,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "preprint",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The journal name was not found in the provided text. The GenAI tool version was not specified."
+  ],
+  "validation_warnings": [],
+  "validation_status": "VALIDATED",
+  "study_id": "030_Mahir_2025_Struggle_First_Prompt_Later_How_Task_Com",
+  "pdf_path": "pdfs/030_Mahir_2025_Struggle_First_Prompt_Later_How_Task_Com.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:26.680708",
+  "pipeline_version": "9.0-groq"
+}

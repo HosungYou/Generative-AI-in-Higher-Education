@@ -1,0 +1,231 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Hudon et al",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Using ChatGPT in Psychiatry to Design Script Concordance Tests in Undergraduate Medical Education: Mixed Methods Study",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "JMIR Medical Education",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CA",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Scenario",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 102,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "n_control": {
+        "value": 102,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Clinical questions",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 102,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "n_control": {
+        "value": 102,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Expert opinion",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 102,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "n_control": {
+        "value": 102,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": "GPT-3.5",
+      "confidence": 100
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "Clinical reasoning and problem-solving skills are being assessed"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "problem_solving",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 80,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "medicine",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 102,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide enough information to calculate the means and standard deviations for the treatment and control groups.",
+    "The study design is not clearly stated as RCT or QUASI, but based on the methods section, it appears to be a quasi-experimental design."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Scenario - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Clinical questions - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Expert opinion - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "062_Alexandre_2024_Using_ChatGPT_in_Psychiatry_to_Design_Sc",
+  "pdf_path": "pdfs/062_Alexandre_2024_Using_ChatGPT_in_Psychiatry_to_Design_Sc.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:43.168383",
+  "pipeline_version": "9.0-groq"
+}

@@ -1,0 +1,148 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Guo et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2023,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Leveraging ChatGPT for Enhancing Critical Thinking Skills",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Journal of Chemical Education",
+      "confidence": 100
+    },
+    "country": {
+      "value": "US",
+      "confidence": 90
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Critical thinking skills",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "The study focuses on critical thinking skills, which involves analysis and evaluation of information"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "critical_thinking",
+      "confidence": 90
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 80,
+      "source": "Abstract"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "not_reported",
+      "confidence": 0
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 90
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 90
+    },
+    "sample_size_total": {
+      "value": null,
+      "confidence": 0
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide detailed statistical information, such as sample size, means, and standard deviations.",
+    "The study design is not clearly stated, but it appears to be a pre-post design.",
+    "The GenAI tool version is not specified."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Critical thinking skills - n_treatment not found",
+    "MISSING_N: Critical thinking skills - n_control not found",
+    "INCOMPLETE_STATS: Critical thinking skills - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "066_Ying_2023_Leveraging_ChatGPT_for_Enhancing_Critica",
+  "pdf_path": "pdfs/066_Ying_2023_Leveraging_ChatGPT_for_Enhancing_Critica.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:50.905870",
+  "pipeline_version": "9.0-groq"
+}

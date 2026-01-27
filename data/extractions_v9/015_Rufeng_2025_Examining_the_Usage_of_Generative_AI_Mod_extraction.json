@@ -1,0 +1,189 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Chen et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Examining the Usage of Generative AI Models in Student Learning Activities for Software Programming",
+      "confidence": 100
+    },
+    "journal": {
+      "value": null,
+      "confidence": 0
+    },
+    "country": {
+      "value": "CA",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Task performance",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 12,
+        "confidence": 80,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 12,
+        "confidence": 80,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Knowledge gains",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 12,
+        "confidence": 80,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 12,
+        "confidence": 80,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "Problem-solving, implementation"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "problem_solving",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 80,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "problem_solving",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 24,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "preprint",
+      "confidence": 80
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide detailed statistical results, such as means and standard deviations.",
+    "The GenAI tool version is not specified.",
+    "The study design is quasi-experimental, but the exact design is not detailed."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Task performance - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Knowledge gains - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "015_Rufeng_2025_Examining_the_Usage_of_Generative_AI_Mod",
+  "pdf_path": "pdfs/015_Rufeng_2025_Examining_the_Usage_of_Generative_AI_Mod.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:49.932789",
+  "pipeline_version": "9.0-groq"
+}

@@ -1,0 +1,239 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Fan et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2018,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Beware of Metacognitive Laziness: Effects of Generative Artificial Intelligence on Learning Motivation, Processes, and Performance",
+      "confidence": 100
+    },
+    "journal": {
+      "value": null,
+      "confidence": 0
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "RCT",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Essay score improvement",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Knowledge gain",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Intrinsic motivation",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "Essay writing task"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "writing",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "RCT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": null,
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "no_extra_tool",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "mixed",
+      "confidence": 80
+    },
+    "sample_size_total": {
+      "value": 117,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 80
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide specific statistical values for the outcomes.",
+    "The GenAI tool version and access type are not mentioned in the paper.",
+    "The intervention duration is not specified in the paper.",
+    "The discipline is classified as 'mixed' due to the lack of specific information."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Essay score improvement - n_treatment not found",
+    "MISSING_N: Essay score improvement - n_control not found",
+    "INCOMPLETE_STATS: Essay score improvement - cannot calculate Hedges' g",
+    "MISSING_N: Knowledge gain - n_treatment not found",
+    "MISSING_N: Knowledge gain - n_control not found",
+    "INCOMPLETE_STATS: Knowledge gain - cannot calculate Hedges' g",
+    "MISSING_N: Intrinsic motivation - n_treatment not found",
+    "MISSING_N: Intrinsic motivation - n_control not found",
+    "INCOMPLETE_STATS: Intrinsic motivation - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "068_Unknown_2018_Beware_of_Metacognitive_Laziness_Effects",
+  "pdf_path": "pdfs/068_Unknown_2018_Beware_of_Metacognitive_Laziness_Effects.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:56.174037",
+  "pipeline_version": "9.0-groq"
+}

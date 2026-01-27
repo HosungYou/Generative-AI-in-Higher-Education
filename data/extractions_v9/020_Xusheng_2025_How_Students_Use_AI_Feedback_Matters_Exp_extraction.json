@@ -1,0 +1,232 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Dai et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "How Students Use AI Feedback Matters: Experimental Evidence on Physics Achievement and Autonomy",
+      "confidence": 100
+    },
+    "journal": {
+      "value": null,
+      "confidence": 0
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "RCT",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Academic performance",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 54,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 53,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Self-regulated learning",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 54,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 53,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Academic performance (high-achieving students)",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 87,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 91,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "Custom",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 100,
+      "rationale": "Problem-solving and implementation"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "problem_solving",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "RCT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "1-4_weeks",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "K-12",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 387,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "preprint",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide enough information to calculate the means and standard deviations for the treatment and control groups.",
+    "The paper does not specify the version of the GenAI tool used.",
+    "The paper does not provide information about the journal where the study was published."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Academic performance - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Self-regulated learning - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Academic performance (high-achieving students) - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "020_Xusheng_2025_How_Students_Use_AI_Feedback_Matters_Exp",
+  "pdf_path": "pdfs/020_Xusheng_2025_How_Students_Use_AI_Feedback_Matters_Exp.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:01.770828",
+  "pipeline_version": "9.0-groq"
+}

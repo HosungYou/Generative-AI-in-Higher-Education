@@ -1,0 +1,232 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Kasimovskaya et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "The Influence of Education Using Artificial Intelligence Technologies on the Formation of Moral Behavior and Self-Efficacy in Medical Students",
+      "confidence": 100
+    },
+    "journal": {
+      "value": null,
+      "confidence": 0
+    },
+    "country": {
+      "value": "RU",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Academic performance",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 75,
+        "confidence": 80,
+        "source": "text"
+      },
+      "n_control": {
+        "value": 75,
+        "confidence": 80,
+        "source": "text"
+      },
+      "m_treatment": {
+        "value": 13,
+        "confidence": 100,
+        "source": "text"
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 4,
+        "confidence": 100,
+        "source": "text"
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Moral behavior",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 75,
+        "confidence": 80,
+        "source": "text"
+      },
+      "n_control": {
+        "value": 75,
+        "confidence": 80,
+        "source": "text"
+      },
+      "m_treatment": {
+        "value": 17.1,
+        "confidence": 100,
+        "source": "text"
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 2.9,
+        "confidence": 100,
+        "source": "text"
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Self-efficacy",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 75,
+        "confidence": 80,
+        "source": "text"
+      },
+      "n_control": {
+        "value": 75,
+        "confidence": 80,
+        "source": "text"
+      },
+      "m_treatment": {
+        "value": 17.6,
+        "confidence": 100,
+        "source": "text"
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 2.9,
+        "confidence": 100,
+        "source": "text"
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "Custom",
+      "confidence": 80,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "problem-solving and implementation of moral behavior"
+    },
+    "outcome_dimension": {
+      "value": "behavioral",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "skill_development",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 80,
+      "source": "text"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "direct_instruction",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "professional",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "medicine",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 150,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 80
+    }
+  },
+  "extraction_notes": [
+    "The journal name is not explicitly mentioned in the text.",
+    "Standard deviations for the outcome measures are not reported.",
+    "The version of the GenAI tool is not specified."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Academic performance - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Moral behavior - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Self-efficacy - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "034_Nataliya_2025_The_Influence_of_Education_Using_Artific",
+  "pdf_path": "pdfs/034_Nataliya_2025_The_Influence_of_Education_Using_Artific.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:36.291928",
+  "pipeline_version": "9.0-groq"
+}

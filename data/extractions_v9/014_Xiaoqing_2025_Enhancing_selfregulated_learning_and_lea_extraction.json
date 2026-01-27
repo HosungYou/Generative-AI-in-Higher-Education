@@ -1,0 +1,205 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Xu et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Enhancing self-regulated learning and learning experience in generative AI environments: The critical role of metacognitive support",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "British Journal of Educational Technology",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Academic performance",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "ANCOVA",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 35,
+        "confidence": 100,
+        "source": "Methods Section"
+      },
+      "n_control": {
+        "value": 33,
+        "confidence": 100,
+        "source": "Methods Section"
+      },
+      "m_treatment": {
+        "value": 86.91,
+        "confidence": 100,
+        "source": "Table 2"
+      },
+      "sd_treatment": {
+        "value": 5.3,
+        "confidence": 100,
+        "source": "Table 2",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 84.97,
+        "confidence": 100,
+        "source": "Table 2"
+      },
+      "sd_control": {
+        "value": 5.34,
+        "confidence": 100,
+        "source": "Table 2",
+        "derived_from": null
+      },
+      "hedges_g": {
+        "value": 0.3605,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      },
+      "se_g": {
+        "value": 0.2446,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Self-regulated learning",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 35,
+        "confidence": 100,
+        "source": "Methods Section"
+      },
+      "n_control": {
+        "value": 33,
+        "confidence": 100,
+        "source": "Methods Section"
+      },
+      "m_treatment": {
+        "value": 5.32,
+        "confidence": 100,
+        "source": "Table 3"
+      },
+      "sd_treatment": {
+        "value": 0.87,
+        "confidence": 100,
+        "source": "Table 3",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 5.08,
+        "confidence": 100,
+        "source": "Table 3"
+      },
+      "sd_control": {
+        "value": 0.78,
+        "confidence": 100,
+        "source": "Table 3",
+        "derived_from": null
+      },
+      "hedges_g": {
+        "value": 0.2867,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      },
+      "se_g": {
+        "value": 0.2439,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": "4.0",
+      "confidence": 100
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "The task required participants to integrate knowledge from multiple disciplines to create a lesson that fosters interdisciplinary application skills and higher-order thinking"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "problem_solving",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "1-4_weeks",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "metacognitive support",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "no metacognitive support",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "education",
+      "confidence": 80
+    },
+    "sample_size_total": {
+      "value": 68,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not explicitly state the GenAI access type, but it can be inferred as web_interface based on the context.",
+    "The blooms_level and outcome_dimension are inferred based on the task description and the focus of the study."
+  ],
+  "validation_warnings": [],
+  "validation_status": "VALIDATED",
+  "study_id": "014_Xiaoqing_2025_Enhancing_selfregulated_learning_and_lea",
+  "pdf_path": "pdfs/014_Xiaoqing_2025_Enhancing_selfregulated_learning_and_lea.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:47.601467",
+  "pipeline_version": "9.0-groq"
+}

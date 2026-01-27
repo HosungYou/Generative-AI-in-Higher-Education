@@ -1,0 +1,194 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Sun et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "How Self-Regulated Learning Is Affected by Feedback Based on Large Language Models: Data-Driven Sustainable Development in Computer Programming Learning",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Electronics",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 80
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Self-Regulated Learning",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Academic Performance",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "Large Language Models (LLMs)",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "The study involves problem-solving and self-regulated learning, which requires analysis"
+    },
+    "outcome_dimension": {
+      "value": "metacognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "self_regulation",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "intervention_duration": {
+      "value": null,
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": null,
+      "confidence": 0
+    },
+    "education_level": {
+      "value": null,
+      "confidence": 0
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": null,
+      "confidence": 0
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide specific statistical values for the outcomes.",
+    "The study does not mention the specific version of the LLMs used.",
+    "The study does not provide information on the access type of the LLMs."
+  ],
+  "validation_warnings": [
+    "MISSING_MODERATOR: education_level not extracted",
+    "MISSING_N: Self-Regulated Learning - n_treatment not found",
+    "MISSING_N: Self-Regulated Learning - n_control not found",
+    "INCOMPLETE_STATS: Self-Regulated Learning - cannot calculate Hedges' g",
+    "MISSING_N: Academic Performance - n_treatment not found",
+    "MISSING_N: Academic Performance - n_control not found",
+    "INCOMPLETE_STATS: Academic Performance - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "053_Unknown_2024_How_Self-Regulated_Learning_Is_Affected_",
+  "pdf_path": "pdfs/053_Unknown_2024_How_Self-Regulated_Learning_Is_Affected_.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:22.473920",
+  "pipeline_version": "9.0-groq"
+}

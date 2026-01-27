@@ -1,0 +1,149 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Zaimah et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Enhancing Writing Comprehension In L2 Arabic Learners Through Ai-Based Translanguaging Chatbots",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Almubin: Islamic Scientific Journal",
+      "confidence": 100
+    },
+    "country": {
+      "value": "ID",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 90
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Writing comprehension",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 45,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "not_reported",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "understand",
+      "confidence": 80,
+      "rationale": "The study focuses on improving writing comprehension, which requires understanding of the language"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 90
+    },
+    "learning_domain": {
+      "value": "writing",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 90,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "not_reported",
+      "confidence": 0
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 45,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not report the mean and standard deviation of the treatment group.",
+    "The study does not report the control group size, mean, and standard deviation.",
+    "The study does not provide enough information to determine the GenAI tool and its version."
+  ],
+  "validation_warnings": [
+    "LOW_CONFIDENCE: education_level has confidence 0%",
+    "MISSING_N: Writing comprehension - n_control not found",
+    "INCOMPLETE_STATS: Writing comprehension - cannot calculate Hedges' g",
+    "GENAI_TOOL_NOT_REPORTED: GenAI tool not identified"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "045_Nely_2024_ENHANCING_WRITING_COMPREHENSION_IN_L2_AR",
+  "pdf_path": "pdfs/045_Nely_2024_ENHANCING_WRITING_COMPREHENSION_IN_L2_AR.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:03.456394",
+  "pipeline_version": "9.0-groq"
+}

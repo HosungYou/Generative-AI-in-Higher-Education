@@ -1,0 +1,189 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Liu et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Applicability of ChatGPT in Online Collaborative Learning: Evidence Based on Learning Outcomes",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Proceedings of the International Academic Conference on Education",
+      "confidence": 100
+    },
+    "country": {
+      "value": "GB",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Knowledge Activation",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 15,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 15,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Critical Thinking",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 15,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 15,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "The study focuses on critical thinking and problem-solving skills"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 90
+    },
+    "learning_domain": {
+      "value": "critical_thinking",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 80,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "tutoring",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "mixed",
+      "confidence": 80
+    },
+    "sample_size_total": {
+      "value": 30,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide specific values for means and standard deviations.",
+    "The study design is quasi-experimental, but the exact design is not clearly stated.",
+    "The GenAI tool version is not reported."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Knowledge Activation - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Critical Thinking - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "043_Haixin_2024_Applicability_of_ChatGPT_in_Online_Colla",
+  "pdf_path": "pdfs/043_Haixin_2024_Applicability_of_ChatGPT_in_Online_Colla.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:59.225417",
+  "pipeline_version": "9.0-groq"
+}

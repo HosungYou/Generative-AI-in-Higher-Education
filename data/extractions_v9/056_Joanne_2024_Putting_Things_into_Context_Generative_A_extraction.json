@@ -1,0 +1,194 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Leong et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Putting Things into Context: Generative AI-Enabled Context Personalization for Vocabulary Learning Improves Learning Motivation",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+      "confidence": 100
+    },
+    "country": {
+      "value": "US",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "RCT",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Learning Motivation",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Learning Performance",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "not_reported",
+      "confidence": 100,
+      "source": "No specific GenAI tool mentioned"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "understand",
+      "confidence": 80,
+      "rationale": "Vocabulary learning involves comprehension and understanding of words"
+    },
+    "outcome_dimension": {
+      "value": "affective",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "RCT",
+      "confidence": 100,
+      "source": "Between-subjects online study"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 272,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "conference",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide specific statistical values for the outcomes.",
+    "The GenAI tool used is not explicitly mentioned.",
+    "The education level of the participants is not reported."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Learning Motivation - n_treatment not found",
+    "MISSING_N: Learning Motivation - n_control not found",
+    "INCOMPLETE_STATS: Learning Motivation - cannot calculate Hedges' g",
+    "MISSING_N: Learning Performance - n_treatment not found",
+    "MISSING_N: Learning Performance - n_control not found",
+    "INCOMPLETE_STATS: Learning Performance - cannot calculate Hedges' g",
+    "GENAI_TOOL_NOT_REPORTED: GenAI tool not identified"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "056_Joanne_2024_Putting_Things_into_Context_Generative_A",
+  "pdf_path": "pdfs/056_Joanne_2024_Putting_Things_into_Context_Generative_A.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:29.144690",
+  "pipeline_version": "9.0-groq"
+}

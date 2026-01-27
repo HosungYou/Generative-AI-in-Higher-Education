@@ -1,0 +1,191 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Banihashem et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Feedback sources in essay writing: peer-generated or AI-generated feedback?",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "International Journal of Educational Technology in Higher Education",
+      "confidence": 100
+    },
+    "country": {
+      "value": "NL",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Essay quality",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 74,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Feedback quality",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 74,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "Essay writing task requires analysis and evaluation of arguments"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "writing",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 80,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "1-4_weeks",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 0
+    },
+    "education_level": {
+      "value": "graduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "mixed",
+      "confidence": 80
+    },
+    "sample_size_total": {
+      "value": 74,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide enough information to calculate effect sizes or extract control group statistics.",
+    "The study design is quasi-experimental, but the exact design is not clearly stated.",
+    "The GenAI tool version is not specified in the paper."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Essay quality - n_control not found",
+    "INCOMPLETE_STATS: Essay quality - cannot calculate Hedges' g",
+    "MISSING_N: Feedback quality - n_control not found",
+    "INCOMPLETE_STATS: Feedback quality - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "051_Seyyed_2024_Feedback_sources_in_essay_writing_peer-g",
+  "pdf_path": "pdfs/051_Seyyed_2024_Feedback_sources_in_essay_writing_peer-g.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:17.346826",
+  "pipeline_version": "9.0-groq"
+}

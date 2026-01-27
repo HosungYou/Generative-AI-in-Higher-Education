@@ -1,0 +1,458 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Tiandem-Adamou et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Using Generative Artificial Intelligence to Support EFL Students’ Writing Proficiency in University in China",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Journal of Educational Technology and Innovation",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Overall Writing Quality",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 100,
+        "confidence": 100,
+        "source": "Methods Section"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "m_treatment": {
+        "value": 4.3,
+        "confidence": 100,
+        "source": "Table 3"
+      },
+      "sd_treatment": {
+        "value": 0.644,
+        "confidence": 100,
+        "source": "Table 3",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Grammar & Syntax",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 100,
+        "confidence": 100,
+        "source": "Table 5"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "m_treatment": {
+        "value": 2.96,
+        "confidence": 100,
+        "source": "Table 5"
+      },
+      "sd_treatment": {
+        "value": 0.298,
+        "confidence": 100,
+        "source": "Table 5",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 2.96,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "sd_control": {
+        "value": 0.248,
+        "confidence": 100,
+        "source": "Table 6",
+        "derived_from": null
+      },
+      "hedges_g": {
+        "value": 0.0,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      },
+      "se_g": {
+        "value": 0.2449,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Organization & Coherence",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 100,
+        "confidence": 100,
+        "source": "Table 5"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "m_treatment": {
+        "value": 3.05,
+        "confidence": 100,
+        "source": "Table 5"
+      },
+      "sd_treatment": {
+        "value": 0.209,
+        "confidence": 100,
+        "source": "Table 5",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 2.93,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "sd_control": {
+        "value": 0.294,
+        "confidence": 100,
+        "source": "Table 6",
+        "derived_from": null
+      },
+      "hedges_g": {
+        "value": 0.5302,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      },
+      "se_g": {
+        "value": 0.2473,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Vocabulary Usage",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 100,
+        "confidence": 100,
+        "source": "Table 5"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "m_treatment": {
+        "value": 3.01,
+        "confidence": 100,
+        "source": "Table 5"
+      },
+      "sd_treatment": {
+        "value": 0.285,
+        "confidence": 100,
+        "source": "Table 5",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 3.07,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "sd_control": {
+        "value": 0.08,
+        "confidence": 100,
+        "source": "Table 6",
+        "derived_from": null
+      },
+      "hedges_g": {
+        "value": -0.2267,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      },
+      "se_g": {
+        "value": 0.2454,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Argumentation",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 100,
+        "confidence": 100,
+        "source": "Table 5"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "m_treatment": {
+        "value": 3.1,
+        "confidence": 100,
+        "source": "Table 5"
+      },
+      "sd_treatment": {
+        "value": 0.103,
+        "confidence": 100,
+        "source": "Table 5",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 2.98,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "sd_control": {
+        "value": 0.111,
+        "confidence": 100,
+        "source": "Table 6",
+        "derived_from": null
+      },
+      "hedges_g": {
+        "value": 1.1429,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      },
+      "se_g": {
+        "value": 0.2558,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Mechanics",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 100,
+        "confidence": 100,
+        "source": "Table 5"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "m_treatment": {
+        "value": 2.99,
+        "confidence": 100,
+        "source": "Table 5"
+      },
+      "sd_treatment": {
+        "value": 0.34,
+        "confidence": 100,
+        "source": "Table 5",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 2.9,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "sd_control": {
+        "value": 0.343,
+        "confidence": 100,
+        "source": "Table 6",
+        "derived_from": null
+      },
+      "hedges_g": {
+        "value": 0.2626,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      },
+      "se_g": {
+        "value": 0.2455,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Overall Writing Performance Score",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 100,
+        "confidence": 100,
+        "source": "Table 5"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "m_treatment": {
+        "value": 15.11,
+        "confidence": 100,
+        "source": "Table 5"
+      },
+      "sd_treatment": {
+        "value": 0.106,
+        "confidence": 100,
+        "source": "Table 5",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 14.83,
+        "confidence": 100,
+        "source": "Table 6"
+      },
+      "sd_control": {
+        "value": 0.523,
+        "confidence": 100,
+        "source": "Table 6",
+        "derived_from": null
+      },
+      "hedges_g": {
+        "value": 1.2032,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      },
+      "se_g": {
+        "value": 0.257,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 100,
+      "rationale": "The study involves writing tasks that require analysis and evaluation of information"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "writing",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "1-3_months",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "direct_instruction",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 120,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide a clear description of the control condition.",
+    "The study does not provide information on the version of the GenAI tool used.",
+    "The study does not provide information on the access type of the GenAI tool."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Overall Writing Quality - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "040_Yvonne_2025_Using_Generative_Artificial_Intelligence",
+  "pdf_path": "pdfs/040_Yvonne_2025_Using_Generative_Artificial_Intelligence.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:52.514389",
+  "pipeline_version": "9.0-groq"
+}

@@ -1,0 +1,146 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Al-Otaibi et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Teaching Program Based on (ChatGPT) and Its Effectiveness in Developing Reading Comprehension Skills for English Language Students at University",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "International Journal of Language and Literary Studies",
+      "confidence": 100
+    },
+    "country": {
+      "value": "SA",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Reading Comprehension Skills",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 30,
+        "confidence": 100,
+        "source": "Page 137"
+      },
+      "n_control": {
+        "value": 30,
+        "confidence": 100,
+        "source": "Page 137"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "The study focuses on developing reading comprehension skills, which involves analysis and understanding of texts"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": null,
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "direct_instruction",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 60,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide specific values for mean and standard deviation of treatment and control groups.",
+    "The version of ChatGPT used is not specified.",
+    "The access type of ChatGPT is not mentioned."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Reading Comprehension Skills - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "031_Mai_2025_Teaching_Program_Based_on_ChatGPT_and_It",
+  "pdf_path": "pdfs/031_Mai_2025_Teaching_Program_Based_on_ChatGPT_and_It.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:28.517368",
+  "pipeline_version": "9.0-groq"
+}

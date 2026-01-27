@@ -1,0 +1,404 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Wu et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Integrating peer assessment cycle into ChatGPT for STEM education: A randomised controlled trial on knowledge, skills, and attitudes enhancement",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Journal of Computer Assisted Learning",
+      "confidence": 100
+    },
+    "country": {
+      "value": "TW",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "RCT",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Knowledge construction",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "ANCOVA",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 31,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 30,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Critical thinking",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "ANCOVA",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 31,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 30,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Problem-solving",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "ANCOVA",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 31,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 30,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Creativity",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "ANCOVA",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 31,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 30,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Attitudes towards mathematics",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "ANCOVA",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 31,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 30,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Attitudes towards engineering/technology",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "ANCOVA",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 31,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 30,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Attitudes towards 21st-century learning",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "ANCOVA",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 31,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 30,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "The study involves critical thinking, problem-solving, and creativity, which are higher-order thinking skills"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "problem_solving",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "RCT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "1-3_months",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "waitlist",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 61,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide means and standard deviations for the outcome measures.",
+    "The study does not provide information about the GenAI tool version.",
+    "The study does not provide information about the GenAI access type, but it is assumed to be web_interface based on the context."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Knowledge construction - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Critical thinking - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Problem-solving - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Creativity - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Attitudes towards mathematics - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Attitudes towards engineering/technology - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Attitudes towards 21st-century learning - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "025_Ting-Ting_2025_Integrating_Peer_Assessment_Cycle_into_C",
+  "pdf_path": "pdfs/025_Ting-Ting_2025_Integrating_Peer_Assessment_Cycle_into_C.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:14.170751",
+  "pipeline_version": "9.0-groq"
+}

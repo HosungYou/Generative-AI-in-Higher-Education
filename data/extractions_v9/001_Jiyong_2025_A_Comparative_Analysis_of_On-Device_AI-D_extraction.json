@@ -1,0 +1,238 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Chun et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "A Comparative Analysis of On-Device AI-Driven, Self-Regulated Learning and Traditional Pedagogy in University Health Sciences Education",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Appl. Sci.",
+      "confidence": 100
+    },
+    "country": {
+      "value": "KR",
+      "confidence": 90
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Academic achievement",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Learning time",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Overall satisfaction",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "Llama",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "genai_tool_version": {
+      "value": "Llama 3.1",
+      "confidence": 100
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 70,
+      "rationale": "The study involves the use of AI-based textbooks for learning, which suggests that the students are applying their knowledge"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 80,
+      "source": "Abstract"
+    },
+    "intervention_duration": {
+      "value": "15 weeks",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "AI-based textbook",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "Traditional learning",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 90
+    },
+    "discipline": {
+      "value": "health sciences",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": null,
+      "confidence": 0
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide detailed statistical information, such as sample sizes, means, and standard deviations.",
+    "The country of the study is inferred based on the affiliation of the authors, but it is not explicitly stated.",
+    "The GenAI tool version is mentioned as Llama 3.1, but the access type is not specified."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Academic achievement - n_treatment not found",
+    "MISSING_N: Academic achievement - n_control not found",
+    "INCOMPLETE_STATS: Academic achievement - cannot calculate Hedges' g",
+    "MISSING_N: Learning time - n_treatment not found",
+    "MISSING_N: Learning time - n_control not found",
+    "INCOMPLETE_STATS: Learning time - cannot calculate Hedges' g",
+    "MISSING_N: Overall satisfaction - n_treatment not found",
+    "MISSING_N: Overall satisfaction - n_control not found",
+    "INCOMPLETE_STATS: Overall satisfaction - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "001_Jiyong_2025_A_Comparative_Analysis_of_On-Device_AI-D",
+  "pdf_path": "pdfs/001_Jiyong_2025_A_Comparative_Analysis_of_On-Device_AI-D.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:13.760912",
+  "pipeline_version": "9.0-groq"
+}

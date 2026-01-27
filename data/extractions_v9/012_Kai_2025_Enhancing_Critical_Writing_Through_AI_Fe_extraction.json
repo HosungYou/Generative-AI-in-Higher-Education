@@ -1,0 +1,235 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Zhang et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Enhancing Critical Writing Through AI Feedback: A Randomized Control Study",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Behavioral Sciences",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "RCT",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Writing quality",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 259,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Organization",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 259,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Content development",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 259,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "Qwen",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "The study focuses on critical writing skills, which involves analysis and evaluation of information"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 90
+    },
+    "learning_domain": {
+      "value": "writing",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "RCT",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "intervention_duration": {
+      "value": "1-4_weeks",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 90
+    },
+    "sample_size_total": {
+      "value": 259,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide detailed statistical information, such as means and standard deviations, for the treatment and control groups.",
+    "The study does not specify the version of the Qwen AI tool used.",
+    "The study does not provide information on the access type of the Qwen AI tool."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Writing quality - n_control not found",
+    "INCOMPLETE_STATS: Writing quality - cannot calculate Hedges' g",
+    "MISSING_N: Organization - n_control not found",
+    "INCOMPLETE_STATS: Organization - cannot calculate Hedges' g",
+    "MISSING_N: Content development - n_control not found",
+    "INCOMPLETE_STATS: Content development - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "012_Kai_2025_Enhancing_Critical_Writing_Through_AI_Fe",
+  "pdf_path": "pdfs/012_Kai_2025_Enhancing_Critical_Writing_Through_AI_Fe.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:42.370324",
+  "pipeline_version": "9.0-groq"
+}

@@ -1,0 +1,148 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Dasari et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "ChatGPT in didactical tetrahedron, does it make an exception? A case study in mathematics teaching and learning",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Frontiers in Education",
+      "confidence": 100
+    },
+    "country": {
+      "value": "ID",
+      "confidence": 80
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Mathematical understanding",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "Problem-solving and implementation of mathematical concepts"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 80,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": null,
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "K-12",
+      "confidence": 80
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": null,
+      "confidence": 0
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide explicit statistical values for the outcome measures.",
+    "The country of the study is inferred from the authors' affiliations.",
+    "The design type is quasi-experimental, but the paper does not provide detailed information about the control group."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Mathematical understanding - n_treatment not found",
+    "MISSING_N: Mathematical understanding - n_control not found",
+    "INCOMPLETE_STATS: Mathematical understanding - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "044_Dadan_2024_ChatGPT_in_didactical_tetrahedron_does_i",
+  "pdf_path": "pdfs/044_Dadan_2024_ChatGPT_in_didactical_tetrahedron_does_i.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:01.492458",
+  "pipeline_version": "9.0-groq"
+}

@@ -1,0 +1,145 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Apriani et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "A Mixed-Method Study on the Effectiveness of Using ChatGPT in Academic Writing and Students’ Perceived Experiences",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Journal of Language and Education",
+      "confidence": 100
+    },
+    "country": {
+      "value": "ID",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 90
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Academic writing abilities",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 25,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 25,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": 81.11,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 60.3,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": "GPT-3.5",
+      "confidence": 100
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "create",
+      "confidence": 80,
+      "rationale": "The study involves generating academic writing, which requires creative writing skills"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 90
+    },
+    "learning_domain": {
+      "value": "writing",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 90,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "1-3_months",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 50,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The standard deviation for the treatment and control groups was not reported in the study.",
+    "The study does not provide information on the specific features of the ChatGPT tool used, other than the version number."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Academic writing abilities - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "003_Unknown_2025_A_Mixed-Method_Study_on_the_Effectivenes",
+  "pdf_path": "pdfs/003_Unknown_2025_A_Mixed-Method_Study_on_the_Effectivenes.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:18.739067",
+  "pipeline_version": "9.0-groq"
+}

@@ -1,0 +1,189 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Hong et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Cognitive Offload Instruction with Generative AI: A Quasi-Experimental Study on Critical Thinking Gains in English Writing",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Forum for Linguistic Studies",
+      "confidence": 100
+    },
+    "country": {
+      "value": "TH",
+      "confidence": 90
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Critical Thinking",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 120,
+        "confidence": 80,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": 120,
+        "confidence": 80,
+        "source": "Abstract"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Essay Quality",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 120,
+        "confidence": 80,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": 120,
+        "confidence": 80,
+        "source": "Abstract"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 80,
+      "source": "Introduction"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 70
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 90,
+      "rationale": "The study focuses on critical thinking, which involves analysis and evaluation"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "critical_thinking",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "intervention_duration": {
+      "value": "1-3_months",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 90
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 240,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide detailed statistical values, such as means and standard deviations, for the outcome measures.",
+    "The version of the GenAI tool used is not specified.",
+    "The access type of the GenAI tool is inferred based on the context, but not explicitly stated."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Critical Thinking - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Essay Quality - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "006_Hui_2025_Cognitive_Offload_Instruction_with_Gener",
+  "pdf_path": "pdfs/006_Hui_2025_Cognitive_Offload_Instruction_with_Gener.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:26.390877",
+  "pipeline_version": "9.0-groq"
+}

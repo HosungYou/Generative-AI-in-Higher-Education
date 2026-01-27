@@ -1,0 +1,147 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Le et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Promoting teachers' use of ChatGPT: A case study on generating real-world problems in 10th grade Algebra instruction",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Ho Chi Minh City University of Education Journal of Science",
+      "confidence": 100
+    },
+    "country": {
+      "value": "VN",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Technology acceptance",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 33,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "The study involves generating real-world mathematical problems, which requires application of knowledge"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "problem_solving",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 80,
+      "source": "Abstract"
+    },
+    "intervention_duration": {
+      "value": "1-4_weeks",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "teacher_training",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "K-12",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 33,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide detailed statistical analysis, making it difficult to extract specific values for layer 2.",
+    "The study design is not explicitly stated as RCT or QUASI, but it appears to be a pre-post design.",
+    "The GenAI tool version is not specified in the study."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Technology acceptance - n_control not found",
+    "INCOMPLETE_STATS: Technology acceptance - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "028_Tuan_2025_PROMOTING_TEACHERS_USE_OF_CHATGPT_A_CASE",
+  "pdf_path": "pdfs/028_Tuan_2025_PROMOTING_TEACHERS_USE_OF_CHATGPT_A_CASE.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:21.959516",
+  "pipeline_version": "9.0-groq"
+}

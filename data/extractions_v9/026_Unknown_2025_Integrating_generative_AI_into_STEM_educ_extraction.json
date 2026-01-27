@@ -1,0 +1,146 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "El Fathi et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Integrating generative AI into STEM education: enhancing conceptual understanding, addressing misconceptions, and assessing student acceptance",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Disciplinary and Interdisciplinary Science Education Research",
+      "confidence": 100
+    },
+    "country": {
+      "value": "MA",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Conceptual understanding",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 60,
+        "confidence": 100,
+        "source": "Methods Section"
+      },
+      "n_control": {
+        "value": 60,
+        "confidence": 100,
+        "source": "Methods Section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "The study focuses on enhancing conceptual understanding and addressing misconceptions, which requires application of knowledge"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Methods Section"
+    },
+    "intervention_duration": {
+      "value": "1-3_months",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "direct_instruction",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 120,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide specific values for mean and standard deviation of treatment and control groups.",
+    "The version of ChatGPT used is not specified.",
+    "The access type of ChatGPT is not mentioned."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Conceptual understanding - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "026_Unknown_2025_Integrating_generative_AI_into_STEM_educ",
+  "pdf_path": "pdfs/026_Unknown_2025_Integrating_generative_AI_into_STEM_educ.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:16.617501",
+  "pipeline_version": "9.0-groq"
+}

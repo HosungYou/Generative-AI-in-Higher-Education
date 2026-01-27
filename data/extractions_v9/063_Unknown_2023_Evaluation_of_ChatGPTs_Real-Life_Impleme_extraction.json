@@ -1,0 +1,146 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Kavadella et al",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Evaluation of ChatGPT’s Real-Life Implementation in Undergraduate Dental Education: Mixed Methods Study",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "JMIR Med Educ",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CY",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 90
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Knowledge examination grades",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 90
+      },
+      "n_treatment": {
+        "value": 39,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "n_control": {
+        "value": 38,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "remember",
+      "confidence": 70,
+      "rationale": "Knowledge examination grades suggest recall of facts"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 90
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 90,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 60
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "medicine",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 77,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide detailed statistical values such as means and standard deviations for the knowledge examination grades.",
+    "The version of ChatGPT used is not specified in the paper.",
+    "The duration of the intervention is not clearly stated, but it appears to be a single session."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Knowledge examination grades - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "063_Unknown_2023_Evaluation_of_ChatGPTs_Real-Life_Impleme",
+  "pdf_path": "pdfs/063_Unknown_2023_Evaluation_of_ChatGPTs_Real-Life_Impleme.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:44.991870",
+  "pipeline_version": "9.0-groq"
+}

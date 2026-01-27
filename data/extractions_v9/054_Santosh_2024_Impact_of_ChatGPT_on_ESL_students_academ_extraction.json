@@ -1,0 +1,146 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Mahapatra et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Impact of ChatGPT on ESL students’ academic writing skills: a mixed methods intervention study",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Smart Learning Environments",
+      "confidence": 100
+    },
+    "country": {
+      "value": "IN",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Writing skills",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 35,
+        "confidence": 100,
+        "source": "Page 5 of 18"
+      },
+      "n_control": {
+        "value": 37,
+        "confidence": 100,
+        "source": "Page 5 of 18"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "Writing skills, self-and peer assessment"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "writing",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Methods Section"
+    },
+    "intervention_duration": {
+      "value": "1-3_months",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 72,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide specific statistical values (means, standard deviations) for the treatment and control groups.",
+    "The genai_tool_version is not specified in the paper.",
+    "The genai_access_type is inferred as web_interface based on the context, but not explicitly stated."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Writing skills - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "054_Santosh_2024_Impact_of_ChatGPT_on_ESL_students_academ",
+  "pdf_path": "pdfs/054_Santosh_2024_Impact_of_ChatGPT_on_ESL_students_academ.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:24.583643",
+  "pipeline_version": "9.0-groq"
+}

@@ -1,0 +1,318 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Ergezen Sahin et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Effects of artificial intelligence based physiotherapy educational approach in developing clinical reasoning skills: a randomized controlled trial",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "BMC Medical Education",
+      "confidence": 100
+    },
+    "country": {
+      "value": "TR",
+      "confidence": 80
+    },
+    "design_type": {
+      "value": "RCT",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Theoretical knowledge",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Page 2 of 12"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Page 2 of 12"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "AI self-efficacy",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Page 2 of 12"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Page 2 of 12"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Reading motivation",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Page 2 of 12"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Page 2 of 12"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Internet addiction",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Page 2 of 12"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Page 2 of 12"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Clinical competence",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Page 2 of 12"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Page 2 of 12"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 80,
+      "source": "Background section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "The study involves problem-based learning, which typically requires application of knowledge"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "RCT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "1-4_weeks",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "problem_solving",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "medicine",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 40,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide specific details about the version of ChatGPT used or the access type.",
+    "The study does not report the means and standard deviations for the outcome measures.",
+    "The country of the study is inferred from the university names mentioned in the text."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Theoretical knowledge - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: AI self-efficacy - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Reading motivation - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Internet addiction - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Clinical competence - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "011_Unknown_2025_Effects_of_artificial_intelligence_based",
+  "pdf_path": "pdfs/011_Unknown_2025_Effects_of_artificial_intelligence_based.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:39.941107",
+  "pipeline_version": "9.0-groq"
+}

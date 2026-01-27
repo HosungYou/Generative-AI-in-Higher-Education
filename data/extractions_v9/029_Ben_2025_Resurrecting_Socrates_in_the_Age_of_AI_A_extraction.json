@@ -1,0 +1,147 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Degen et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Resurrecting Socrates in the Age of AI: A Study Protocol for Evaluating a Socratic Tutor to Support Research Question Development in Higher Education",
+      "confidence": 100
+    },
+    "journal": {
+      "value": null,
+      "confidence": 0
+    },
+    "country": {
+      "value": "DE",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Research question quality",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 40,
+        "confidence": 100,
+        "source": "text, approximately 80 students, assumed equal split"
+      },
+      "n_control": {
+        "value": 40,
+        "confidence": 100,
+        "source": "text, approximately 80 students, assumed equal split"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "Custom",
+      "confidence": 100,
+      "source": "Methods section, Socratic Tutor"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 100,
+      "rationale": "Research question development involves analysis and evaluation of topics"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "text, quasi-experimental design"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "tutoring",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "uninstructed chatbot",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "biology",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 80,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The journal name is not explicitly mentioned in the provided text.",
+    "Statistical values such as means and standard deviations are not reported in the provided text.",
+    "The version of the GenAI tool is not specified.",
+    "The access type of the GenAI tool is assumed to be web_interface based on the context."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Research question quality - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "029_Ben_2025_Resurrecting_Socrates_in_the_Age_of_AI_A",
+  "pdf_path": "pdfs/029_Ben_2025_Resurrecting_Socrates_in_the_Age_of_AI_A.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:23.862588",
+  "pipeline_version": "9.0-groq"
+}

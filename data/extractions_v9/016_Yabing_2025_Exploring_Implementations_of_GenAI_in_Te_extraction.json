@@ -1,0 +1,150 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Jiang et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Exploring Implementations of GenAI in Teaching IS Subjects and Student Perceptions",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Journal of Information Systems Education",
+      "confidence": 100
+    },
+    "country": {
+      "value": "USA",
+      "confidence": 90
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Learning performance",
+        "confidence": 70
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 70
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "not_reported",
+      "confidence": 100,
+      "source": "No specific GenAI tool mentioned"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 60,
+      "rationale": "Students used GenAI for learning programming concepts and writing technical reports"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "skill_development",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 80,
+      "source": "Experimental group vs control group"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 70
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 70
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 90
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 90
+    },
+    "sample_size_total": {
+      "value": null,
+      "confidence": 0
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide specific statistical values for the outcomes.",
+    "The GenAI tool used is not explicitly mentioned.",
+    "The study design is quasi-experimental, but the exact duration of the intervention is not reported."
+  ],
+  "validation_warnings": [
+    "LOW_CONFIDENCE: blooms_level has confidence 60%",
+    "MISSING_N: Learning performance - n_treatment not found",
+    "MISSING_N: Learning performance - n_control not found",
+    "INCOMPLETE_STATS: Learning performance - cannot calculate Hedges' g",
+    "GENAI_TOOL_NOT_REPORTED: GenAI tool not identified"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "016_Yabing_2025_Exploring_Implementations_of_GenAI_in_Te",
+  "pdf_path": "pdfs/016_Yabing_2025_Exploring_Implementations_of_GenAI_in_Te.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:51.892389",
+  "pipeline_version": "9.0-groq"
+}

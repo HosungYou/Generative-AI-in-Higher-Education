@@ -1,0 +1,193 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Li et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Generative artificial intelligence-supported programming education: Effects on learning performance, self-efficacy and processes",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Australasian Journal of Educational Technology",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 80
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 90
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "learning performance",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 70
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "self-efficacy",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 70
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 90,
+      "source": "Introduction section"
+    },
+    "genai_tool_version": {
+      "value": "GPT-3.5",
+      "confidence": 80
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 70
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "problem-solving and implementation"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 90,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": null,
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "direct_instruction",
+      "confidence": 70
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 70
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 80
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 90
+    },
+    "sample_size_total": {
+      "value": null,
+      "confidence": 0
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide explicit values for sample sizes, means, and standard deviations.",
+    "The GenAI tool version is inferred from the mention of GPT-3.5 in the introduction.",
+    "The education level is assumed to be undergraduate based on the context of the study."
+  ],
+  "validation_warnings": [
+    "MISSING_N: learning performance - n_treatment not found",
+    "MISSING_N: learning performance - n_control not found",
+    "INCOMPLETE_STATS: learning performance - cannot calculate Hedges' g",
+    "MISSING_N: self-efficacy - n_treatment not found",
+    "MISSING_N: self-efficacy - n_control not found",
+    "INCOMPLETE_STATS: self-efficacy - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "036_Wafa_2025_The_Use_of_Artificial_Intelligence_and_I",
+  "pdf_path": "pdfs/036_Wafa_2025_The_Use_of_Artificial_Intelligence_and_I.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:41.504034",
+  "pipeline_version": "9.0-groq"
+}

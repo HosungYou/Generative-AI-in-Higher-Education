@@ -1,0 +1,232 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Alneyadi et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Integrating ChatGPT in Grade 12 Quantum Theory Education: An Exploratory Study at Emirate School (UAE)",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "International Journal of Information and Education Technology",
+      "confidence": 100
+    },
+    "country": {
+      "value": "AE",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Knowing sub-skills",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 55,
+        "confidence": 100,
+        "source": "text"
+      },
+      "n_control": {
+        "value": 57,
+        "confidence": 100,
+        "source": "text"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Applying sub-skills",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 55,
+        "confidence": 100,
+        "source": "text"
+      },
+      "n_control": {
+        "value": 57,
+        "confidence": 100,
+        "source": "text"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Reasoning sub-skills",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 55,
+        "confidence": 100,
+        "source": "text"
+      },
+      "n_control": {
+        "value": 57,
+        "confidence": 100,
+        "source": "text"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "text"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "problem-solving skills mentioned"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 90
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "text"
+    },
+    "intervention_duration": {
+      "value": null,
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "K-12",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 112,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "Limited statistical information available",
+    "No specific version of ChatGPT mentioned",
+    "No information on intervention duration or type"
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Knowing sub-skills - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Applying sub-skills - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Reasoning sub-skills - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "055_Yousef_2024_Integrating_ChatGPT_in_Grade_12_Quantum_",
+  "pdf_path": "pdfs/055_Yousef_2024_Integrating_ChatGPT_in_Grade_12_Quantum_.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:26.984684",
+  "pipeline_version": "9.0-groq"
+}

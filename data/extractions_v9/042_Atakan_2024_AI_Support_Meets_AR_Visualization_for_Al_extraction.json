@@ -1,0 +1,148 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Coban et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "AI Support Meets AR Visualization for Alice and Bob: Personalized Learning Based on Individual ChatGPT Feedback in an AR Quantum Cryptography Experiment for Physics Lab Courses",
+      "confidence": 100
+    },
+    "journal": {
+      "value": null,
+      "confidence": 0
+    },
+    "country": {
+      "value": "DE",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Learning outcomes",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 70
+      },
+      "n_treatment": {
+        "value": 38,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "The study involves problem-solving and implementation of quantum physics concepts"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 90
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 80,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 70
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 90
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 50
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 90
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 38,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": null,
+      "confidence": 0
+    }
+  },
+  "extraction_notes": [
+    "The journal name is not mentioned in the provided text.",
+    "The study design is inferred as PRE_POST based on the methods section, but it is not explicitly stated.",
+    "The control condition is not clearly described, but it appears to be a no-treatment condition.",
+    "The statistical values for the treatment and control groups are not provided."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Learning outcomes - n_control not found",
+    "INCOMPLETE_STATS: Learning outcomes - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "042_Atakan_2024_AI_Support_Meets_AR_Visualization_for_Al",
+  "pdf_path": "pdfs/042_Atakan_2024_AI_Support_Meets_AR_Visualization_for_Al.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:57.040464",
+  "pipeline_version": "9.0-groq"
+}

@@ -1,0 +1,235 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Wang et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Exploring the Role of AI Technology in Shaping College Students’ English Writing Development: Insights from the Complex Dynamic Systems Theory",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Journal of Azerbaijan Language and Education Studies",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Overall writing proficiency",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 12,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Lexical and syntactic accuracy and complexity",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 12,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Writing fluency",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 12,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "Kimi",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "The study focuses on improving writing proficiency, which involves applying language skills"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 90
+    },
+    "learning_domain": {
+      "value": "writing",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 80,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "1-3_months",
+      "confidence": 90
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 12,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide a control group for comparison.",
+    "The study does not report statistical values such as means and standard deviations.",
+    "The study does not specify the version of the GenAI tool used."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Overall writing proficiency - n_control not found",
+    "INCOMPLETE_STATS: Overall writing proficiency - cannot calculate Hedges' g",
+    "MISSING_N: Lexical and syntactic accuracy and complexity - n_control not found",
+    "INCOMPLETE_STATS: Lexical and syntactic accuracy and complexity - cannot calculate Hedges' g",
+    "MISSING_N: Writing fluency - n_control not found",
+    "INCOMPLETE_STATS: Writing fluency - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "017_Wang_2025_Exploring_the_Role_of_AI_Technology_in_S",
+  "pdf_path": "pdfs/017_Wang_2025_Exploring_the_Role_of_AI_Technology_in_S.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:54.280895",
+  "pipeline_version": "9.0-groq"
+}

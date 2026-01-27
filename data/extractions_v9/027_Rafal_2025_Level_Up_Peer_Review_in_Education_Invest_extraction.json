@@ -1,0 +1,275 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Wlodarski et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Level Up Peer Review in Education: Investigating genAI-driven Gamification system and its influence on Peer Feedback Effectiveness",
+      "confidence": 100
+    },
+    "journal": {
+      "value": null,
+      "confidence": 0
+    },
+    "country": {
+      "value": "USA",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "RCT",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Amount of feedback given across both sessions",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 12,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "n_control": {
+        "value": 12,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "m_treatment": {
+        "value": 23.0,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 16.9,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Overall quality of feedback given across both sessions",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 12,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "n_control": {
+        "value": 12,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "m_treatment": {
+        "value": 5.6,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 4.1,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Average Relevance",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 12,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "n_control": {
+        "value": 12,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "m_treatment": {
+        "value": 1.8,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 1.4,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Average Specificity",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 12,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "n_control": {
+        "value": 12,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "m_treatment": {
+        "value": 1.2,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 0.4,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "Custom",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 100,
+      "rationale": "The study involves peer review and feedback, which requires analysis of code and design"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "skill_development",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "RCT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "1-4_weeks",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "minimal gamification",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "graduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 24,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "preprint",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The standard deviations for the outcome measures are not reported in the paper.",
+    "The version of the GenAI tool is not specified in the paper.",
+    "The access type of the GenAI tool is inferred as web_interface based on the description of the platform."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Amount of feedback given across both sessions - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Overall quality of feedback given across both sessions - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Average Relevance - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Average Specificity - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "027_Rafal_2025_Level_Up_Peer_Review_in_Education_Invest",
+  "pdf_path": "pdfs/027_Rafal_2025_Level_Up_Peer_Review_in_Education_Invest.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:19.957726",
+  "pipeline_version": "9.0-groq"
+}

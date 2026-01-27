@@ -1,0 +1,191 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Chen et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "The role of help-seeking from ChatGPT in digital game-based learning",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Education Tech Research Dev",
+      "confidence": 100
+    },
+    "country": {
+      "value": "TW",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Game performance/engagement",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 60
+      },
+      "n_treatment": {
+        "value": 102,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Learning outcomes (posttest)",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 60
+      },
+      "n_treatment": {
+        "value": 102,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": "GPT-3.5-turbo",
+      "confidence": 100
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "Problem-solving activities"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "problem_solving",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 80,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 60
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 60
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 60
+    },
+    "education_level": {
+      "value": "K-12",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 102,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "No control group mentioned in the study.",
+    "Limited information about the statistical analysis and results.",
+    "Assumptions made about the study design and intervention duration."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Game performance/engagement - n_control not found",
+    "INCOMPLETE_STATS: Game performance/engagement - cannot calculate Hedges' g",
+    "MISSING_N: Learning outcomes (posttest) - n_control not found",
+    "INCOMPLETE_STATS: Learning outcomes (posttest) - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "018_Satoru_2025_Generative_AI_and_CEFR_Levels_Evaluating",
+  "pdf_path": "pdfs/018_Satoru_2025_Generative_AI_and_CEFR_Levels_Evaluating.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:56.759232",
+  "pipeline_version": "9.0-groq"
+}

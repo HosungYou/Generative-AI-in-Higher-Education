@@ -1,0 +1,146 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Hakiki et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2023,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Exploring the impact of using Chat-GPT on student learning outcomes in technology learning: The comprehensive experiment",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Advances in Mobile Learning Educational Research",
+      "confidence": 100
+    },
+    "country": {
+      "value": "ID",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Learning outcomes",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 31,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 31,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 50
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "The study involves problem-solving and implementation of technology learning"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 90
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "direct_instruction",
+      "confidence": 70
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 90
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 90
+    },
+    "sample_size_total": {
+      "value": 62,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not report the mean and standard deviation of the treatment and control groups.",
+    "The version of ChatGPT used is not specified.",
+    "The access type of ChatGPT is not explicitly stated, but it is assumed to be a web interface."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Learning outcomes - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "064_Muhammad_2023_Exploring_the_impact_of_using_Chat-GPT_o",
+  "pdf_path": "pdfs/064_Muhammad_2023_Exploring_the_impact_of_using_Chat-GPT_o.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:47.194137",
+  "pipeline_version": "9.0-groq"
+}

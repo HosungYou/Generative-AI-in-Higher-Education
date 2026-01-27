@@ -1,0 +1,106 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Uchida et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Generative AI and CEFR Levels: Evaluating the Accuracy of Text Generation with ChatGPT-4o Through Textual Features",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Vocabulary Learning and Instruction",
+      "confidence": 100
+    },
+    "country": {
+      "value": "JP",
+      "confidence": 80
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 60
+    }
+  },
+  "layer2_statistics": [],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": "ChatGPT-4o",
+      "confidence": 100
+    },
+    "genai_access_type": {
+      "value": "api",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 60,
+      "rationale": "The study involves generating texts at different CEFR levels, which requires applying language skills"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "language",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "pre-post",
+      "confidence": 60,
+      "source": "The study generates texts using ChatGPT-4o and evaluates their alignment with CEFR levels"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "not_reported",
+      "confidence": 0
+    },
+    "education_level": {
+      "value": "mixed",
+      "confidence": 60
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": null,
+      "confidence": 0
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not report sample size or control condition",
+    "The study design is not clearly stated, but it appears to be a pre-post design",
+    "The Blooms level is inferred based on the study's objective, which involves applying language skills"
+  ],
+  "validation_warnings": [
+    "LOW_CONFIDENCE: study_design has confidence 60%",
+    "LOW_CONFIDENCE: education_level has confidence 60%",
+    "LOW_CONFIDENCE: blooms_level has confidence 60%",
+    "NO_STATISTICS: No outcome measures extracted"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "039_Jenny_2025_Using_Generative_AI_to_Promote_Psycholog",
+  "pdf_path": "pdfs/039_Jenny_2025_Using_Generative_AI_to_Promote_Psycholog.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:47.450967",
+  "pipeline_version": "9.0-groq"
+}

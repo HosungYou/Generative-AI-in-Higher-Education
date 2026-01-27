@@ -1,0 +1,189 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Shin et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "The Impact of Artificial Intelligence-Assisted Learning on Nursing Students' Ethical Decision-making and Clinical Reasoning in Pediatric Care",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "CIN: Computers, Informatics, Nursing",
+      "confidence": 100
+    },
+    "country": {
+      "value": "KR",
+      "confidence": 90
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Ethical standards",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 52,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 47,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Nursing processes",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 52,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 47,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": "GPT-3.5",
+      "confidence": 100
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "The study involves applying ethical principles and nursing processes to solve health problems"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 90
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "direct_instruction",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "nursing",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 99,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide means and standard deviations for the outcome measures.",
+    "The study does not explicitly state the version of ChatGPT used, but it is mentioned as 'GPT-3.5' in the context.",
+    "The study does not provide information on the access type of ChatGPT."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Ethical standards - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Nursing processes - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "059_Hyewon_2024_The_Impact_of_Artificial_Intelligence-As",
+  "pdf_path": "pdfs/059_Hyewon_2024_The_Impact_of_Artificial_Intelligence-As.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:36.159594",
+  "pipeline_version": "9.0-groq"
+}

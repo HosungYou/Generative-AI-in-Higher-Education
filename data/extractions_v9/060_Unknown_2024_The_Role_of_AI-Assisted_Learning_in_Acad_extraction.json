@@ -1,0 +1,146 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Chen et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "The Role of AI-Assisted Learning in Academic Writing: A Mixed-Methods Study on Chinese as a Second Language Students",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Education Sciences",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Academic writing performance",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 25,
+        "confidence": 100,
+        "source": "Fifty international CSL students were randomly assigned to experimental—AI-assisted learning using ChatGPT—and control—traditional learning—groups"
+      },
+      "n_control": {
+        "value": 25,
+        "confidence": 100,
+        "source": "Fifty international CSL students were randomly assigned to experimental—AI-assisted learning using ChatGPT—and control—traditional learning—groups"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "experimental—AI-assisted learning using ChatGPT"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "Academic writing requires application of knowledge and skills"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "writing",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 80,
+      "source": "Fifty international CSL students were randomly assigned to experimental—AI-assisted learning using ChatGPT—and control—traditional learning—groups"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 80
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 50,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide enough information to calculate the effect size or extract the means and standard deviations for the treatment and control groups",
+    "The version of ChatGPT used is not specified",
+    "The duration of the intervention is not reported"
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Academic writing performance - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "060_Unknown_2024_The_Role_of_AI-Assisted_Learning_in_Acad",
+  "pdf_path": "pdfs/060_Unknown_2024_The_Role_of_AI-Assisted_Learning_in_Acad.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:38.275856",
+  "pipeline_version": "9.0-groq"
+}

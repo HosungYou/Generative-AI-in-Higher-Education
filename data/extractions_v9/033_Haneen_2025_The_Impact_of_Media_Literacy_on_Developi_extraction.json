@@ -1,0 +1,192 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Salman et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "The Impact of Media Literacy on Developing Media Students' Skills in Verifying AI-Generated Images Published on Social Media Platforms",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "International Journal of Environmental Sciences",
+      "confidence": 100
+    },
+    "country": {
+      "value": "IQ",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Access skill",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 30,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Analysis skill",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 30,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "not_reported",
+      "confidence": 100,
+      "source": "No mention of GenAI tool"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "The study involves critical assessment and distinction of AI-generated images, which requires analysis skills"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "critical_thinking",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "training_program",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 80
+    },
+    "discipline": {
+      "value": "media",
+      "confidence": 80
+    },
+    "sample_size_total": {
+      "value": 30,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not report the means and standard deviations for the treatment and control groups.",
+    "The study does not mention the GenAI tool or its version.",
+    "The study design is quasi-experimental, but the control condition is not reported."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Access skill - n_control not found",
+    "INCOMPLETE_STATS: Access skill - cannot calculate Hedges' g",
+    "MISSING_N: Analysis skill - n_control not found",
+    "INCOMPLETE_STATS: Analysis skill - cannot calculate Hedges' g",
+    "GENAI_TOOL_NOT_REPORTED: GenAI tool not identified"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "033_Haneen_2025_The_Impact_of_Media_Literacy_on_Developi",
+  "pdf_path": "pdfs/033_Haneen_2025_The_Impact_of_Media_Literacy_on_Developi.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:33.851743",
+  "pipeline_version": "9.0-groq"
+}

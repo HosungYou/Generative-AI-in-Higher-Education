@@ -1,0 +1,283 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Chang et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "The Effect of a Generative AI-Based Teaching Strategy on Building Students’ Competency",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Journal of Nursing Education",
+      "confidence": 100
+    },
+    "country": {
+      "value": "TW",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Knowledge",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": 85.45,
+        "confidence": 100,
+        "source": "Table 3"
+      },
+      "sd_treatment": {
+        "value": 14.16,
+        "confidence": 100,
+        "source": "Table 3",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 77.58,
+        "confidence": 100,
+        "source": "Table 3"
+      },
+      "sd_control": {
+        "value": 10,
+        "confidence": 100,
+        "source": "Table 3",
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Self-efficacy",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": 4.74,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_treatment": {
+        "value": 0.48,
+        "confidence": 100,
+        "source": "Results section",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 3.85,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_control": {
+        "value": 0.67,
+        "confidence": 100,
+        "source": "Results section",
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Problem solving abilities",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": 4.58,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_treatment": {
+        "value": 0.5,
+        "confidence": 100,
+        "source": "Results section",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 3.92,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_control": {
+        "value": 0.79,
+        "confidence": 100,
+        "source": "Results section",
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Decision-making skills",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": 4.46,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_treatment": {
+        "value": 0.51,
+        "confidence": 100,
+        "source": "Results section",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 3.82,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_control": {
+        "value": 0.71,
+        "confidence": 100,
+        "source": "Results section",
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 100,
+      "rationale": "The study involves problem-solving and decision-making skills"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "problem_solving",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "1-4_weeks",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "direct_instruction",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "medicine",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": null,
+      "confidence": 0
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "Sample size for treatment and control groups not reported",
+    "GenAI tool version not specified",
+    "Some values, such as sample size total, not found in the text"
+  ],
+  "validation_warnings": [
+    "MISSING_N: Knowledge - n_treatment not found",
+    "MISSING_N: Knowledge - n_control not found",
+    "INCOMPLETE_STATS: Knowledge - cannot calculate Hedges' g",
+    "MISSING_N: Self-efficacy - n_treatment not found",
+    "MISSING_N: Self-efficacy - n_control not found",
+    "INCOMPLETE_STATS: Self-efficacy - cannot calculate Hedges' g",
+    "MISSING_N: Problem solving abilities - n_treatment not found",
+    "MISSING_N: Problem solving abilities - n_control not found",
+    "INCOMPLETE_STATS: Problem solving abilities - cannot calculate Hedges' g",
+    "MISSING_N: Decision-making skills - n_treatment not found",
+    "MISSING_N: Decision-making skills - n_control not found",
+    "INCOMPLETE_STATS: Decision-making skills - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "032_Ching-Yi_2025_The_Effect_of_a_Generative_AI-Based_Teac",
+  "pdf_path": "pdfs/032_Ching-Yi_2025_The_Effect_of_a_Generative_AI-Based_Teac.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:31.641096",
+  "pipeline_version": "9.0-groq"
+}

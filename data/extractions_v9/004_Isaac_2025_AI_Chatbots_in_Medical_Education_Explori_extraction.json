@@ -1,0 +1,318 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Ng et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "AI Chatbots in Medical Education: Exploring Performance, Utility, and Learner Perceptions – A Mixed Methods Study",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Preprints",
+      "confidence": 100
+    },
+    "country": {
+      "value": null,
+      "confidence": 0
+    },
+    "design_type": {
+      "value": "crossover",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "ease of use",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "satisfaction",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "engagement",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "perceived quality",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "ease of understanding",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 20,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "Custom",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 50
+    },
+    "blooms_level": {
+      "value": "remember",
+      "confidence": 80,
+      "rationale": "The study focused on factual recall and comprehension"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "crossover",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 50
+    },
+    "intervention_type": {
+      "value": "direct_instruction",
+      "confidence": 50
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 50
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "medicine",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 20,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "preprint",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide enough information to calculate the effect size for the outcomes.",
+    "The standard deviations for the outcomes are not reported.",
+    "The country where the study was conducted is not mentioned."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: ease of use - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: satisfaction - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: engagement - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: perceived quality - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: ease of understanding - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "004_Isaac_2025_AI_Chatbots_in_Medical_Education_Explori",
+  "pdf_path": "pdfs/004_Isaac_2025_AI_Chatbots_in_Medical_Education_Explori.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:22.011102",
+  "pipeline_version": "9.0-groq"
+}

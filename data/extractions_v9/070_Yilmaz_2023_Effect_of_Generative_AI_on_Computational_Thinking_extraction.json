@@ -1,0 +1,231 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Yilmaz et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2023,
+      "confidence": 100
+    },
+    "title": {
+      "value": "The effect of generative artificial intelligence (AI)-based tool use on students’ computational thinking skills, programming self-efficacy and motivation",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Computers and Education: Artificial Intelligence",
+      "confidence": 100
+    },
+    "country": {
+      "value": "TR",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Computational thinking skills",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 21,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 24,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Programming self-efficacy",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 21,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 24,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Motivation toward the lesson",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 21,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 24,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "The study focuses on programming skills, which involves applying knowledge to solve problems"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "skill_development",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": null,
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 45,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide specific details about the GenAI tool version, access type, or intervention duration.",
+    "The study does not report means, standard deviations, or other statistical values for the outcome measures."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Computational thinking skills - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Programming self-efficacy - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Motivation toward the lesson - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "070_Yilmaz_2023_Effect_of_Generative_AI_on_Computational_Thinking",
+  "pdf_path": "pdfs/070_Yilmaz_2023_Effect_of_Generative_AI_on_Computational_Thinking.pdf",
+  "extraction_timestamp": "2026-01-27T01:20:00.490512",
+  "pipeline_version": "9.0-groq"
+}

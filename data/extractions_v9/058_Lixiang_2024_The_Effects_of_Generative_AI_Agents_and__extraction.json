@@ -1,0 +1,148 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Yan et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "The Effects of Generative AI Agents and Scaffolding on Enhancing Students’ Comprehension of Visual Learning Analytics",
+      "confidence": 100
+    },
+    "journal": {
+      "value": null,
+      "confidence": 0
+    },
+    "country": {
+      "value": "AU",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "RCT",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "VLA comprehension",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 117,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "not_reported",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "understand",
+      "confidence": 80,
+      "rationale": "The study focuses on enhancing students' comprehension of VLA"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "RCT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "scaffolding",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "standalone scaffolding",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "education",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 117,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "preprint",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not report specific statistical values such as means and standard deviations.",
+    "The GenAI tool used in the study is not explicitly mentioned.",
+    "The intervention duration is not reported in the provided text."
+  ],
+  "validation_warnings": [
+    "MISSING_N: VLA comprehension - n_control not found",
+    "INCOMPLETE_STATS: VLA comprehension - cannot calculate Hedges' g",
+    "GENAI_TOOL_NOT_REPORTED: GenAI tool not identified"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "058_Lixiang_2024_The_Effects_of_Generative_AI_Agents_and_",
+  "pdf_path": "pdfs/058_Lixiang_2024_The_Effects_of_Generative_AI_Agents_and_.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:33.486130",
+  "pipeline_version": "9.0-groq"
+}

@@ -1,0 +1,218 @@
+{
+  "total_studies": 70,
+  "layer1": {
+    "years": {
+      "2018": 1,
+      "2023": 5,
+      "2024": 18,
+      "2025": 45
+    },
+    "countries": {
+      "CN": 17,
+      "US": 6,
+      "ID": 5,
+      "CA": 4,
+      "TW": 4,
+      "USA": 3,
+      "KR": 2,
+      "JO": 2,
+      "TR": 2,
+      "DE": 2,
+      "TH": 1,
+      "EC": 1,
+      "PH": 1,
+      "SI": 1,
+      "MA": 1
+    },
+    "top_journals": {
+      "Appl. Sci.": 2,
+      "Scientific Reports": 2,
+      "Frontiers in Education": 2,
+      "Education Sciences": 2,
+      "International Journal of Educational Technology in Higher Education": 2,
+      "2025 International Conference on Distance Education and Learning": 1,
+      "Journal of Language and Education": 1,
+      "Preprints": 1,
+      "Journal of Information Technology Education: Research": 1,
+      "Forum for Linguistic Studies": 1
+    },
+    "design_types": {
+      "QUASI": 37,
+      "PRE_POST": 16,
+      "RCT": 15,
+      "crossover": 1
+    }
+  },
+  "layer2": {
+    "total_effect_sizes": 146,
+    "with_hedges_g": 12,
+    "hedges_g_rate": "8.2%",
+    "missing_sd": 129,
+    "missing_sd_rate": "88.4%",
+    "top_outcomes": {
+      "Academic performance": 4,
+      "Critical Thinking": 3,
+      "Self-regulated learning": 3,
+      "self-efficacy": 2,
+      "Learning Performance": 2,
+      "Knowledge construction": 2,
+      "Self-efficacy": 2,
+      "Learning outcomes": 2,
+      "Essay quality": 2,
+      "Academic achievement": 1,
+      "Learning time": 1,
+      "Overall satisfaction": 1,
+      "programming performance": 1,
+      "programming interest": 1,
+      "Academic writing abilities": 1
+    },
+    "es_types": {
+      "POST_BETWEEN": 58,
+      "INDEPENDENT_TEST": 40,
+      "PRE_POST": 23,
+      "CHANGE": 16,
+      "ANCOVA": 8
+    }
+  },
+  "layer3": {
+    "genai_tools": {
+      "ChatGPT": 41,
+      "not_reported": 13,
+      "Custom": 8,
+      "Llama": 1,
+      "Qwen": 1,
+      "Kimi": 1,
+      "Gemini": 1,
+      "Large Language Models (LLMs)": 1,
+      "LLM": 1,
+      "GPT": 1
+    },
+    "genai_versions": {
+      "GPT-3.5": 6,
+      "Llama 3.1": 1,
+      "4.0": 1,
+      "GPT-3.5-turbo": 1,
+      "ChatGPT-4o": 1
+    },
+    "blooms_levels": {
+      "apply": 36,
+      "analyze": 22,
+      "understand": 5,
+      "create": 2,
+      "remember": 2,
+      "analyze, evaluate, create": 1,
+      "evaluate": 1
+    },
+    "study_designs": {
+      "QUASI": 19,
+      "quasi-experimental": 18,
+      "PRE_POST": 15,
+      "RCT": 14,
+      "crossover": 2,
+      "pre-post": 1
+    },
+    "education_levels": {
+      "undergraduate": 50,
+      "K-12": 7,
+      "graduate": 3,
+      "not_reported": 3,
+      "adult_learner": 2,
+      "higher vocational": 1,
+      "professional": 1,
+      "mixed": 1
+    },
+    "disciplines": {
+      "CS": 16,
+      "language": 15,
+      "STEM": 15,
+      "medicine": 8,
+      "mixed": 5,
+      "education": 3,
+      "health sciences": 1,
+      "business": 1,
+      "biology": 1,
+      "media": 1,
+      "social_sciences": 1,
+      "not_reported": 1,
+      "nursing": 1
+    },
+    "learning_domains": {
+      "knowledge_acquisition": 25,
+      "writing": 13,
+      "problem_solving": 11,
+      "skill_development": 8,
+      "critical_thinking": 8,
+      "language": 2,
+      "social_sciences": 1,
+      "self_regulation": 1
+    },
+    "outcome_dimensions": {
+      "cognitive": 64,
+      "affective": 2,
+      "metacognitive": 2,
+      "behavioral": 1
+    },
+    "intervention_types": {
+      "writing_assistant": 17,
+      "direct_instruction": 15,
+      "feedback": 14,
+      "tutoring": 5,
+      "problem_solving": 4,
+      "coding_assistant": 2,
+      "AI-based textbook": 1,
+      "project-driven learning": 1,
+      "metacognitive support": 1,
+      "cognitive_tool": 1,
+      "collaborative learning": 1,
+      "teacher_training": 1,
+      "training_program": 1,
+      "other": 1,
+      "guidance": 1,
+      "scaffolding": 1,
+      "flipped_classroom": 1
+    },
+    "control_conditions": {
+      "traditional": 32,
+      "no_treatment": 18,
+      "not_reported": 4,
+      "Traditional learning": 1,
+      "human-human pair programming": 1,
+      "no metacognitive support": 1,
+      "non-ChatGPT-assisted collaborative learning": 1,
+      "waitlist": 1,
+      "minimal gamification": 1,
+      "uninstructed chatbot": 1,
+      "human_tutor": 1,
+      "traditional ChatGPT": 1,
+      "standalone scaffolding": 1,
+      "no_extra_tool": 1,
+      "traditional_flipped_learning": 1
+    },
+    "publication_types": {
+      "journal": 56,
+      "preprint": 8,
+      "conference": 3
+    },
+    "intervention_durations": {
+      "not_reported": 18,
+      "single_session": 16,
+      "1-3_months": 11,
+      "1-4_weeks": 9,
+      "15 weeks": 2
+    }
+  },
+  "validation": {
+    "validation_statuses": {
+      "NEEDS_REVIEW": 67,
+      "VALIDATED": 3
+    },
+    "warning_types": {
+      "INCOMPLETE_STATS": 134,
+      "MISSING_N": 79,
+      "GENAI_TOOL_NOT_REPORTED": 13,
+      "LOW_CONFIDENCE": 9,
+      "MISSING_MODERATOR": 5,
+      "NO_STATISTICS": 3
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Kartika S et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Enhancing Writing Proficiency through AI-Powered Feedback: A Quasi-Experimental Study Using Google Gemini",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "LinguaEducare: Journal of English and Linguistic Studies",
+      "confidence": 100
+    },
+    "country": {
+      "value": "ID",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Writing proficiency",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 40,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 40,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "Gemini",
+      "confidence": 100,
+      "source": "Introduction"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "Writing proficiency involves applying language skills"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "writing",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 80,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide specific statistical values (means, standard deviations) for the treatment and control groups.",
+    "The version of the GenAI tool is not reported.",
+    "The access type of the GenAI tool is not reported.",
+    "The intervention duration is not reported."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Writing proficiency - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "049_Kartika_2024_Enhancing_Writing_Proficiency_through_AI",
+  "pdf_path": "pdfs/049_Kartika_2024_Enhancing_Writing_Proficiency_through_AI.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:12.112175",
+  "pipeline_version": "9.0-groq"
+}

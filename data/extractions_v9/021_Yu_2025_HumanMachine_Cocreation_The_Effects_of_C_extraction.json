@@ -1,0 +1,275 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Yu et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Human–Machine Cocreation: The Effects of ChatGPT on Students’ Learning Performance, AI Awareness, Critical Thinking, and Cognitive Load in a STEM Course Toward Entrepreneurship",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "IEEE Transactions on Learning Technologies",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 80
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Learning Performance",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 21,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": 15,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "AI Awareness",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 21,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": 15,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Critical Thinking",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 21,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": 15,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Cognitive Load",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 21,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": 15,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "The study involves applying STEM and entrepreneurship knowledge in the creation of cultural products"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "problem_solving",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "intervention_duration": {
+      "value": "1-3_months",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "collaborative learning",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "non-ChatGPT-assisted collaborative learning",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 36,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide specific values for the means and standard deviations of the outcome measures.",
+    "The version of ChatGPT used is not specified.",
+    "The access type of ChatGPT is not mentioned."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Learning Performance - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: AI Awareness - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Critical Thinking - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Cognitive Load - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "021_Yu_2025_HumanMachine_Cocreation_The_Effects_of_C",
+  "pdf_path": "pdfs/021_Yu_2025_HumanMachine_Cocreation_The_Effects_of_C.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:04.436207",
+  "pipeline_version": "9.0-groq"
+}

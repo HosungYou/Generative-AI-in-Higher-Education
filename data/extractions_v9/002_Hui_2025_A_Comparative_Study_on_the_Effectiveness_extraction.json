@@ -1,0 +1,233 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "He et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "A Comparative Study on the Effectiveness of Generative AI Tools and Pair Programming in College Students' Programming Learning",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "2025 International Conference on Distance Education and Learning",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "programming performance",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 38,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": 42,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "self-efficacy",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 38,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": 42,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "programming interest",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 38,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": 42,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "not_reported",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "programming tasks require application of knowledge"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "skill_development",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "human-human pair programming",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 80,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "conference",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide specific details about the GenAI tool used.",
+    "The paper does not report the means and standard deviations for the outcome measures.",
+    "The study design is quasi-experimental, but the paper does not provide information about the duration of the intervention."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: programming performance - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: self-efficacy - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: programming interest - cannot calculate Hedges' g",
+    "GENAI_TOOL_NOT_REPORTED: GenAI tool not identified"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "002_Hui_2025_A_Comparative_Study_on_the_Effectiveness",
+  "pdf_path": "pdfs/002_Hui_2025_A_Comparative_Study_on_the_Effectiveness.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:16.575782",
+  "pipeline_version": "9.0-groq"
+}

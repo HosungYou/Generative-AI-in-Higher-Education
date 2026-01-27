@@ -1,0 +1,146 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Gadapa et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Enhancing Math Learning with AI: ChatGPT's Impact on Number Base Conversion Comprehension",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "International Journal of Academic Research in Progressive Education and Development",
+      "confidence": 100
+    },
+    "country": {
+      "value": "MY",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Number Base Conversion Comprehension",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 170,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 170,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "Questions require application of number base conversion concepts"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": null,
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "direct_instruction",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 340,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "Limited information available on statistical values (means, standard deviations) for treatment and control groups.",
+    "No explicit mention of GenAI tool version or access type.",
+    "Intervention duration and control condition details not clearly specified."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Number Base Conversion Comprehension - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "047_Sireesha_2024_Enhancing_Math_Learning_with_AI_ChatGPTs",
+  "pdf_path": "pdfs/047_Sireesha_2024_Enhancing_Math_Learning_with_AI_ChatGPTs.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:08.477307",
+  "pipeline_version": "9.0-groq"
+}

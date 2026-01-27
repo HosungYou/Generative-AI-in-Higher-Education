@@ -1,0 +1,205 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Zeng et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Enhancing ophthalmology students’ awareness of retinitis pigmentosa: assessing the efficacy of ChatGPT in AI-assisted teaching of rare diseases—a quasi-experimental study",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Frontiers in Medicine",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Post-test scores",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 72,
+        "confidence": 100,
+        "source": "Methods Section"
+      },
+      "n_control": {
+        "value": 70,
+        "confidence": 100,
+        "source": "Methods Section"
+      },
+      "m_treatment": {
+        "value": 115.42,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "sd_treatment": {
+        "value": 22.7,
+        "confidence": 100,
+        "source": "Results Section",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 110.93,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "sd_control": {
+        "value": 29.01,
+        "confidence": 100,
+        "source": "Results Section",
+        "derived_from": null
+      },
+      "hedges_g": {
+        "value": 0.1718,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      },
+      "se_g": {
+        "value": 0.1682,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Review time",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 72,
+        "confidence": 100,
+        "source": "Methods Section"
+      },
+      "n_control": {
+        "value": 70,
+        "confidence": 100,
+        "source": "Methods Section"
+      },
+      "m_treatment": {
+        "value": 24.29,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "sd_treatment": {
+        "value": 12.62,
+        "confidence": 100,
+        "source": "Results Section",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": 42.54,
+        "confidence": 100,
+        "source": "Results Section"
+      },
+      "sd_control": {
+        "value": 20.43,
+        "confidence": 100,
+        "source": "Results Section",
+        "derived_from": null
+      },
+      "hedges_g": {
+        "value": -1.0725,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      },
+      "se_g": {
+        "value": 0.1795,
+        "confidence": 95,
+        "method": "CALCULATED_FROM_MEANS"
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods Section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 50
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "The study involves applying knowledge of retinitis pigmentosa to solve problems"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 100,
+      "source": "Methods Section"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 50
+    },
+    "intervention_type": {
+      "value": "direct_instruction",
+      "confidence": 50
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "medicine",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 142,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not report the version of ChatGPT used.",
+    "The study does not provide detailed information about the GenAI access type."
+  ],
+  "validation_warnings": [],
+  "validation_status": "VALIDATED",
+  "study_id": "013_Jiamu_2025_Enhancing_Ophthalmology_Students_Awarene",
+  "pdf_path": "pdfs/013_Jiamu_2025_Enhancing_Ophthalmology_Students_Awarene.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:44.669953",
+  "pipeline_version": "9.0-groq"
+}

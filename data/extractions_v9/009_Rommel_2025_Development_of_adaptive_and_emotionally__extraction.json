@@ -1,0 +1,193 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Gutierrez et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Development of adaptive and emotionally intelligent educational assistants based on conversational AI",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Frontiers in Computer Science",
+      "confidence": 100
+    },
+    "country": {
+      "value": "EC",
+      "confidence": 80
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 90
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Academic performance",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 90
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Emotional detection accuracy",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": 87.4,
+        "confidence": 100,
+        "source": "Table 2"
+      },
+      "sd_treatment": {
+        "value": 2.3,
+        "confidence": 100,
+        "source": "Table 2",
+        "derived_from": "SE"
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "Custom",
+      "confidence": 80,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "Critical reading comprehension skills"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "critical_thinking",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 90,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "1-4_weeks",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "tutoring",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 80
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 80
+    },
+    "sample_size_total": {
+      "value": null,
+      "confidence": 0
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide enough information to calculate the effect size for academic performance.",
+    "The sample size for the treatment and control groups is not reported.",
+    "The standard deviation for the treatment and control groups is not reported for academic performance."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Academic performance - n_treatment not found",
+    "MISSING_N: Academic performance - n_control not found",
+    "INCOMPLETE_STATS: Academic performance - cannot calculate Hedges' g",
+    "MISSING_N: Emotional detection accuracy - n_treatment not found",
+    "MISSING_N: Emotional detection accuracy - n_control not found",
+    "INCOMPLETE_STATS: Emotional detection accuracy - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "009_Rommel_2025_Development_of_adaptive_and_emotionally_",
+  "pdf_path": "pdfs/009_Rommel_2025_Development_of_adaptive_and_emotionally_.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:33.870530",
+  "pipeline_version": "9.0-groq"
+}

@@ -1,0 +1,279 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Vicente-Yagüe-Jara et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2023,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Writing, creativity, and artificial intelligence. ChatGPT in the university context",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Comunicar",
+      "confidence": 100
+    },
+    "country": {
+      "value": "ES",
+      "confidence": 90
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 90
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Fluency in Game 2",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 90
+      },
+      "n_treatment": {
+        "value": 193,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Flexibility in Game 2",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 90
+      },
+      "n_treatment": {
+        "value": 193,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Narrative originality in Game 2",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 90
+      },
+      "n_treatment": {
+        "value": 193,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Fluency in Game 3",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "PRE_POST",
+        "confidence": 90
+      },
+      "n_treatment": {
+        "value": 193,
+        "confidence": 100,
+        "source": "Abstract"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Abstract"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "create",
+      "confidence": 80,
+      "rationale": "The study involves creative writing tasks"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "writing",
+      "confidence": 90
+    },
+    "study_design": {
+      "value": "quasi-experimental",
+      "confidence": 90,
+      "source": "Abstract"
+    },
+    "intervention_duration": {
+      "value": null,
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": null,
+      "confidence": 0
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 90
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 90
+    },
+    "sample_size_total": {
+      "value": 213,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide detailed statistical values, such as means and standard deviations.",
+    "The study design is quasi-experimental, but the control condition is not clearly described.",
+    "The GenAI tool version and access type are not specified."
+  ],
+  "validation_warnings": [
+    "MISSING_N: Fluency in Game 2 - n_control not found",
+    "INCOMPLETE_STATS: Fluency in Game 2 - cannot calculate Hedges' g",
+    "MISSING_N: Flexibility in Game 2 - n_control not found",
+    "INCOMPLETE_STATS: Flexibility in Game 2 - cannot calculate Hedges' g",
+    "MISSING_N: Narrative originality in Game 2 - n_control not found",
+    "INCOMPLETE_STATS: Narrative originality in Game 2 - cannot calculate Hedges' g",
+    "MISSING_N: Fluency in Game 3 - n_control not found",
+    "INCOMPLETE_STATS: Fluency in Game 3 - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "067_María-Isabel_2023_Writing_Creativity_and_Artificial_Intell",
+  "pdf_path": "pdfs/067_María-Isabel_2023_Writing_Creativity_and_Artificial_Intell.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:53.863394",
+  "pipeline_version": "9.0-groq"
+}

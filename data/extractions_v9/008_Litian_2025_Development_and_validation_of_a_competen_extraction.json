@@ -1,0 +1,283 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Hong et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Development and validation of a competency-based ladder pathway for AI literacy enhancement among higher vocational students",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Scientific Reports",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 80
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "AI literacy",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 420,
+        "confidence": 100,
+        "source": "text"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "cognitive assessment scores",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "skills application tasks",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "innovation competency outcomes",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "not_reported",
+      "confidence": 100,
+      "source": "text"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "problem-solving and implementation mentioned"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 80,
+      "source": "text"
+    },
+    "intervention_duration": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "project-driven learning",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "higher vocational",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "mixed",
+      "confidence": 80
+    },
+    "sample_size_total": {
+      "value": 3270,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide enough information to calculate effect sizes or extract some of the moderator variables.",
+    "The country of the study is inferred from the institution's location, but not explicitly stated.",
+    "The study design is not clearly stated, but it appears to be a pre-post design."
+  ],
+  "validation_warnings": [
+    "MISSING_N: AI literacy - n_control not found",
+    "INCOMPLETE_STATS: AI literacy - cannot calculate Hedges' g",
+    "MISSING_N: cognitive assessment scores - n_treatment not found",
+    "MISSING_N: cognitive assessment scores - n_control not found",
+    "INCOMPLETE_STATS: cognitive assessment scores - cannot calculate Hedges' g",
+    "MISSING_N: skills application tasks - n_treatment not found",
+    "MISSING_N: skills application tasks - n_control not found",
+    "INCOMPLETE_STATS: skills application tasks - cannot calculate Hedges' g",
+    "MISSING_N: innovation competency outcomes - n_treatment not found",
+    "MISSING_N: innovation competency outcomes - n_control not found",
+    "INCOMPLETE_STATS: innovation competency outcomes - cannot calculate Hedges' g",
+    "GENAI_TOOL_NOT_REPORTED: GenAI tool not identified"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "008_Litian_2025_Development_and_validation_of_a_competen",
+  "pdf_path": "pdfs/008_Litian_2025_Development_and_validation_of_a_competen.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:31.302947",
+  "pipeline_version": "9.0-groq"
+}

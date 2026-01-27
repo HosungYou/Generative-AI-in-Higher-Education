@@ -1,0 +1,189 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Chan et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2024,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Generative AI and Essay Writing: Impacts of Automated Feedback on Revision Performance and Engagement",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "rEFLections",
+      "confidence": 100
+    },
+    "country": {
+      "value": "HK",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "RCT",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Essay quality",
+        "confidence": 90
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 342,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 576,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Engagement",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 70
+      },
+      "n_treatment": {
+        "value": 342,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 576,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": "GPT-3.5",
+      "confidence": 100
+    },
+    "genai_access_type": {
+      "value": "api",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "Essay writing and revision require analysis and critical thinking"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 90
+    },
+    "learning_domain": {
+      "value": "writing",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "RCT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "language",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 918,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide explicit means and standard deviations for the treatment and control groups.",
+    "The study uses a mixed-methods approach, but the qualitative findings are not quantitatively analyzed.",
+    "The GenAI tool version is specified as GPT-3.5, but the access type is not explicitly stated."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Essay quality - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Engagement - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "052_Sumie_2024_Generative_AI_and_Essay_Writing_Impacts_",
+  "pdf_path": "pdfs/052_Sumie_2024_Generative_AI_and_Essay_Writing_Impacts_.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:20.396467",
+  "pipeline_version": "9.0-groq"
+}

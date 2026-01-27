@@ -1,0 +1,146 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "De Velez et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Impact of Artificial Intelligence Generated Feedback on Math Quiz Scores",
+      "confidence": 100
+    },
+    "journal": {
+      "value": null,
+      "confidence": 0
+    },
+    "country": {
+      "value": "PH",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Math quiz performance",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "CHANGE",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 85,
+        "confidence": 80,
+        "source": "text"
+      },
+      "n_control": {
+        "value": 85,
+        "confidence": 80,
+        "source": "text"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": 1.1,
+        "confidence": 100,
+        "source": "text",
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": 0.7,
+        "confidence": 100,
+        "source": "text",
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": "GPT-3.5",
+      "confidence": 100
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 50
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "problem-solving, implementation"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 80,
+      "source": "text"
+    },
+    "intervention_duration": {
+      "value": "1-3_months",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "feedback",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 50
+    },
+    "education_level": {
+      "value": "K-12",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "STEM",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 170,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 50
+    }
+  },
+  "extraction_notes": [
+    "The journal name is not explicitly mentioned in the text.",
+    "The exact sample sizes for the treatment and control groups are not provided, but it is mentioned that there are 170 students in total.",
+    "The mean values for the treatment and control groups are not provided."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Math quiz performance - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "022_Larissa_2025_Impact_of_Artificial_Intelligence_Genera",
+  "pdf_path": "pdfs/022_Larissa_2025_Impact_of_Artificial_Intelligence_Genera.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:06.367193",
+  "pipeline_version": "9.0-groq"
+}

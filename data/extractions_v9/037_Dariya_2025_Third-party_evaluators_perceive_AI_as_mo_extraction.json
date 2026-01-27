@@ -1,0 +1,194 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Ovsyannikova et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Third-party evaluators perceive AI as more compassionate than expert humans",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Communications Psychology",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CA",
+      "confidence": 80
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Compassion",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 556,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Responsiveness",
+        "confidence": 80
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 80
+      },
+      "n_treatment": {
+        "value": 556,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "not_reported",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "not_reported",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "understand",
+      "confidence": 60,
+      "rationale": "The study involves evaluating AI-generated empathetic responses, which requires understanding of emotions and empathy"
+    },
+    "outcome_dimension": {
+      "value": "affective",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "social_sciences",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 80,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 60
+    },
+    "intervention_type": {
+      "value": "writing_assistant",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "human_tutor",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "adult_learner",
+      "confidence": 60
+    },
+    "discipline": {
+      "value": "social_sciences",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 556,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The study does not provide enough information to calculate the effect size or extract the means and standard deviations for the treatment and control groups",
+    "The GenAI tool used in the study is not specified",
+    "The country where the study was conducted is inferred based on the affiliation of the authors"
+  ],
+  "validation_warnings": [
+    "LOW_CONFIDENCE: education_level has confidence 60%",
+    "LOW_CONFIDENCE: blooms_level has confidence 60%",
+    "MISSING_N: Compassion - n_control not found",
+    "INCOMPLETE_STATS: Compassion - cannot calculate Hedges' g",
+    "MISSING_N: Responsiveness - n_control not found",
+    "INCOMPLETE_STATS: Responsiveness - cannot calculate Hedges' g",
+    "GENAI_TOOL_NOT_REPORTED: GenAI tool not identified"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "037_Dariya_2025_Third-party_evaluators_perceive_AI_as_mo",
+  "pdf_path": "pdfs/037_Dariya_2025_Third-party_evaluators_perceive_AI_as_mo.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:43.880783",
+  "pipeline_version": "9.0-groq"
+}

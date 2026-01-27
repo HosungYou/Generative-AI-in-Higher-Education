@@ -1,0 +1,146 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Gasaymeh et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "The Effect of Flipped Interactive Learning (FIL) Based on ChatGPT on Students’ Skills in a Large Programming Class",
+      "confidence": 100
+    },
+    "journal": {
+      "value": null,
+      "confidence": 0
+    },
+    "country": {
+      "value": "JO",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "students' programming skills",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 38,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 36,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "The study focuses on improving students' programming skills, which requires application of knowledge"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "skill_development",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": null,
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "flipped_classroom",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "traditional_flipped_learning",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 74,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": null,
+      "confidence": 0
+    }
+  },
+  "extraction_notes": [
+    "The study does not report means and standard deviations for the treatment and control groups.",
+    "The study does not specify the version of ChatGPT used.",
+    "The study does not provide information on the duration of the intervention."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: students' programming skills - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "069_Unknown_2025_The_Effect_of_Flipped_Interactive_Learni",
+  "pdf_path": "pdfs/069_Unknown_2025_The_Effect_of_Flipped_Interactive_Learni.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:57.935569",
+  "pipeline_version": "9.0-groq"
+}

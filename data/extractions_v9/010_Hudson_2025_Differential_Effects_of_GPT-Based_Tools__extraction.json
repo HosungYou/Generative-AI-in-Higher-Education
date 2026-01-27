@@ -1,0 +1,146 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Etkin et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Differential effects of GPT-based tools on comprehension of standardized passages",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Frontiers in Education",
+      "confidence": 100
+    },
+    "country": {
+      "value": "US",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "RCT",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Comprehension quiz accuracy",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "INDEPENDENT_TEST",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 195,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 195,
+        "confidence": 100,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "Custom",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "web_interface",
+      "confidence": 100
+    },
+    "blooms_level": {
+      "value": "understand",
+      "confidence": 100,
+      "rationale": "Comprehension quiz accuracy"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 100
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "crossover",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "tutoring",
+      "confidence": 100
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 100
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "mixed",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 228,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide specific means and standard deviations for the treatment and control groups.",
+    "The GenAI tool version is not specified in the paper.",
+    "The study design is a within-subject crossover design, but it is not explicitly stated as RCT or quasi-experimental."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Comprehension quiz accuracy - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "010_Hudson_2025_Differential_Effects_of_GPT-Based_Tools_",
+  "pdf_path": "pdfs/010_Hudson_2025_Differential_Effects_of_GPT-Based_Tools_.pdf",
+  "extraction_timestamp": "2026-01-27T01:17:35.858372",
+  "pipeline_version": "9.0-groq"
+}

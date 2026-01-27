@@ -1,0 +1,140 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Markel et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2023,
+      "confidence": 100
+    },
+    "title": {
+      "value": "GPTeach: Interactive TA Training with GPT-based Students",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Proceedings of the Tenth ACM Conference on Learning @ Scale (L@S ’23)",
+      "confidence": 100
+    },
+    "country": {
+      "value": "DK",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "QUASI",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": null,
+        "confidence": 0
+      },
+      "es_type": {
+        "value": null,
+        "confidence": 0
+      },
+      "n_treatment": {
+        "value": null,
+        "confidence": 0
+      },
+      "n_control": {
+        "value": null,
+        "confidence": 0
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "GPT",
+      "confidence": 100,
+      "source": "Introduction"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "custom_integration",
+      "confidence": 80
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "The tool is used for practice teaching, which involves applying knowledge"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "knowledge_acquisition",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "QUASI",
+      "confidence": 80,
+      "source": "Introduction"
+    },
+    "intervention_duration": {
+      "value": "single_session",
+      "confidence": 80
+    },
+    "intervention_type": {
+      "value": "tutoring",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": "traditional",
+      "confidence": 80
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 80
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 800,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "conference",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The paper does not provide enough information to extract statistical values.",
+    "The GenAI tool version is not specified.",
+    "The education level is inferred based on the context of the paper."
+  ],
+  "validation_warnings": [
+    "MISSING_N: None - n_treatment not found",
+    "MISSING_N: None - n_control not found",
+    "INCOMPLETE_STATS: None - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "065_Julia_2023_GPTeach_Interactive_TA_Training_with_GPT",
+  "pdf_path": "pdfs/065_Julia_2023_GPTeach_Interactive_TA_Training_with_GPT.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:48.997573",
+  "pipeline_version": "9.0-groq"
+}

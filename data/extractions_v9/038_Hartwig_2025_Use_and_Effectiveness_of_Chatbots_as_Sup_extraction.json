@@ -1,0 +1,104 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Hochmair",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Use and Effectiveness of Chatbots as Support Tools in GIS Programming Course Assignments",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "ISPRS International Journal of Geo-Information",
+      "confidence": 100
+    },
+    "country": {
+      "value": "US",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "PRE_POST",
+      "confidence": 80
+    }
+  },
+  "layer2_statistics": [],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 80,
+      "source": "Abstract"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": null,
+      "confidence": 0
+    },
+    "blooms_level": {
+      "value": "apply",
+      "confidence": 80,
+      "rationale": "Problem-solving and implementation of GIS programming tasks"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 80
+    },
+    "learning_domain": {
+      "value": "skill_development",
+      "confidence": 80
+    },
+    "study_design": {
+      "value": "PRE_POST",
+      "confidence": 80,
+      "source": "Study description"
+    },
+    "intervention_duration": {
+      "value": null,
+      "confidence": 0
+    },
+    "intervention_type": {
+      "value": "coding_assistant",
+      "confidence": 80
+    },
+    "control_condition": {
+      "value": null,
+      "confidence": 0
+    },
+    "education_level": {
+      "value": "graduate",
+      "confidence": 100
+    },
+    "discipline": {
+      "value": "CS",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": null,
+      "confidence": 0
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "No statistical values were reported in the provided text.",
+    "The GenAI tool version and access type were not specified.",
+    "The study design was inferred from the study description, but not explicitly stated as a specific type (e.g., RCT, quasi-experimental).",
+    "The sample size was not reported."
+  ],
+  "validation_warnings": [
+    "NO_STATISTICS: No outcome measures extracted"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "038_Hartwig_2025_Use_and_Effectiveness_of_Chatbots_as_Sup",
+  "pdf_path": "pdfs/038_Hartwig_2025_Use_and_Effectiveness_of_Chatbots_as_Sup.pdf",
+  "extraction_timestamp": "2026-01-27T01:18:45.662511",
+  "pipeline_version": "9.0-groq"
+}

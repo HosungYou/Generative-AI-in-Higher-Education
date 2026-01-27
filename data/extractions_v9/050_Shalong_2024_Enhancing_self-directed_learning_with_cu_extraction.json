@@ -1,0 +1,231 @@
+{
+  "layer1": {
+    "authors": {
+      "value": "Wang Shalong et al.",
+      "confidence": 100
+    },
+    "year": {
+      "value": 2025,
+      "confidence": 100
+    },
+    "title": {
+      "value": "Enhancing self-directed learning with custom GPT AI facilitation among medical students: A randomized controlled trial",
+      "confidence": 100
+    },
+    "journal": {
+      "value": "Medical Teacher",
+      "confidence": 100
+    },
+    "country": {
+      "value": "CN",
+      "confidence": 100
+    },
+    "design_type": {
+      "value": "RCT",
+      "confidence": 100
+    }
+  },
+  "layer2_statistics": [
+    {
+      "outcome_name": {
+        "value": "Self-Directed Learning Scale score",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 51,
+        "confidence": 90,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 52,
+        "confidence": 90,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": 4.15,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Cornell Critical Thinking Test Score",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 51,
+        "confidence": 90,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 52,
+        "confidence": 90,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": 7.11,
+        "confidence": 100,
+        "source": "Results section"
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    },
+    {
+      "outcome_name": {
+        "value": "Global Flow Score",
+        "confidence": 100
+      },
+      "es_type": {
+        "value": "POST_BETWEEN",
+        "confidence": 100
+      },
+      "n_treatment": {
+        "value": 51,
+        "confidence": 90,
+        "source": "Methods section"
+      },
+      "n_control": {
+        "value": 52,
+        "confidence": 90,
+        "source": "Methods section"
+      },
+      "m_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_treatment": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      },
+      "m_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null
+      },
+      "sd_control": {
+        "value": null,
+        "confidence": 0,
+        "source": null,
+        "derived_from": null
+      }
+    }
+  ],
+  "layer3_moderators": {
+    "genai_tool": {
+      "value": "ChatGPT",
+      "confidence": 100,
+      "source": "Introduction section"
+    },
+    "genai_tool_version": {
+      "value": null,
+      "confidence": 0
+    },
+    "genai_access_type": {
+      "value": "custom_integration",
+      "confidence": 90
+    },
+    "blooms_level": {
+      "value": "analyze",
+      "confidence": 80,
+      "rationale": "The study involves critical thinking and problem-solving skills"
+    },
+    "outcome_dimension": {
+      "value": "cognitive",
+      "confidence": 90
+    },
+    "learning_domain": {
+      "value": "critical_thinking",
+      "confidence": 100
+    },
+    "study_design": {
+      "value": "RCT",
+      "confidence": 100,
+      "source": "Methods section"
+    },
+    "intervention_duration": {
+      "value": "1-3_months",
+      "confidence": 100
+    },
+    "intervention_type": {
+      "value": "problem_solving",
+      "confidence": 90
+    },
+    "control_condition": {
+      "value": "no_treatment",
+      "confidence": 90
+    },
+    "education_level": {
+      "value": "undergraduate",
+      "confidence": 80
+    },
+    "discipline": {
+      "value": "medicine",
+      "confidence": 100
+    },
+    "sample_size_total": {
+      "value": 103,
+      "confidence": 100
+    },
+    "publication_type": {
+      "value": "journal",
+      "confidence": 100
+    }
+  },
+  "extraction_notes": [
+    "The standard deviations for the treatment and control groups are not reported in the paper.",
+    "The sample sizes for the treatment and control groups are not explicitly stated, but can be inferred from the total sample size and the study design."
+  ],
+  "validation_warnings": [
+    "INCOMPLETE_STATS: Self-Directed Learning Scale score - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Cornell Critical Thinking Test Score - cannot calculate Hedges' g",
+    "INCOMPLETE_STATS: Global Flow Score - cannot calculate Hedges' g"
+  ],
+  "validation_status": "NEEDS_REVIEW",
+  "study_id": "050_Shalong_2024_Enhancing_self-directed_learning_with_cu",
+  "pdf_path": "pdfs/050_Shalong_2024_Enhancing_self-directed_learning_with_cu.pdf",
+  "extraction_timestamp": "2026-01-27T01:19:14.742701",
+  "pipeline_version": "9.0-groq"
+}
