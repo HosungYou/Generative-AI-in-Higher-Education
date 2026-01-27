@@ -5,7 +5,7 @@
       "confidence": 100
     },
     "year": {
-      "value": 2018,
+      "value": 2023,
       "confidence": 100
     },
     "title": {
@@ -232,8 +232,8 @@
     "INCOMPLETE_STATS: Intrinsic motivation - cannot calculate Hedges' g"
   ],
   "validation_status": "NEEDS_REVIEW",
-  "study_id": "068_Unknown_2018_Beware_of_Metacognitive_Laziness_Effects",
-  "pdf_path": "pdfs/068_Unknown_2018_Beware_of_Metacognitive_Laziness_Effects.pdf",
+  "study_id": "068_Unknown_2023_Beware_of_Metacognitive_Laziness_Effects",
+  "pdf_path": "pdfs/068_Unknown_2023_Beware_of_Metacognitive_Laziness_Effects.pdf",
   "extraction_timestamp": "2026-01-27T01:19:56.174037",
   "pipeline_version": "9.0-groq"
 }

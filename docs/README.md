@@ -1,89 +1,134 @@
-# Documentation: Literature Review Update for C&E Submission
+# Documentation: GenAI Meta-Analysis Project
 
-This folder contains documentation for the systematic literature review update conducted in preparation for submission to **Computers & Education**.
+This folder contains all project documentation organized by category.
 
-## Overview
+**Last Updated**: 2025-01-27
+**Project**: Generative AI in Education Meta-Analysis
 
-**Date**: January 21, 2026
-**Purpose**: Update manuscript with institutional database search strategy and identify additional studies for inclusion
+---
 
-## Document Structure
+## Directory Structure
 
-| Document | Description |
-|----------|-------------|
-| [01_literature_review_update.md](./01_literature_review_update.md) | Summary of related meta-analyses and their findings |
-| [02_search_strategy_revision.md](./02_search_strategy_revision.md) | Revised search strategy prioritizing institutional databases |
-| [03_overlap_analysis.md](./03_overlap_analysis.md) | Analysis of overlap with existing meta-analyses |
-| [04_additional_studies.md](./04_additional_studies.md) | Additional study candidates for inclusion |
-| [05_differentiation_strategy.md](./05_differentiation_strategy.md) | Strategy for differentiating from Deng et al. (2024) |
-| [06_data_extraction_template.md](./06_data_extraction_template.md) | Data extraction template for new studies |
-| [07_inclusion_decisions.md](./07_inclusion_decisions.md) | Final inclusion/exclusion decisions for 23 candidates |
-| [08_exclusion_rationale.md](./08_exclusion_rationale.md) | Detailed rationale for conditional/review/exclusion decisions |
-| [09_manuscript_updates.md](./09_manuscript_updates.md) | All recommended updates for C&E submission |
-| [10_pdf_retrieval_list.md](./10_pdf_retrieval_list.md) | DOI links and retrieval instructions for 16 studies |
+```
+docs/
+├── 01_literature_search/     # Literature review and search strategy
+├── 02_study_selection/       # Inclusion/exclusion decisions
+├── 03_data_extraction/       # Extraction templates, codebooks, pipelines
+├── 04_methodology/           # Statistical methods, effect size recovery
+├── 05_manuscript/            # Manuscript drafts and updates
+├── 06_decisions/             # Key research decisions and rationale
+└── README.md
+```
 
-## Key Findings Summary
+---
 
-### 1. Related Meta-Analyses (7 identified)
-- Sun & Zhou (2024): k=28, g=0.533
-- Liu, Zuo & Lu (2025): k=37, g=0.577
-- Ma & Zhong (2025): k=34, g=0.68
-- Deng et al. (2024): k=62 (C&E - target journal!)
-- Liu X. et al. (2025): k=49, g=0.857
-- Han et al. (2025): k=68, SMD=0.45
-- Chen et al. (2025): k=51, g=0.867
+## 01_literature_search/
 
-### 2. Overlap Analysis
-- **Current studies**: 46
-- **2025 publications (unique)**: 31 (67.4%)
-- **Confirmed overlap**: ~5 studies (11%)
-- **Effective uniqueness**: 89%+
+Documents related to literature identification and search strategy.
 
-### 3. Search Strategy Update
-- **Primary databases**: Scopus, Web of Science, ERIC, PsycINFO
-- **Supplementary databases**: OpenAlex, Semantic Scholar, arXiv
-- **Grey literature**: ProQuest Dissertations & Theses
+| File | Description |
+|------|-------------|
+| `2025-01-26_literature_review_update.md` | Summary of related meta-analyses |
+| `2025-01-26_search_strategy_revision.md` | Database search strategy |
+| `2025-01-26_overlap_analysis.md` | Overlap analysis with existing meta-analyses |
+| `2025-01-26_additional_studies.md` | Additional study candidates |
+| `2025-01-26_missing_studies_analysis.md` | Analysis of missing studies |
+| `2025-01-26_new_studies_review.md` | Review of newly identified studies |
 
-### 4. Additional Study Candidates
-- **From existing meta-analyses**: 9 studies
-- **New 2025 publications**: 14 studies
-- **Total candidates**: 23 studies
+---
 
-### 5. Inclusion Decisions (Updated)
-- **Included**: 16 studies ✅
-- **Conditional**: 2 studies ⏸️
-- **Full-text review needed**: 1 study 📝
-- **Excluded**: 4 studies ❌
+## 02_study_selection/
 
-### 6. Key Finding: Cognitive Dependency Evidence
-The Knowledge Retention Study (2025) provides **direct empirical support** for our Cognitive Dependency Hypothesis:
-- ChatGPT group: 57.5% retention
-- Control group: 68.5% retention
-- Cohen's d = 0.68 (negative direction)
+Documents related to study screening and selection decisions.
 
-## Updated Study Count Projection
+| File | Description |
+|------|-------------|
+| `2025-01-26_differentiation_strategy.md` | Strategy for differentiating from prior meta-analyses |
+| `2025-01-26_inclusion_decisions.md` | Final inclusion/exclusion decisions |
+| `2025-01-26_exclusion_rationale.md` | Detailed rationale for exclusions |
+| `2025-01-26_pdf_retrieval_list.md` | DOI links and retrieval instructions |
 
-| Metric | Before | After |
-|--------|--------|-------|
-| Studies | 46 | 62 |
-| Effect sizes | 251 | ~300 |
-| Participants | 5,778 | ~7,000 |
+---
 
-## Computers & Education Requirements
+## 03_data_extraction/
 
-- PRISMA 2020 guidelines recommended
-- Full search strategy for all databases required
-- Double-blind peer review
-- Focus on broader relevance beyond specific software evaluation
+Documents related to data extraction methodology and implementation.
 
-## Next Steps
+| File | Description |
+|------|-------------|
+| `2025-01-26_extraction_template.md` | Data extraction template |
+| `2025-01-26_genai_he_codebook.md` | GenAI-HE specific codebook extension |
+| `2025-01-26_universal_codebook_implementation.md` | Universal Codebook v2.2 implementation |
+| `2025-01-26_c5_c6_c7_agent_rationale.md` | Diverga agent rationale (C5, C6, C7) |
+| `2025-01-27_extraction_pipeline_v9.md` | V9.0 extraction pipeline documentation |
 
-1. [x] Apply search strategy revision to manuscript
-2. [x] Evaluate 23 additional study candidates
-3. [ ] Retrieve full-texts for 16 confirmed studies
-4. [ ] Extract effect size data using template
-5. [ ] Resolve 2 conditional studies
-6. [ ] Update PRISMA flow diagram (46 → 62 studies)
-7. [ ] Generate Supplementary Materials (Appendix A)
-8. [ ] Re-run three-level meta-analysis
-9. [ ] Submit to Computers & Education
+---
+
+## 04_methodology/
+
+Documents related to statistical methodology and analysis approaches.
+
+| File | Description |
+|------|-------------|
+| `2025-01-26_hedges_g_recovery_plan.md` | Plan for recovering missing Hedges' g values |
+| `2025-01-26_methodology_improvement_report.md` | V7 methodology improvements |
+| `2025-01-26_meta_analysis_comparison.md` | Comparison with other meta-analyses |
+
+---
+
+## 05_manuscript/
+
+Documents related to manuscript preparation and revisions.
+
+| File | Description |
+|------|-------------|
+| `2025-01-26_manuscript_updates_v3.md` | Manuscript updates (V3) |
+| `2025-01-26_manuscript_updates_v4.md` | Manuscript updates (V4) |
+| `2025-01-26_discussion_text.md` | Discussion section text |
+
+---
+
+## 06_decisions/
+
+Key research decisions with rationale and approval.
+
+| File | Description |
+|------|-------------|
+| `2025-01-27_scope_expansion_k12_inclusion.md` | **Decision to include K-12 studies** with education level as moderator |
+
+---
+
+## Current Status
+
+### Study Counts (V9.0 Extraction)
+
+| Metric | Count |
+|--------|-------|
+| Total Studies | 70 |
+| Effect Sizes | 146 |
+| Higher Education | 63 |
+| K-12 | 7 |
+
+### Key Decisions
+
+1. **2025-01-27**: Scope expanded to include K-12 studies
+   - Education level added as moderator variable
+   - Manuscript title revision required: "Higher Education" → "Education"
+   - See `06_decisions/2025-01-27_scope_expansion_k12_inclusion.md`
+
+### Pipeline Versions
+
+| Version | Date | Description |
+|---------|------|-------------|
+| V9.0 | 2025-01-27 | Groq-based extraction with Universal Codebook v2.2 |
+| V8.x | 2025-01-26 | Previous extraction with SD recovery |
+| V7.x | 2025-01-26 | Methodology improvements |
+
+---
+
+## Related Directories
+
+- `/data/extractions_v9/` - V9.0 extraction JSON files
+- `/data/03_final/` - Final Excel outputs and analysis reports
+- `/scripts/` - Extraction and analysis scripts
+- `/manuscript/current/` - Current manuscript draft
