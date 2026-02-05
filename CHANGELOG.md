@@ -7,6 +7,101 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [11.0.0] - 2026-02-05
+
+### 6-Phase Validated Re-coding Pipeline
+
+Major feature release: AI-Ethics-HR-Review's 6-Phase Validated Coding Pipeline adapted for GenAI-HE meta-analysis to improve SUBJECTIVE/OPERATIONAL coding accuracy to 85%+.
+
+### Added
+
+#### Pipeline Scripts (`scripts/recode_v11/`)
+
+| File | Purpose |
+|------|---------|
+| `run_pipeline.py` | Master orchestrator (--phase 0-6, --smoke-test, --dry-run) |
+| `schema.py` | 11-field schema: 2 subjective, 7 operational, 2 numerical |
+| `phase0_rag_index.py` | ChromaDB RAG index from 71 PDFs (all-MiniLM-L6-v2) |
+| `phase1_extract.py` | RAG-based Claude Sonnet extraction (9 categorical fields) |
+| `effect_size_filler.py` | 4-tier missing Hedges' g / SE_g imputation |
+| `phase2_consensus.py` | 3-model consensus (Claude + GPT-4o + Groq Llama 3.3) |
+| `phase3_sampling.py` | Stratified 20% human verification sampling |
+| `phase4_reliability.py` | ICR: Cohen's κ, Weighted κ, ICC(2,1), MAE |
+| `phase5_resolution.py` | Discrepancy resolution (human > AI > tiebreaker) |
+| `phase6_qa.py` | QA gates + GenAI_MetaAnalysis_v11_FINAL.csv generation |
+
+#### Utility Modules (`scripts/recode_v11/utils/`)
+
+| File | Source |
+|------|--------|
+| `metrics.py` | AI-Ethics-HR-Review + MAE/RMSE/accuracy extensions |
+| `audit.py` | JSONL audit trail (from AI-Ethics-HR-Review) |
+| `confidence.py` | Confidence calibration (from AI-Ethics-HR-Review) |
+| `llm_clients.py` | Unified Claude/GPT-4o/Groq client with retry logic |
+| `data_loader.py` | v8.1 CSV loader + Study_ID-PDF mapping |
+| `cost_tracker.py` | API cost tracking ($50 budget enforcement) |
+
+#### Field-Specific Prompts (`scripts/recode_v11/prompts/`)
+
+9 extraction prompts: blooms_level, outcome_dimension, study_design, control_condition, genai_tool, genai_tool_version, intervention_duration, education_level, discipline
+
+#### Configuration
+
+- `configs/recode_v11/pipeline_config.yaml` - Master pipeline configuration
+
+#### Data Structure
+
+```
+data/recode_v11/
+├── 00_input/          # v8.1 CSV (365 rows, 70 studies)
+├── 01_rag_index/      # ChromaDB vector store
+├── 02_phase1_raw/     # Per-study Phase 1 JSON
+├── 03_phase2_consensus/ # 3-model consensus results
+├── 04_phase3_human/   # Human verification templates
+├── 05_phase4_reliability/ # ICR reports
+├── 06_phase5_resolutions/ # Resolution logs
+├── 07_phase6_final/   # Final CSV + quality report
+├── 08_effect_sizes/   # Effect size imputation results
+└── audit/             # Pipeline audit trail (JSONL)
+```
+
+### Re-coding Fields (11)
+
+| Category | Field | Type | Consensus Rule |
+|----------|-------|------|----------------|
+| Subjective | blooms_level | ordinal | 2/3 with 1-level tolerance |
+| Subjective | outcome_dimension | categorical | 2/3 exact match |
+| Operational | study_design | categorical | 3/3 unanimous (critical) |
+| Operational | control_condition | categorical | 2/3 exact match |
+| Operational | genai_tool | categorical | 2/3 exact match |
+| Operational | genai_tool_version | categorical | 2/3 exact match |
+| Operational | intervention_duration | ordinal | 2/3 with 1-level tolerance |
+| Operational | education_level | categorical | 2/3 exact match |
+| Operational | discipline | categorical | 2/3 exact match |
+| Numerical | hedges_g | float | 5% relative tolerance |
+| Numerical | se_g | float | 5% relative tolerance |
+
+### Quality Targets
+
+| Metric | Target | Acceptable |
+|--------|--------|------------|
+| Cohen's κ (categorical) | ≥ 0.85 | ≥ 0.80 |
+| Weighted κ (ordinal) | ≥ 0.80 | ≥ 0.75 |
+| ICC(2,1) (numerical) | ≥ 0.95 | ≥ 0.90 |
+| MAE (Hedges' g) | < 0.05 | < 0.10 |
+| Overall accuracy | ≥ 85% | ≥ 80% |
+| Completeness | ≥ 95% | ≥ 90% |
+
+### Architecture
+
+- **Input**: v8.1 CSV (365 rows, 70 studies) + 71 PDFs
+- **Output**: R/metafor compatible GenAI_MetaAnalysis_v11_FINAL.csv
+- **Models**: Claude Sonnet 4.5 + GPT-4o + Groq Llama 3.3 70B
+- **Estimated cost**: ~$12 (budget: $50)
+- **Based on**: AI-Ethics-HR-Review 6-Phase Validated Coding Pipeline
+
+---
+
 ## [6.0.0] - 2025-01-26
 
 ### V6 Meta-Analysis Update

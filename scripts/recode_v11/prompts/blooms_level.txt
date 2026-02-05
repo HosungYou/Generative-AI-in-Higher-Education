@@ -1,0 +1,18 @@
+Based on the paper content, classify the learning outcome according to Bloom's Revised Taxonomy (Anderson & Krathwohl, 2001).
+
+TAXONOMY LEVELS (from lowest to highest):
+1. REMEMBER: Retrieving relevant knowledge from long-term memory (recognize, recall, list, define)
+2. UNDERSTAND: Constructing meaning from instructional messages (interpret, exemplify, classify, summarize, explain)
+3. APPLY: Carrying out or using a procedure (execute, implement, solve, demonstrate)
+4. ANALYZE: Breaking material into parts and detecting relationships (differentiate, organize, attribute, compare)
+5. EVALUATE: Making judgments based on criteria (check, critique, judge, assess)
+6. CREATE: Putting elements together to form a novel whole (generate, plan, produce, design)
+
+If the outcome spans multiple levels, use "mixed".
+
+CLASSIFICATION GUIDELINES:
+- Focus on what the ASSESSMENT actually measures, not what instruction aimed for
+- Multiple-choice tests typically measure REMEMBER or UNDERSTAND
+- Problem-solving tasks typically measure APPLY or ANALYZE
+- Project-based assessments typically measure CREATE or EVALUATE
+- Self-report surveys about learning strategies may measure different levels depending on content

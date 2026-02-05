@@ -1,0 +1,172 @@
+# GenAI-HE Meta-Analysis v11: 6-Phase Validated Re-coding Pipeline
+pipeline:
+  version: "11.0.0"
+  name: "6-Phase Validated Re-coding"
+  description: "AI-Ethics-HR-Review 6-Phase architecture adapted for GenAI-HE meta-analysis"
+
+# Input data
+input:
+  csv_path: "data/03_final/GenAI_MetaAnalysis_v8.1.csv"
+  pdf_directory: "pdfs/"
+  codebook_version: "v5"
+  schema_version: "v8.1"
+
+# Model configuration
+models:
+  primary:
+    provider: "anthropic"
+    model: "claude-sonnet-4-5-20250929"
+    temperature: 0.1
+    max_tokens: 4000
+  verification:
+    provider: "openai"
+    model: "gpt-4o"
+    temperature: 0.1
+    max_tokens: 4000
+  efficiency:
+    provider: "groq"
+    model: "llama-3.3-70b-versatile"
+    temperature: 0.1
+    max_tokens: 4000
+
+# RAG configuration (Phase 0)
+rag:
+  embedding_model: "all-MiniLM-L6-v2"
+  chunk_size: 1000
+  chunk_overlap: 200
+  vector_store: "chromadb"
+  persist_directory: "data/recode_v11/01_rag_index"
+  n_results: 8
+  section_weights:
+    methods: 0.7
+    introduction: 0.2
+    abstract: 0.1
+
+# Phase 1: Claude extraction
+phase1:
+  model: "claude-sonnet-4-5-20250929"
+  confidence_threshold: 0.75
+  output_dir: "data/recode_v11/02_phase1_raw"
+  fields:
+    study_level:
+      - study_design
+      - control_condition
+      - genai_tool
+      - genai_tool_version
+      - intervention_duration
+      - education_level
+      - discipline
+    outcome_level:
+      - blooms_level
+      - outcome_dimension
+
+# Phase 2: Multi-model consensus
+phase2:
+  output_dir: "data/recode_v11/03_phase2_consensus"
+  consensus_rules:
+    categorical:
+      method: "majority"
+      threshold: "2/3"
+    ordinal:
+      method: "majority_with_tolerance"
+      threshold: "2/3"
+      tolerance: 1
+    numerical:
+      method: "relative_tolerance"
+      tolerance: 0.05
+  critical_fields:
+    - study_design
+    - blooms_level
+    - outcome_dimension
+  critical_threshold: "3/3"
+
+# Phase 3: Human verification sampling
+phase3:
+  output_dir: "data/recode_v11/04_phase3_human"
+  sampling_rate: 0.20
+  minimum_studies: 14
+  maximum_studies: 20
+  stratification:
+    - blooms_level
+    - study_design
+    - discipline
+  low_confidence_oversample: 0.60
+  random_seed: 42
+
+# Phase 4: ICR calculation
+phase4:
+  output_dir: "data/recode_v11/05_phase4_reliability"
+  targets:
+    cohens_kappa: 0.85
+    weighted_kappa: 0.80
+    icc: 0.95
+    mae_hedges_g: 0.05
+  acceptable:
+    cohens_kappa: 0.80
+    weighted_kappa: 0.75
+    icc: 0.90
+
+# Phase 5: Discrepancy resolution
+phase5:
+  output_dir: "data/recode_v11/06_phase5_resolutions"
+  priority:
+    - human_gold_standard
+    - ai_consensus_majority
+    - claude_tiebreaker
+  numerical_review_threshold: 0.10
+
+# Phase 6: QA gates
+phase6:
+  output_dir: "data/recode_v11/07_phase6_final"
+  final_csv: "GenAI_MetaAnalysis_v11_FINAL.csv"
+  gates:
+    cohens_kappa_min: 0.85
+    weighted_kappa_min: 0.80
+    icc_min: 0.90
+    overall_accuracy_min: 0.85
+    completeness_min: 0.95
+    outlier_threshold: 3.0
+    outlier_max_pct: 0.03
+
+# Effect size configuration
+effect_sizes:
+  output_dir: "data/recode_v11/08_effect_sizes"
+  tiers:
+    tier1: "direct_calculation"
+    tier2: "rag_extraction"
+    tier3: "alternative_statistics"
+    tier4: "manual_needed"
+  validation:
+    max_abs_g: 5.0
+    max_se: 3.0
+    anomaly_threshold: 3.0
+
+# Cost tracking
+costs:
+  budget: 50.0
+  warning_threshold: 40.0
+  rates:
+    claude_sonnet_input: 0.003
+    claude_sonnet_output: 0.015
+    gpt4o_input: 0.005
+    gpt4o_output: 0.015
+    groq_input: 0.00059
+    groq_output: 0.00079
+
+# Audit
+audit:
+  log_file: "data/recode_v11/audit/pipeline_audit.jsonl"
+  auto_flush: true
+
+# Output paths
+paths:
+  base: "data/recode_v11"
+  rag_index: "data/recode_v11/01_rag_index"
+  phase1_raw: "data/recode_v11/02_phase1_raw"
+  phase2_consensus: "data/recode_v11/03_phase2_consensus"
+  phase3_human: "data/recode_v11/04_phase3_human"
+  phase4_reliability: "data/recode_v11/05_phase4_reliability"
+  phase5_resolutions: "data/recode_v11/06_phase5_resolutions"
+  phase6_final: "data/recode_v11/07_phase6_final"
+  effect_sizes: "data/recode_v11/08_effect_sizes"
+  audit: "data/recode_v11/audit"

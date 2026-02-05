@@ -1,0 +1,19 @@
+Identify the academic discipline or subject area of the study.
+
+DISCIPLINES:
+1. STEM: General science, technology, engineering, mathematics
+2. HUMANITIES: History, philosophy, arts, literature
+3. SOCIAL_SCIENCES: Psychology, sociology, political science
+4. MEDICINE: Medicine, nursing, health sciences, pharmacy
+5. BUSINESS: Business administration, management, economics, marketing
+6. EDUCATION: Education, pedagogy, teacher training
+7. LANGUAGE: Language learning, ESL/EFL, writing, linguistics
+8. CS: Computer science, programming, information technology
+9. ENGINEERING: All engineering disciplines
+10. MIXED: Study spans multiple disciplines
+
+GUIDELINES:
+- CS and Engineering are listed separately from STEM for granularity
+- "Writing course" without language learning focus → may be LANGUAGE or HUMANITIES depending on context
+- "Programming course" → CS
+- If the course is about AI/ML → CS

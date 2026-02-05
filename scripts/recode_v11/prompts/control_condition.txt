@@ -1,0 +1,15 @@
+Identify what the control or comparison group received in this study.
+
+CONDITIONS:
+1. NO_TREATMENT: Control group received no intervention at all
+2. TRADITIONAL: Control group received traditional/conventional instruction without AI
+3. HUMAN_TUTOR: Control group received human tutoring or mentoring
+4. ALTERNATIVE_TECH: Control group used different technology (non-AI)
+5. ACTIVE_CONTROL: Control group received an active but different treatment
+6. WAITLIST: Control group was on a waiting list to receive treatment later
+7. NOT_REPORTED: The paper does not clearly describe the control condition
+
+GUIDELINES:
+- "Business as usual" or "regular instruction" → TRADITIONAL
+- "No feedback" or "no assistance" → NO_TREATMENT
+- Look in the Methods/Procedure section for control condition descriptions

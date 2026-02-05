@@ -1,0 +1,14 @@
+Identify the research design of this study.
+
+DESIGN TYPES:
+1. RCT: Randomized Controlled Trial - participants RANDOMLY assigned to treatment/control groups
+2. QUASI-EXPERIMENTAL: Non-random group assignment (intact classes, convenience sampling) but still has treatment and control groups
+3. PRE-POST: Single group measured before and after intervention (no separate control group)
+4. CROSSOVER: Groups alternate between treatment and control conditions
+5. OTHER: Other designs not fitting the above categories
+
+CLASSIFICATION GUIDELINES:
+- Look for explicit mentions of "random assignment" or "randomized"
+- "Intact classes" or "existing sections" usually indicates quasi-experimental
+- If only one group is used with pre/post tests, it's pre-post
+- Pay attention to the Methods section for design details

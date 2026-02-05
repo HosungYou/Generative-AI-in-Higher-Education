@@ -1,0 +1,15 @@
+Classify the learning outcome dimension based on what is actually being measured.
+
+DIMENSIONS:
+1. COGNITIVE: Knowledge, understanding, skills, academic performance (test scores, grades, problem-solving accuracy)
+2. AFFECTIVE: Attitudes, motivation, engagement, satisfaction, self-efficacy, interest, anxiety
+3. BEHAVIORAL: Observable actions, participation rates, time-on-task, learning behaviors, usage patterns
+4. METACOGNITIVE: Self-regulation, learning strategies, self-monitoring, planning, reflection
+
+If the outcome clearly spans multiple dimensions, use "mixed".
+
+CLASSIFICATION GUIDELINES:
+- Exam scores, quiz results, assignment grades → COGNITIVE
+- Likert-scale surveys about attitudes/motivation → AFFECTIVE
+- Log data, usage frequency, behavioral observations → BEHAVIORAL
+- Self-regulation scales, strategy use questionnaires → METACOGNITIVE

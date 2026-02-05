@@ -1,0 +1,16 @@
+Identify the specific version of the generative AI tool used.
+
+VERSIONS:
+1. gpt-3.5: GPT-3.5, GPT-3.5-turbo, ChatGPT (pre-GPT-4)
+2. gpt-4: GPT-4, GPT-4-turbo
+3. gpt-4o: GPT-4o, GPT-4o-mini
+4. claude-3: Claude 3 (any variant: Opus, Sonnet, Haiku)
+5. gemini-pro: Gemini Pro, Gemini 1.5
+6. other: Other specific versions
+7. not_reported: Version not mentioned in the paper
+
+GUIDELINES:
+- Check if the paper mentions API model names or version numbers
+- Papers before March 2023 likely used gpt-3.5
+- Papers mentioning "ChatGPT-4" or "GPT-4 powered" → gpt-4
+- If only "ChatGPT" is mentioned without version → check publication date

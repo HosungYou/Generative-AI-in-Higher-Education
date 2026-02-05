@@ -1,0 +1,16 @@
+Determine how long the GenAI intervention lasted.
+
+DURATIONS:
+1. SINGLE_SESSION: One-time use or single class session (under a few hours)
+2. <1_WEEK: Multiple sessions but less than one week
+3. 1-4_WEEKS: One to four weeks of intervention
+4. 1-3_MONTHS: One to three months (approximately one semester quarter)
+5. >3_MONTHS: More than three months (full semester or longer)
+6. NOT_REPORTED: Duration not clearly stated
+
+GUIDELINES:
+- Look for specific timeframes in the Methods/Procedure section
+- "One semester" in US context ≈ 15-16 weeks → >3_MONTHS
+- "One semester" in some Asian contexts ≈ 8-10 weeks → 1-3_MONTHS
+- "4-week module" → 1-4_WEEKS
+- A single lab session → SINGLE_SESSION

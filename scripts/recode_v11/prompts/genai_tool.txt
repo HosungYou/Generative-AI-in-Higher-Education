@@ -1,0 +1,17 @@
+Identify the specific generative AI tool used in the intervention.
+
+TOOLS:
+1. ChatGPT: OpenAI's ChatGPT (any version)
+2. Claude: Anthropic's Claude
+3. Gemini: Google's Gemini (formerly Bard)
+4. Copilot: GitHub Copilot or Microsoft Copilot
+5. Custom: A custom-built AI system (not a commercial product)
+6. Other: Other commercial GenAI tools not listed above
+7. Multiple: Study used more than one GenAI tool
+8. NOT_REPORTED: The paper does not specify which tool was used
+
+GUIDELINES:
+- Look for tool names in the Methods, Introduction, or abstract
+- "GPT-based" or "OpenAI" without specific mention → ChatGPT
+- Custom chatbots built on top of GPT/Claude API → Custom
+- If multiple tools compared → Multiple

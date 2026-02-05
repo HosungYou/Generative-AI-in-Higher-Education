@@ -1,0 +1,15 @@
+Identify the education level of the study participants.
+
+LEVELS:
+1. K-12: Elementary, middle school, or high school students
+2. UNDERGRADUATE: University/college undergraduate students
+3. GRADUATE: Master's or doctoral students
+4. PROFESSIONAL: Professional training, medical residents, in-service teachers
+5. MIXED: Participants from multiple education levels
+
+GUIDELINES:
+- Look for participant descriptions in the Methods section
+- "University students" or "college students" → UNDERGRADUATE
+- "Medical students" → context-dependent (could be undergraduate in some countries)
+- "Pre-service teachers" in education programs → usually UNDERGRADUATE or GRADUATE
+- "In-service teachers" → PROFESSIONAL

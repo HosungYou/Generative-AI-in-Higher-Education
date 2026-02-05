@@ -61,6 +61,7 @@ Documents related to data extraction methodology and implementation.
 | `2025-01-26_universal_codebook_implementation.md` | Universal Codebook v2.2 implementation |
 | `2025-01-26_c5_c6_c7_agent_rationale.md` | Diverga agent rationale (C5, C6, C7) |
 | `2025-01-27_extraction_pipeline_v9.md` | V9.0 extraction pipeline documentation |
+| `2026-02-05_recode_pipeline_v11.md` | V11.0 6-Phase Validated Re-coding Pipeline documentation |
 
 ---
 
@@ -109,6 +110,15 @@ Key research decisions with rationale and approval.
 | Higher Education | 63 |
 | K-12 | 7 |
 
+### Current Pipeline: V11.0 Re-coding
+
+| Feature | Value |
+|---------|-------|
+| Re-coding Fields | 11 (2 subjective, 7 operational, 2 numerical) |
+| Models | Claude Sonnet + GPT-4o + Groq Llama 3.3 |
+| Human Verification | 20% stratified sample |
+| Quality Target | Cohen's κ ≥ 0.85, Weighted κ ≥ 0.80 |
+
 ### Key Decisions
 
 1. **2025-01-27**: Scope expanded to include K-12 studies
@@ -120,6 +130,7 @@ Key research decisions with rationale and approval.
 
 | Version | Date | Description |
 |---------|------|-------------|
+| V11.0 | 2026-02-05 | 6-Phase Validated Re-coding with multi-model consensus |
 | V9.0 | 2025-01-27 | Groq-based extraction with Universal Codebook v2.2 |
 | V8.x | 2025-01-26 | Previous extraction with SD recovery |
 | V7.x | 2025-01-26 | Methodology improvements |
