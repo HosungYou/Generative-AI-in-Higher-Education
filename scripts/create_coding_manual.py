@@ -130,8 +130,10 @@ toc_items = [
     "9. AI Coding Protocol — Paper B (AI_CODING)",
     "10. Inter-Rater Reliability Protocol",
     "11. Discrepancy Resolution Protocol (DISCREPANCY_LOG)",
-    "12. Quality Assurance Checklist",
-    "13. References",
+    "12. Study Exclusion Protocol (EXCLUSION_LOG)",
+    "13. Database Search Protocol (SEARCH_LOG)",
+    "14. Quality Assurance Checklist",
+    "15. References",
     "Appendix A: Decision Trees",
     "Appendix B: Frequently Asked Questions",
     "Appendix C: Excel Template Sheet Descriptions",
@@ -458,7 +460,111 @@ doc.add_paragraph(
     "different time points, different comparison groups)."
 )
 
-doc.add_heading("6.1 Effect Size Identification", level=2)
+doc.add_heading("6.1 Complete Variable Reference (35 variables)", level=2)
+doc.add_paragraph(
+    "The following tables list every variable in the EFFECT_SIZES sheet with operational "
+    "definitions and coding rules. Detailed guidance for complex variables follows in subsequent subsections."
+)
+
+doc.add_heading("Linking Variables (3)", level=3)
+add_table(
+    ["Variable", "Type", "Definition & Rules", "Example"],
+    [
+        ["study_id", "Integer", "Must match study_id in STUDY_CHAR.", "1"],
+        ["es_id", "String", "Format: S###_E## where ### = zero-padded study_id, ## = effect size number.", "S001_E01"],
+        ["es_sequence", "Integer", "Ordinal position of this effect size within the study (1, 2, 3, ...).", "1"],
+    ]
+)
+
+doc.add_heading("Sample — Effect Size Level (2)", level=3)
+add_table(
+    ["Variable", "Type", "Definition & Rules", "Example"],
+    [
+        ["n_treatment", "Integer", "Number of participants analyzed in the treatment/GenAI group for THIS outcome. May differ from n_total if study has multiple treatment arms.", "45"],
+        ["n_control", "Integer", "Number of participants analyzed in the control group for THIS outcome. If shared control, divide by number of comparisons.", "42"],
+    ]
+)
+
+doc.add_heading("Outcome Classification (7)", level=3)
+add_table(
+    ["Variable", "Type", "Definition & Rules", "Example"],
+    [
+        ["outcome_name", "String", "Descriptive label for the outcome as named in the study.", "Critical thinking score"],
+        ["outcome_dimension", "Categorical", "cognitive | affective | behavioral | metacognitive. See decision tree in 6.2.", "cognitive"],
+        ["blooms_level", "Categorical", "remember | understand | apply | analyze | evaluate | create. See guide in 6.3.", "analyze"],
+        ["blooms_order", "Categorical", "lower (remember/understand/apply) | higher (analyze/evaluate/create).", "higher"],
+        ["measurement_type", "Categorical", "test | questionnaire | rubric | log_data | think_aloud | mixed", "test"],
+        ["measurement_timing", "Categorical", "immediate_posttest: within 1 week of intervention. delayed_posttest: >1 week after. during_intervention: measured while intervention ongoing.", "immediate_posttest"],
+        ["reliability_alpha", "Numeric", "Cronbach's alpha or equivalent reliability coefficient for the measure. Leave blank if not reported.", "0.87"],
+    ]
+)
+
+doc.add_heading("Raw Statistics — Post-test (4)", level=3)
+add_table(
+    ["Variable", "Type", "Definition & Rules", "Example"],
+    [
+        ["m_treatment_post", "Numeric", "Post-test mean for the treatment/GenAI group.", "82.3"],
+        ["sd_treatment_post", "Numeric", "Post-test SD for the treatment group. If SE reported, convert: SD = SE × √n.", "11.5"],
+        ["m_control_post", "Numeric", "Post-test mean for the control group.", "75.1"],
+        ["sd_control_post", "Numeric", "Post-test SD for the control group.", "12.8"],
+    ]
+)
+
+doc.add_heading("Raw Statistics — Pre-test (4, optional)", level=3)
+add_table(
+    ["Variable", "Type", "Definition & Rules", "Example"],
+    [
+        ["m_treatment_pre", "Numeric", "Pre-test mean for treatment group. Extract when available for sensitivity analysis.", "70.2"],
+        ["sd_treatment_pre", "Numeric", "Pre-test SD for treatment group.", "10.1"],
+        ["m_control_pre", "Numeric", "Pre-test mean for control group.", "69.8"],
+        ["sd_control_pre", "Numeric", "Pre-test SD for control group.", "10.5"],
+    ]
+)
+
+doc.add_heading("Alternative Statistics (4, when M/SD unavailable)", level=3)
+add_table(
+    ["Variable", "Type", "Definition & Rules", "Example"],
+    [
+        ["reported_stat_type", "Categorical", "t | F | chi2 | p_only | d | eta_sq | r | OR | other. Record the type of statistic available.", "t"],
+        ["reported_stat_value", "Numeric", "The numeric value of the reported statistic.", "2.45"],
+        ["reported_df", "Numeric", "Degrees of freedom associated with the statistic. For t: df = n1+n2-2.", "86"],
+        ["reported_p", "Numeric", "p-value as reported. Record exact value if given (e.g., 0.003), not 'p < .05'.", "0.016"],
+    ]
+)
+
+doc.add_heading("Calculated Effect Sizes (6)", level=3)
+add_table(
+    ["Variable", "Type", "Definition & Rules", "Example"],
+    [
+        ["hedges_g", "Numeric", "Hedges' g (bias-corrected standardized mean difference). Positive = GenAI group outperformed control.", "0.54"],
+        ["se_g", "Numeric", "Standard error of Hedges' g.", "0.15"],
+        ["var_g", "Numeric", "Variance of Hedges' g. var_g = se_g².", "0.0225"],
+        ["ci_lower_95", "Numeric", "Lower bound of 95% confidence interval. ci_lower = g - 1.96 × se_g.", "0.25"],
+        ["ci_upper_95", "Numeric", "Upper bound of 95% confidence interval. ci_upper = g + 1.96 × se_g.", "0.83"],
+        ["calculation_method", "Categorical", "post_means | change_scores | t_to_g | F_to_g | p_to_g | reported_d_to_g | eta_to_g | r_to_g. Must match the actual formula used.", "post_means"],
+    ]
+)
+
+doc.add_heading("Source Tracking (2)", level=3)
+add_table(
+    ["Variable", "Type", "Definition & Rules", "Example"],
+    [
+        ["source_location", "String", "Exact location in the paper where key statistics were found.", "Table 3, p.12"],
+        ["extraction_notes", "String", "Any notes about extraction difficulties, assumptions, or author contact.", "SD estimated from CI"],
+    ]
+)
+
+doc.add_heading("Source Management (3)", level=3)
+add_table(
+    ["Variable", "Type", "Definition & Rules", "Example"],
+    [
+        ["human_coder", "String", "Initials of the coder who completed this row.", "HY"],
+        ["coding_date", "Date", "Date this row was completed (YYYY-MM-DD).", "2026-03-15"],
+        ["verification_status", "Categorical", "initial: first pass by one coder. double_coded: independently coded by both. consensus_resolved: final value after discrepancy resolution.", "double_coded"],
+    ]
+)
+
+doc.add_heading("6.2 Effect Size Identification", level=2)
 doc.add_paragraph(
     "Each effect size is identified by es_id in the format S###_E## "
     "(e.g., S001_E01, S001_E02). The es_sequence variable records the ordinal position "
@@ -552,11 +658,29 @@ doc.add_paragraph(
     "trail from the published paper to the coded dataset."
 )
 
-doc.add_heading("7.1 Documentation Requirements", level=2)
-add_bullet("page_number: The PDF page where the value appears.")
-add_bullet("table_or_figure: Identify the specific table/figure (e.g., 'Table 3', 'Figure 2', 'text').")
-add_bullet("section: Which section of the paper (results, discussion, appendix).")
-add_bullet("exact_quote: Copy the sentence or table cell containing the value. "
+doc.add_heading("7.1 Complete Variable Reference (12 variables)", level=2)
+add_table(
+    ["Variable", "Type", "Definition & Rules", "Example"],
+    [
+        ["study_id", "Integer", "Must match study_id in STUDY_CHAR and EFFECT_SIZES.", "1"],
+        ["es_id", "String", "Must match es_id in EFFECT_SIZES. Links this extraction to a specific effect size.", "S001_E01"],
+        ["extraction_id", "String", "Unique ID for each extracted value. Format: S###_E##_X## (e.g., S001_E01_X01). Sequential within each effect size.", "S001_E01_X01"],
+        ["page_number", "Integer", "PDF page number where the value appears.", "12"],
+        ["table_or_figure", "String", "Specific table, figure, or text location (e.g., 'Table 3', 'Figure 2', 'text', 'supplementary'). Free text — no restricted values.", "Table 3"],
+        ["section", "Categorical", "results | discussion | appendix. Section of the paper where value was found.", "results"],
+        ["exact_quote", "String", "Copy the sentence or cell containing the value verbatim. Include surrounding context for clarity.", "M = 82.3, SD = 11.5, n = 45"],
+        ["variable_extracted", "String", "Name of the EFFECT_SIZES variable this value maps to (e.g., 'm_treatment_post', 'sd_control_post').", "m_treatment_post"],
+        ["value", "String", "The extracted numeric or text value exactly as reported.", "82.3"],
+        ["unit_or_scale", "String", "Unit of measurement or scale range (e.g., '0-100', 'Likert 1-5', 'seconds').", "0-100"],
+        ["extraction_confidence", "Categorical", "high | medium | low. See confidence definitions in 7.2.", "high"],
+        ["confidence_notes", "String", "Explanation if confidence is medium or low. Blank if high.", ""],
+    ]
+)
+
+doc.add_heading("7.2 Documentation Guidelines", level=2)
+add_bullet("Create one row per extracted statistic. A single effect size typically has 4–8 rows (M, SD, n for each group).")
+add_bullet("variable_extracted must exactly match a column name in EFFECT_SIZES (e.g., 'm_treatment_post', not 'treatment mean').")
+add_bullet('exact_quote: Copy the sentence or table cell containing the value. '
            'Example: "The treatment group scored higher (M = 82.3, SD = 11.5, n = 45)."')
 
 doc.add_heading("7.2 Confidence Ratings", level=2)
@@ -809,9 +933,72 @@ add_bullet("Add new decision rules to Appendix B (FAQ) based on recurring ambigu
 doc.add_page_break()
 
 # ═══════════════════════════════════════════════════════════════
-# SECTION 12: QA CHECKLIST
+# SECTION 12: EXCLUSION LOG
 # ═══════════════════════════════════════════════════════════════
-doc.add_heading("12. Quality Assurance Checklist", level=1)
+doc.add_heading("12. Study Exclusion Protocol", level=1)
+doc.add_paragraph(
+    "This section corresponds to Sheet 8: EXCLUSION_LOG. Every study examined at full-text "
+    "screening or later that is NOT included in the final dataset must be documented here "
+    "with the reason for exclusion. This is required for the PRISMA flow diagram."
+)
+
+doc.add_heading("12.1 Complete Variable Reference (10 variables)", level=2)
+add_table(
+    ["Variable", "Type", "Definition & Rules", "Example"],
+    [
+        ["study_id", "Integer", "Sequential ID assigned during screening. Excluded studies retain their IDs (never reused).", "15"],
+        ["first_author", "String", "Family name of first author.", "Zhang"],
+        ["year", "Integer", "Publication year.", "2024"],
+        ["title", "String", "Full title as published.", "AI Tutoring in K-12..."],
+        ["exclusion_stage", "Categorical", "title_abstract: excluded during title/abstract screening. full_text: excluded after full-text review. post_coding: excluded after data extraction revealed problems.", "full_text"],
+        ["exclusion_reason", "Categorical", "wrong_population | no_control | non_GenAI | insufficient_data | duplicate | not_peer_reviewed | wrong_design | other", "wrong_population"],
+        ["detailed_rationale", "String", "Specific explanation. Be precise enough for another reviewer to verify.", "Study conducted in high school (Grade 11), not higher education."],
+        ["screener1_decision", "Categorical", "include | exclude | uncertain. Screener 1's independent decision.", "exclude"],
+        ["screener2_decision", "Categorical", "include | exclude | uncertain. Screener 2's independent decision.", "exclude"],
+        ["final_decision", "Categorical", "include | exclude. Final consensus decision after discussion.", "exclude"],
+    ]
+)
+
+doc.add_heading("12.2 When to Log", level=2)
+add_bullet("Log ALL studies excluded at full-text screening (not title/abstract rejects unless sample tracked).")
+add_bullet("Log studies excluded post-coding (e.g., discovered insufficient data during extraction).")
+add_bullet("If screeners disagree (one 'include', one 'exclude'), record both decisions and resolve via discussion or third reviewer.")
+
+doc.add_page_break()
+
+# ═══════════════════════════════════════════════════════════════
+# SECTION 13: SEARCH LOG
+# ═══════════════════════════════════════════════════════════════
+doc.add_heading("13. Database Search Protocol", level=1)
+doc.add_paragraph(
+    "This section corresponds to Sheet 9: SEARCH_LOG. Every database search must be "
+    "documented for reproducibility, following PRISMA 2020 requirements (Page et al., 2021)."
+)
+
+doc.add_heading("13.1 Complete Variable Reference (5 variables)", level=2)
+add_table(
+    ["Variable", "Type", "Definition & Rules", "Example"],
+    [
+        ["database", "String", "Name of the database searched (e.g., PsycINFO, ERIC, Education Source, ProQuest, Semantic Scholar, OpenAlex, Web of Science).", "ERIC"],
+        ["search_date", "Date", "Date the search was conducted (YYYY-MM-DD). Re-searches get new rows.", "2026-02-10"],
+        ["search_string", "String", "Complete search query exactly as entered, including Boolean operators and field tags.", '("generative AI" OR "ChatGPT" OR "GPT-4") AND "higher education"'],
+        ["results_count", "Integer", "Number of records returned by this search.", "342"],
+        ["notes", "String", "Any relevant notes (e.g., filters applied, date range, search limitations).", "Limited to 2023-2026, English only"],
+    ]
+)
+
+doc.add_heading("13.2 Search Documentation Requirements", level=2)
+add_bullet("Record one row per database per search date. If you search ERIC twice on different dates, create two rows.")
+add_bullet("Copy the exact search string — do not paraphrase or simplify.")
+add_bullet("Document any database-specific syntax (e.g., MeSH terms, ERIC descriptors).")
+add_bullet("If a database requires multiple searches (e.g., different field combinations), record each as a separate row.")
+
+doc.add_page_break()
+
+# ═══════════════════════════════════════════════════════════════
+# SECTION 14: QA CHECKLIST
+# ═══════════════════════════════════════════════════════════════
+doc.add_heading("14. Quality Assurance Checklist", level=1)
 doc.add_paragraph("Complete this checklist for EVERY study before finalizing:")
 
 qa_items = [
@@ -837,7 +1024,7 @@ doc.add_page_break()
 # ═══════════════════════════════════════════════════════════════
 # SECTION 13: REFERENCES
 # ═══════════════════════════════════════════════════════════════
-doc.add_heading("13. References", level=1)
+doc.add_heading("15. References", level=1)
 
 refs = [
     "Cicchetti, D. V. (1994). Guidelines, criteria, and rules of thumb for evaluating normed and standardized assessment instruments in psychology. Psychological Assessment, 6(4), 284–290.",
