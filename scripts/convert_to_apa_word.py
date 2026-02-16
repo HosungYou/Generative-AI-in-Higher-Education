@@ -261,15 +261,18 @@ def add_apa_table(doc, header_row, data_rows, note_text=None):
 
 
 def add_reference(doc, ref_text):
-    """Add a reference entry with hanging indent."""
+    """Add a reference entry with hanging indent using XML for reliability."""
     p = doc.add_paragraph()
     pf = p.paragraph_format
     pf.line_spacing = LINE_SPACING
     pf.space_before = Pt(0)
     pf.space_after = Pt(0)
-    pf.first_line_indent = Inches(-0.5)
-    pf.left_indent = Inches(0.5)
     p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+    # Use XML-level w:ind with w:hanging for reliable hanging indent
+    # w:left = 720 twips (0.5 inch), w:hanging = 720 twips (0.5 inch)
+    pPr = p._p.get_or_add_pPr()
+    ind = parse_xml(f'<w:ind {nsdecls("w")} w:left="720" w:hanging="720"/>')
+    pPr.append(ind)
     parse_inline_formatting(p, ref_text)
 
 
@@ -613,7 +616,7 @@ def convert_paper_a():
             "Hosung You  https://orcid.org/[ORCID-ID]",
             "Correspondence concerning this article should be addressed to "
             "Hosung You, College of Education, Pennsylvania State University, "
-            "University Park, PA 16802. Email: hosung@psu.edu",
+            "University Park, PA 16802. Email: hfy5138@psu.edu",
             "Data Availability Statement: The dataset, analysis code, and "
             "supplementary materials are available at [OSF Repository Link].",
             "Conflict of Interest: The author declares no conflicts of interest.",
@@ -652,7 +655,7 @@ def convert_paper_b():
             "Hosung You  https://orcid.org/[ORCID-ID]",
             "Correspondence concerning this article should be addressed to "
             "Hosung You, College of Education, Pennsylvania State University, "
-            "University Park, PA 16802. Email: hosung@psu.edu",
+            "University Park, PA 16802. Email: hfy5138@psu.edu",
             "Data Availability Statement: The complete dataset, AI prompts, "
             "extraction logs, and analysis code are available at [OSF Repository Link].",
             "Conflict of Interest: The author declares no conflicts of interest.",

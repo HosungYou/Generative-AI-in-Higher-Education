@@ -36,7 +36,7 @@ College of Education, Pennsylvania State University
 
 Hosung You https://orcid.org/[ORCID-ID]
 
-Correspondence concerning this article should be addressed to Hosung You, College of Education, Pennsylvania State University, University Park, PA 16802. Email: hosung@psu.edu
+Correspondence concerning this article should be addressed to Hosung You, College of Education, Pennsylvania State University, University Park, PA 16802. Email: hfy5138@psu.edu
 
 Data Availability Statement: The dataset, analysis code, and supplementary materials are available at [OSF Repository Link].
 
